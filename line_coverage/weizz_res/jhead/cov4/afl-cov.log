@@ -1,0 +1,684 @@
+
+*** Imported 344 new test cases from: ./raw_data/weizz/group_2/outputs_group1_1/jhead/jhead_weizz_4/queue
+
+[+] AFL test case: id:000000,time:0,orig:24.jpg (0 / 344), cycle: 0
+[+] AFL test case: id:000001,time:0,orig:goldenears.jpg (1 / 344), cycle: 0
+[+] AFL test case: id:000002,time:0,orig:goldenears_gray.jpg (2 / 344), cycle: 0
+[+] AFL test case: id:000003,src:000001,time:52,op:getdeps,pos:0,+cov (3 / 344), cycle: 0
+[+] AFL test case: id:000004,src:000001,time:61,op:getdeps,pos:0,+cov (4 / 344), cycle: 0
+[+] AFL test case: id:000005,src:000001,time:66,op:getdeps,pos:0,+cov (5 / 344), cycle: 0
+[+] AFL test case: id:000006,src:000001,time:70,op:getdeps,pos:0 (6 / 344), cycle: 0
+[+] AFL test case: id:000007,src:000001,time:76,op:getdeps,pos:0,+cov (7 / 344), cycle: 0
+[+] AFL test case: id:000008,src:000001,time:82,op:getdeps,pos:0 (8 / 344), cycle: 0
+[+] AFL test case: id:000009,src:000001,time:88,op:getdeps,pos:0 (9 / 344), cycle: 0
+[+] AFL test case: id:000010,src:000001,time:93,op:getdeps,pos:0,+cov (10 / 344), cycle: 0
+[+] AFL test case: id:000011,src:000001,time:102,op:getdeps,pos:0 (11 / 344), cycle: 0
+[+] AFL test case: id:000012,src:000001,time:116,op:getdeps,pos:0,+cov (12 / 344), cycle: 0
+[+] AFL test case: id:000013,src:000001,time:122,op:getdeps,pos:0 (13 / 344), cycle: 0
+[+] AFL test case: id:000014,src:000001,time:127,op:getdeps,pos:0 (14 / 344), cycle: 0
+[+] AFL test case: id:000015,src:000001,time:135,op:getdeps,pos:0 (15 / 344), cycle: 0
+[+] AFL test case: id:000016,src:000001,time:145,op:getdeps,pos:0,+cov (16 / 344), cycle: 0
+[+] AFL test case: id:000017,src:000001,time:163,op:getdeps,pos:0 (17 / 344), cycle: 0
+[+] AFL test case: id:000018,src:000001,time:171,op:getdeps,pos:0 (18 / 344), cycle: 0
+[+] AFL test case: id:000019,src:000001,time:179,op:getdeps,pos:0 (19 / 344), cycle: 0
+[+] AFL test case: id:000020,src:000001,time:185,op:getdeps,pos:0 (20 / 344), cycle: 0
+[+] AFL test case: id:000021,src:000001,time:193,op:getdeps,pos:0 (21 / 344), cycle: 0
+[+] AFL test case: id:000022,src:000001,time:207,op:getdeps,pos:0,+cov (22 / 344), cycle: 0
+[+] AFL test case: id:000023,src:000001,time:212,op:getdeps,pos:0 (23 / 344), cycle: 0
+[+] AFL test case: id:000024,src:000001,time:220,op:getdeps,pos:0,+cov (24 / 344), cycle: 0
+[+] AFL test case: id:000025,src:000001,time:231,op:getdeps,pos:0 (25 / 344), cycle: 0
+[+] AFL test case: id:000026,src:000001,time:238,op:getdeps,pos:0 (26 / 344), cycle: 0
+[+] AFL test case: id:000027,src:000001,time:247,op:getdeps,pos:0 (27 / 344), cycle: 0
+[+] AFL test case: id:000028,src:000001,time:507,op:getdeps,pos:1,+cov (28 / 344), cycle: 0
+[+] AFL test case: id:000029,src:000001,time:527,op:getdeps,pos:3 (29 / 344), cycle: 0
+[+] AFL test case: id:000030,src:000001,time:532,op:getdeps,pos:3,+cov (30 / 344), cycle: 0
+[+] AFL test case: id:000031,src:000001,time:541,op:getdeps,pos:3,+cov (31 / 344), cycle: 0
+[+] AFL test case: id:000032,src:000001,time:552,op:getdeps,pos:4 (32 / 344), cycle: 0
+[+] AFL test case: id:000033,src:000001,time:558,op:getdeps,pos:5 (33 / 344), cycle: 0
+[+] AFL test case: id:000034,src:000001,time:565,op:getdeps,pos:5,+cov (34 / 344), cycle: 0
+[+] AFL test case: id:000035,src:000001,time:677,op:getdeps,pos:21,+cov (35 / 344), cycle: 0
+[+] AFL test case: id:000036,src:000001,time:682,op:getdeps,pos:21 (36 / 344), cycle: 0
+[+] AFL test case: id:000037,src:000001,time:689,op:getdeps,pos:22,+cov (37 / 344), cycle: 0
+[+] AFL test case: id:000038,src:000001,time:695,op:getdeps,pos:22 (38 / 344), cycle: 0
+[+] AFL test case: id:000039,src:000001,time:701,op:getdeps,pos:22 (39 / 344), cycle: 0
+[+] AFL test case: id:000040,src:000001,time:705,op:getdeps,pos:22 (40 / 344), cycle: 0
+[+] AFL test case: id:000041,src:000001,time:716,op:getdeps,pos:23 (41 / 344), cycle: 0
+[+] AFL test case: id:000042,src:000001,time:721,op:getdeps,pos:23 (42 / 344), cycle: 0
+[+] AFL test case: id:000043,src:000001,time:1164,op:getdeps,pos:90,+cov (43 / 344), cycle: 0
+[+] AFL test case: id:000044,src:000001,time:1172,op:getdeps,pos:91 (44 / 344), cycle: 0
+[+] AFL test case: id:000045,src:000001,time:1177,op:getdeps,pos:91 (45 / 344), cycle: 0
+[+] AFL test case: id:000046,src:000001,time:1183,op:getdeps,pos:91 (46 / 344), cycle: 0
+[+] AFL test case: id:000047,src:000001,time:1191,op:getdeps,pos:92 (47 / 344), cycle: 0
+[+] AFL test case: id:000048,src:000001,time:1199,op:getdeps,pos:92 (48 / 344), cycle: 0
+[+] AFL test case: id:000049,src:000001,time:1665,op:getdeps,pos:159 (49 / 344), cycle: 0
+[+] AFL test case: id:000050,src:000001,time:1673,op:getdeps,pos:159,+cov (50 / 344), cycle: 0
+[+] AFL test case: id:000051,src:000001,time:1678,op:getdeps,pos:159,+cov (51 / 344), cycle: 0
+[+] AFL test case: id:000052,src:000001,time:1809,op:getdeps,pos:178,+cov (52 / 344), cycle: 0
+[+] AFL test case: id:000053,src:000001,time:1815,op:getdeps,pos:178,+cov (53 / 344), cycle: 0
+[+] AFL test case: id:000054,src:000001,time:2027,op:getdeps,pos:208 (54 / 344), cycle: 0
+[+] AFL test case: id:000055,src:000001,time:2038,op:getdeps,pos:209 (55 / 344), cycle: 0
+[+] AFL test case: id:000056,src:000001,time:2899,op:getdeps,pos:328 (56 / 344), cycle: 0
+[+] AFL test case: id:000057,src:000001,time:19528,op:cmp,rep:0,+cov (57 / 344), cycle: 0
+[+] AFL test case: id:000058,src:000001,time:19539,op:cmp,rep:0 (58 / 344), cycle: 0
+[+] AFL test case: id:000059,src:000001,time:19577,op:cmp,rep:0,+cov (59 / 344), cycle: 0
+[+] AFL test case: id:000060,src:000001,time:19637,op:cmp,rep:0,+cov (60 / 344), cycle: 0
+[+] AFL test case: id:000061,src:000001,time:19705,op:cmp,rep:0,+cov (61 / 344), cycle: 0
+[+] AFL test case: id:000062,src:000001,time:19712,op:cmp,rep:0,+cov (62 / 344), cycle: 0
+[+] AFL test case: id:000063,src:000001,time:19733,op:havoc,rep:64 (63 / 344), cycle: 0
+[+] AFL test case: id:000064,src:000001,time:19741,op:tags,rep:64 (64 / 344), cycle: 0
+[+] AFL test case: id:000065,src:000001,time:19747,op:havoc,rep:32,+cov (65 / 344), cycle: 0
+[+] AFL test case: id:000066,src:000001,time:19753,op:havoc,rep:64 (66 / 344), cycle: 0
+[+] AFL test case: id:000067,src:000001,time:19762,op:havoc,rep:128 (67 / 344), cycle: 0
+[+] AFL test case: id:000068,src:000001,time:19768,op:havoc,rep:128 (68 / 344), cycle: 0
+[+] AFL test case: id:000069,src:000001,time:19791,op:havoc,rep:8 (69 / 344), cycle: 0
+[+] AFL test case: id:000070,src:000001,time:19802,op:havoc,rep:8 (70 / 344), cycle: 0
+[+] AFL test case: id:000071,src:000001,time:19841,op:tags,rep:8,+cov (71 / 344), cycle: 0
+[+] AFL test case: id:000072,src:000001,time:19891,op:tags,rep:2,+cov (72 / 344), cycle: 0
+[+] AFL test case: id:000073,src:000001,time:19910,op:havoc,rep:128 (73 / 344), cycle: 0
+[+] AFL test case: id:000074,src:000001,time:19970,op:havoc,rep:128 (74 / 344), cycle: 0
+[+] AFL test case: id:000075,src:000001,time:20028,op:tags,rep:16 (75 / 344), cycle: 0
+[+] AFL test case: id:000076,src:000001,time:20124,op:havoc,rep:32 (76 / 344), cycle: 0
+[+] AFL test case: id:000077,src:000001,time:20408,op:havoc,rep:32,+cov (77 / 344), cycle: 0
+[+] AFL test case: id:000078,src:000001,time:20418,op:havoc,rep:4,+cov (78 / 344), cycle: 0
+[+] AFL test case: id:000079,src:000001,time:20474,op:havoc,rep:128,+cov (79 / 344), cycle: 0
+[+] AFL test case: id:000080,src:000001,time:20550,op:tags,rep:32 (80 / 344), cycle: 0
+[+] AFL test case: id:000081,src:000001,time:20583,op:havoc,rep:128 (81 / 344), cycle: 0
+[+] AFL test case: id:000082,src:000001,time:20606,op:havoc,rep:32,+cov (82 / 344), cycle: 0
+[+] AFL test case: id:000083,src:000001,time:20739,op:havoc,rep:128 (83 / 344), cycle: 0
+[+] AFL test case: id:000084,src:000001,time:20780,op:tags,rep:64 (84 / 344), cycle: 0
+[+] AFL test case: id:000085,src:000001,time:20838,op:tags,rep:32 (85 / 344), cycle: 0
+[+] AFL test case: id:000086,src:000001,time:21030,op:havoc,rep:64,+cov (86 / 344), cycle: 0
+[+] AFL test case: id:000087,src:000001,time:21447,op:havoc,rep:16 (87 / 344), cycle: 0
+[+] AFL test case: id:000088,src:000001,time:21591,op:havoc,rep:128 (88 / 344), cycle: 0
+[+] AFL test case: id:000089,src:000001,time:21626,op:havoc,rep:128 (89 / 344), cycle: 0
+[+] AFL test case: id:000090,src:000001,time:21648,op:havoc,rep:64,+cov (90 / 344), cycle: 0
+[+] AFL test case: id:000091,src:000001,time:21757,op:tags,rep:32 (91 / 344), cycle: 0
+[+] AFL test case: id:000092,src:000001,time:21968,op:tags,rep:64 (92 / 344), cycle: 0
+[+] AFL test case: id:000093,src:000001,time:22278,op:havoc,rep:64 (93 / 344), cycle: 0
+[+] AFL test case: id:000094,src:000001,time:22307,op:tags,rep:64 (94 / 344), cycle: 0
+[+] AFL test case: id:000095,src:000001,time:22946,op:havoc,rep:32 (95 / 344), cycle: 0
+[+] AFL test case: id:000096,src:000001,time:23903,op:havoc,rep:4 (96 / 344), cycle: 0
+[+] AFL test case: id:000097,src:000001,time:23969,op:havoc,rep:16,+cov (97 / 344), cycle: 0
+[+] AFL test case: id:000098,src:000001,time:24009,op:tags,rep:128 (98 / 344), cycle: 0
+[+] AFL test case: id:000099,src:000001,time:24128,op:havoc,rep:16 (99 / 344), cycle: 0
+[+] AFL test case: id:000100,src:000001,time:24222,op:havoc,rep:64 (100 / 344), cycle: 0
+[+] AFL test case: id:000101,src:000001,time:25595,op:tags,rep:64,+cov (101 / 344), cycle: 0
+[+] AFL test case: id:000102,src:000001,time:25798,op:havoc,rep:64,+cov (102 / 344), cycle: 0
+[+] AFL test case: id:000103,src:000001,time:25817,op:havoc,rep:16 (103 / 344), cycle: 0
+[+] AFL test case: id:000104,src:000001,time:25826,op:tags,rep:128 (104 / 344), cycle: 0
+[+] AFL test case: id:000105,src:000001,time:26098,op:tags,rep:128 (105 / 344), cycle: 0
+[+] AFL test case: id:000106,src:000001+000073,time:26969,op:splice,rep:64 (106 / 344), cycle: 0
+[+] AFL test case: id:000107,src:000001+000073,time:26990,op:splice,rep:64 (107 / 344), cycle: 0
+[+] AFL test case: id:000108,src:000020,time:27570,op:havoc,rep:64 (108 / 344), cycle: 0
+[+] AFL test case: id:000109,src:000020+000047,time:28159,op:tags splice,rep:64 (109 / 344), cycle: 0
+[+] AFL test case: id:000110,src:000022,time:28708,op:havoc,rep:32,+cov (110 / 344), cycle: 0
+[+] AFL test case: id:000111,src:000022,time:28894,op:havoc,rep:16 (111 / 344), cycle: 0
+[+] AFL test case: id:000112,src:000022,time:29025,op:havoc,rep:128 (112 / 344), cycle: 0
+[+] AFL test case: id:000113,src:000022+000056,time:30445,op:splice,rep:32 (113 / 344), cycle: 0
+[+] AFL test case: id:000114,src:000022+000056,time:30478,op:splice,rep:64 (114 / 344), cycle: 0
+[+] AFL test case: id:000115,src:000022+000056,time:30484,op:splice,rep:32 (115 / 344), cycle: 0
+[+] AFL test case: id:000116,src:000022+000056,time:30499,op:splice,rep:16 (116 / 344), cycle: 0
+[+] AFL test case: id:000117,src:000022+000056,time:30665,op:splice,rep:32 (117 / 344), cycle: 0
+[+] AFL test case: id:000118,src:000022+000056,time:30984,op:splice,rep:128 (118 / 344), cycle: 0
+[+] AFL test case: id:000119,src:000022+000056,time:31173,op:tags splice,rep:64 (119 / 344), cycle: 0
+[+] AFL test case: id:000120,src:000030,time:31825,op:havoc,rep:8,+cov (120 / 344), cycle: 0
+[+] AFL test case: id:000121,src:000030,time:32035,op:havoc,rep:128 (121 / 344), cycle: 0
+[+] AFL test case: id:000122,src:000030,time:32053,op:tags,rep:4,+cov (122 / 344), cycle: 0
+[+] AFL test case: id:000123,src:000030,time:32290,op:tags,rep:32 (123 / 344), cycle: 0
+[+] AFL test case: id:000124,src:000030,time:33235,op:havoc,rep:8 (124 / 344), cycle: 0
+[+] AFL test case: id:000125,src:000030,time:33495,op:tags,rep:128,+cov (125 / 344), cycle: 0
+[+] AFL test case: id:000126,src:000030,time:36823,op:havoc,rep:128 (126 / 344), cycle: 0
+[+] AFL test case: id:000127,src:000030,time:37993,op:havoc,rep:128 (127 / 344), cycle: 0
+[+] AFL test case: id:000128,src:000030,time:38717,op:tags,rep:128 (128 / 344), cycle: 0
+[+] AFL test case: id:000129,src:000031,time:39236,op:havoc,rep:32 (129 / 344), cycle: 0
+[+] AFL test case: id:000130,src:000059,time:62152,op:tags,rep:32,+cov (130 / 344), cycle: 0
+[+] AFL test case: id:000131,src:000059,time:62235,op:havoc,rep:64 (131 / 344), cycle: 0
+[+] AFL test case: id:000132,src:000059,time:62251,op:havoc,rep:64 (132 / 344), cycle: 0
+[+] AFL test case: id:000133,src:000060,time:64235,op:tags,rep:32 (133 / 344), cycle: 0
+[+] AFL test case: id:000134,src:000062+000124,time:65459,op:splice,rep:16 (134 / 344), cycle: 0
+[+] AFL test case: id:000135,src:000077+000134,time:68665,op:splice,rep:2 (135 / 344), cycle: 0
+[+] AFL test case: id:000136,src:000086,time:72537,op:havoc,rep:64 (136 / 344), cycle: 0
+[+] AFL test case: id:000137,src:000090+000004,time:74001,op:splice,rep:32 (137 / 344), cycle: 0
+[+] AFL test case: id:000138,src:000091+000134,time:75202,op:splice,rep:4 (138 / 344), cycle: 0
+[+] AFL test case: id:000139,src:000122+000098,time:78884,op:splice,rep:128 (139 / 344), cycle: 0
+[+] AFL test case: id:000140,src:000122+000137,time:79072,op:splice,rep:64 (140 / 344), cycle: 0
+[+] AFL test case: id:000141,src:000122+000137,time:79098,op:splice,rep:128 (141 / 344), cycle: 0
+[+] AFL test case: id:000142,src:000123,time:79298,op:havoc,rep:16 (142 / 344), cycle: 0
+[+] AFL test case: id:000143,src:000123,time:79347,op:havoc,rep:8 (143 / 344), cycle: 0
+[+] AFL test case: id:000144,src:000123,time:79405,op:havoc,rep:16 (144 / 344), cycle: 0
+[+] AFL test case: id:000145,src:000123,time:79745,op:havoc,rep:4 (145 / 344), cycle: 0
+[+] AFL test case: id:000146,src:000123,time:80350,op:havoc,rep:64,+cov (146 / 344), cycle: 0
+[+] AFL test case: id:000147,src:000123,time:80903,op:havoc,rep:64 (147 / 344), cycle: 0
+[+] AFL test case: id:000148,src:000123,time:80923,op:havoc,rep:64 (148 / 344), cycle: 0
+[+] AFL test case: id:000149,src:000123,time:80994,op:havoc,rep:8 (149 / 344), cycle: 0
+[+] AFL test case: id:000150,src:000123,time:81064,op:havoc,rep:16 (150 / 344), cycle: 0
+[+] AFL test case: id:000151,src:000123,time:81487,op:havoc,rep:4 (151 / 344), cycle: 0
+[+] AFL test case: id:000152,src:000123,time:82311,op:havoc,rep:32 (152 / 344), cycle: 0
+[+] AFL test case: id:000153,src:000123,time:82479,op:havoc,rep:8 (153 / 344), cycle: 0
+[+] AFL test case: id:000154,src:000123,time:83041,op:havoc,rep:8 (154 / 344), cycle: 0
+[+] AFL test case: id:000155,src:000126,time:85723,op:havoc,rep:64 (155 / 344), cycle: 0
+[+] AFL test case: id:000156,src:000126,time:85760,op:havoc,rep:128 (156 / 344), cycle: 0
+[+] AFL test case: id:000157,src:000126,time:85819,op:havoc,rep:32 (157 / 344), cycle: 0
+[+] AFL test case: id:000158,src:000126,time:85831,op:havoc,rep:128 (158 / 344), cycle: 0
+[+] AFL test case: id:000159,src:000126,time:86028,op:havoc,rep:8 (159 / 344), cycle: 0
+[+] AFL test case: id:000160,src:000126,time:86181,op:havoc,rep:8 (160 / 344), cycle: 0
+[+] AFL test case: id:000161,src:000126,time:86984,op:havoc,rep:64 (161 / 344), cycle: 0
+[+] AFL test case: id:000162,src:000126,time:87210,op:havoc,rep:128 (162 / 344), cycle: 0
+[+] AFL test case: id:000163,src:000126,time:87302,op:havoc,rep:32 (163 / 344), cycle: 0
+[+] AFL test case: id:000164,src:000131,time:90751,op:havoc,rep:32 (164 / 344), cycle: 0
+[+] AFL test case: id:000165,src:000135+000149,time:92067,op:splice,rep:16 (165 / 344), cycle: 0
+[+] AFL test case: id:000166,src:000146+000014,time:92623,op:splice,rep:128 (166 / 344), cycle: 0
+[+] AFL test case: id:000167,src:000147,time:92928,op:havoc,rep:8 (167 / 344), cycle: 0
+[+] AFL test case: id:000168,src:000147,time:93170,op:havoc,rep:2 (168 / 344), cycle: 0
+[+] AFL test case: id:000169,src:000147,time:93415,op:havoc,rep:4 (169 / 344), cycle: 0
+[+] AFL test case: id:000170,src:000147+000031,time:94507,op:splice,rep:128 (170 / 344), cycle: 0
+[+] AFL test case: id:000171,src:000147+000031,time:94551,op:splice,rep:128 (171 / 344), cycle: 0
+[+] AFL test case: id:000172,src:000147+000116,time:94871,op:splice,rep:8 (172 / 344), cycle: 0
+[+] AFL test case: id:000173,src:000164,time:95023,op:havoc,rep:8 (173 / 344), cycle: 0
+[+] AFL test case: id:000174,src:000168,time:96157,op:havoc,rep:8 (174 / 344), cycle: 0
+[+] AFL test case: id:000175,src:000168+000069,time:96609,op:splice,rep:2 (175 / 344), cycle: 0
+[+] AFL test case: id:000176,src:000168+000164,time:96776,op:splice,rep:64 (176 / 344), cycle: 0
+[+] AFL test case: id:000177,src:000168+000149,time:96856,op:splice,rep:32 (177 / 344), cycle: 0
+[+] AFL test case: id:000178,src:000012+000131,time:97542,op:splice,rep:128 (178 / 344), cycle: 0
+[+] AFL test case: id:000179,src:000037,time:102421,op:havoc,rep:64 (179 / 344), cycle: 0
+[+] AFL test case: id:000180,src:000037,time:102742,op:tags,rep:128 (180 / 344), cycle: 0
+[+] AFL test case: id:000181,src:000037,time:103044,op:havoc,rep:32 (181 / 344), cycle: 0
+[+] AFL test case: id:000182,src:000037,time:103952,op:havoc,rep:128 (182 / 344), cycle: 0
+[+] AFL test case: id:000183,src:000062,time:227981,op:havoc,rep:64 (183 / 344), cycle: 0
+[+] AFL test case: id:000184,src:000062+000125,time:229141,op:splice,rep:64 (184 / 344), cycle: 0
+[+] AFL test case: id:000185,src:000070+000161,time:231920,op:splice,rep:64 (185 / 344), cycle: 0
+[+] AFL test case: id:000186,src:000102,time:296061,op:getdeps,pos:92 (186 / 344), cycle: 0
+[+] AFL test case: id:000187,src:000102,time:313666,op:cmp,rep:2,+cov (187 / 344), cycle: 0
+[+] AFL test case: id:000188,src:000187+000133,time:315138,op:splice,rep:128 (188 / 344), cycle: 0
+[+] AFL test case: id:000189,src:000187+000108,time:315590,op:splice,rep:16 (189 / 344), cycle: 0
+[+] AFL test case: id:000190,src:000187+000104,time:315713,op:splice,rep:128 (190 / 344), cycle: 0
+[+] AFL test case: id:000191,src:000187+000170,time:315934,op:splice,rep:2 (191 / 344), cycle: 0
+[+] AFL test case: id:000192,src:000188,time:316852,op:havoc,rep:64 (192 / 344), cycle: 0
+[+] AFL test case: id:000193,src:000188,time:317190,op:havoc,rep:64 (193 / 344), cycle: 0
+[+] AFL test case: id:000194,src:000188,time:317711,op:havoc,rep:32 (194 / 344), cycle: 0
+[+] AFL test case: id:000195,src:000188+000098,time:321559,op:splice,rep:16 (195 / 344), cycle: 0
+[+] AFL test case: id:000196,src:000028+000129,time:329015,op:splice,rep:16 (196 / 344), cycle: 0
+[+] AFL test case: id:000197,src:000037+000120,time:329997,op:splice,rep:32 (197 / 344), cycle: 0
+[+] AFL test case: id:000198,src:000037+000120,time:330006,op:splice,rep:32 (198 / 344), cycle: 0
+[+] AFL test case: id:000199,src:000037+000120,time:330043,op:splice,rep:64 (199 / 344), cycle: 0
+[+] AFL test case: id:000200,src:000041,time:330376,op:havoc,rep:64 (200 / 344), cycle: 0
+[+] AFL test case: id:000201,src:000049+000090,time:333401,op:splice,rep:64 (201 / 344), cycle: 0
+[+] AFL test case: id:000202,src:000201,time:337363,op:tags,rep:16 (202 / 344), cycle: 0
+[+] AFL test case: id:000203,src:000201,time:337741,op:tags,rep:16 (203 / 344), cycle: 0
+[+] AFL test case: id:000204,src:000202,time:339585,op:havoc,rep:8 (204 / 344), cycle: 0
+[+] AFL test case: id:000205,src:000204,time:343968,op:tags,rep:16 (205 / 344), cycle: 0
+[+] AFL test case: id:000206,src:000204+000199,time:346384,op:splice,rep:32 (206 / 344), cycle: 0
+[+] AFL test case: id:000207,src:000204+000199,time:346419,op:splice,rep:16 (207 / 344), cycle: 0
+[+] AFL test case: id:000208,src:000204+000199,time:346537,op:splice,rep:32 (208 / 344), cycle: 0
+[+] AFL test case: id:000209,src:000038+000206,time:349846,op:splice,rep:4 (209 / 344), cycle: 0
+[+] AFL test case: id:000210,src:000038+000206,time:349852,op:splice,rep:32 (210 / 344), cycle: 0
+[+] AFL test case: id:000211,src:000099,time:401212,op:havoc,rep:16 (211 / 344), cycle: 0
+[+] AFL test case: id:000212,src:000117,time:408512,op:havoc,rep:64 (212 / 344), cycle: 0
+[+] AFL test case: id:000213,src:000120+000060,time:409368,op:splice,rep:64 (213 / 344), cycle: 0
+[+] AFL test case: id:000214,src:000129,time:412657,op:havoc,rep:16 (214 / 344), cycle: 0
+[+] AFL test case: id:000215,src:000135+000143,time:414662,op:splice,rep:16 (215 / 344), cycle: 0
+[+] AFL test case: id:000216,src:000140+000208,time:415584,op:splice,rep:16 (216 / 344), cycle: 0
+[+] AFL test case: id:000217,src:000157+000200,time:419017,op:splice,rep:16 (217 / 344), cycle: 0
+[+] AFL test case: id:000218,src:000159+000012,time:421216,op:splice,rep:64,+cov (218 / 344), cycle: 0
+[+] AFL test case: id:000219,src:000213,time:423488,op:havoc,rep:64 (219 / 344), cycle: 0
+[+] AFL test case: id:000220,src:000009+000204,time:434700,op:splice,rep:16 (220 / 344), cycle: 0
+[+] AFL test case: id:000221,src:000056,time:444162,op:getdeps,pos:328 (221 / 344), cycle: 0
+[+] AFL test case: id:000222,src:000180,time:620363,op:tags,rep:8 (222 / 344), cycle: 0
+[+] AFL test case: id:000223,src:000180,time:620392,op:havoc,rep:128 (223 / 344), cycle: 0
+[+] AFL test case: id:000224,src:000180,time:620420,op:tags,rep:2 (224 / 344), cycle: 0
+[+] AFL test case: id:000225,src:000180,time:620467,op:havoc,rep:64 (225 / 344), cycle: 0
+[+] AFL test case: id:000226,src:000180,time:620839,op:havoc,rep:128 (226 / 344), cycle: 0
+[+] AFL test case: id:000227,src:000180,time:620954,op:havoc,rep:32 (227 / 344), cycle: 0
+[+] AFL test case: id:000228,src:000180,time:621047,op:havoc,rep:16 (228 / 344), cycle: 0
+[+] AFL test case: id:000229,src:000180,time:621072,op:havoc,rep:16 (229 / 344), cycle: 0
+[+] AFL test case: id:000230,src:000180,time:623156,op:tags,rep:64 (230 / 344), cycle: 0
+[+] AFL test case: id:000231,src:000180,time:623433,op:havoc,rep:128 (231 / 344), cycle: 0
+[+] AFL test case: id:000232,src:000181,time:629241,op:havoc,rep:128 (232 / 344), cycle: 0
+[+] AFL test case: id:000233,src:000191,time:631044,op:havoc,rep:4 (233 / 344), cycle: 0
+[+] AFL test case: id:000234,src:000233,time:632041,op:havoc,rep:2 (234 / 344), cycle: 0
+[+] AFL test case: id:000235,src:000233,time:632573,op:havoc,rep:8 (235 / 344), cycle: 0
+[+] AFL test case: id:000236,src:000233,time:634963,op:havoc,rep:16 (236 / 344), cycle: 0
+[+] AFL test case: id:000237,src:000233+000005,time:636731,op:splice,rep:32 (237 / 344), cycle: 0
+[+] AFL test case: id:000238,src:000233+000201,time:637880,op:splice,rep:16 (238 / 344), cycle: 0
+[+] AFL test case: id:000239,src:000235,time:638706,op:havoc,rep:32 (239 / 344), cycle: 0
+[+] AFL test case: id:000240,src:000235,time:638765,op:havoc,rep:8 (240 / 344), cycle: 0
+[+] AFL test case: id:000241,src:000238,time:645714,op:havoc,rep:64 (241 / 344), cycle: 0
+[+] AFL test case: id:000242,src:000238,time:647555,op:havoc,rep:64 (242 / 344), cycle: 0
+[+] AFL test case: id:000243,src:000238+000092,time:651977,op:splice,rep:64 (243 / 344), cycle: 0
+[+] AFL test case: id:000244,src:000242,time:653450,op:havoc,rep:4 (244 / 344), cycle: 0
+[+] AFL test case: id:000245,src:000242+000001,time:655380,op:splice,rep:32 (245 / 344), cycle: 0
+[+] AFL test case: id:000246,src:000245,time:658083,op:havoc,rep:32,+cov (246 / 344), cycle: 0
+[+] AFL test case: id:000247,src:000245,time:658729,op:havoc,rep:8 (247 / 344), cycle: 0
+[+] AFL test case: id:000248,src:000245,time:659345,op:havoc,rep:64 (248 / 344), cycle: 0
+[+] AFL test case: id:000249,src:000245,time:659577,op:havoc,rep:32 (249 / 344), cycle: 0
+[+] AFL test case: id:000250,src:000245+000097,time:661916,op:splice,rep:4 (250 / 344), cycle: 0
+[+] AFL test case: id:000251,src:000247,time:663196,op:havoc,rep:2 (251 / 344), cycle: 0
+[+] AFL test case: id:000252,src:000247,time:663417,op:havoc,rep:128 (252 / 344), cycle: 0
+[+] AFL test case: id:000253,src:000247,time:664045,op:havoc,rep:4 (253 / 344), cycle: 0
+[+] AFL test case: id:000254,src:000247+000242,time:667387,op:splice,rep:64 (254 / 344), cycle: 0
+[+] AFL test case: id:000255,src:000249+000125,time:673862,op:splice,rep:64 (255 / 344), cycle: 0
+[+] AFL test case: id:000256,src:000252,time:681809,op:havoc,rep:128 (256 / 344), cycle: 0
+[+] AFL test case: id:000257,src:000253,time:686732,op:havoc,rep:128 (257 / 344), cycle: 0
+[+] AFL test case: id:000258,src:000256,time:699180,op:havoc,rep:128 (258 / 344), cycle: 0
+[+] AFL test case: id:000259,src:000016+000255,time:706789,op:splice,rep:32 (259 / 344), cycle: 0
+[+] AFL test case: id:000260,src:000016+000255,time:706799,op:splice,rep:8 (260 / 344), cycle: 0
+[+] AFL test case: id:000261,src:000016+000255,time:706813,op:splice,rep:8 (261 / 344), cycle: 0
+[+] AFL test case: id:000262,src:000016+000255,time:706888,op:splice,rep:16 (262 / 344), cycle: 0
+[+] AFL test case: id:000263,src:000016+000255,time:707008,op:splice,rep:4 (263 / 344), cycle: 0
+[+] AFL test case: id:000264,src:000016+000255,time:707660,op:splice,rep:8 (264 / 344), cycle: 0
+[+] AFL test case: id:000265,src:000016+000255,time:707691,op:splice,rep:8 (265 / 344), cycle: 0
+[+] AFL test case: id:000266,src:000090+000265,time:720716,op:splice,rep:128 (266 / 344), cycle: 0
+[+] AFL test case: id:000267,src:000094+000265,time:721521,op:splice,rep:2 (267 / 344), cycle: 0
+[+] AFL test case: id:000268,src:000120+000222,time:724644,op:splice,rep:2 (268 / 344), cycle: 0
+[+] AFL test case: id:000269,src:000146+000266,time:727743,op:splice,rep:8 (269 / 344), cycle: 0
+[+] AFL test case: id:000270,src:000160+000094,time:733063,op:splice,rep:4 (270 / 344), cycle: 0
+[+] AFL test case: id:000271,src:000072+000060,time:782837,op:splice,rep:128 (271 / 344), cycle: 0
+[+] AFL test case: id:000272,src:000169+000267,time:946070,op:splice,rep:32 (272 / 344), cycle: 0
+[+] AFL test case: id:000273,src:000173,time:948497,op:havoc,rep:8 (273 / 344), cycle: 0
+[+] AFL test case: id:000274,src:000273,time:949657,op:havoc,rep:16 (274 / 344), cycle: 0
+[+] AFL test case: id:000275,src:000273+000270,time:952368,op:splice,rep:128 (275 / 344), cycle: 0
+[+] AFL test case: id:000276,src:000275+000029,time:956034,op:splice,rep:32 (276 / 344), cycle: 0
+[+] AFL test case: id:000277,src:000062+000005,time:964841,op:splice,rep:16 (277 / 344), cycle: 0
+[+] AFL test case: id:000278,src:000062+000099,time:965162,op:splice,rep:2 (278 / 344), cycle: 0
+[+] AFL test case: id:000279,src:000079+000211,time:969420,op:splice,rep:16 (279 / 344), cycle: 0
+[+] AFL test case: id:000280,src:000087+000273,time:971915,op:splice,rep:64 (280 / 344), cycle: 0
+[+] AFL test case: id:000281,src:000118,time:976292,op:havoc,rep:64 (281 / 344), cycle: 0
+[+] AFL test case: id:000282,src:000281,time:977619,op:havoc,rep:16 (282 / 344), cycle: 0
+[+] AFL test case: id:000283,src:000281,time:977714,op:havoc,rep:32 (283 / 344), cycle: 0
+[+] AFL test case: id:000284,src:000281+000283,time:982098,op:splice,rep:4 (284 / 344), cycle: 0
+[+] AFL test case: id:000285,src:000134+000268,time:1053413,op:splice,rep:32 (285 / 344), cycle: 0
+[+] AFL test case: id:000286,src:000174+000280,time:1059745,op:splice,rep:32 (286 / 344), cycle: 0
+[+] AFL test case: id:000287,src:000177+000272,time:1061737,op:splice,rep:16 (287 / 344), cycle: 0
+[+] AFL test case: id:000288,src:000194,time:1065312,op:havoc,rep:128 (288 / 344), cycle: 0
+[+] AFL test case: id:000289,src:000194,time:1066020,op:havoc,rep:128 (289 / 344), cycle: 0
+[+] AFL test case: id:000290,src:000204+000284,time:1076181,op:splice,rep:4 (290 / 344), cycle: 0
+[+] AFL test case: id:000291,src:000204+000286,time:1076345,op:splice,rep:32 (291 / 344), cycle: 0
+[+] AFL test case: id:000292,src:000204+000286,time:1076464,op:splice,rep:32 (292 / 344), cycle: 0
+[+] AFL test case: id:000293,src:000204+000286,time:1076618,op:splice,rep:64 (293 / 344), cycle: 0
+[+] AFL test case: id:000294,src:000204+000286,time:1076839,op:splice,rep:16 (294 / 344), cycle: 0
+[+] AFL test case: id:000295,src:000204+000286,time:1077157,op:splice,rep:4 (295 / 344), cycle: 0
+[+] AFL test case: id:000296,src:000204+000286,time:1077256,op:splice,rep:128 (296 / 344), cycle: 0
+[+] AFL test case: id:000297,src:000204+000215,time:1078942,op:splice,rep:8 (297 / 344), cycle: 0
+[+] AFL test case: id:000298,src:000211+000297,time:1080376,op:splice,rep:32 (298 / 344), cycle: 0
+[+] AFL test case: id:000299,src:000220+000295,time:1088942,op:splice,rep:16 (299 / 344), cycle: 0
+[+] AFL test case: id:000300,src:000240,time:1114490,op:havoc,rep:4 (300 / 344), cycle: 0
+[+] AFL test case: id:000301,src:000260+000285,time:1131715,op:splice,rep:16 (301 / 344), cycle: 0
+[+] AFL test case: id:000302,src:000260+000285,time:1131821,op:splice,rep:4 (302 / 344), cycle: 0
+[+] AFL test case: id:000303,src:000278,time:1154368,op:havoc,rep:8 (303 / 344), cycle: 0
+[+] AFL test case: id:000304,src:000287,time:1163052,op:havoc,rep:16 (304 / 344), cycle: 0
+[+] AFL test case: id:000305,src:000287,time:1164985,op:havoc,rep:64 (305 / 344), cycle: 0
+[+] AFL test case: id:000306,src:000301,time:1179699,op:havoc,rep:64 (306 / 344), cycle: 0
+[+] AFL test case: id:000307,src:000257,time:1646384,op:havoc,rep:4 (307 / 344), cycle: 0
+[+] AFL test case: id:000308,src:000257,time:1648025,op:havoc,rep:64 (308 / 344), cycle: 0
+[+] AFL test case: id:000309,src:000270,time:1664803,op:havoc,rep:64 (309 / 344), cycle: 0
+[+] AFL test case: id:000310,src:000286,time:1675588,op:havoc,rep:32 (310 / 344), cycle: 0
+[+] AFL test case: id:000311,src:000297,time:1689194,op:havoc,rep:2 (311 / 344), cycle: 0
+[+] AFL test case: id:000312,src:000298,time:1698789,op:havoc,rep:128 (312 / 344), cycle: 0
+[+] AFL test case: id:000313,src:000303,time:1703529,op:havoc,rep:16 (313 / 344), cycle: 0
+[+] AFL test case: id:000314,src:000308+000059,time:1717644,op:splice,rep:64 (314 / 344), cycle: 0
+[+] AFL test case: id:000315,src:000185+000139,time:1871081,op:splice,rep:2 (315 / 344), cycle: 0
+[+] AFL test case: id:000316,src:000231+000297,time:1938547,op:splice,rep:32 (316 / 344), cycle: 0
+[+] AFL test case: id:000317,src:000057+000106,time:2177977,op:splice,rep:64 (317 / 344), cycle: 0
+[+] AFL test case: id:000318,src:000317,time:2184952,op:havoc,rep:16 (318 / 344), cycle: 0
+[+] AFL test case: id:000319,src:000317,time:2185099,op:havoc,rep:8 (319 / 344), cycle: 0
+[+] AFL test case: id:000320,src:000318,time:2188786,op:havoc,rep:4 (320 / 344), cycle: 0
+[+] AFL test case: id:000321,src:000157+000307,time:2240152,op:splice,rep:32 (321 / 344), cycle: 0
+[+] AFL test case: id:000322,src:000311,time:2334682,op:havoc,rep:16 (322 / 344), cycle: 0
+[+] AFL test case: id:000323,src:000320,time:2347585,op:havoc,rep:8 (323 / 344), cycle: 0
+[+] AFL test case: id:000324,src:000320,time:2349004,op:havoc,rep:8 (324 / 344), cycle: 0
+[+] AFL test case: id:000325,src:000146+000323,time:2383110,op:splice,rep:32 (325 / 344), cycle: 0
+[+] AFL test case: id:000326,src:000272+000276,time:2567193,op:splice,rep:128 (326 / 344), cycle: 0
+[+] AFL test case: id:000327,src:000313,time:2589442,op:havoc,rep:64 (327 / 344), cycle: 0
+[+] AFL test case: id:000328,src:000188+000275,time:3123236,op:splice,rep:16 (328 / 344), cycle: 0
+[+] AFL test case: id:000329,src:000305,time:3149857,op:havoc,rep:128 (329 / 344), cycle: 0
+[+] AFL test case: id:000330,src:000315,time:4166959,op:havoc,rep:8 (330 / 344), cycle: 0
+[+] AFL test case: id:000331,src:000330,time:4174409,op:havoc,rep:32 (331 / 344), cycle: 0
+[+] AFL test case: id:000332,src:000321,time:7307431,op:havoc,rep:4 (332 / 344), cycle: 0
+[+] AFL test case: id:000333,src:000273+000325,time:10340805,op:splice,rep:16 (333 / 344), cycle: 0
+[+] AFL test case: id:000334,src:000333,time:10351171,op:havoc,rep:8 (334 / 344), cycle: 0
+[+] AFL test case: id:000335,src:000333,time:10353681,op:havoc,rep:32 (335 / 344), cycle: 0
+[+] AFL test case: id:000336,src:000328,time:11923565,op:havoc,rep:64 (336 / 344), cycle: 0
+[+] AFL test case: id:000337,src:000290,time:12203659,op:havoc,rep:4 (337 / 344), cycle: 0
+[+] AFL test case: id:000338,src:000337,time:12640718,op:havoc,rep:16 (338 / 344), cycle: 0
+[+] AFL test case: id:000339,src:000188+000076,time:22461092,op:tags splice,rep:64 (339 / 344), cycle: 0
+[+] AFL test case: id:000340,src:000339,time:33583193,op:havoc,rep:32 (340 / 344), cycle: 0
+[+] AFL test case: id:000341,src:000336+000328,time:40204634,op:splice,rep:64 (341 / 344), cycle: 0
+[+] AFL test case: id:000342,src:000308+000094,time:48632938,op:splice,rep:8,+cov (342 / 344), cycle: 0
+[+] AFL test case: id:000343,src:000317+000305,time:64996490,op:splice,rep:32 (343 / 344), cycle: 0
+    lines......: 20.0% (301 of 1502 lines)
+    functions..: 34.0% (18 of 53 functions)
+
+    Coverage diff id:0... id:343...
+diff id:0... -> id:343...
+New src file: /unibench/jhead-3.00/jhead.c
+  New 'function' coverage: CheckFileSkip()
+  New 'function' coverage: ErrFatal()
+  New 'function' coverage: ErrNonfatal()
+  New 'function' coverage: FileTimeAsString()
+  New 'function' coverage: ProcessFile()
+  New 'function' coverage: main()
+  New 'line' coverage: 1079
+  New 'line' coverage: 1102
+  New 'line' coverage: 113
+  New 'line' coverage: 115
+  New 'line' coverage: 1157
+  New 'line' coverage: 116
+  New 'line' coverage: 1160
+  New 'line' coverage: 1163
+  New 'line' coverage: 1166
+  New 'line' coverage: 1169
+  New 'line' coverage: 117
+  New 'line' coverage: 1174
+  New 'line' coverage: 1209
+  New 'line' coverage: 1237
+  New 'line' coverage: 124
+  New 'line' coverage: 1240
+  New 'line' coverage: 1241
+  New 'line' coverage: 126
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 130
+  New 'line' coverage: 131
+  New 'line' coverage: 1442
+  New 'line' coverage: 1446
+  New 'line' coverage: 1448
+  New 'line' coverage: 1449
+  New 'line' coverage: 1450
+  New 'line' coverage: 1685
+  New 'line' coverage: 1689
+  New 'line' coverage: 1696
+  New 'line' coverage: 1703
+  New 'line' coverage: 1711
+  New 'line' coverage: 1718
+  New 'line' coverage: 1719
+  New 'line' coverage: 1720
+  New 'line' coverage: 1730
+  New 'line' coverage: 1733
+  New 'line' coverage: 1738
+  New 'line' coverage: 1741
+  New 'line' coverage: 446
+  New 'line' coverage: 451
+  New 'line' coverage: 461
+  New 'line' coverage: 468
+  New 'line' coverage: 472
+  New 'line' coverage: 476
+  New 'line' coverage: 783
+  New 'line' coverage: 786
+  New 'line' coverage: 787
+  New 'line' coverage: 788
+  New 'line' coverage: 793
+  New 'line' coverage: 798
+  New 'line' coverage: 804
+  New 'line' coverage: 805
+  New 'line' coverage: 807
+  New 'line' coverage: 811
+  New 'line' coverage: 812
+  New 'line' coverage: 813
+  New 'line' coverage: 818
+  New 'line' coverage: 819
+  New 'line' coverage: 820
+  New 'line' coverage: 822
+  New 'line' coverage: 826
+  New 'line' coverage: 836
+  New 'line' coverage: 878
+  New 'line' coverage: 892
+  New 'line' coverage: 896
+  New 'line' coverage: 898
+  New 'line' coverage: 903
+  New 'line' coverage: 932
+  New 'line' coverage: 934
+  New 'line' coverage: 937
+  New 'line' coverage: 938
+  New 'line' coverage: 943
+  New 'line' coverage: 945
+  New 'line' coverage: 946
+  New 'line' coverage: 953
+  New 'line' coverage: 963
+  New 'line' coverage: 969
+  New 'line' coverage: 975
+  New 'line' coverage: 983
+  New 'line' coverage: 990
+  New 'line' coverage: 994
+New src file: /unibench/jhead-3.00/jpgqguess.c
+  New 'function' coverage: process_DHT()
+  New 'function' coverage: process_DQT()
+  New 'line' coverage: 100
+  New 'line' coverage: 104
+  New 'line' coverage: 106
+  New 'line' coverage: 108
+  New 'line' coverage: 109
+  New 'line' coverage: 110
+  New 'line' coverage: 112
+  New 'line' coverage: 114
+  New 'line' coverage: 115
+  New 'line' coverage: 118
+  New 'line' coverage: 119
+  New 'line' coverage: 120
+  New 'line' coverage: 122
+  New 'line' coverage: 126
+  New 'line' coverage: 136
+  New 'line' coverage: 138
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 143
+  New 'line' coverage: 144
+  New 'line' coverage: 146
+  New 'line' coverage: 148
+  New 'line' coverage: 150
+  New 'line' coverage: 154
+  New 'line' coverage: 155
+  New 'line' coverage: 160
+  New 'line' coverage: 170
+  New 'line' coverage: 176
+  New 'line' coverage: 181
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 187
+  New 'line' coverage: 188
+  New 'line' coverage: 190
+  New 'line' coverage: 191
+  New 'line' coverage: 194
+  New 'line' coverage: 195
+  New 'line' coverage: 196
+  New 'line' coverage: 200
+  New 'line' coverage: 205
+  New 'line' coverage: 81
+  New 'line' coverage: 92
+  New 'line' coverage: 94
+  New 'line' coverage: 95
+  New 'line' coverage: 96
+  New 'line' coverage: 99
+New src file: /unibench/jhead-3.00/exif.c
+  New 'function' coverage: ShowImageInfo()
+  New 'line' coverage: 1291
+  New 'line' coverage: 1293
+  New 'line' coverage: 1295
+  New 'line' coverage: 1299
+  New 'line' coverage: 1304
+  New 'line' coverage: 1308
+  New 'line' coverage: 1311
+  New 'line' coverage: 1313
+  New 'line' coverage: 1318
+  New 'line' coverage: 1322
+  New 'line' coverage: 1354
+  New 'line' coverage: 1362
+  New 'line' coverage: 1367
+  New 'line' coverage: 1371
+  New 'line' coverage: 1382
+  New 'line' coverage: 1385
+  New 'line' coverage: 1393
+  New 'line' coverage: 1397
+  New 'line' coverage: 1403
+  New 'line' coverage: 1413
+  New 'line' coverage: 1437
+  New 'line' coverage: 1451
+  New 'line' coverage: 1481
+  New 'line' coverage: 1490
+  New 'line' coverage: 1508
+  New 'line' coverage: 1512
+  New 'line' coverage: 1513
+  New 'line' coverage: 1518
+  New 'line' coverage: 1519
+  New 'line' coverage: 1522
+  New 'line' coverage: 1525
+  New 'line' coverage: 1531
+  New 'line' coverage: 1536
+  New 'line' coverage: 1539
+  New 'line' coverage: 1540
+  New 'line' coverage: 1541
+  New 'line' coverage: 1542
+  New 'line' coverage: 1543
+  New 'line' coverage: 1545
+  New 'line' coverage: 1559
+New src file: /unibench/jhead-3.00/iptc.c
+  New 'function' coverage: show_IPTC()
+  New 'line' coverage: 181
+  New 'line' coverage: 52
+  New 'line' coverage: 54
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 58
+  New 'line' coverage: 59
+  New 'line' coverage: 63
+  New 'line' coverage: 66
+  New 'line' coverage: 86
+  New 'line' coverage: 89
+New src file: /unibench/jhead-3.00/jpgfile.c
+  New 'function' coverage: CheckSectionsAllocated()
+  New 'function' coverage: DiscardData()
+  New 'function' coverage: FindSection()
+  New 'function' coverage: ReadJpegFile()
+  New 'function' coverage: ReadJpegSections()
+  New 'function' coverage: ResetJpgfile()
+  New 'function' coverage: process_COM()
+  New 'function' coverage: process_SOFn()
+  New 'line' coverage: 101
+  New 'line' coverage: 103
+  New 'line' coverage: 106
+  New 'line' coverage: 107
+  New 'line' coverage: 108
+  New 'line' coverage: 109
+  New 'line' coverage: 113
+  New 'line' coverage: 119
+  New 'line' coverage: 124
+  New 'line' coverage: 126
+  New 'line' coverage: 130
+  New 'line' coverage: 131
+  New 'line' coverage: 140
+  New 'line' coverage: 143
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 146
+  New 'line' coverage: 147
+  New 'line' coverage: 150
+  New 'line' coverage: 152
+  New 'line' coverage: 153
+  New 'line' coverage: 156
+  New 'line' coverage: 159
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 162
+  New 'line' coverage: 165
+  New 'line' coverage: 167
+  New 'line' coverage: 168
+  New 'line' coverage: 171
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 177
+  New 'line' coverage: 180
+  New 'line' coverage: 181
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+  New 'line' coverage: 187
+  New 'line' coverage: 189
+  New 'line' coverage: 193
+  New 'line' coverage: 223
+  New 'line' coverage: 224
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 233
+  New 'line' coverage: 234
+  New 'line' coverage: 237
+  New 'line' coverage: 239
+  New 'line' coverage: 241
+  New 'line' coverage: 251
+  New 'line' coverage: 252
+  New 'line' coverage: 254
+  New 'line' coverage: 255
+  New 'line' coverage: 259
+  New 'line' coverage: 260
+  New 'line' coverage: 261
+  New 'line' coverage: 262
+  New 'line' coverage: 263
+  New 'line' coverage: 28
+  New 'line' coverage: 280
+  New 'line' coverage: 281
+  New 'line' coverage: 285
+  New 'line' coverage: 286
+  New 'line' coverage: 289
+  New 'line' coverage: 301
+  New 'line' coverage: 302
+  New 'line' coverage: 305
+  New 'line' coverage: 306
+  New 'line' coverage: 329
+  New 'line' coverage: 330
+  New 'line' coverage: 333
+  New 'line' coverage: 345
+  New 'line' coverage: 349
+  New 'line' coverage: 350
+  New 'line' coverage: 354
+  New 'line' coverage: 355
+  New 'line' coverage: 356
+  New 'line' coverage: 361
+  New 'line' coverage: 366
+  New 'line' coverage: 368
+  New 'line' coverage: 37
+  New 'line' coverage: 375
+  New 'line' coverage: 376
+  New 'line' coverage: 377
+  New 'line' coverage: 382
+  New 'line' coverage: 386
+  New 'line' coverage: 388
+  New 'line' coverage: 389
+  New 'line' coverage: 46
+  New 'line' coverage: 48
+  New 'line' coverage: 49
+  New 'line' coverage: 51
+  New 'line' coverage: 53
+  New 'line' coverage: 54
+  New 'line' coverage: 56
+  New 'line' coverage: 60
+  New 'line' coverage: 62
+  New 'line' coverage: 633
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 67
+  New 'line' coverage: 68
+  New 'line' coverage: 74
+  New 'line' coverage: 757
+  New 'line' coverage: 759
+  New 'line' coverage: 760
+  New 'line' coverage: 761
+  New 'line' coverage: 764
+  New 'line' coverage: 765
+  New 'line' coverage: 766
+  New 'line' coverage: 78
+  New 'line' coverage: 79
+  New 'line' coverage: 80
+  New 'line' coverage: 81
+  New 'line' coverage: 83
+  New 'line' coverage: 84
+  New 'line' coverage: 86
+  New 'line' coverage: 89
+  New 'line' coverage: 91
+  New 'line' coverage: 95
+
+[+] Processed 344 / 344 test cases.
+
+[+] Final zero coverage report: ./raw_data/weizz/group_2/outputs_group1_1/jhead/jhead_weizz_4/cov/zero-cov
+[+] Final positive coverage report: ./raw_data/weizz/group_2/outputs_group1_1/jhead/jhead_weizz_4/cov/pos-cov
+    lines......: 20.0% (301 of 1502 lines)
+    functions..: 34.0% (18 of 53 functions)
+[+] Final lcov web report: ./raw_data/weizz/group_2/outputs_group1_1/jhead/jhead_weizz_4/cov/web/index.html

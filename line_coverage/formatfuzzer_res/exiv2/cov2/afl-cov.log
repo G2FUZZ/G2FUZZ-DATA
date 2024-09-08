@@ -1,0 +1,2208 @@
+
+*** Imported 610 new test cases from: ./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/queue
+
+[+] AFL test case: id:000000,time:0,orig:103.jpg (0 / 610), cycle: 0
+    Non-zero exit status '253' for CMD: /d/p/cov/exiv2  ./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/queue/id:000000,time:0,orig:103.jpg 
+Warning: JPEG format error, rc = 5
+File name       : ./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/queue/id:000000,time:0,orig:103.jpg
+File size       : 2276 Bytes
+MIME type       : image/jpeg
+Image size      : 500 x 331
+./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/queue/id:000000,time:0,orig:103.jpg: No Exif data found in the file
+[+] AFL test case: id:000001,time:0,orig:104.jpg (1 / 610), cycle: 0
+[+] AFL test case: id:000002,time:0,orig:105.jpg (2 / 610), cycle: 0
+[+] AFL test case: id:000003,time:0,orig:108.jpg (3 / 610), cycle: 0
+[+] AFL test case: id:000004,time:0,orig:110.jpg (4 / 610), cycle: 0
+[+] AFL test case: id:000005,time:0,orig:113.jpg (5 / 610), cycle: 0
+[+] AFL test case: id:000006,time:0,orig:115.jpg (6 / 610), cycle: 0
+[+] AFL test case: id:000007,time:0,orig:116.jpg (7 / 610), cycle: 0
+[+] AFL test case: id:000008,time:0,orig:120.jpg (8 / 610), cycle: 0
+[+] AFL test case: id:000009,time:0,orig:123.jpg (9 / 610), cycle: 0
+[+] AFL test case: id:000010,time:0,orig:127.jpg (10 / 610), cycle: 0
+[+] AFL test case: id:000011,time:0,orig:128.jpg (11 / 610), cycle: 0
+[+] AFL test case: id:000012,time:0,orig:129.jpg (12 / 610), cycle: 0
+[+] AFL test case: id:000013,time:0,orig:135.jpg (13 / 610), cycle: 0
+[+] AFL test case: id:000014,time:0,orig:139.jpg (14 / 610), cycle: 0
+[+] AFL test case: id:000015,time:0,orig:140.jpg (15 / 610), cycle: 0
+[+] AFL test case: id:000016,time:0,orig:145.jpg (16 / 610), cycle: 0
+[+] AFL test case: id:000017,time:0,orig:149.jpg (17 / 610), cycle: 0
+[+] AFL test case: id:000018,time:0,orig:156.jpg (18 / 610), cycle: 0
+[+] AFL test case: id:000019,time:0,orig:157.jpg (19 / 610), cycle: 0
+[+] AFL test case: id:000020,time:0,orig:160.jpg (20 / 610), cycle: 0
+[+] AFL test case: id:000021,time:0,orig:161.jpg (21 / 610), cycle: 0
+[+] AFL test case: id:000022,time:0,orig:163.jpg (22 / 610), cycle: 0
+[+] AFL test case: id:000023,time:0,orig:165.jpg (23 / 610), cycle: 0
+[+] AFL test case: id:000024,time:0,orig:166.jpg (24 / 610), cycle: 0
+[+] AFL test case: id:000025,time:0,orig:170.jpg (25 / 610), cycle: 0
+[+] AFL test case: id:000026,time:0,orig:171.jpg (26 / 610), cycle: 0
+[+] AFL test case: id:000027,time:0,orig:172.jpg (27 / 610), cycle: 0
+[+] AFL test case: id:000028,time:0,orig:174.jpg (28 / 610), cycle: 0
+[+] AFL test case: id:000029,time:0,orig:175.jpg (29 / 610), cycle: 0
+[+] AFL test case: id:000030,time:0,orig:176.jpg (30 / 610), cycle: 0
+[+] AFL test case: id:000031,time:0,orig:18.jpg (31 / 610), cycle: 0
+[+] AFL test case: id:000032,time:0,orig:180.jpg (32 / 610), cycle: 0
+[+] AFL test case: id:000033,time:0,orig:19.jpg (33 / 610), cycle: 0
+[+] AFL test case: id:000034,time:0,orig:192.jpg (34 / 610), cycle: 0
+[+] AFL test case: id:000035,time:0,orig:194.jpg (35 / 610), cycle: 0
+[+] AFL test case: id:000036,time:0,orig:195.jpg (36 / 610), cycle: 0
+[+] AFL test case: id:000037,time:0,orig:2.jpg (37 / 610), cycle: 0
+[+] AFL test case: id:000038,time:0,orig:20.jpg (38 / 610), cycle: 0
+[+] AFL test case: id:000039,time:0,orig:207.jpg (39 / 610), cycle: 0
+[+] AFL test case: id:000040,time:0,orig:215.jpg (40 / 610), cycle: 0
+[+] AFL test case: id:000041,time:0,orig:216.jpg (41 / 610), cycle: 0
+[+] AFL test case: id:000042,time:0,orig:223.jpg (42 / 610), cycle: 0
+[+] AFL test case: id:000043,time:0,orig:226.jpg (43 / 610), cycle: 0
+[+] AFL test case: id:000044,time:0,orig:228.jpg (44 / 610), cycle: 0
+[+] AFL test case: id:000045,time:0,orig:23.jpg (45 / 610), cycle: 0
+[+] AFL test case: id:000046,time:0,orig:231.jpg (46 / 610), cycle: 0
+[+] AFL test case: id:000047,time:0,orig:232.jpg (47 / 610), cycle: 0
+[+] AFL test case: id:000048,time:0,orig:234.jpg (48 / 610), cycle: 0
+[+] AFL test case: id:000049,time:0,orig:237.jpg (49 / 610), cycle: 0
+[+] AFL test case: id:000050,time:0,orig:24.jpg (50 / 610), cycle: 0
+[+] AFL test case: id:000051,time:0,orig:241.jpg (51 / 610), cycle: 0
+[+] AFL test case: id:000052,time:0,orig:246.jpg (52 / 610), cycle: 0
+[+] AFL test case: id:000053,time:0,orig:248.jpg (53 / 610), cycle: 0
+[+] AFL test case: id:000054,time:0,orig:250.jpg (54 / 610), cycle: 0
+[+] AFL test case: id:000055,time:0,orig:253.jpg (55 / 610), cycle: 0
+[+] AFL test case: id:000056,time:0,orig:255.jpg (56 / 610), cycle: 0
+[+] AFL test case: id:000057,time:0,orig:263.jpg (57 / 610), cycle: 0
+[+] AFL test case: id:000058,time:0,orig:264.jpg (58 / 610), cycle: 0
+[+] AFL test case: id:000059,time:0,orig:267.jpg (59 / 610), cycle: 0
+[+] AFL test case: id:000060,time:0,orig:268.jpg (60 / 610), cycle: 0
+[+] AFL test case: id:000061,time:0,orig:269.jpg (61 / 610), cycle: 0
+[+] AFL test case: id:000062,time:0,orig:27.jpg (62 / 610), cycle: 0
+[+] AFL test case: id:000063,time:0,orig:270.jpg (63 / 610), cycle: 0
+[+] AFL test case: id:000064,time:0,orig:274.jpg (64 / 610), cycle: 0
+[+] AFL test case: id:000065,time:0,orig:275.jpg (65 / 610), cycle: 0
+[+] AFL test case: id:000066,time:0,orig:278.jpg (66 / 610), cycle: 0
+[+] AFL test case: id:000067,time:0,orig:280.jpg (67 / 610), cycle: 0
+[+] AFL test case: id:000068,time:0,orig:281.jpg (68 / 610), cycle: 0
+[+] AFL test case: id:000069,time:0,orig:286.jpg (69 / 610), cycle: 0
+[+] AFL test case: id:000070,time:0,orig:287.jpg (70 / 610), cycle: 0
+[+] AFL test case: id:000071,time:0,orig:292.jpg (71 / 610), cycle: 0
+[+] AFL test case: id:000072,time:0,orig:293.jpg (72 / 610), cycle: 0
+[+] AFL test case: id:000073,time:0,orig:294.jpg (73 / 610), cycle: 0
+[+] AFL test case: id:000074,time:0,orig:296.jpg (74 / 610), cycle: 0
+[+] AFL test case: id:000075,time:0,orig:299.jpg (75 / 610), cycle: 0
+[+] AFL test case: id:000076,time:0,orig:30.jpg (76 / 610), cycle: 0
+[+] AFL test case: id:000077,time:0,orig:37.jpg (77 / 610), cycle: 0
+[+] AFL test case: id:000078,time:0,orig:4.jpg (78 / 610), cycle: 0
+[+] AFL test case: id:000079,time:0,orig:40.jpg (79 / 610), cycle: 0
+[+] AFL test case: id:000080,time:0,orig:44.jpg (80 / 610), cycle: 0
+[+] AFL test case: id:000081,time:0,orig:46.jpg (81 / 610), cycle: 0
+[+] AFL test case: id:000082,time:0,orig:50.jpg (82 / 610), cycle: 0
+[+] AFL test case: id:000083,time:0,orig:58.jpg (83 / 610), cycle: 0
+[+] AFL test case: id:000084,time:0,orig:59.jpg (84 / 610), cycle: 0
+[+] AFL test case: id:000085,time:0,orig:66.jpg (85 / 610), cycle: 0
+[+] AFL test case: id:000086,time:0,orig:72.jpg (86 / 610), cycle: 0
+[+] AFL test case: id:000087,time:0,orig:75.jpg (87 / 610), cycle: 0
+[+] AFL test case: id:000088,time:0,orig:78.jpg (88 / 610), cycle: 0
+[+] AFL test case: id:000089,time:0,orig:81.jpg (89 / 610), cycle: 0
+[+] AFL test case: id:000090,time:0,orig:84.jpg (90 / 610), cycle: 0
+[+] AFL test case: id:000091,time:0,orig:88.jpg (91 / 610), cycle: 0
+[+] AFL test case: id:000092,time:0,orig:89.jpg (92 / 610), cycle: 0
+[+] AFL test case: id:000093,time:0,orig:9.jpg (93 / 610), cycle: 0
+[+] AFL test case: id:000094,time:0,orig:91.jpg (94 / 610), cycle: 0
+[+] AFL test case: id:000095,time:0,orig:92.jpg (95 / 610), cycle: 0
+[+] AFL test case: id:000096,time:0,orig:95.jpg (96 / 610), cycle: 0
+[+] AFL test case: id:000097,time:0,orig:96.jpg (97 / 610), cycle: 0
+[+] AFL test case: id:000098,time:0,orig:97.jpg (98 / 610), cycle: 0
+[+] AFL test case: id:000099,time:0,orig:99.jpg (99 / 610), cycle: 0
+[+] AFL test case: id:000100,src:000050,time:455+000088,op:splice,rep:128,+cov (100 / 610), cycle: 0
+[+] AFL test case: id:000101,src:000081,time:818+000085,op:splice,rep:128,+cov (101 / 610), cycle: 0
+[+] AFL test case: id:000102,src:000100,time:1233,op:havoc,rep:64 (102 / 610), cycle: 0
+[+] AFL test case: id:000103,src:000100,time:1285,op:havoc,rep:4 (103 / 610), cycle: 0
+[+] AFL test case: id:000104,src:000100,time:1326,op:havoc,rep:32,+cov (104 / 610), cycle: 0
+[+] AFL test case: id:000105,src:000100,time:1389,op:havoc,rep:64,+cov (105 / 610), cycle: 0
+[+] AFL test case: id:000106,src:000100,time:1805,op:havoc,rep:16,+cov (106 / 610), cycle: 0
+[+] AFL test case: id:000107,src:000100,time:2119,op:havoc,rep:64 (107 / 610), cycle: 0
+[+] AFL test case: id:000108,src:000100,time:2454,op:havoc,rep:64 (108 / 610), cycle: 0
+[+] AFL test case: id:000109,src:000100,time:2591,op:havoc,rep:8,+cov (109 / 610), cycle: 0
+[+] AFL test case: id:000110,src:000100,time:2888,op:havoc,rep:32 (110 / 610), cycle: 0
+[+] AFL test case: id:000111,src:000100,time:3093,op:havoc,rep:128 (111 / 610), cycle: 0
+[+] AFL test case: id:000112,src:000100,time:3986+000040,op:splice,rep:128 (112 / 610), cycle: 0
+[+] AFL test case: id:000113,src:000106,time:5184,op:havoc,rep:8 (113 / 610), cycle: 0
+[+] AFL test case: id:000114,src:000106,time:5211,op:havoc,rep:32 (114 / 610), cycle: 0
+[+] AFL test case: id:000115,src:000106,time:5266,op:havoc,rep:8 (115 / 610), cycle: 0
+[+] AFL test case: id:000116,src:000106,time:5641,op:havoc,rep:16 (116 / 610), cycle: 0
+[+] AFL test case: id:000117,src:000106,time:5769,op:havoc,rep:64 (117 / 610), cycle: 0
+[+] AFL test case: id:000118,src:000106,time:5969,op:havoc,rep:4,+cov (118 / 610), cycle: 0
+[+] AFL test case: id:000119,src:000106,time:6061,op:havoc,rep:16 (119 / 610), cycle: 0
+[+] AFL test case: id:000120,src:000106,time:6275,op:havoc,rep:64 (120 / 610), cycle: 0
+[+] AFL test case: id:000121,src:000106,time:6728,op:havoc,rep:32,+cov (121 / 610), cycle: 0
+[+] AFL test case: id:000122,src:000106,time:6931,op:havoc,rep:64 (122 / 610), cycle: 0
+[+] AFL test case: id:000123,src:000106,time:8790,op:havoc,rep:4,+cov (123 / 610), cycle: 0
+[+] AFL test case: id:000124,src:000106,time:8990+000014,op:splice,rep:4 (124 / 610), cycle: 0
+[+] AFL test case: id:000125,src:000106,time:9098+000058,op:splice,rep:128 (125 / 610), cycle: 0
+[+] AFL test case: id:000126,src:000121,time:12278+000032,op:splice,rep:128 (126 / 610), cycle: 0
+[+] AFL test case: id:000127,src:000123,time:13070+000065,op:splice,rep:128 (127 / 610), cycle: 0
+[+] AFL test case: id:000128,src:000114,time:35547,op:havoc,rep:4 (128 / 610), cycle: 0
+[+] AFL test case: id:000129,src:000114,time:36001+000052,op:splice,rep:128,+cov (129 / 610), cycle: 0
+[+] AFL test case: id:000130,src:000118,time:77928+000102,op:splice,rep:4 (130 / 610), cycle: 0
+[+] AFL test case: id:000131,src:000001,time:82554+000106,op:splice,rep:16,+cov (131 / 610), cycle: 0
+[+] AFL test case: id:000132,src:000130,time:100165,op:havoc,rep:8 (132 / 610), cycle: 0
+[+] AFL test case: id:000133,src:000121,time:112673,op:havoc,rep:32,+cov (133 / 610), cycle: 0
+[+] AFL test case: id:000134,src:000131,time:129421+000106,op:splice,rep:8,+cov (134 / 610), cycle: 0
+[+] AFL test case: id:000135,src:000134,time:129700,op:havoc,rep:32 (135 / 610), cycle: 0
+[+] AFL test case: id:000136,src:000134,time:129739,op:havoc,rep:128,+cov (136 / 610), cycle: 0
+[+] AFL test case: id:000137,src:000134,time:130715,op:havoc,rep:8 (137 / 610), cycle: 0
+[+] AFL test case: id:000138,src:000135,time:133334,op:havoc,rep:32 (138 / 610), cycle: 0
+[+] AFL test case: id:000139,src:000118,time:192007+000016,op:splice,rep:32,+cov (139 / 610), cycle: 0
+[+] AFL test case: id:000140,src:000139,time:192604,op:havoc,rep:16,+cov (140 / 610), cycle: 0
+[+] AFL test case: id:000141,src:000139,time:192985,op:havoc,rep:16,+cov (141 / 610), cycle: 0
+[+] AFL test case: id:000142,src:000141,time:199175,op:havoc,rep:32 (142 / 610), cycle: 0
+[+] AFL test case: id:000143,src:000142,time:228020+000045,op:splice,rep:4 (143 / 610), cycle: 0
+[+] AFL test case: id:000144,src:000143,time:230587,op:havoc,rep:16 (144 / 610), cycle: 0
+[+] AFL test case: id:000145,src:000143,time:230742,op:havoc,rep:16 (145 / 610), cycle: 0
+[+] AFL test case: id:000146,src:000145,time:234616,op:havoc,rep:8 (146 / 610), cycle: 0
+[+] AFL test case: id:000147,src:000145,time:236222+000011,op:splice,rep:16,+cov (147 / 610), cycle: 0
+[+] AFL test case: id:000148,src:000147,time:240241+000034,op:splice,rep:16 (148 / 610), cycle: 0
+[+] AFL test case: id:000149,src:000144,time:264654,op:havoc,rep:16 (149 / 610), cycle: 0
+[+] AFL test case: id:000150,src:000133,time:284431+000056,op:splice,rep:64 (150 / 610), cycle: 0
+[+] AFL test case: id:000151,src:000137,time:286036,op:havoc,rep:128,+cov (151 / 610), cycle: 0
+[+] AFL test case: id:000152,src:000151,time:289190,op:havoc,rep:8,+cov (152 / 610), cycle: 0
+[+] AFL test case: id:000153,src:000152,time:291799+000014,op:splice,rep:32,+cov (153 / 610), cycle: 0
+[+] AFL test case: id:000154,src:000152,time:291946+000126,op:splice,rep:128,+cov (154 / 610), cycle: 0
+[+] AFL test case: id:000155,src:000132,time:306820+000151,op:splice,rep:64 (155 / 610), cycle: 0
+[+] AFL test case: id:000156,src:000148,time:314772+000030,op:splice,rep:4 (156 / 610), cycle: 0
+[+] AFL test case: id:000157,src:000153,time:318399,op:havoc,rep:128,+cov (157 / 610), cycle: 0
+[+] AFL test case: id:000158,src:000157,time:320163,op:havoc,rep:8,+cov (158 / 610), cycle: 0
+[+] AFL test case: id:000159,src:000157,time:320365,op:havoc,rep:32,+cov (159 / 610), cycle: 0
+[+] AFL test case: id:000160,src:000158,time:322315,op:havoc,rep:8 (160 / 610), cycle: 0
+[+] AFL test case: id:000161,src:000158,time:322336,op:havoc,rep:2 (161 / 610), cycle: 0
+[+] AFL test case: id:000162,src:000146,time:346223,op:havoc,rep:32 (162 / 610), cycle: 0
+[+] AFL test case: id:000163,src:000158,time:422348+000124,op:splice,rep:64,+cov (163 / 610), cycle: 0
+[+] AFL test case: id:000164,src:000163,time:423160,op:havoc,rep:8,+cov (164 / 610), cycle: 0
+[+] AFL test case: id:000165,src:000163,time:423336,op:havoc,rep:32,+cov (165 / 610), cycle: 0
+[+] AFL test case: id:000166,src:000160,time:492587+000122,op:splice,rep:64 (166 / 610), cycle: 0
+[+] AFL test case: id:000167,src:000156,time:516634,op:havoc,rep:2 (167 / 610), cycle: 0
+[+] AFL test case: id:000168,src:000156,time:517605,op:havoc,rep:8 (168 / 610), cycle: 0
+[+] AFL test case: id:000169,src:000167,time:522138+000092,op:splice,rep:32 (169 / 610), cycle: 0
+[+] AFL test case: id:000170,src:000162,time:555116+000168,op:splice,rep:4 (170 / 610), cycle: 0
+[+] AFL test case: id:000171,src:000148,time:600290,op:havoc,rep:32 (171 / 610), cycle: 0
+[+] AFL test case: id:000172,src:000148,time:600390,op:havoc,rep:64 (172 / 610), cycle: 0
+[+] AFL test case: id:000173,src:000148,time:600855,op:havoc,rep:8 (173 / 610), cycle: 0
+[+] AFL test case: id:000174,src:000148,time:601469,op:havoc,rep:128 (174 / 610), cycle: 0
+[+] AFL test case: id:000175,src:000148,time:602112,op:havoc,rep:64 (175 / 610), cycle: 0
+[+] AFL test case: id:000176,src:000152,time:603260,op:havoc,rep:128 (176 / 610), cycle: 0
+[+] AFL test case: id:000177,src:000153,time:603924+000172,op:splice,rep:128 (177 / 610), cycle: 0
+[+] AFL test case: id:000178,src:000157,time:604879+000025,op:splice,rep:32 (178 / 610), cycle: 0
+[+] AFL test case: id:000179,src:000160,time:606491+000173,op:splice,rep:128,+cov (179 / 610), cycle: 0
+[+] AFL test case: id:000180,src:000019,time:611789+000020,op:splice,rep:128,+cov (180 / 610), cycle: 0
+[+] AFL test case: id:000181,src:000174,time:659614+000176,op:splice,rep:4 (181 / 610), cycle: 0
+[+] AFL test case: id:000182,src:000174,time:659975+000176,op:splice,rep:4 (182 / 610), cycle: 0
+[+] AFL test case: id:000183,src:000174,time:660069+000176,op:splice,rep:8 (183 / 610), cycle: 0
+[+] AFL test case: id:000184,src:000165,time:700374,op:havoc,rep:8,+cov (184 / 610), cycle: 0
+[+] AFL test case: id:000185,src:000184,time:702808,op:havoc,rep:64,+cov (185 / 610), cycle: 0
+[+] AFL test case: id:000186,src:000184,time:702839,op:havoc,rep:4,+cov (186 / 610), cycle: 0
+[+] AFL test case: id:000187,src:000184,time:703293,op:havoc,rep:64,+cov (187 / 610), cycle: 0
+[+] AFL test case: id:000188,src:000184,time:703997,op:havoc,rep:2,+cov (188 / 610), cycle: 0
+[+] AFL test case: id:000189,src:000184,time:704278,op:havoc,rep:2,+cov (189 / 610), cycle: 0
+[+] AFL test case: id:000190,src:000184,time:704518,op:havoc,rep:32,+cov (190 / 610), cycle: 0
+[+] AFL test case: id:000191,src:000184,time:704716,op:havoc,rep:64 (191 / 610), cycle: 0
+[+] AFL test case: id:000192,src:000184,time:704885,op:havoc,rep:32 (192 / 610), cycle: 0
+[+] AFL test case: id:000193,src:000184,time:704946,op:havoc,rep:8 (193 / 610), cycle: 0
+[+] AFL test case: id:000194,src:000184,time:705044,op:havoc,rep:16 (194 / 610), cycle: 0
+[+] AFL test case: id:000195,src:000184,time:705271,op:havoc,rep:8 (195 / 610), cycle: 0
+[+] AFL test case: id:000196,src:000184,time:705293,op:havoc,rep:128,+cov (196 / 610), cycle: 0
+[+] AFL test case: id:000197,src:000184,time:705806,op:havoc,rep:128,+cov (197 / 610), cycle: 0
+[+] AFL test case: id:000198,src:000184,time:705953,op:havoc,rep:128 (198 / 610), cycle: 0
+[+] AFL test case: id:000199,src:000184,time:706089+000040,op:splice,rep:64 (199 / 610), cycle: 0
+[+] AFL test case: id:000200,src:000184,time:706164+000040,op:splice,rep:16 (200 / 610), cycle: 0
+[+] AFL test case: id:000201,src:000184,time:706322+000040,op:splice,rep:16 (201 / 610), cycle: 0
+[+] AFL test case: id:000202,src:000184,time:707036+000077,op:splice,rep:128 (202 / 610), cycle: 0
+[+] AFL test case: id:000203,src:000184,time:707257+000038,op:splice,rep:32 (203 / 610), cycle: 0
+[+] AFL test case: id:000204,src:000184,time:707551+000084,op:splice,rep:64,+cov (204 / 610), cycle: 0
+[+] AFL test case: id:000205,src:000184,time:707850+000153,op:splice,rep:32 (205 / 610), cycle: 0
+[+] AFL test case: id:000206,src:000184,time:707867+000153,op:splice,rep:8 (206 / 610), cycle: 0
+[+] AFL test case: id:000207,src:000184,time:707928+000153,op:splice,rep:64 (207 / 610), cycle: 0
+[+] AFL test case: id:000208,src:000184,time:708047+000153,op:splice,rep:16 (208 / 610), cycle: 0
+[+] AFL test case: id:000209,src:000184,time:708438+000199,op:splice,rep:16 (209 / 610), cycle: 0
+[+] AFL test case: id:000210,src:000184,time:708777+000199,op:splice,rep:8,+cov (210 / 610), cycle: 0
+[+] AFL test case: id:000211,src:000184,time:709515+000070,op:splice,rep:32 (211 / 610), cycle: 0
+[+] AFL test case: id:000212,src:000184,time:710219+000060,op:splice,rep:128 (212 / 610), cycle: 0
+[+] AFL test case: id:000213,src:000185,time:712169+000017,op:splice,rep:128 (213 / 610), cycle: 0
+[+] AFL test case: id:000214,src:000185,time:713398+000200,op:splice,rep:128 (214 / 610), cycle: 0
+[+] AFL test case: id:000215,src:000185,time:713791+000200,op:splice,rep:128 (215 / 610), cycle: 0
+[+] AFL test case: id:000216,src:000187,time:717218+000175,op:splice,rep:16 (216 / 610), cycle: 0
+[+] AFL test case: id:000217,src:000187,time:717231+000175,op:splice,rep:64 (217 / 610), cycle: 0
+[+] AFL test case: id:000218,src:000187,time:717906+000136,op:splice,rep:64,+cov (218 / 610), cycle: 0
+[+] AFL test case: id:000219,src:000188,time:718299,op:havoc,rep:32 (219 / 610), cycle: 0
+[+] AFL test case: id:000220,src:000188,time:718320,op:havoc,rep:128 (220 / 610), cycle: 0
+[+] AFL test case: id:000221,src:000188,time:718339,op:havoc,rep:16 (221 / 610), cycle: 0
+[+] AFL test case: id:000222,src:000188,time:718443,op:havoc,rep:32 (222 / 610), cycle: 0
+[+] AFL test case: id:000223,src:000188,time:718463,op:havoc,rep:2 (223 / 610), cycle: 0
+[+] AFL test case: id:000224,src:000188,time:718527,op:havoc,rep:32 (224 / 610), cycle: 0
+[+] AFL test case: id:000225,src:000188,time:718549,op:havoc,rep:16 (225 / 610), cycle: 0
+[+] AFL test case: id:000226,src:000188,time:718565,op:havoc,rep:8 (226 / 610), cycle: 0
+[+] AFL test case: id:000227,src:000188,time:718629,op:havoc,rep:8 (227 / 610), cycle: 0
+[+] AFL test case: id:000228,src:000188,time:718694,op:havoc,rep:4 (228 / 610), cycle: 0
+[+] AFL test case: id:000229,src:000188,time:718877,op:havoc,rep:2 (229 / 610), cycle: 0
+[+] AFL test case: id:000230,src:000188,time:719000,op:havoc,rep:8 (230 / 610), cycle: 0
+[+] AFL test case: id:000231,src:000188,time:719015,op:havoc,rep:16 (231 / 610), cycle: 0
+[+] AFL test case: id:000232,src:000188,time:719029,op:havoc,rep:16 (232 / 610), cycle: 0
+[+] AFL test case: id:000233,src:000188,time:719183,op:havoc,rep:32 (233 / 610), cycle: 0
+[+] AFL test case: id:000234,src:000188,time:719194,op:havoc,rep:8 (234 / 610), cycle: 0
+[+] AFL test case: id:000235,src:000188,time:719222,op:havoc,rep:16 (235 / 610), cycle: 0
+[+] AFL test case: id:000236,src:000188,time:720095,op:havoc,rep:2 (236 / 610), cycle: 0
+[+] AFL test case: id:000237,src:000188,time:720267+000194,op:splice,rep:32 (237 / 610), cycle: 0
+[+] AFL test case: id:000238,src:000188,time:720363+000194,op:splice,rep:32 (238 / 610), cycle: 0
+[+] AFL test case: id:000239,src:000188,time:720494+000163,op:splice,rep:4 (239 / 610), cycle: 0
+[+] AFL test case: id:000240,src:000188,time:720878+000216,op:splice,rep:32 (240 / 610), cycle: 0
+[+] AFL test case: id:000241,src:000188,time:720944+000216,op:splice,rep:128 (241 / 610), cycle: 0
+[+] AFL test case: id:000242,src:000188,time:721099+000216,op:splice,rep:32 (242 / 610), cycle: 0
+[+] AFL test case: id:000243,src:000189,time:722962,op:havoc,rep:32 (243 / 610), cycle: 0
+[+] AFL test case: id:000244,src:000190,time:727245+000184,op:splice,rep:128 (244 / 610), cycle: 0
+[+] AFL test case: id:000245,src:000210,time:735030,op:havoc,rep:8 (245 / 610), cycle: 0
+[+] AFL test case: id:000246,src:000233,time:738217,op:havoc,rep:64 (246 / 610), cycle: 0
+[+] AFL test case: id:000247,src:000233,time:738354,op:havoc,rep:2 (247 / 610), cycle: 0
+[+] AFL test case: id:000248,src:000233,time:738764,op:havoc,rep:64 (248 / 610), cycle: 0
+[+] AFL test case: id:000249,src:000233,time:739922+000096,op:splice,rep:32 (249 / 610), cycle: 0
+[+] AFL test case: id:000250,src:000233,time:741126+000124,op:splice,rep:16 (250 / 610), cycle: 0
+[+] AFL test case: id:000251,src:000233,time:741317+000112,op:splice,rep:64 (251 / 610), cycle: 0
+[+] AFL test case: id:000252,src:000245,time:746352,op:havoc,rep:8,+cov (252 / 610), cycle: 0
+[+] AFL test case: id:000253,src:000245,time:749576+000197,op:splice,rep:8,+cov (253 / 610), cycle: 0
+[+] AFL test case: id:000254,src:000246,time:750872,op:havoc,rep:32 (254 / 610), cycle: 0
+[+] AFL test case: id:000255,src:000246,time:754358+000162,op:splice,rep:32,+cov (255 / 610), cycle: 0
+[+] AFL test case: id:000256,src:000252,time:757188+000223,op:splice,rep:64,+cov (256 / 610), cycle: 0
+[+] AFL test case: id:000257,src:000252,time:757423+000223,op:splice,rep:64,+cov (257 / 610), cycle: 0
+[+] AFL test case: id:000258,src:000252,time:757842+000186,op:splice,rep:16,+cov (258 / 610), cycle: 0
+[+] AFL test case: id:000259,src:000252,time:759464+000028,op:splice,rep:32,+cov (259 / 610), cycle: 0
+[+] AFL test case: id:000260,src:000253,time:761529+000217,op:splice,rep:128,+cov (260 / 610), cycle: 0
+[+] AFL test case: id:000261,src:000254,time:764289,op:havoc,rep:2 (261 / 610), cycle: 0
+[+] AFL test case: id:000262,src:000254,time:764389,op:havoc,rep:4 (262 / 610), cycle: 0
+[+] AFL test case: id:000263,src:000254,time:764788,op:havoc,rep:8 (263 / 610), cycle: 0
+[+] AFL test case: id:000264,src:000254,time:765464,op:havoc,rep:4 (264 / 610), cycle: 0
+[+] AFL test case: id:000265,src:000255,time:769667,op:havoc,rep:64,+cov (265 / 610), cycle: 0
+[+] AFL test case: id:000266,src:000257,time:788032+000254,op:splice,rep:16 (266 / 610), cycle: 0
+[+] AFL test case: id:000267,src:000260,time:799110,op:havoc,rep:64 (267 / 610), cycle: 0
+[+] AFL test case: id:000268,src:000260,time:801866,op:havoc,rep:64,+cov (268 / 610), cycle: 0
+[+] AFL test case: id:000269,src:000261,time:808612+000046,op:splice,rep:16 (269 / 610), cycle: 0
+[+] AFL test case: id:000270,src:000171,time:867943,op:havoc,rep:8 (270 / 610), cycle: 0
+[+] AFL test case: id:000271,src:000190,time:889982,op:havoc,rep:64 (271 / 610), cycle: 0
+[+] AFL test case: id:000272,src:000214,time:915675+000007,op:splice,rep:32 (272 / 610), cycle: 0
+[+] AFL test case: id:000273,src:000219,time:917283,op:havoc,rep:8 (273 / 610), cycle: 0
+[+] AFL test case: id:000274,src:000219,time:918916+000090,op:splice,rep:64 (274 / 610), cycle: 0
+[+] AFL test case: id:000275,src:000219,time:920256+000058,op:splice,rep:64 (275 / 610), cycle: 0
+[+] AFL test case: id:000276,src:000231,time:924142+000191,op:splice,rep:32,+cov (276 / 610), cycle: 0
+[+] AFL test case: id:000277,src:000185,time:967240+000053,op:splice,rep:64,+cov (277 / 610), cycle: 0
+[+] AFL test case: id:000278,src:000208,time:972688+000050,op:splice,rep:64 (278 / 610), cycle: 0
+[+] AFL test case: id:000279,src:000277,time:975537+000199,op:splice,rep:32 (279 / 610), cycle: 0
+[+] AFL test case: id:000280,src:000277,time:976248+000265,op:splice,rep:16,+cov (280 / 610), cycle: 0
+[+] AFL test case: id:000281,src:000280,time:977705,op:havoc,rep:2,+cov (281 / 610), cycle: 0
+[+] AFL test case: id:000282,src:000280,time:977782,op:havoc,rep:2 (282 / 610), cycle: 0
+[+] AFL test case: id:000283,src:000280,time:977835,op:havoc,rep:2,+cov (283 / 610), cycle: 0
+[+] AFL test case: id:000284,src:000280,time:977883,op:havoc,rep:2 (284 / 610), cycle: 0
+[+] AFL test case: id:000285,src:000280,time:977905,op:havoc,rep:2 (285 / 610), cycle: 0
+[+] AFL test case: id:000286,src:000280,time:977920,op:havoc,rep:2 (286 / 610), cycle: 0
+[+] AFL test case: id:000287,src:000280,time:977957,op:havoc,rep:2 (287 / 610), cycle: 0
+[+] AFL test case: id:000288,src:000280,time:978029,op:havoc,rep:4,+cov (288 / 610), cycle: 0
+[+] AFL test case: id:000289,src:000280,time:978040,op:havoc,rep:2 (289 / 610), cycle: 0
+[+] AFL test case: id:000290,src:000280,time:978062,op:havoc,rep:8 (290 / 610), cycle: 0
+[+] AFL test case: id:000291,src:000280,time:978357,op:havoc,rep:16 (291 / 610), cycle: 0
+[+] AFL test case: id:000292,src:000280,time:978469,op:havoc,rep:128 (292 / 610), cycle: 0
+[+] AFL test case: id:000293,src:000280,time:978533,op:havoc,rep:4 (293 / 610), cycle: 0
+[+] AFL test case: id:000294,src:000280,time:978551,op:havoc,rep:16 (294 / 610), cycle: 0
+[+] AFL test case: id:000295,src:000280,time:978717,op:havoc,rep:128,+cov (295 / 610), cycle: 0
+[+] AFL test case: id:000296,src:000280,time:978769,op:havoc,rep:16 (296 / 610), cycle: 0
+[+] AFL test case: id:000297,src:000280,time:978896,op:havoc,rep:2 (297 / 610), cycle: 0
+[+] AFL test case: id:000298,src:000280,time:979061,op:havoc,rep:4 (298 / 610), cycle: 0
+[+] AFL test case: id:000299,src:000280,time:979884,op:havoc,rep:2 (299 / 610), cycle: 0
+[+] AFL test case: id:000300,src:000280,time:979961,op:havoc,rep:8 (300 / 610), cycle: 0
+[+] AFL test case: id:000301,src:000280,time:980341,op:havoc,rep:4 (301 / 610), cycle: 0
+[+] AFL test case: id:000302,src:000280,time:980622,op:havoc,rep:128 (302 / 610), cycle: 0
+[+] AFL test case: id:000303,src:000280,time:980749,op:havoc,rep:64 (303 / 610), cycle: 0
+[+] AFL test case: id:000304,src:000280,time:982768+000123,op:splice,rep:64 (304 / 610), cycle: 0
+[+] AFL test case: id:000305,src:000283,time:984350,op:havoc,rep:2,+cov (305 / 610), cycle: 0
+[+] AFL test case: id:000306,src:000283,time:986689,op:havoc,rep:8 (306 / 610), cycle: 0
+[+] AFL test case: id:000307,src:000283,time:987798+000217,op:splice,rep:16,+cov (307 / 610), cycle: 0
+[+] AFL test case: id:000308,src:000307,time:1009505,op:havoc,rep:32 (308 / 610), cycle: 0
+[+] AFL test case: id:000309,src:000307,time:1010108,op:havoc,rep:32 (309 / 610), cycle: 0
+[+] AFL test case: id:000310,src:000307,time:1010698,op:havoc,rep:128 (310 / 610), cycle: 0
+[+] AFL test case: id:000311,src:000307,time:1012211,op:havoc,rep:8 (311 / 610), cycle: 0
+[+] AFL test case: id:000312,src:000311,time:1018209,op:havoc,rep:4 (312 / 610), cycle: 0
+[+] AFL test case: id:000313,src:000311,time:1018892,op:havoc,rep:32 (313 / 610), cycle: 0
+[+] AFL test case: id:000314,src:000311,time:1019738,op:havoc,rep:32 (314 / 610), cycle: 0
+[+] AFL test case: id:000315,src:000312,time:1028116,op:havoc,rep:2 (315 / 610), cycle: 0
+[+] AFL test case: id:000316,src:000196,time:1104591+000113,op:splice,rep:32 (316 / 610), cycle: 0
+[+] AFL test case: id:000317,src:000211,time:1128959,op:havoc,rep:32,+cov (317 / 610), cycle: 0
+[+] AFL test case: id:000318,src:000317,time:1142108,op:havoc,rep:32 (318 / 610), cycle: 0
+[+] AFL test case: id:000319,src:000317,time:1142603,op:havoc,rep:4,+cov (319 / 610), cycle: 0
+[+] AFL test case: id:000320,src:000317,time:1145621+000316,op:splice,rep:64,+cov (320 / 610), cycle: 0
+[+] AFL test case: id:000321,src:000317,time:1146848+000222,op:splice,rep:128 (321 / 610), cycle: 0
+[+] AFL test case: id:000322,src:000317,time:1148072+000252,op:splice,rep:128,+cov (322 / 610), cycle: 0
+[+] AFL test case: id:000323,src:000319,time:1149387,op:havoc,rep:64 (323 / 610), cycle: 0
+[+] AFL test case: id:000324,src:000319,time:1149789,op:havoc,rep:8,+cov (324 / 610), cycle: 0
+[+] AFL test case: id:000325,src:000319,time:1155376+000279,op:splice,rep:64,+cov (325 / 610), cycle: 0
+[+] AFL test case: id:000326,src:000320,time:1165022+000224,op:splice,rep:16 (326 / 610), cycle: 0
+[+] AFL test case: id:000327,src:000322,time:1165517,op:havoc,rep:16 (327 / 610), cycle: 0
+[+] AFL test case: id:000328,src:000324,time:1172199,op:havoc,rep:64 (328 / 610), cycle: 0
+[+] AFL test case: id:000329,src:000324,time:1174432,op:havoc,rep:32,+cov (329 / 610), cycle: 0
+[+] AFL test case: id:000330,src:000325,time:1178290,op:havoc,rep:32 (330 / 610), cycle: 0
+[+] AFL test case: id:000331,src:000326,time:1183673,op:havoc,rep:2 (331 / 610), cycle: 0
+[+] AFL test case: id:000332,src:000329,time:1189241,op:havoc,rep:4 (332 / 610), cycle: 0
+[+] AFL test case: id:000333,src:000330,time:1192349,op:havoc,rep:32 (333 / 610), cycle: 0
+[+] AFL test case: id:000334,src:000330,time:1192661,op:havoc,rep:32 (334 / 610), cycle: 0
+[+] AFL test case: id:000335,src:000330,time:1193171,op:havoc,rep:32,+cov (335 / 610), cycle: 0
+[+] AFL test case: id:000336,src:000330,time:1195573+000067,op:splice,rep:64,+cov (336 / 610), cycle: 0
+[+] AFL test case: id:000337,src:000331,time:1198279,op:havoc,rep:8 (337 / 610), cycle: 0
+[+] AFL test case: id:000338,src:000332,time:1206218+000295,op:splice,rep:2 (338 / 610), cycle: 0
+[+] AFL test case: id:000339,src:000335,time:1211415+000275,op:splice,rep:32,+cov (339 / 610), cycle: 0
+[+] AFL test case: id:000340,src:000336,time:1217037+000289,op:splice,rep:4,+cov (340 / 610), cycle: 0
+[+] AFL test case: id:000341,src:000336,time:1217626+000182,op:splice,rep:64 (341 / 610), cycle: 0
+[+] AFL test case: id:000342,src:000339,time:1220517,op:havoc,rep:128 (342 / 610), cycle: 0
+[+] AFL test case: id:000343,src:000339,time:1224962+000315,op:splice,rep:8 (343 / 610), cycle: 0
+[+] AFL test case: id:000344,src:000339,time:1225164+000315,op:splice,rep:64 (344 / 610), cycle: 0
+[+] AFL test case: id:000345,src:000339,time:1225276+000315,op:splice,rep:32 (345 / 610), cycle: 0
+[+] AFL test case: id:000346,src:000344,time:1241051+000139,op:splice,rep:32 (346 / 610), cycle: 0
+[+] AFL test case: id:000347,src:000346,time:1243717,op:havoc,rep:64 (347 / 610), cycle: 0
+[+] AFL test case: id:000348,src:000129,time:1268013+000306,op:splice,rep:32,+cov (348 / 610), cycle: 0
+[+] AFL test case: id:000349,src:000348,time:1268619,op:havoc,rep:64 (349 / 610), cycle: 0
+[+] AFL test case: id:000350,src:000348,time:1268645,op:havoc,rep:32,+cov (350 / 610), cycle: 0
+[+] AFL test case: id:000351,src:000348,time:1270278,op:havoc,rep:8 (351 / 610), cycle: 0
+[+] AFL test case: id:000352,src:000169,time:1307225,op:havoc,rep:4 (352 / 610), cycle: 0
+[+] AFL test case: id:000353,src:000217,time:1393696+000104,op:splice,rep:32 (353 / 610), cycle: 0
+[+] AFL test case: id:000354,src:000250,time:1461501,op:havoc,rep:16 (354 / 610), cycle: 0
+[+] AFL test case: id:000355,src:000271,time:1548035,op:havoc,rep:64 (355 / 610), cycle: 0
+[+] AFL test case: id:000356,src:000283,time:1585082+000260,op:splice,rep:64 (356 / 610), cycle: 0
+[+] AFL test case: id:000357,src:000295,time:1613076+000233,op:splice,rep:8,+cov (357 / 610), cycle: 0
+[+] AFL test case: id:000358,src:000357,time:1613654,op:havoc,rep:4 (358 / 610), cycle: 0
+[+] AFL test case: id:000359,src:000357,time:1613670,op:havoc,rep:16 (359 / 610), cycle: 0
+[+] AFL test case: id:000360,src:000357,time:1613688,op:havoc,rep:4 (360 / 610), cycle: 0
+[+] AFL test case: id:000361,src:000357,time:1613792,op:havoc,rep:8 (361 / 610), cycle: 0
+[+] AFL test case: id:000362,src:000357,time:1613839,op:havoc,rep:16,+cov (362 / 610), cycle: 0
+[+] AFL test case: id:000363,src:000357,time:1613850,op:havoc,rep:32 (363 / 610), cycle: 0
+[+] AFL test case: id:000364,src:000357,time:1616822+000177,op:splice,rep:8 (364 / 610), cycle: 0
+[+] AFL test case: id:000365,src:000357,time:1617109+000177,op:splice,rep:32 (365 / 610), cycle: 0
+[+] AFL test case: id:000366,src:000357,time:1619104+000360,op:splice,rep:8 (366 / 610), cycle: 0
+[+] AFL test case: id:000367,src:000360,time:1619908,op:havoc,rep:64 (367 / 610), cycle: 0
+[+] AFL test case: id:000368,src:000360,time:1624146+000200,op:splice,rep:128 (368 / 610), cycle: 0
+[+] AFL test case: id:000369,src:000362,time:1625513,op:havoc,rep:8,+cov (369 / 610), cycle: 0
+[+] AFL test case: id:000370,src:000362,time:1626319,op:havoc,rep:32,+cov (370 / 610), cycle: 0
+[+] AFL test case: id:000371,src:000362,time:1627697,op:havoc,rep:4,+cov (371 / 610), cycle: 0
+[+] AFL test case: id:000372,src:000369,time:1630081,op:havoc,rep:4 (372 / 610), cycle: 0
+[+] AFL test case: id:000373,src:000369,time:1630466,op:havoc,rep:8 (373 / 610), cycle: 0
+[+] AFL test case: id:000374,src:000369,time:1630481,op:havoc,rep:8,+cov (374 / 610), cycle: 0
+[+] AFL test case: id:000375,src:000369,time:1631410,op:havoc,rep:8 (375 / 610), cycle: 0
+[+] AFL test case: id:000376,src:000369,time:1632322,op:havoc,rep:32 (376 / 610), cycle: 0
+[+] AFL test case: id:000377,src:000369,time:1633116+000373,op:splice,rep:8,+cov (377 / 610), cycle: 0
+[+] AFL test case: id:000378,src:000369,time:1634856+000356,op:splice,rep:16 (378 / 610), cycle: 0
+[+] AFL test case: id:000379,src:000369,time:1634916+000356,op:splice,rep:32 (379 / 610), cycle: 0
+[+] AFL test case: id:000380,src:000371,time:1636032,op:havoc,rep:2 (380 / 610), cycle: 0
+[+] AFL test case: id:000381,src:000371,time:1636116,op:havoc,rep:4 (381 / 610), cycle: 0
+[+] AFL test case: id:000382,src:000371,time:1636277,op:havoc,rep:4 (382 / 610), cycle: 0
+[+] AFL test case: id:000383,src:000371,time:1636373,op:havoc,rep:4 (383 / 610), cycle: 0
+[+] AFL test case: id:000384,src:000371,time:1636399,op:havoc,rep:16 (384 / 610), cycle: 0
+[+] AFL test case: id:000385,src:000371,time:1636417,op:havoc,rep:8 (385 / 610), cycle: 0
+[+] AFL test case: id:000386,src:000371,time:1636436,op:havoc,rep:2 (386 / 610), cycle: 0
+[+] AFL test case: id:000387,src:000371,time:1636578,op:havoc,rep:16,+cov (387 / 610), cycle: 0
+[+] AFL test case: id:000388,src:000371,time:1636681,op:havoc,rep:32 (388 / 610), cycle: 0
+[+] AFL test case: id:000389,src:000371,time:1636912,op:havoc,rep:8 (389 / 610), cycle: 0
+[+] AFL test case: id:000390,src:000371,time:1637105,op:havoc,rep:16 (390 / 610), cycle: 0
+[+] AFL test case: id:000391,src:000371,time:1637148,op:havoc,rep:8 (391 / 610), cycle: 0
+[+] AFL test case: id:000392,src:000371,time:1637349,op:havoc,rep:4 (392 / 610), cycle: 0
+[+] AFL test case: id:000393,src:000373,time:1642500,op:havoc,rep:32 (393 / 610), cycle: 0
+[+] AFL test case: id:000394,src:000374,time:1647594,op:havoc,rep:2,+cov (394 / 610), cycle: 0
+[+] AFL test case: id:000395,src:000387,time:1660622,op:havoc,rep:4 (395 / 610), cycle: 0
+[+] AFL test case: id:000396,src:000387,time:1663700+000324,op:splice,rep:8 (396 / 610), cycle: 0
+[+] AFL test case: id:000397,src:000390,time:1670253+000299,op:splice,rep:128 (397 / 610), cycle: 0
+[+] AFL test case: id:000398,src:000395,time:1672447+000229,op:splice,rep:4 (398 / 610), cycle: 0
+[+] AFL test case: id:000399,src:000396,time:1675152,op:havoc,rep:128 (399 / 610), cycle: 0
+[+] AFL test case: id:000400,src:000396,time:1675216,op:havoc,rep:128 (400 / 610), cycle: 0
+[+] AFL test case: id:000401,src:000396,time:1675270,op:havoc,rep:2 (401 / 610), cycle: 0
+[+] AFL test case: id:000402,src:000396,time:1675391,op:havoc,rep:16 (402 / 610), cycle: 0
+[+] AFL test case: id:000403,src:000396,time:1676837,op:havoc,rep:32 (403 / 610), cycle: 0
+[+] AFL test case: id:000404,src:000396,time:1678601,op:havoc,rep:32 (404 / 610), cycle: 0
+[+] AFL test case: id:000405,src:000311,time:1915530,op:havoc,rep:16 (405 / 610), cycle: 0
+[+] AFL test case: id:000406,src:000328,time:1936963,op:havoc,rep:64 (406 / 610), cycle: 0
+[+] AFL test case: id:000407,src:000331,time:1946911,op:havoc,rep:2,+cov (407 / 610), cycle: 0
+[+] AFL test case: id:000408,src:000407,time:1963291,op:havoc,rep:8 (408 / 610), cycle: 0
+[+] AFL test case: id:000409,src:000077,time:1979767+000405,op:splice,rep:32 (409 / 610), cycle: 0
+[+] AFL test case: id:000410,src:000173,time:2018940,op:havoc,rep:4 (410 / 610), cycle: 0
+[+] AFL test case: id:000411,src:000173,time:2020037,op:havoc,rep:4 (411 / 610), cycle: 0
+[+] AFL test case: id:000412,src:000259,time:2122463+000369,op:splice,rep:16,+cov (412 / 610), cycle: 0
+[+] AFL test case: id:000413,src:000128,time:2142353+000353,op:splice,rep:16 (413 / 610), cycle: 0
+[+] AFL test case: id:000414,src:000180,time:2171508+000224,op:splice,rep:8,+cov (414 / 610), cycle: 0
+[+] AFL test case: id:000415,src:000288,time:2439213+000315,op:splice,rep:32 (415 / 610), cycle: 0
+[+] AFL test case: id:000416,src:000313,time:2471390+000271,op:splice,rep:32 (416 / 610), cycle: 0
+[+] AFL test case: id:000417,src:000313,time:2474388+000198,op:splice,rep:128 (417 / 610), cycle: 0
+[+] AFL test case: id:000418,src:000318,time:2487695+000014,op:splice,rep:32 (418 / 610), cycle: 0
+[+] AFL test case: id:000419,src:000340,time:2518454+000416,op:splice,rep:64 (419 / 610), cycle: 0
+[+] AFL test case: id:000420,src:000341,time:2521026,op:havoc,rep:64 (420 / 610), cycle: 0
+[+] AFL test case: id:000421,src:000370,time:2558043,op:havoc,rep:16,+cov (421 / 610), cycle: 0
+[+] AFL test case: id:000422,src:000370,time:2559584,op:havoc,rep:4,+cov (422 / 610), cycle: 0
+[+] AFL test case: id:000423,src:000287,time:2785759+000053,op:splice,rep:64 (423 / 610), cycle: 0
+[+] AFL test case: id:000424,src:000295,time:2798703+000217,op:splice,rep:16 (424 / 610), cycle: 0
+[+] AFL test case: id:000425,src:000356,time:2837842,op:havoc,rep:32 (425 / 610), cycle: 0
+[+] AFL test case: id:000426,src:000356,time:2841465+000400,op:splice,rep:64,+cov (426 / 610), cycle: 0
+[+] AFL test case: id:000427,src:000356,time:2844867+000089,op:splice,rep:8 (427 / 610), cycle: 0
+[+] AFL test case: id:000428,src:000309,time:3110743+000215,op:splice,rep:32,+cov (428 / 610), cycle: 0
+[+] AFL test case: id:000429,src:000270,time:3293102+000120,op:splice,rep:32 (429 / 610), cycle: 0
+[+] AFL test case: id:000430,src:000287,time:3323120+000290,op:splice,rep:64 (430 / 610), cycle: 0
+[+] AFL test case: id:000431,src:000354,time:3440928+000428,op:splice,rep:32 (431 / 610), cycle: 0
+[+] AFL test case: id:000432,src:000371,time:3460686+000376,op:splice,rep:8 (432 / 610), cycle: 0
+[+] AFL test case: id:000433,src:000373,time:3463488+000092,op:splice,rep:32 (433 / 610), cycle: 0
+[+] AFL test case: id:000434,src:000399,time:3515249,op:havoc,rep:128 (434 / 610), cycle: 0
+[+] AFL test case: id:000435,src:000404,time:3519021,op:havoc,rep:8 (435 / 610), cycle: 0
+[+] AFL test case: id:000436,src:000404,time:3519051,op:havoc,rep:8 (436 / 610), cycle: 0
+[+] AFL test case: id:000437,src:000407,time:3527971,op:havoc,rep:128 (437 / 610), cycle: 0
+[+] AFL test case: id:000438,src:000427,time:3568026,op:havoc,rep:16 (438 / 610), cycle: 0
+[+] AFL test case: id:000439,src:000435,time:3587613,op:havoc,rep:16 (439 / 610), cycle: 0
+[+] AFL test case: id:000440,src:000439,time:3601728,op:havoc,rep:8 (440 / 610), cycle: 0
+[+] AFL test case: id:000441,src:000439,time:3602125,op:havoc,rep:4 (441 / 610), cycle: 0
+[+] AFL test case: id:000442,src:000239,time:3699673+000103,op:splice,rep:64 (442 / 610), cycle: 0
+[+] AFL test case: id:000443,src:000287,time:3778258+000339,op:splice,rep:64 (443 / 610), cycle: 0
+[+] AFL test case: id:000444,src:000328,time:3990409,op:havoc,rep:32 (444 / 610), cycle: 0
+[+] AFL test case: id:000445,src:000377,time:4045414,op:havoc,rep:2 (445 / 610), cycle: 0
+[+] AFL test case: id:000446,src:000399,time:4073428+000099,op:splice,rep:32 (446 / 610), cycle: 0
+[+] AFL test case: id:000447,src:000439,time:4114946,op:havoc,rep:8 (447 / 610), cycle: 0
+[+] AFL test case: id:000448,src:000342,time:4362041+000427,op:splice,rep:64 (448 / 610), cycle: 0
+[+] AFL test case: id:000449,src:000398,time:4431790,op:havoc,rep:2 (449 / 610), cycle: 0
+[+] AFL test case: id:000450,src:000414,time:4460252,op:havoc,rep:64,+cov (450 / 610), cycle: 0
+[+] AFL test case: id:000451,src:000440,time:4462643,op:havoc,rep:2,+cov (451 / 610), cycle: 0
+[+] AFL test case: id:000452,src:000451,time:4472378,op:havoc,rep:64 (452 / 610), cycle: 0
+[+] AFL test case: id:000453,src:000350,time:4733475+000281,op:splice,rep:8 (453 / 610), cycle: 0
+[+] AFL test case: id:000454,src:000398,time:4796330+000433,op:splice,rep:16 (454 / 610), cycle: 0
+[+] AFL test case: id:000455,src:000442,time:4870778,op:havoc,rep:64 (455 / 610), cycle: 0
+[+] AFL test case: id:000456,src:000442,time:4871914,op:havoc,rep:32 (456 / 610), cycle: 0
+[+] AFL test case: id:000457,src:000442,time:4872303+000381,op:splice,rep:32 (457 / 610), cycle: 0
+[+] AFL test case: id:000458,src:000453,time:4889049,op:havoc,rep:2 (458 / 610), cycle: 0
+[+] AFL test case: id:000459,src:000458,time:4893324,op:havoc,rep:4 (459 / 610), cycle: 0
+[+] AFL test case: id:000460,src:000458,time:4895341+000396,op:splice,rep:2 (460 / 610), cycle: 0
+[+] AFL test case: id:000461,src:000258,time:4993343+000033,op:splice,rep:128,+cov (461 / 610), cycle: 0
+[+] AFL test case: id:000462,src:000429,time:5362098,op:havoc,rep:8 (462 / 610), cycle: 0
+[+] AFL test case: id:000463,src:000442,time:5390633+000307,op:splice,rep:16 (463 / 610), cycle: 0
+[+] AFL test case: id:000464,src:000457,time:5404205,op:havoc,rep:16 (464 / 610), cycle: 0
+[+] AFL test case: id:000465,src:000420,time:5682475,op:havoc,rep:128 (465 / 610), cycle: 0
+[+] AFL test case: id:000466,src:000422,time:5697348+000149,op:splice,rep:16,+cov (466 / 610), cycle: 0
+[+] AFL test case: id:000467,src:000460,time:5703801,op:havoc,rep:8 (467 / 610), cycle: 0
+[+] AFL test case: id:000468,src:000466,time:5709740,op:havoc,rep:32 (468 / 610), cycle: 0
+[+] AFL test case: id:000469,src:000466,time:5710144,op:havoc,rep:128 (469 / 610), cycle: 0
+[+] AFL test case: id:000470,src:000468,time:5717812,op:havoc,rep:64 (470 / 610), cycle: 0
+[+] AFL test case: id:000471,src:000353,time:5967090+000328,op:splice,rep:64 (471 / 610), cycle: 0
+[+] AFL test case: id:000472,src:000429,time:6077102+000432,op:splice,rep:64 (472 / 610), cycle: 0
+[+] AFL test case: id:000473,src:000437,time:6086615,op:havoc,rep:32 (473 / 610), cycle: 0
+[+] AFL test case: id:000474,src:000437,time:6086666,op:havoc,rep:64 (474 / 610), cycle: 0
+[+] AFL test case: id:000475,src:000473,time:6128833,op:havoc,rep:64 (475 / 610), cycle: 0
+[+] AFL test case: id:000476,src:000473,time:6129210,op:havoc,rep:64 (476 / 610), cycle: 0
+[+] AFL test case: id:000477,src:000473,time:6129661,op:havoc,rep:128 (477 / 610), cycle: 0
+[+] AFL test case: id:000478,src:000377,time:6382554+000446,op:splice,rep:8 (478 / 610), cycle: 0
+[+] AFL test case: id:000479,src:000377,time:6382658+000446,op:splice,rep:2 (479 / 610), cycle: 0
+[+] AFL test case: id:000480,src:000432,time:6455743,op:havoc,rep:64 (480 / 610), cycle: 0
+[+] AFL test case: id:000481,src:000435,time:6463820+000453,op:splice,rep:32 (481 / 610), cycle: 0
+[+] AFL test case: id:000482,src:000435,time:6463847+000453,op:splice,rep:16 (482 / 610), cycle: 0
+[+] AFL test case: id:000483,src:000478,time:6507876,op:havoc,rep:32 (483 / 610), cycle: 0
+[+] AFL test case: id:000484,src:000478,time:6511443+000477,op:splice,rep:64,+cov (484 / 610), cycle: 0
+[+] AFL test case: id:000485,src:000484,time:6518452,op:havoc,rep:32 (485 / 610), cycle: 0
+[+] AFL test case: id:000486,src:000447,time:6801762,op:havoc,rep:16 (486 / 610), cycle: 0
+[+] AFL test case: id:000487,src:000447,time:6802749,op:havoc,rep:2 (487 / 610), cycle: 0
+[+] AFL test case: id:000488,src:000464,time:6824064+000039,op:splice,rep:64 (488 / 610), cycle: 0
+[+] AFL test case: id:000489,src:000486,time:6850736,op:havoc,rep:8 (489 / 610), cycle: 0
+[+] AFL test case: id:000490,src:000475,time:7177376,op:havoc,rep:128 (490 / 610), cycle: 0
+[+] AFL test case: id:000491,src:000475,time:7178022,op:havoc,rep:64 (491 / 610), cycle: 0
+[+] AFL test case: id:000492,src:000477,time:7184334,op:havoc,rep:64 (492 / 610), cycle: 0
+[+] AFL test case: id:000493,src:000477,time:7185239,op:havoc,rep:128 (493 / 610), cycle: 0
+[+] AFL test case: id:000494,src:000491,time:7204614+000320,op:splice,rep:128 (494 / 610), cycle: 0
+[+] AFL test case: id:000495,src:000492,time:7206988,op:havoc,rep:2 (495 / 610), cycle: 0
+[+] AFL test case: id:000496,src:000434,time:7439792,op:havoc,rep:2 (496 / 610), cycle: 0
+[+] AFL test case: id:000497,src:000470,time:7498011+000331,op:splice,rep:32 (497 / 610), cycle: 0
+[+] AFL test case: id:000498,src:000495,time:7524681,op:havoc,rep:128 (498 / 610), cycle: 0
+[+] AFL test case: id:000499,src:000495,time:7526395,op:havoc,rep:32 (499 / 610), cycle: 0
+[+] AFL test case: id:000500,src:000435,time:7779827+000174,op:splice,rep:64,+cov (500 / 610), cycle: 0
+[+] AFL test case: id:000501,src:000500,time:7786279,op:havoc,rep:8,+cov (501 / 610), cycle: 0
+[+] AFL test case: id:000502,src:000500,time:7786348,op:havoc,rep:16,+cov (502 / 610), cycle: 0
+[+] AFL test case: id:000503,src:000500,time:7786638,op:havoc,rep:32 (503 / 610), cycle: 0
+[+] AFL test case: id:000504,src:000500,time:7786818,op:havoc,rep:128,+cov (504 / 610), cycle: 0
+[+] AFL test case: id:000505,src:000500,time:7786919,op:havoc,rep:16 (505 / 610), cycle: 0
+[+] AFL test case: id:000506,src:000500,time:7787594,op:havoc,rep:2,+cov (506 / 610), cycle: 0
+[+] AFL test case: id:000507,src:000501,time:7793603+000261,op:splice,rep:32 (507 / 610), cycle: 0
+[+] AFL test case: id:000508,src:000502,time:7795865,op:havoc,rep:64 (508 / 610), cycle: 0
+[+] AFL test case: id:000509,src:000502,time:7803919+000471,op:splice,rep:32 (509 / 610), cycle: 0
+[+] AFL test case: id:000510,src:000504,time:7804697,op:havoc,rep:4 (510 / 610), cycle: 0
+[+] AFL test case: id:000511,src:000506,time:7813873,op:havoc,rep:32 (511 / 610), cycle: 0
+[+] AFL test case: id:000512,src:000506,time:7816854,op:havoc,rep:64,+cov (512 / 610), cycle: 0
+[+] AFL test case: id:000513,src:000512,time:7820998,op:havoc,rep:64 (513 / 610), cycle: 0
+[+] AFL test case: id:000514,src:000512,time:7824015,op:havoc,rep:16,+cov (514 / 610), cycle: 0
+[+] AFL test case: id:000515,src:000512,time:7825920+000356,op:splice,rep:128 (515 / 610), cycle: 0
+[+] AFL test case: id:000516,src:000463,time:8138299+000030,op:splice,rep:128 (516 / 610), cycle: 0
+[+] AFL test case: id:000517,src:000501,time:8176440,op:havoc,rep:32 (517 / 610), cycle: 0
+[+] AFL test case: id:000518,src:000502,time:8185479+000488,op:splice,rep:8 (518 / 610), cycle: 0
+[+] AFL test case: id:000519,src:000503,time:8186966,op:havoc,rep:2 (519 / 610), cycle: 0
+[+] AFL test case: id:000520,src:000503,time:8190225,op:havoc,rep:64 (520 / 610), cycle: 0
+[+] AFL test case: id:000521,src:000506,time:8202678+000236,op:splice,rep:32 (521 / 610), cycle: 0
+[+] AFL test case: id:000522,src:000513,time:8212748,op:havoc,rep:64 (522 / 610), cycle: 0
+[+] AFL test case: id:000523,src:000522,time:8221364,op:havoc,rep:8 (523 / 610), cycle: 0
+[+] AFL test case: id:000524,src:000523,time:8228310,op:havoc,rep:16 (524 / 610), cycle: 0
+[+] AFL test case: id:000525,src:000523,time:8229501,op:havoc,rep:64 (525 / 610), cycle: 0
+[+] AFL test case: id:000526,src:000525,time:8232955,op:havoc,rep:4 (526 / 610), cycle: 0
+[+] AFL test case: id:000527,src:000220,time:8290633,op:havoc,rep:128,+cov (527 / 610), cycle: 0
+[+] AFL test case: id:000528,src:000471,time:8679962+000315,op:splice,rep:64 (528 / 610), cycle: 0
+[+] AFL test case: id:000529,src:000477,time:8688182,op:havoc,rep:128 (529 / 610), cycle: 0
+[+] AFL test case: id:000530,src:000483,time:8701586+000401,op:splice,rep:2 (530 / 610), cycle: 0
+[+] AFL test case: id:000531,src:000488,time:8713076,op:havoc,rep:128 (531 / 610), cycle: 0
+[+] AFL test case: id:000532,src:000505,time:8742057,op:havoc,rep:4,+cov (532 / 610), cycle: 0
+[+] AFL test case: id:000533,src:000532,time:8751952,op:havoc,rep:16 (533 / 610), cycle: 0
+[+] AFL test case: id:000534,src:000533,time:8756697,op:havoc,rep:16 (534 / 610), cycle: 0
+[+] AFL test case: id:000535,src:000533,time:8757067,op:havoc,rep:4 (535 / 610), cycle: 0
+[+] AFL test case: id:000536,src:000268,time:8849754+000522,op:splice,rep:4 (536 / 610), cycle: 0
+[+] AFL test case: id:000537,src:000494,time:9110204,op:havoc,rep:64 (537 / 610), cycle: 0
+[+] AFL test case: id:000538,src:000496,time:9114549,op:havoc,rep:8 (538 / 610), cycle: 0
+[+] AFL test case: id:000539,src:000496,time:9116940,op:havoc,rep:16 (539 / 610), cycle: 0
+[+] AFL test case: id:000540,src:000498,time:9119355,op:havoc,rep:8 (540 / 610), cycle: 0
+[+] AFL test case: id:000541,src:000501,time:9127162+000530,op:splice,rep:2 (541 / 610), cycle: 0
+[+] AFL test case: id:000542,src:000506,time:9138356+000472,op:splice,rep:64 (542 / 610), cycle: 0
+[+] AFL test case: id:000543,src:000517,time:9154698,op:havoc,rep:32 (543 / 610), cycle: 0
+[+] AFL test case: id:000544,src:000517,time:9158376+000353,op:splice,rep:64 (544 / 610), cycle: 0
+[+] AFL test case: id:000545,src:000529,time:9174312,op:havoc,rep:32 (545 / 610), cycle: 0
+[+] AFL test case: id:000546,src:000538,time:9210905+000039,op:splice,rep:16 (546 / 610), cycle: 0
+[+] AFL test case: id:000547,src:000546,time:9212007,op:havoc,rep:16 (547 / 610), cycle: 0
+[+] AFL test case: id:000548,src:000547,time:9219975,op:havoc,rep:8 (548 / 610), cycle: 0
+[+] AFL test case: id:000549,src:000548,time:9226272,op:havoc,rep:32 (549 / 610), cycle: 0
+[+] AFL test case: id:000550,src:000548,time:9229304,op:havoc,rep:128 (550 / 610), cycle: 0
+[+] AFL test case: id:000551,src:000549,time:9232607,op:havoc,rep:4 (551 / 610), cycle: 0
+[+] AFL test case: id:000552,src:000465,time:9513262,op:havoc,rep:64 (552 / 610), cycle: 0
+[+] AFL test case: id:000553,src:000481,time:9523191,op:havoc,rep:32 (553 / 610), cycle: 0
+[+] AFL test case: id:000554,src:000433,time:9839036+000510,op:splice,rep:32 (554 / 610), cycle: 0
+[+] AFL test case: id:000555,src:000520,time:9965469,op:havoc,rep:128 (555 / 610), cycle: 0
+[+] AFL test case: id:000556,src:000550,time:10019389,op:havoc,rep:8 (556 / 610), cycle: 0
+[+] AFL test case: id:000557,src:000477,time:10323890+000444,op:splice,rep:32 (557 / 610), cycle: 0
+[+] AFL test case: id:000558,src:000543,time:10403302+000025,op:splice,rep:32 (558 / 610), cycle: 0
+[+] AFL test case: id:000559,src:000526,time:10758269,op:havoc,rep:16 (559 / 610), cycle: 0
+[+] AFL test case: id:000560,src:000530,time:10766889,op:havoc,rep:16 (560 / 610), cycle: 0
+[+] AFL test case: id:000561,src:000429,time:11086476+000471,op:splice,rep:32 (561 / 610), cycle: 0
+[+] AFL test case: id:000562,src:000557,time:11228705,op:havoc,rep:64 (562 / 610), cycle: 0
+[+] AFL test case: id:000563,src:000560,time:11238496+000562,op:splice,rep:32 (563 / 610), cycle: 0
+[+] AFL test case: id:000564,src:000563,time:11240033,op:havoc,rep:16 (564 / 610), cycle: 0
+[+] AFL test case: id:000565,src:000414,time:11905811,op:havoc,rep:64,+cov (565 / 610), cycle: 0
+[+] AFL test case: id:000566,src:000493,time:12232024,op:havoc,rep:32 (566 / 610), cycle: 0
+[+] AFL test case: id:000567,src:000551,time:12663936,op:havoc,rep:8 (567 / 610), cycle: 0
+[+] AFL test case: id:000568,src:000565,time:12686473,op:havoc,rep:8,+cov (568 / 610), cycle: 0
+[+] AFL test case: id:000569,src:000559,time:13046677,op:havoc,rep:16 (569 / 610), cycle: 0
+[+] AFL test case: id:000570,src:000524,time:13379410,op:havoc,rep:16,+cov (570 / 610), cycle: 0
+[+] AFL test case: id:000571,src:000561,time:13388031,op:havoc,rep:8 (571 / 610), cycle: 0
+[+] AFL test case: id:000572,src:000561,time:13389595,op:havoc,rep:32 (572 / 610), cycle: 0
+[+] AFL test case: id:000573,src:000570,time:13394624,op:havoc,rep:8 (573 / 610), cycle: 0
+[+] AFL test case: id:000574,src:000484,time:13985094+000367,op:splice,rep:16 (574 / 610), cycle: 0
+[+] AFL test case: id:000575,src:000388,time:14216509+000570,op:splice,rep:2 (575 / 610), cycle: 0
+[+] AFL test case: id:000576,src:000545,time:14368480,op:havoc,rep:32 (576 / 610), cycle: 0
+[+] AFL test case: id:000577,src:000566,time:15108665+000574,op:splice,rep:32 (577 / 610), cycle: 0
+[+] AFL test case: id:000578,src:000574,time:15471364+000311,op:splice,rep:2 (578 / 610), cycle: 0
+[+] AFL test case: id:000579,src:000577,time:15478430,op:havoc,rep:4 (579 / 610), cycle: 0
+[+] AFL test case: id:000580,src:000305,time:16920086+000563,op:splice,rep:2 (580 / 610), cycle: 0
+[+] AFL test case: id:000581,src:000499,time:19353687+000563,op:splice,rep:64 (581 / 610), cycle: 0
+[+] AFL test case: id:000582,src:000501,time:22134437+000455,op:splice,rep:8 (582 / 610), cycle: 0
+[+] AFL test case: id:000583,src:000582,time:22471142,op:havoc,rep:8 (583 / 610), cycle: 0
+[+] AFL test case: id:000584,src:000488,time:26163529,op:havoc,rep:16 (584 / 610), cycle: 0
+[+] AFL test case: id:000585,src:000479,time:26613403+000192,op:splice,rep:128 (585 / 610), cycle: 0
+[+] AFL test case: id:000586,src:000342,time:29449698+000272,op:splice,rep:64 (586 / 610), cycle: 0
+[+] AFL test case: id:000587,src:000586,time:29762176,op:havoc,rep:16 (587 / 610), cycle: 0
+[+] AFL test case: id:000588,src:000587,time:30163470,op:havoc,rep:4 (588 / 610), cycle: 0
+[+] AFL test case: id:000589,src:000540,time:30565074+000567,op:splice,rep:16 (589 / 610), cycle: 0
+[+] AFL test case: id:000590,src:000576,time:30777284,op:havoc,rep:128 (590 / 610), cycle: 0
+[+] AFL test case: id:000591,src:000590,time:30798419,op:havoc,rep:32 (591 / 610), cycle: 0
+[+] AFL test case: id:000592,src:000588,time:32435094+000274,op:splice,rep:64 (592 / 610), cycle: 0
+[+] AFL test case: id:000593,src:000592,time:34117018,op:havoc,rep:32 (593 / 610), cycle: 0
+[+] AFL test case: id:000594,src:000593,time:34318833,op:havoc,rep:32 (594 / 610), cycle: 0
+[+] AFL test case: id:000595,src:000591,time:34531257,op:havoc,rep:16 (595 / 610), cycle: 0
+[+] AFL test case: id:000596,src:000595,time:34541157,op:havoc,rep:128 (596 / 610), cycle: 0
+[+] AFL test case: id:000597,src:000596,time:35381922,op:havoc,rep:16 (597 / 610), cycle: 0
+[+] AFL test case: id:000598,src:000594,time:35613992,op:havoc,rep:64 (598 / 610), cycle: 0
+[+] AFL test case: id:000599,src:000546,time:50366195+000584,op:splice,rep:32 (599 / 610), cycle: 0
+[+] AFL test case: id:000600,src:000419,time:70692390+000550,op:splice,rep:128 (600 / 610), cycle: 0
+[+] AFL test case: id:000601,src:000550,time:70727182,op:havoc,rep:16 (601 / 610), cycle: 0
+[+] AFL test case: id:000602,src:000600,time:70752007,op:havoc,rep:8 (602 / 610), cycle: 0
+[+] AFL test case: id:000603,src:000600,time:70752024,op:havoc,rep:8 (603 / 610), cycle: 0
+[+] AFL test case: id:000604,src:000600,time:70752051,op:havoc,rep:32 (604 / 610), cycle: 0
+[+] AFL test case: id:000605,src:000600,time:70752141,op:havoc,rep:16 (605 / 610), cycle: 0
+[+] AFL test case: id:000606,src:000600,time:70752181,op:havoc,rep:128 (606 / 610), cycle: 0
+[+] AFL test case: id:000607,src:000600,time:70752420,op:havoc,rep:32 (607 / 610), cycle: 0
+[+] AFL test case: id:000608,src:000600,time:70752782,op:havoc,rep:32 (608 / 610), cycle: 0
+[+] AFL test case: id:000609,src:000601,time:71148128,op:havoc,rep:8 (609 / 610), cycle: 0
+    lines......: 4.1% (1138 of 27969 lines)
+    functions..: 8.3% (369 of 4456 functions)
+
+    Coverage diff id:0... id:609...
+diff id:0... -> id:609...
+New src file: /unibench/exiv2-0.26/src/jp2image.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Jp2ImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isJp2TypeERNS_7BasicIoEb()
+  New 'line' coverage: 29
+  New 'line' coverage: 922
+  New 'line' coverage: 924
+  New 'line' coverage: 926
+  New 'line' coverage: 927
+  New 'line' coverage: 931
+  New 'line' coverage: 932
+  New 'line' coverage: 934
+  New 'line' coverage: 936
+  New 'line' coverage: 938
+New src file: /unibench/exiv2-0.26/src/tgaimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28TgaImageC2ESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isTgaTypeERNS_7BasicIoEb()
+  New 'line' coverage: 143
+  New 'line' coverage: 153
+  New 'line' coverage: 154
+  New 'line' coverage: 155
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 162
+  New 'line' coverage: 166
+  New 'line' coverage: 167
+  New 'line' coverage: 172
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 176
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/xmpsdk/include/client-glue/WXMP_Common.hpp
+  New 'function' coverage: _ZN11WXMP_ResultC2Ev()
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/datasets.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv27DataSetC2EtPKcS2_S2_bbjjNS_6TypeIdEtS2_()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv210RecordInfoC2EtPKcS2_()
+  New 'function' coverage: _ZN5Exiv27DataSetC2EtPKcS2_S2_bbjjNS_6TypeIdEtS2_()
+  New 'line' coverage: 162
+  New 'line' coverage: 169
+  New 'line' coverage: 30
+  New 'line' coverage: 439
+  New 'line' coverage: 446
+  New 'line' coverage: 49
+  New 'line' coverage: 65
+  New 'line' coverage: 67
+  New 'line' coverage: 69
+  New 'line' coverage: 737
+  New 'line' coverage: 74
+  New 'line' coverage: 76
+  New 'line' coverage: 78
+  New 'line' coverage: 82
+  New 'line' coverage: 84
+New src file: /unibench/exiv2-0.26/src/bmpimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28BmpImageC2ESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isBmpTypeERNS_7BasicIoEb()
+  New 'line' coverage: 142
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 147
+  New 'line' coverage: 148
+  New 'line' coverage: 152
+  New 'line' coverage: 153
+  New 'line' coverage: 155
+  New 'line' coverage: 157
+  New 'line' coverage: 159
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/samsungmn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal16samsung2LensTypeE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 116
+  New 'line' coverage: 149
+  New 'line' coverage: 196
+  New 'line' coverage: 204
+  New 'line' coverage: 211
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/include/exiv2/types.hpp
+  New 'function' coverage: _ZN5Exiv210DataBufRefC2ESt4pairIPhlE()
+  New 'function' coverage: _ZN5Exiv24findIKN12_GLOBAL__N_16ErrMsgEiLi56EEEPKT_RAT1__S4_RKT0_()
+  New 'function' coverage: _ZN5Exiv24findIKN12_GLOBAL__N_18RegistryEiLi26EEEPKT_RAT1__S4_RKT0_()
+  New 'function' coverage: _ZN5Exiv27DataBufC2ENS_10DataBufRefE()
+  New 'function' coverage: _ZN5Exiv27DataBufC2El()
+  New 'function' coverage: _ZN5Exiv27DataBufC2Ev()
+  New 'function' coverage: _ZN5Exiv27DataBufD2Ev()
+  New 'function' coverage: _ZN5Exiv27DataBufcvNS_10DataBufRefEEv()
+  New 'line' coverage: 186
+  New 'line' coverage: 202
+  New 'line' coverage: 204
+  New 'line' coverage: 214
+  New 'line' coverage: 249
+  New 'line' coverage: 251
+  New 'line' coverage: 467
+  New 'line' coverage: 469
+  New 'line' coverage: 470
+New src file: /unibench/exiv2-0.26/src/convert.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29Converter11conversion_E()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1604
+  New 'line' coverage: 31
+New src file: /unibench/exiv2-0.26/src/rw2image.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Rw2ImageC2ESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv28Internal9Rw2HeaderC2Ev()
+  New 'function' coverage: _ZN5Exiv28Internal9Rw2HeaderD2Ev()
+  New 'function' coverage: _ZN5Exiv29isRw2TypeERNS_7BasicIoEb()
+  New 'line' coverage: 263
+  New 'line' coverage: 265
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 271
+  New 'line' coverage: 272
+  New 'line' coverage: 273
+  New 'line' coverage: 274
+  New 'line' coverage: 276
+  New 'line' coverage: 284
+  New 'line' coverage: 285
+  New 'line' coverage: 287
+  New 'line' coverage: 289
+  New 'line' coverage: 291
+  New 'line' coverage: 299
+  New 'line' coverage: 30
+New src file: /unibench/exiv2-0.26/src/pngchunk.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal8PngChunk15decodeIHDRChunkERKNS_7DataBufEPiS5_()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 27
+  New 'line' coverage: 695
+New src file: /unibench/exiv2-0.26/src/cr2image.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Cr2ImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv28Internal9Cr2Header4readEPKhj()
+  New 'function' coverage: _ZN5Exiv28Internal9Cr2HeaderC2ENS_9ByteOrderE()
+  New 'function' coverage: _ZN5Exiv28Internal9Cr2HeaderD2Ev()
+  New 'function' coverage: _ZN5Exiv29isCr2TypeERNS_7BasicIoEb()
+  New 'line' coverage: 219
+  New 'line' coverage: 221
+  New 'line' coverage: 223
+  New 'line' coverage: 224
+  New 'line' coverage: 227
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 230
+  New 'line' coverage: 232
+  New 'line' coverage: 242
+  New 'line' coverage: 244
+  New 'line' coverage: 246
+  New 'line' coverage: 248
+  New 'line' coverage: 250
+  New 'line' coverage: 252
+  New 'line' coverage: 254
+  New 'line' coverage: 256
+  New 'line' coverage: 259
+  New 'line' coverage: 263
+  New 'line' coverage: 27
+  New 'line' coverage: 305
+New src file: /unibench/exiv2-0.26/src/fujimn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal9fujiOffOnE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 186
+  New 'line' coverage: 291
+  New 'line' coverage: 298
+  New 'line' coverage: 32
+New src file: /unibench/exiv2-0.26/src/preview.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv212PreviewImageC2ERKNS_17PreviewPropertiesENS_7DataBufE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1163
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/exif.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29ExifdatumC2ERKNS_7ExifKeyEPKNS_5ValueE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv28ExifData5clearEv()
+  New 'line' coverage: 30
+  New 'line' coverage: 592
+  New 'line' coverage: 594
+  New 'line' coverage: 595
+  New 'line' coverage: 945
+New src file: /unibench/exiv2-0.26/include/exiv2/iptc.hpp
+  New 'function' coverage: _ZN5Exiv28IptcData5clearEv()
+  New 'function' coverage: _ZN5Exiv28IptcDataC2Ev()
+  New 'function' coverage: _ZN5Exiv28IptcDataD2Ev()
+  New 'line' coverage: 180
+  New 'line' coverage: 225
+New src file: /unibench/exiv2-0.26/src/makernote.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal18getExiv2ConfigPathB5cxx11Ev()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1309
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/actions.hpp
+  New 'function' coverage: _ZN6Action11TaskFactoryD2Ev()
+  New 'function' coverage: _ZN6Action4TaskC2ERKS0_()
+  New 'function' coverage: _ZN6Action4TaskC2Ev()
+  New 'function' coverage: _ZN6Action5EraseC2Ev()
+  New 'function' coverage: _ZN6Action5PrintC2ERKS0_()
+  New 'function' coverage: _ZN6Action5PrintC2Ev()
+  New 'function' coverage: _ZN6Action6AdjustC2Ev()
+  New 'function' coverage: _ZN6Action6FixComC2Ev()
+  New 'function' coverage: _ZN6Action6FixIsoC2Ev()
+  New 'function' coverage: _ZN6Action6InsertC2Ev()
+  New 'function' coverage: _ZN6Action6ModifyC2Ev()
+  New 'function' coverage: _ZN6Action6RenameC2Ev()
+  New 'function' coverage: _ZN6Action7ExtractC2Ev()
+  New 'line' coverage: 104
+  New 'line' coverage: 158
+  New 'line' coverage: 215
+  New 'line' coverage: 227
+  New 'line' coverage: 250
+  New 'line' coverage: 296
+  New 'line' coverage: 335
+  New 'line' coverage: 382
+  New 'line' coverage: 409
+  New 'line' coverage: 427
+  New 'line' coverage: 75
+New src file: /unibench/exiv2-0.26/src/sonymn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal11sonyHDRModeE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 29
+  New 'line' coverage: 336
+  New 'line' coverage: 499
+  New 'line' coverage: 633
+  New 'line' coverage: 733
+  New 'line' coverage: 747
+  New 'line' coverage: 797
+  New 'line' coverage: 804
+New src file: /unibench/exiv2-0.26/src/canonmn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal10canonOffOnE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1207
+  New 'line' coverage: 1253
+  New 'line' coverage: 1315
+  New 'line' coverage: 1344
+  New 'line' coverage: 1361
+  New 'line' coverage: 1366
+  New 'line' coverage: 1374
+  New 'line' coverage: 1392
+  New 'line' coverage: 1424
+  New 'line' coverage: 1433
+  New 'line' coverage: 1505
+  New 'line' coverage: 1525
+  New 'line' coverage: 1576
+  New 'line' coverage: 1591
+  New 'line' coverage: 1638
+  New 'line' coverage: 1643
+  New 'line' coverage: 2162
+  New 'line' coverage: 30
+  New 'line' coverage: 415
+  New 'line' coverage: 453
+New src file: /unibench/exiv2-0.26/src/sigmamn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal14SigmaMakerNote8tagInfo_E()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 129
+  New 'line' coverage: 176
+  New 'line' coverage: 32
+  New 'line' coverage: 55
+New src file: /unibench/exiv2-0.26/src/pgfimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28PgfImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isPgfTypeERNS_7BasicIoEb()
+  New 'line' coverage: 30
+  New 'line' coverage: 332
+  New 'line' coverage: 334
+  New 'line' coverage: 336
+  New 'line' coverage: 337
+  New 'line' coverage: 341
+  New 'line' coverage: 342
+  New 'line' coverage: 344
+  New 'line' coverage: 347
+  New 'line' coverage: 349
+New src file: /unibench/exiv2-0.26/include/exiv2/xmp.hpp
+  New 'function' coverage: _ZN5Exiv27XmpDataC2Ev()
+  New 'function' coverage: _ZN5Exiv27XmpDataD2Ev()
+  New 'line' coverage: 181
+New src file: /unibench/exiv2-0.26/src/crwimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28CrwImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isCrwTypeERNS_7BasicIoEb()
+  New 'line' coverage: 1435
+  New 'line' coverage: 232
+  New 'line' coverage: 234
+  New 'line' coverage: 236
+  New 'line' coverage: 237
+  New 'line' coverage: 240
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 244
+  New 'line' coverage: 245
+  New 'line' coverage: 248
+  New 'line' coverage: 249
+  New 'line' coverage: 273
+  New 'line' coverage: 30
+  New 'line' coverage: 303
+New src file: /unibench/exiv2-0.26/src/ini.cpp
+  New 'function' coverage: _GLOBAL__sub_I_ini_parse_stream()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'line' coverage: 276
+New src file: /unibench/exiv2-0.26/src/exiv2.cpp
+  New 'function' coverage: _GLOBAL__sub_I_main()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN6Params6getoptEiPKPc()
+  New 'function' coverage: _ZN6Params7cleanupEv()
+  New 'function' coverage: _ZN6Params8instanceEv()
+  New 'function' coverage: _ZN6Params9nonoptionERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: main()
+  New 'line' coverage: 1000
+  New 'line' coverage: 1002
+  New 'line' coverage: 1003
+  New 'line' coverage: 1004
+  New 'line' coverage: 1007
+  New 'line' coverage: 1009
+  New 'line' coverage: 1012
+  New 'line' coverage: 1014
+  New 'line' coverage: 1015
+  New 'line' coverage: 1020
+  New 'line' coverage: 1029
+  New 'line' coverage: 1030
+  New 'line' coverage: 1035
+  New 'line' coverage: 1039
+  New 'line' coverage: 1046
+  New 'line' coverage: 1053
+  New 'line' coverage: 1057
+  New 'line' coverage: 1058
+  New 'line' coverage: 1063
+  New 'line' coverage: 1068
+  New 'line' coverage: 1073
+  New 'line' coverage: 1080
+  New 'line' coverage: 1081
+  New 'line' coverage: 1083
+  New 'line' coverage: 130
+  New 'line' coverage: 133
+  New 'line' coverage: 134
+  New 'line' coverage: 135
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 144
+  New 'line' coverage: 148
+  New 'line' coverage: 1496
+  New 'line' coverage: 154
+  New 'line' coverage: 156
+  New 'line' coverage: 157
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 162
+  New 'line' coverage: 163
+  New 'line' coverage: 164
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 170
+  New 'line' coverage: 171
+  New 'line' coverage: 174
+  New 'line' coverage: 175
+  New 'line' coverage: 176
+  New 'line' coverage: 179
+  New 'line' coverage: 192
+  New 'line' coverage: 194
+  New 'line' coverage: 195
+  New 'line' coverage: 197
+  New 'line' coverage: 200
+  New 'line' coverage: 202
+  New 'line' coverage: 203
+  New 'line' coverage: 204
+  New 'line' coverage: 31
+  New 'line' coverage: 60
+  New 'line' coverage: 66
+  New 'line' coverage: 780
+  New 'line' coverage: 782
+  New 'line' coverage: 783
+  New 'line' coverage: 784
+  New 'line' coverage: 786
+  New 'line' coverage: 787
+  New 'line' coverage: 796
+  New 'line' coverage: 805
+  New 'line' coverage: 814
+  New 'line' coverage: 825
+  New 'line' coverage: 836
+  New 'line' coverage: 845
+  New 'line' coverage: 854
+  New 'line' coverage: 863
+  New 'line' coverage: 872
+  New 'line' coverage: 874
+  New 'line' coverage: 877
+  New 'line' coverage: 878
+  New 'line' coverage: 880
+  New 'line' coverage: 965
+  New 'line' coverage: 967
+  New 'line' coverage: 968
+  New 'line' coverage: 969
+  New 'line' coverage: 971
+  New 'line' coverage: 972
+  New 'line' coverage: 973
+  New 'line' coverage: 974
+  New 'line' coverage: 975
+  New 'line' coverage: 976
+  New 'line' coverage: 977
+  New 'line' coverage: 978
+  New 'line' coverage: 979
+  New 'line' coverage: 980
+  New 'line' coverage: 981
+  New 'line' coverage: 982
+  New 'line' coverage: 983
+  New 'line' coverage: 984
+  New 'line' coverage: 985
+  New 'line' coverage: 986
+  New 'line' coverage: 987
+  New 'line' coverage: 988
+  New 'line' coverage: 989
+  New 'line' coverage: 990
+  New 'line' coverage: 991
+  New 'line' coverage: 992
+  New 'line' coverage: 993
+  New 'line' coverage: 994
+  New 'line' coverage: 995
+  New 'line' coverage: 996
+  New 'line' coverage: 997
+  New 'line' coverage: 998
+  New 'line' coverage: 999
+New src file: /unibench/exiv2-0.26/src/basicio.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv27BasicIoD2Ev()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv26FileIo4Impl10StructStatC2Ev()
+  New 'function' coverage: _ZN5Exiv26FileIo4Impl10switchModeENS1_6OpModeE()
+  New 'function' coverage: _ZN5Exiv26FileIo4ImplC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZN5Exiv26FileIo4ImplD2Ev()
+  New 'function' coverage: _ZN5Exiv26FileIo4getbEv()
+  New 'function' coverage: _ZN5Exiv26FileIo4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZN5Exiv26FileIo4openEv()
+  New 'function' coverage: _ZN5Exiv26FileIo4readEPhl()
+  New 'function' coverage: _ZN5Exiv26FileIo4readEl()
+  New 'function' coverage: _ZN5Exiv26FileIo4seekElNS_7BasicIo8PositionE()
+  New 'function' coverage: _ZN5Exiv26FileIo5closeEv()
+  New 'function' coverage: _ZN5Exiv26FileIo6munmapEv()
+  New 'function' coverage: _ZN5Exiv26FileIoC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZN5Exiv26FileIoD0Ev()
+  New 'function' coverage: _ZN5Exiv26FileIoD2Ev()
+  New 'function' coverage: _ZN5Exiv27BasicIoD2Ev()
+  New 'function' coverage: _ZNK5Exiv26FileIo3eofEv()
+  New 'function' coverage: _ZNK5Exiv26FileIo4Impl4statERNS1_10StructStatE()
+  New 'function' coverage: _ZNK5Exiv26FileIo4pathB5cxx11Ev()
+  New 'function' coverage: _ZNK5Exiv26FileIo4sizeEv()
+  New 'function' coverage: _ZNK5Exiv26FileIo4tellEv()
+  New 'function' coverage: _ZNK5Exiv26FileIo5errorEv()
+  New 'function' coverage: _ZNK5Exiv26FileIo6isopenEv()
+  New 'line' coverage: 1001
+  New 'line' coverage: 1002
+  New 'line' coverage: 1003
+  New 'line' coverage: 1006
+  New 'line' coverage: 1008
+  New 'line' coverage: 1009
+  New 'line' coverage: 1010
+  New 'line' coverage: 1013
+  New 'line' coverage: 1015
+  New 'line' coverage: 1018
+  New 'line' coverage: 1020
+  New 'line' coverage: 1021
+  New 'line' coverage: 1024
+  New 'line' coverage: 1031
+  New 'line' coverage: 124
+  New 'line' coverage: 1376
+  New 'line' coverage: 1377
+  New 'line' coverage: 154
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 180
+  New 'line' coverage: 182
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+  New 'line' coverage: 187
+  New 'line' coverage: 188
+  New 'line' coverage: 192
+  New 'line' coverage: 193
+  New 'line' coverage: 199
+  New 'line' coverage: 200
+  New 'line' coverage: 203
+  New 'line' coverage: 206
+  New 'line' coverage: 209
+  New 'line' coverage: 210
+  New 'line' coverage: 236
+  New 'line' coverage: 238
+  New 'line' coverage: 263
+  New 'line' coverage: 2639
+  New 'line' coverage: 264
+  New 'line' coverage: 265
+  New 'line' coverage: 266
+  New 'line' coverage: 267
+  New 'line' coverage: 27
+  New 'line' coverage: 270
+  New 'line' coverage: 360
+  New 'line' coverage: 361
+  New 'line' coverage: 363
+  New 'line' coverage: 372
+  New 'line' coverage: 374
+  New 'line' coverage: 375
+  New 'line' coverage: 376
+  New 'line' coverage: 378
+  New 'line' coverage: 380
+  New 'line' coverage: 381
+  New 'line' coverage: 403
+  New 'line' coverage: 407
+  New 'line' coverage: 408
+  New 'line' coverage: 409
+  New 'line' coverage: 83
+  New 'line' coverage: 85
+  New 'line' coverage: 88
+  New 'line' coverage: 910
+  New 'line' coverage: 912
+  New 'line' coverage: 914
+  New 'line' coverage: 915
+  New 'line' coverage: 916
+  New 'line' coverage: 917
+  New 'line' coverage: 918
+  New 'line' coverage: 921
+  New 'line' coverage: 922
+  New 'line' coverage: 926
+  New 'line' coverage: 928
+  New 'line' coverage: 929
+  New 'line' coverage: 932
+  New 'line' coverage: 935
+  New 'line' coverage: 943
+  New 'line' coverage: 944
+  New 'line' coverage: 946
+  New 'line' coverage: 947
+  New 'line' coverage: 950
+  New 'line' coverage: 953
+  New 'line' coverage: 956
+  New 'line' coverage: 958
+  New 'line' coverage: 959
+  New 'line' coverage: 960
+  New 'line' coverage: 968
+  New 'line' coverage: 970
+  New 'line' coverage: 971
+  New 'line' coverage: 974
+  New 'line' coverage: 976
+  New 'line' coverage: 979
+  New 'line' coverage: 981
+  New 'line' coverage: 982
+  New 'line' coverage: 983
+  New 'line' coverage: 984
+  New 'line' coverage: 985
+  New 'line' coverage: 987
+  New 'line' coverage: 990
+  New 'line' coverage: 992
+  New 'line' coverage: 993
+  New 'line' coverage: 994
+  New 'line' coverage: 995
+  New 'line' coverage: 996
+  New 'line' coverage: 999
+New src file: /unibench/exiv2-0.26/include/exiv2/jpgimage.hpp
+  New 'function' coverage: _ZN5Exiv28JpegBaseD2Ev()
+  New 'function' coverage: _ZN5Exiv29JpegImageD0Ev()
+  New 'function' coverage: _ZN5Exiv29JpegImageD2Ev()
+  New 'line' coverage: 149
+  New 'line' coverage: 306
+New src file: /unibench/exiv2-0.26/include/exiv2/rwlock.hpp
+  New 'function' coverage: _ZN5Exiv215ScopedWriteLockC2ERNS_6RWLockE()
+  New 'function' coverage: _ZN5Exiv215ScopedWriteLockD2Ev()
+  New 'function' coverage: _ZN5Exiv26RWLock6unlockEv()
+  New 'function' coverage: _ZN5Exiv26RWLock6wrlockEv()
+  New 'function' coverage: _ZN5Exiv26RWLock8wrunlockEv()
+  New 'function' coverage: _ZN5Exiv26RWLockC2EPK20pthread_rwlockattr_t()
+  New 'function' coverage: _ZN5Exiv26RWLockD2Ev()
+  New 'line' coverage: 159
+  New 'line' coverage: 161
+  New 'line' coverage: 162
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 167
+  New 'line' coverage: 168
+  New 'line' coverage: 171
+  New 'line' coverage: 173
+  New 'line' coverage: 174
+  New 'line' coverage: 195
+  New 'line' coverage: 197
+  New 'line' coverage: 198
+  New 'line' coverage: 204
+  New 'line' coverage: 242
+  New 'line' coverage: 243
+  New 'line' coverage: 245
+  New 'line' coverage: 246
+  New 'line' coverage: 249
+New src file: /unibench/exiv2-0.26/src/properties.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29xmpNsInfoE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv213XmpProperties12unregisterNsEv()
+  New 'line' coverage: 2490
+  New 'line' coverage: 2491
+  New 'line' coverage: 2558
+  New 'line' coverage: 2560
+  New 'line' coverage: 2562
+  New 'line' coverage: 2563
+  New 'line' coverage: 2567
+  New 'line' coverage: 2847
+  New 'line' coverage: 30
+New src file: /unibench/exiv2-0.26/src/gifimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28GifImageC2ESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isGifTypeERNS_7BasicIoEb()
+  New 'line' coverage: 122
+  New 'line' coverage: 124
+  New 'line' coverage: 125
+  New 'line' coverage: 126
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 133
+  New 'line' coverage: 134
+  New 'line' coverage: 135
+  New 'line' coverage: 137
+  New 'line' coverage: 139
+  New 'line' coverage: 141
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/minoltamn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal16minoltaColorModeE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1095
+  New 'line' coverage: 1361
+  New 'line' coverage: 1600
+  New 'line' coverage: 196
+  New 'line' coverage: 2484
+  New 'line' coverage: 32
+  New 'line' coverage: 495
+  New 'line' coverage: 650
+  New 'line' coverage: 746
+  New 'line' coverage: 830
+  New 'line' coverage: 95
+  New 'line' coverage: 993
+New src file: /unibench/exiv2-0.26/src/jpgimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28JpegBase4dht_E()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv210isJpegTypeERNS_7BasicIoEb()
+  New 'function' coverage: _ZN5Exiv215newJpegInstanceESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _ZN5Exiv28JpegBase12readMetadataEv()
+  New 'function' coverage: _ZN5Exiv28JpegBaseC2EiSt8auto_ptrINS_7BasicIoEEbPKhl()
+  New 'function' coverage: _ZN5Exiv29JpegImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _ZN5Exiv29isExvTypeERNS_7BasicIoEb()
+  New 'function' coverage: _ZN5Exiv2L7inRangeEiii()
+  New 'function' coverage: _ZN5Exiv2L8inRange2Eiiiii()
+  New 'function' coverage: _ZNK5Exiv28JpegBase15advanceToMarkerEv()
+  New 'function' coverage: _ZNK5Exiv29JpegImage10isThisTypeERNS_7BasicIoEb()
+  New 'function' coverage: _ZNK5Exiv29JpegImage8mimeTypeB5cxx11Ev()
+  New 'line' coverage: 101
+  New 'line' coverage: 103
+  New 'line' coverage: 106
+  New 'line' coverage: 108
+  New 'line' coverage: 1240
+  New 'line' coverage: 1241
+  New 'line' coverage: 1243
+  New 'line' coverage: 1245
+  New 'line' coverage: 1247
+  New 'line' coverage: 1261
+  New 'line' coverage: 1263
+  New 'line' coverage: 1266
+  New 'line' coverage: 1268
+  New 'line' coverage: 1269
+  New 'line' coverage: 1272
+  New 'line' coverage: 1275
+  New 'line' coverage: 1277
+  New 'line' coverage: 1279
+  New 'line' coverage: 1280
+  New 'line' coverage: 1282
+  New 'line' coverage: 1283
+  New 'line' coverage: 1285
+  New 'line' coverage: 1286
+  New 'line' coverage: 1327
+  New 'line' coverage: 1329
+  New 'line' coverage: 1331
+  New 'line' coverage: 1332
+  New 'line' coverage: 1334
+  New 'line' coverage: 1336
+  New 'line' coverage: 1338
+  New 'line' coverage: 1339
+  New 'line' coverage: 1342
+  New 'line' coverage: 27
+  New 'line' coverage: 305
+  New 'line' coverage: 307
+  New 'line' coverage: 309
+  New 'line' coverage: 312
+  New 'line' coverage: 326
+  New 'line' coverage: 328
+  New 'line' coverage: 330
+  New 'line' coverage: 331
+  New 'line' coverage: 335
+  New 'line' coverage: 338
+  New 'line' coverage: 341
+  New 'line' coverage: 343
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 348
+  New 'line' coverage: 352
+  New 'line' coverage: 353
+  New 'line' coverage: 354
+  New 'line' coverage: 355
+  New 'line' coverage: 356
+  New 'line' coverage: 357
+  New 'line' coverage: 358
+  New 'line' coverage: 359
+  New 'line' coverage: 360
+  New 'line' coverage: 361
+  New 'line' coverage: 364
+  New 'line' coverage: 365
+  New 'line' coverage: 367
+  New 'line' coverage: 369
+  New 'line' coverage: 370
+  New 'line' coverage: 371
+  New 'line' coverage: 372
+  New 'line' coverage: 373
+  New 'line' coverage: 375
+  New 'line' coverage: 376
+  New 'line' coverage: 397
+  New 'line' coverage: 398
+  New 'line' coverage: 417
+  New 'line' coverage: 418
+  New 'line' coverage: 440
+  New 'line' coverage: 460
+  New 'line' coverage: 498
+  New 'line' coverage: 500
+  New 'line' coverage: 504
+  New 'line' coverage: 505
+  New 'line' coverage: 506
+  New 'line' coverage: 508
+  New 'line' coverage: 511
+  New 'line' coverage: 512
+  New 'line' coverage: 513
+  New 'line' coverage: 516
+  New 'line' coverage: 519
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 522
+  New 'line' coverage: 526
+  New 'line' coverage: 556
+  New 'line' coverage: 558
+  New 'line' coverage: 561
+New src file: /unibench/exiv2-0.26/src/image.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv25ImageC2EitSt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv212ImageFactory4openERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb()
+  New 'function' coverage: _ZN5Exiv212ImageFactory4openESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _ZN5Exiv212ImageFactory8createIoERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb()
+  New 'function' coverage: _ZN5Exiv212ImageFactory9checkTypeEiRNS_7BasicIoEb()
+  New 'function' coverage: _ZN5Exiv25Image12clearCommentEv()
+  New 'function' coverage: _ZN5Exiv25Image12clearXmpDataEv()
+  New 'function' coverage: _ZN5Exiv25Image13clearExifDataEv()
+  New 'function' coverage: _ZN5Exiv25Image13clearIptcDataEv()
+  New 'function' coverage: _ZN5Exiv25Image13clearMetadataEv()
+  New 'function' coverage: _ZN5Exiv25Image14clearXmpPacketEv()
+  New 'function' coverage: _ZN5Exiv25Image15clearIccProfileEv()
+  New 'function' coverage: _ZN5Exiv25Image18writeXmpFromPacketEb()
+  New 'function' coverage: _ZN5Exiv25Image8exifDataEv()
+  New 'function' coverage: _ZN5Exiv25ImageC2EitSt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _ZN5Exiv25ImageD2Ev()
+  New 'function' coverage: _ZNK12_GLOBAL__N_18RegistryeqERKi()
+  New 'function' coverage: _ZNK5Exiv25Image10pixelWidthEv()
+  New 'function' coverage: _ZNK5Exiv25Image11pixelHeightEv()
+  New 'function' coverage: _ZNK5Exiv25Image4goodEv()
+  New 'line' coverage: 1062
+  New 'line' coverage: 152
+  New 'line' coverage: 165
+  New 'line' coverage: 167
+  New 'line' coverage: 169
+  New 'line' coverage: 171
+  New 'line' coverage: 27
+  New 'line' coverage: 521
+  New 'line' coverage: 523
+  New 'line' coverage: 524
+  New 'line' coverage: 525
+  New 'line' coverage: 526
+  New 'line' coverage: 527
+  New 'line' coverage: 528
+  New 'line' coverage: 529
+  New 'line' coverage: 531
+  New 'line' coverage: 533
+  New 'line' coverage: 571
+  New 'line' coverage: 573
+  New 'line' coverage: 574
+  New 'line' coverage: 581
+  New 'line' coverage: 583
+  New 'line' coverage: 584
+  New 'line' coverage: 591
+  New 'line' coverage: 593
+  New 'line' coverage: 594
+  New 'line' coverage: 595
+  New 'line' coverage: 606
+  New 'line' coverage: 608
+  New 'line' coverage: 609
+  New 'line' coverage: 610
+  New 'line' coverage: 619
+  New 'line' coverage: 621
+  New 'line' coverage: 622
+  New 'line' coverage: 627
+  New 'line' coverage: 629
+  New 'line' coverage: 630
+  New 'line' coverage: 647
+  New 'line' coverage: 649
+  New 'line' coverage: 650
+  New 'line' coverage: 662
+  New 'line' coverage: 664
+  New 'line' coverage: 667
+  New 'line' coverage: 669
+  New 'line' coverage: 712
+  New 'line' coverage: 714
+  New 'line' coverage: 715
+  New 'line' coverage: 716
+  New 'line' coverage: 756
+  New 'line' coverage: 758
+  New 'line' coverage: 759
+  New 'line' coverage: 760
+  New 'line' coverage: 797
+  New 'line' coverage: 799
+  New 'line' coverage: 810
+  New 'line' coverage: 812
+  New 'line' coverage: 814
+  New 'line' coverage: 817
+  New 'line' coverage: 845
+  New 'line' coverage: 847
+  New 'line' coverage: 848
+  New 'line' coverage: 849
+  New 'line' coverage: 869
+  New 'line' coverage: 871
+  New 'line' coverage: 874
+  New 'line' coverage: 875
+  New 'line' coverage: 876
+  New 'line' coverage: 879
+  New 'line' coverage: 94
+New src file: /unibench/exiv2-0.26/src/mrwimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28MrwImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isMrwTypeERNS_7BasicIoEb()
+  New 'line' coverage: 168
+  New 'line' coverage: 170
+  New 'line' coverage: 172
+  New 'line' coverage: 173
+  New 'line' coverage: 176
+  New 'line' coverage: 177
+  New 'line' coverage: 178
+  New 'line' coverage: 180
+  New 'line' coverage: 183
+  New 'line' coverage: 30
+New src file: /unibench/exiv2-0.26/src/rafimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28RafImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isRafTypeERNS_7BasicIoEb()
+  New 'line' coverage: 30
+  New 'line' coverage: 341
+  New 'line' coverage: 343
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 349
+  New 'line' coverage: 350
+  New 'line' coverage: 351
+  New 'line' coverage: 353
+  New 'line' coverage: 356
+New src file: /unibench/exiv2-0.26/src/casiomn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal18casioRecordingModeE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 191
+  New 'line' coverage: 212
+  New 'line' coverage: 29
+  New 'line' coverage: 492
+  New 'line' coverage: 543
+  New 'line' coverage: 603
+New src file: /unibench/exiv2-0.26/src/tiffcomposite.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZNK5Exiv28Internal15TiffMappingInfoeqERKNS1_3KeyE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1917
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/nikonmn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal10nikonOffOnE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1052
+  New 'line' coverage: 1066
+  New 'line' coverage: 1074
+  New 'line' coverage: 1086
+  New 'line' coverage: 1094
+  New 'line' coverage: 1106
+  New 'line' coverage: 1114
+  New 'line' coverage: 1119
+  New 'line' coverage: 1127
+  New 'line' coverage: 1133
+  New 'line' coverage: 1186
+  New 'line' coverage: 1193
+  New 'line' coverage: 1246
+  New 'line' coverage: 1253
+  New 'line' coverage: 1276
+  New 'line' coverage: 1288
+  New 'line' coverage: 1296
+  New 'line' coverage: 1301
+  New 'line' coverage: 1309
+  New 'line' coverage: 1314
+  New 'line' coverage: 1322
+  New 'line' coverage: 1327
+  New 'line' coverage: 1335
+  New 'line' coverage: 1340
+  New 'line' coverage: 1348
+  New 'line' coverage: 1353
+  New 'line' coverage: 1361
+  New 'line' coverage: 1366
+  New 'line' coverage: 1374
+  New 'line' coverage: 1385
+  New 'line' coverage: 1393
+  New 'line' coverage: 1410
+  New 'line' coverage: 1418
+  New 'line' coverage: 1435
+  New 'line' coverage: 215
+  New 'line' coverage: 268
+  New 'line' coverage: 2785
+  New 'line' coverage: 35
+  New 'line' coverage: 486
+  New 'line' coverage: 524
+  New 'line' coverage: 556
+  New 'line' coverage: 652
+  New 'line' coverage: 679
+  New 'line' coverage: 684
+  New 'line' coverage: 724
+  New 'line' coverage: 740
+  New 'line' coverage: 755
+  New 'line' coverage: 761
+  New 'line' coverage: 769
+  New 'line' coverage: 775
+  New 'line' coverage: 812
+  New 'line' coverage: 819
+  New 'line' coverage: 867
+  New 'line' coverage: 873
+  New 'line' coverage: 892
+  New 'line' coverage: 908
+  New 'line' coverage: 916
+  New 'line' coverage: 922
+  New 'line' coverage: 937
+  New 'line' coverage: 944
+New src file: /unibench/exiv2-0.26/src/orfimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28OrfImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv28Internal9OrfHeader4readEPKhj()
+  New 'function' coverage: _ZN5Exiv28Internal9OrfHeaderC2ENS_9ByteOrderE()
+  New 'function' coverage: _ZN5Exiv28Internal9OrfHeaderD2Ev()
+  New 'function' coverage: _ZN5Exiv29isOrfTypeERNS_7BasicIoEb()
+  New 'line' coverage: 229
+  New 'line' coverage: 231
+  New 'line' coverage: 233
+  New 'line' coverage: 234
+  New 'line' coverage: 237
+  New 'line' coverage: 238
+  New 'line' coverage: 239
+  New 'line' coverage: 240
+  New 'line' coverage: 242
+  New 'line' coverage: 250
+  New 'line' coverage: 252
+  New 'line' coverage: 254
+  New 'line' coverage: 256
+  New 'line' coverage: 258
+  New 'line' coverage: 260
+  New 'line' coverage: 262
+  New 'line' coverage: 264
+  New 'line' coverage: 267
+  New 'line' coverage: 271
+  New 'line' coverage: 30
+  New 'line' coverage: 302
+New src file: /unibench/exiv2-0.26/src/types.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28TypeInfo8typeNameENS_6TypeIdE()
+  New 'function' coverage: _Z11_exvGettextPKc()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv27DataBuf7releaseEv()
+  New 'function' coverage: _ZN5Exiv29getUShortEPKhNS_9ByteOrderE()
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 167
+  New 'line' coverage: 168
+  New 'line' coverage: 233
+  New 'line' coverage: 235
+  New 'line' coverage: 239
+  New 'line' coverage: 30
+  New 'line' coverage: 656
+  New 'line' coverage: 660
+  New 'line' coverage: 661
+  New 'line' coverage: 665
+  New 'line' coverage: 668
+  New 'line' coverage: 669
+New src file: /unibench/exiv2-0.26/src/xmpsidecar.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv210XmpSidecarC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isXmpTypeERNS_7BasicIoEb()
+  New 'line' coverage: 185
+  New 'line' coverage: 194
+  New 'line' coverage: 196
+  New 'line' coverage: 197
+  New 'line' coverage: 198
+  New 'line' coverage: 201
+  New 'line' coverage: 204
+  New 'line' coverage: 205
+  New 'line' coverage: 209
+  New 'line' coverage: 210
+  New 'line' coverage: 213
+  New 'line' coverage: 214
+  New 'line' coverage: 215
+  New 'line' coverage: 224
+  New 'line' coverage: 225
+  New 'line' coverage: 226
+  New 'line' coverage: 229
+  New 'line' coverage: 230
+  New 'line' coverage: 232
+  New 'line' coverage: 236
+  New 'line' coverage: 30
+  New 'line' coverage: 51
+New src file: /unibench/exiv2-0.26/src/psdimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28PsdImageC2ESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isPsdTypeERNS_7BasicIoEb()
+  New 'line' coverage: 30
+  New 'line' coverage: 694
+  New 'line' coverage: 696
+  New 'line' coverage: 697
+  New 'line' coverage: 699
+  New 'line' coverage: 700
+  New 'line' coverage: 704
+  New 'line' coverage: 705
+  New 'line' coverage: 707
+  New 'line' coverage: 710
+  New 'line' coverage: 712
+New src file: /unibench/exiv2-0.26/src/panasonicmn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal16panasonicQualityE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 31
+  New 'line' coverage: 440
+  New 'line' coverage: 545
+  New 'line' coverage: 739
+  New 'line' coverage: 765
+  New 'line' coverage: 772
+New src file: /unibench/exiv2-0.26/src/value.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv25ValueC2ENS_6TypeIdE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv212CommentValue12CharsetTableC2ENS0_9CharsetIdEPKcS4_()
+  New 'line' coverage: 1230
+  New 'line' coverage: 31
+  New 'line' coverage: 402
+  New 'line' coverage: 405
+  New 'line' coverage: 407
+  New 'line' coverage: 410
+  New 'line' coverage: 417
+  New 'line' coverage: 850
+New src file: /unibench/exiv2-0.26/src/pentaxmn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal18pentaxShootingModeE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1435
+  New 'line' coverage: 1698
+  New 'line' coverage: 1705
+  New 'line' coverage: 27
+New src file: /unibench/exiv2-0.26/src/easyaccess.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv211orientationERKNS_8ExifDataE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 27
+  New 'line' coverage: 551
+New src file: /unibench/exiv2-0.26/src/exiv2app.hpp
+  New 'function' coverage: _ZN6ParamsC2Ev()
+  New 'function' coverage: _ZN6ParamsD0Ev()
+  New 'function' coverage: _ZN6ParamsD2Ev()
+  New 'line' coverage: 143
+  New 'line' coverage: 274
+  New 'line' coverage: 294
+  New 'line' coverage: 296
+  New 'line' coverage: 297
+  New 'line' coverage: 298
+  New 'line' coverage: 299
+New src file: /unibench/exiv2-0.26/src/version.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv213versionNumberEv()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 28
+  New 'line' coverage: 609
+New src file: /unibench/exiv2-0.26/src/futils.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28ENVARDEFE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv210fileExistsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb()
+  New 'function' coverage: _ZN5Exiv212fileProtocolERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZZN5Exiv212fileProtocolERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEENUt_D2Ev()
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 243
+  New 'line' coverage: 255
+  New 'line' coverage: 256
+  New 'line' coverage: 257
+  New 'line' coverage: 260
+  New 'line' coverage: 285
+  New 'line' coverage: 288
+  New 'line' coverage: 293
+  New 'line' coverage: 294
+  New 'line' coverage: 295
+  New 'line' coverage: 296
+  New 'line' coverage: 30
+  New 'line' coverage: 444
+New src file: /unibench/exiv2-0.26/src/webpimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29WebPImageC2ESt8auto_ptrINS_7BasicIoEE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN5Exiv210isWebPTypeERNS_7BasicIoEb()
+  New 'line' coverage: 697
+  New 'line' coverage: 699
+  New 'line' coverage: 700
+  New 'line' coverage: 701
+  New 'line' coverage: 705
+  New 'line' coverage: 706
+  New 'line' coverage: 707
+  New 'line' coverage: 708
+  New 'line' coverage: 709
+  New 'line' coverage: 710
+  New 'line' coverage: 711
+  New 'line' coverage: 806
+New src file: /unibench/exiv2-0.26/src/utils.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN4Util6GetoptC2Ev()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN4Util6Getopt6getoptEiPKPcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZN4Util6GetoptC2Ev()
+  New 'function' coverage: _ZN4Util6GetoptD2Ev()
+  New 'function' coverage: _ZN4Util8basenameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEb()
+  New 'line' coverage: 117
+  New 'line' coverage: 119
+  New 'line' coverage: 121
+  New 'line' coverage: 122
+  New 'line' coverage: 123
+  New 'line' coverage: 126
+  New 'line' coverage: 127
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 130
+  New 'line' coverage: 131
+  New 'line' coverage: 165
+  New 'line' coverage: 29
+  New 'line' coverage: 63
+  New 'line' coverage: 64
+  New 'line' coverage: 66
+  New 'line' coverage: 68
+  New 'line' coverage: 70
+  New 'line' coverage: 72
+  New 'line' coverage: 74
+  New 'line' coverage: 77
+  New 'line' coverage: 78
+  New 'line' coverage: 81
+  New 'line' coverage: 82
+  New 'line' coverage: 84
+New src file: /unibench/exiv2-0.26/src/metadatum.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv23KeyD2Ev()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 31
+  New 'line' coverage: 95
+New src file: /unibench/exiv2-0.26/src/olympusmn.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal12olympusOffOnE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1003
+  New 'line' coverage: 1016
+  New 'line' coverage: 1038
+  New 'line' coverage: 1045
+  New 'line' coverage: 1049
+  New 'line' coverage: 1072
+  New 'line' coverage: 1111
+  New 'line' coverage: 1717
+  New 'line' coverage: 182
+  New 'line' coverage: 34
+  New 'line' coverage: 473
+  New 'line' coverage: 670
+  New 'line' coverage: 727
+  New 'line' coverage: 756
+  New 'line' coverage: 784
+  New 'line' coverage: 826
+  New 'line' coverage: 843
+  New 'line' coverage: 896
+  New 'line' coverage: 922
+  New 'line' coverage: 949
+New src file: /unibench/exiv2-0.26/src/actions.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN6Action4TaskD2Ev()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN12_GLOBAL__N_1lsERSoSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiE()
+  New 'function' coverage: _ZN6Action11TaskFactory12registerTaskENS_8TaskTypeESt8auto_ptrINS_4TaskEE()
+  New 'function' coverage: _ZN6Action11TaskFactory6createENS_8TaskTypeE()
+  New 'function' coverage: _ZN6Action11TaskFactory7cleanupEv()
+  New 'function' coverage: _ZN6Action11TaskFactory8instanceEv()
+  New 'function' coverage: _ZN6Action11TaskFactoryC2Ev()
+  New 'function' coverage: _ZN6Action4TaskD2Ev()
+  New 'function' coverage: _ZN6Action5EraseD0Ev()
+  New 'function' coverage: _ZN6Action5EraseD2Ev()
+  New 'function' coverage: _ZN6Action5Print12printSummaryEv()
+  New 'function' coverage: _ZN6Action5Print3runERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZN6Action5PrintD0Ev()
+  New 'function' coverage: _ZN6Action5PrintD2Ev()
+  New 'function' coverage: _ZN6Action6AdjustD0Ev()
+  New 'function' coverage: _ZN6Action6AdjustD2Ev()
+  New 'function' coverage: _ZN6Action6FixComD0Ev()
+  New 'function' coverage: _ZN6Action6FixComD2Ev()
+  New 'function' coverage: _ZN6Action6FixIsoD0Ev()
+  New 'function' coverage: _ZN6Action6FixIsoD2Ev()
+  New 'function' coverage: _ZN6Action6InsertD0Ev()
+  New 'function' coverage: _ZN6Action6InsertD2Ev()
+  New 'function' coverage: _ZN6Action6ModifyD0Ev()
+  New 'function' coverage: _ZN6Action6ModifyD2Ev()
+  New 'function' coverage: _ZN6Action6RenameD0Ev()
+  New 'function' coverage: _ZN6Action6RenameD2Ev()
+  New 'function' coverage: _ZN6Action7ExtractD0Ev()
+  New 'function' coverage: _ZN6Action7ExtractD2Ev()
+  New 'function' coverage: _ZNK6Action4Task5cloneEv()
+  New 'function' coverage: _ZNK6Action5Print10printLabelERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE()
+  New 'function' coverage: _ZNK6Action5Print6clone_Ev()
+  New 'line' coverage: 1062
+  New 'line' coverage: 1064
+  New 'line' coverage: 1252
+  New 'line' coverage: 1254
+  New 'line' coverage: 1435
+  New 'line' coverage: 1437
+  New 'line' coverage: 1672
+  New 'line' coverage: 1674
+  New 'line' coverage: 170
+  New 'line' coverage: 172
+  New 'line' coverage: 174
+  New 'line' coverage: 176
+  New 'line' coverage: 181
+  New 'line' coverage: 1811
+  New 'line' coverage: 1813
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 186
+  New 'line' coverage: 1874
+  New 'line' coverage: 1876
+  New 'line' coverage: 189
+  New 'line' coverage: 191
+  New 'line' coverage: 192
+  New 'line' coverage: 193
+  New 'line' coverage: 194
+  New 'line' coverage: 196
+  New 'line' coverage: 197
+  New 'line' coverage: 199
+  New 'line' coverage: 201
+  New 'line' coverage: 203
+  New 'line' coverage: 204
+  New 'line' coverage: 207
+  New 'line' coverage: 208
+  New 'line' coverage: 210
+  New 'line' coverage: 213
+  New 'line' coverage: 214
+  New 'line' coverage: 215
+  New 'line' coverage: 216
+  New 'line' coverage: 217
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 224
+  New 'line' coverage: 226
+  New 'line' coverage: 227
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 234
+  New 'line' coverage: 236
+  New 'line' coverage: 2364
+  New 'line' coverage: 2366
+  New 'line' coverage: 2367
+  New 'line' coverage: 2368
+  New 'line' coverage: 2369
+  New 'line' coverage: 2371
+  New 'line' coverage: 2373
+  New 'line' coverage: 2376
+  New 'line' coverage: 238
+  New 'line' coverage: 240
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 243
+  New 'line' coverage: 244
+  New 'line' coverage: 259
+  New 'line' coverage: 261
+  New 'line' coverage: 262
+  New 'line' coverage: 263
+  New 'line' coverage: 264
+  New 'line' coverage: 27
+  New 'line' coverage: 280
+  New 'line' coverage: 282
+  New 'line' coverage: 287
+  New 'line' coverage: 288
+  New 'line' coverage: 289
+  New 'line' coverage: 290
+  New 'line' coverage: 291
+  New 'line' coverage: 294
+  New 'line' coverage: 295
+  New 'line' coverage: 299
+  New 'line' coverage: 300
+  New 'line' coverage: 301
+  New 'line' coverage: 305
+  New 'line' coverage: 306
+  New 'line' coverage: 309
+  New 'line' coverage: 310
+  New 'line' coverage: 312
+  New 'line' coverage: 313
+  New 'line' coverage: 314
+  New 'line' coverage: 315
+  New 'line' coverage: 476
+  New 'line' coverage: 478
+  New 'line' coverage: 479
+  New 'line' coverage: 482
+  New 'line' coverage: 483
+  New 'line' coverage: 484
+  New 'line' coverage: 830
+  New 'line' coverage: 832
+  New 'line' coverage: 835
+  New 'line' coverage: 837
+  New 'line' coverage: 923
+  New 'line' coverage: 925
+New src file: /unibench/exiv2-0.26/src/error.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv26LogMsg6level_E()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv210BasicErrorIcE6setMsgEv()
+  New 'function' coverage: _ZN5Exiv26LogMsg14defaultHandlerEiPKc()
+  New 'function' coverage: _ZN5Exiv26errMsgEi()
+  New 'function' coverage: _ZN5Exiv28AnyErrorD2Ev()
+  New 'function' coverage: _ZNK12_GLOBAL__N_16ErrMsgeqEi()
+  New 'line' coverage: 120
+  New 'line' coverage: 122
+  New 'line' coverage: 125
+  New 'line' coverage: 129
+  New 'line' coverage: 130
+  New 'line' coverage: 132
+  New 'line' coverage: 134
+  New 'line' coverage: 138
+  New 'line' coverage: 140
+  New 'line' coverage: 142
+  New 'line' coverage: 143
+  New 'line' coverage: 146
+  New 'line' coverage: 147
+  New 'line' coverage: 148
+  New 'line' coverage: 149
+  New 'line' coverage: 152
+  New 'line' coverage: 158
+  New 'line' coverage: 164
+  New 'line' coverage: 168
+  New 'line' coverage: 205
+  New 'line' coverage: 207
+  New 'line' coverage: 208
+  New 'line' coverage: 211
+  New 'line' coverage: 27
+  New 'line' coverage: 45
+New src file: /unibench/exiv2-0.26/src/xmp.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Xmpdatum4ImplC2ERKNS_6XmpKeyEPKNS_5ValueE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv27XmpData5clearEv()
+  New 'function' coverage: _ZN5Exiv29XmpParser9terminateEv()
+  New 'line' coverage: 29
+  New 'line' coverage: 348
+  New 'line' coverage: 350
+  New 'line' coverage: 351
+  New 'line' coverage: 492
+  New 'line' coverage: 494
+  New 'line' coverage: 495
+  New 'line' coverage: 501
+  New 'line' coverage: 940
+New src file: /unibench/exiv2-0.26/include/exiv2/error.hpp
+  New 'function' coverage: _ZN5Exiv210BasicErrorIcEC2INSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEEiRKT_()
+  New 'function' coverage: _ZN5Exiv210BasicErrorIcED2Ev()
+  New 'function' coverage: _ZN5Exiv213toBasicStringIcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENS2_IT_S3_IS7_ESaIS7_EEERKT0_()
+  New 'function' coverage: _ZN5Exiv26LogMsg2osB5cxx11Ev()
+  New 'function' coverage: _ZN5Exiv26LogMsg5levelEv()
+  New 'function' coverage: _ZN5Exiv26LogMsg7handlerEv()
+  New 'function' coverage: _ZN5Exiv26LogMsgC2ENS0_5LevelE()
+  New 'function' coverage: _ZN5Exiv26LogMsgD2Ev()
+  New 'function' coverage: _ZN5Exiv28AnyErrorC2Ev()
+  New 'function' coverage: _ZN5Exiv2lsERSoRKNS_8AnyErrorE()
+  New 'function' coverage: _ZNK5Exiv210BasicErrorIcE4whatEv()
+  New 'line' coverage: 101
+  New 'line' coverage: 107
+  New 'line' coverage: 124
+  New 'line' coverage: 126
+  New 'line' coverage: 161
+  New 'line' coverage: 163
+  New 'line' coverage: 164
+  New 'line' coverage: 165
+  New 'line' coverage: 175
+  New 'line' coverage: 191
+  New 'line' coverage: 193
+  New 'line' coverage: 279
+  New 'line' coverage: 280
+  New 'line' coverage: 282
+  New 'line' coverage: 283
+  New 'line' coverage: 307
+  New 'line' coverage: 309
+  New 'line' coverage: 318
+  New 'line' coverage: 320
+  New 'line' coverage: 99
+New src file: /unibench/exiv2-0.26/src/tags.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29groupInfoE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv27TagInfoC2EtPKcS2_S2_iiNS_6TypeIdEsPFRSoS4_RKNS_5ValueEPKNS_8ExifDataEE()
+  New 'line' coverage: 1445
+  New 'line' coverage: 1594
+  New 'line' coverage: 1915
+  New 'line' coverage: 1979
+  New 'line' coverage: 2133
+  New 'line' coverage: 2141
+  New 'line' coverage: 2165
+  New 'line' coverage: 2168
+  New 'line' coverage: 2230
+  New 'line' coverage: 2243
+  New 'line' coverage: 2254
+  New 'line' coverage: 2262
+  New 'line' coverage: 2951
+  New 'line' coverage: 2963
+  New 'line' coverage: 2965
+  New 'line' coverage: 31
+  New 'line' coverage: 3288
+  New 'line' coverage: 410
+New src file: /unibench/exiv2-0.26/include/exiv2/basicio.hpp
+  New 'function' coverage: _ZN5Exiv27BasicIoC2Ev()
+  New 'function' coverage: _ZN5Exiv28IoCloser5closeEv()
+  New 'function' coverage: _ZN5Exiv28IoCloserC2ERNS_7BasicIoE()
+  New 'function' coverage: _ZN5Exiv28IoCloserD2Ev()
+  New 'line' coverage: 266
+  New 'line' coverage: 281
+  New 'line' coverage: 283
+  New 'line' coverage: 289
+New src file: /unibench/exiv2-0.26/src/http.cpp
+  New 'function' coverage: _GLOBAL__sub_I_httpTemplate()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'line' coverage: 428
+New src file: /unibench/exiv2-0.26/src/crwimage_int.hpp
+  New 'function' coverage: _ZN5Exiv28Internal10CrwMappingC2EttjtNS0_5IfdIdEPFvRKNS0_13CiffComponentEPKS1_RNS_5ImageENS_9ByteOrderEEPFvRKS8_S7_PNS0_10CiffHeaderEE()
+  New 'line' coverage: 557
+  New 'line' coverage: 571
+  New 'line' coverage: 572
+New src file: /unibench/exiv2-0.26/src/tiffvisitor.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28Internal11TiffVisitorC2Ev()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 1657
+  New 'line' coverage: 29
+New src file: /unibench/exiv2-0.26/src/iptc.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29IptcdatumC2ERKNS_7IptcKeyEPKNS_5ValueE()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'line' coverage: 29
+  New 'line' coverage: 576
+New src file: /unibench/exiv2-0.26/src/epsimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28EpsImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_110XmpTrailerD2Ev()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isEpsTypeERNS_7BasicIoEb()
+  New 'function' coverage: __tcf_0()
+  New 'function' coverage: __tcf_1()
+  New 'function' coverage: __tcf_2()
+  New 'line' coverage: 104
+  New 'line' coverage: 107
+  New 'line' coverage: 1167
+  New 'line' coverage: 1170
+  New 'line' coverage: 1171
+  New 'line' coverage: 1172
+  New 'line' coverage: 1173
+  New 'line' coverage: 1176
+  New 'line' coverage: 1177
+  New 'line' coverage: 1181
+  New 'line' coverage: 1182
+  New 'line' coverage: 1183
+  New 'line' coverage: 1186
+  New 'line' coverage: 1187
+  New 'line' coverage: 1189
+  New 'line' coverage: 1192
+  New 'line' coverage: 30
+  New 'line' coverage: 57
+  New 'line' coverage: 60
+  New 'line' coverage: 64
+  New 'line' coverage: 67
+  New 'line' coverage: 71
+  New 'line' coverage: 87
+  New 'line' coverage: 90
+  New 'line' coverage: 95
+New src file: /unibench/exiv2-0.26/src/pngimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv28PngImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv29isPngTypeERNS_7BasicIoEb()
+  New 'line' coverage: 28
+  New 'line' coverage: 718
+  New 'line' coverage: 720
+  New 'line' coverage: 722
+  New 'line' coverage: 723
+  New 'line' coverage: 727
+  New 'line' coverage: 728
+  New 'line' coverage: 730
+  New 'line' coverage: 733
+  New 'line' coverage: 735
+New src file: /unibench/exiv2-0.26/include/exiv2/exif.hpp
+  New 'function' coverage: _ZN5Exiv28ExifDataC2Ev()
+  New 'function' coverage: _ZN5Exiv28ExifDataD2Ev()
+  New 'function' coverage: _ZNK5Exiv28ExifData5countEv()
+  New 'function' coverage: _ZNK5Exiv28ExifData5emptyEv()
+  New 'line' coverage: 438
+  New 'line' coverage: 516
+  New 'line' coverage: 518
+New src file: /unibench/exiv2-0.26/src/tiffimage.cpp
+  New 'function' coverage: _GLOBAL__sub_I__ZN5Exiv29TiffImageC2ESt8auto_ptrINS_7BasicIoEEb()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'function' coverage: _ZN12_GLOBAL__N_18getRcsIdEPKc()
+  New 'function' coverage: _ZN5Exiv210isTiffTypeERNS_7BasicIoEb()
+  New 'function' coverage: _ZN5Exiv28Internal10TiffHeaderC2ENS_9ByteOrderEjb()
+  New 'function' coverage: _ZN5Exiv28Internal10TiffHeaderD2Ev()
+  New 'function' coverage: _ZN5Exiv28Internal14TiffHeaderBase4readEPKhj()
+  New 'function' coverage: _ZN5Exiv28Internal14TiffHeaderBaseC2EtjNS_9ByteOrderEj()
+  New 'function' coverage: _ZN5Exiv28Internal14TiffHeaderBaseD2Ev()
+  New 'line' coverage: 2053
+  New 'line' coverage: 2060
+  New 'line' coverage: 2062
+  New 'line' coverage: 2064
+  New 'line' coverage: 2066
+  New 'line' coverage: 2068
+  New 'line' coverage: 2070
+  New 'line' coverage: 2072
+  New 'line' coverage: 2075
+  New 'line' coverage: 2079
+  New 'line' coverage: 2247
+  New 'line' coverage: 2249
+  New 'line' coverage: 2251
+  New 'line' coverage: 2253
+  New 'line' coverage: 2255
+  New 'line' coverage: 2316
+  New 'line' coverage: 27
+  New 'line' coverage: 320
+  New 'line' coverage: 322
+  New 'line' coverage: 324
+  New 'line' coverage: 325
+  New 'line' coverage: 328
+  New 'line' coverage: 329
+  New 'line' coverage: 330
+  New 'line' coverage: 331
+  New 'line' coverage: 333
+New src file: /unibench/exiv2-0.26/xmpsdk/src/XMPCore_Impl.cpp
+  New 'function' coverage: _GLOBAL__sub_I_XMPCore_Impl.cpp()
+  New 'function' coverage: _Z41__static_initialization_and_destruction_0ii()
+  New 'line' coverage: 1466
+  New 'line' coverage: 79
+
+[+] Processed 610 / 610 test cases.
+
+[+] Final zero coverage report: ./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/cov/zero-cov
+[+] Final positive coverage report: ./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/cov/pos-cov
+    lines......: 4.1% (1138 of 27969 lines)
+    functions..: 8.3% (369 of 4456 functions)
+[+] Final lcov web report: ./raw_data/formatfuzzer/group_1/outputs_group1_1/exiv2/exiv2_formatfuzz_2/ffgen/cov/web/index.html

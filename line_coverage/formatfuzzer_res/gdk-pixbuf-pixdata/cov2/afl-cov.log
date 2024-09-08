@@ -1,0 +1,2791 @@
+
+*** Imported 280 new test cases from: ./raw_data/formatfuzzer/group_2/outputs_group1_1/gdk-pixbuf-pixdata/gdk-pixbuf-pixdata_formatfuzz_2/ffgen/queue
+
+[+] AFL test case: id:000000,time:0,orig:1005 (0 / 280), cycle: 0
+[+] AFL test case: id:000001,time:0,orig:1_partyanimsm2.gif (1 / 280), cycle: 0
+[+] AFL test case: id:000002,time:0,orig:4095-codes.gif (2 / 280), cycle: 0
+[+] AFL test case: id:000003,time:0,orig:468 (3 / 280), cycle: 0
+[+] AFL test case: id:000004,time:0,orig:799 (4 / 280), cycle: 0
+[+] AFL test case: id:000005,time:0,orig:810 (5 / 280), cycle: 0
+[+] AFL test case: id:000006,time:0,orig:813 (6 / 280), cycle: 0
+[+] AFL test case: id:000007,time:0,orig:817 (7 / 280), cycle: 0
+[+] AFL test case: id:000008,time:0,orig:901 (8 / 280), cycle: 0
+[+] AFL test case: id:000009,time:0,orig:bug775232.pnm (9 / 280), cycle: 0
+[+] AFL test case: id:000010,time:0,orig:bug778584.gif (10 / 280), cycle: 0
+[+] AFL test case: id:000011,time:0,orig:bug785447.ico (11 / 280), cycle: 0
+[+] AFL test case: id:000012,time:0,orig:circular-table.gif (12 / 280), cycle: 0
+[+] AFL test case: id:000013,time:0,orig:double-clears.gif (13 / 280), cycle: 0
+[+] AFL test case: id:000014,time:0,orig:dpi.png (14 / 280), cycle: 0
+[+] AFL test case: id:000015,time:0,orig:icc-profile.png (15 / 280), cycle: 0
+[+] AFL test case: id:000016,time:0,orig:image-overlap-bg.gif (16 / 280), cycle: 0
+[+] AFL test case: id:000017,time:0,orig:invalid.3.ico (17 / 280), cycle: 0
+[+] AFL test case: id:000018,time:0,orig:invalid.4.gif (18 / 280), cycle: 0
+[+] AFL test case: id:000019,time:0,orig:many-clears.gif (19 / 280), cycle: 0
+[+] AFL test case: id:000020,time:0,orig:no-global-color-table.gif (20 / 280), cycle: 0
+[+] AFL test case: id:000021,time:0,orig:test-animation.ani (21 / 280), cycle: 0
+[+] AFL test case: id:000022,time:0,orig:test-image-rle.pixdata (22 / 280), cycle: 0
+[+] AFL test case: id:000023,time:0,orig:test-image.pixdata (23 / 280), cycle: 0
+[+] AFL test case: id:000024,time:0,orig:valid.1.gif (24 / 280), cycle: 0
+[+] AFL test case: id:000025,time:0,orig:valid.2.tga (25 / 280), cycle: 0
+[+] AFL test case: id:000026,src:000001,time:69,op:havoc,rep:16 (26 / 280), cycle: 0
+[+] AFL test case: id:000027,src:000001,time:85,op:havoc,rep:128 (27 / 280), cycle: 0
+[+] AFL test case: id:000028,src:000001,time:94,op:havoc,rep:4 (28 / 280), cycle: 0
+[+] AFL test case: id:000029,src:000001,time:101,op:havoc,rep:4 (29 / 280), cycle: 0
+[+] AFL test case: id:000030,src:000001,time:107,op:havoc,rep:16 (30 / 280), cycle: 0
+[+] AFL test case: id:000031,src:000001,time:114,op:havoc,rep:2 (31 / 280), cycle: 0
+[+] AFL test case: id:000032,src:000001,time:155,op:havoc,rep:16 (32 / 280), cycle: 0
+[+] AFL test case: id:000033,src:000001,time:173,op:havoc,rep:4 (33 / 280), cycle: 0
+[+] AFL test case: id:000034,src:000001,time:213,op:havoc,rep:32,+cov (34 / 280), cycle: 0
+[+] AFL test case: id:000035,src:000001,time:241,op:havoc,rep:16 (35 / 280), cycle: 0
+[+] AFL test case: id:000036,src:000001,time:263,op:havoc,rep:8 (36 / 280), cycle: 0
+[+] AFL test case: id:000037,src:000001,time:316,op:havoc,rep:128 (37 / 280), cycle: 0
+[+] AFL test case: id:000038,src:000001,time:325,op:havoc,rep:16 (38 / 280), cycle: 0
+[+] AFL test case: id:000039,src:000001,time:353,op:havoc,rep:4,+cov (39 / 280), cycle: 0
+[+] AFL test case: id:000040,src:000001,time:372,op:havoc,rep:64 (40 / 280), cycle: 0
+[+] AFL test case: id:000041,src:000001,time:460,op:havoc,rep:16 (41 / 280), cycle: 0
+[+] AFL test case: id:000042,src:000001,time:480,op:havoc,rep:16 (42 / 280), cycle: 0
+[+] AFL test case: id:000043,src:000001,time:574,op:havoc,rep:32 (43 / 280), cycle: 0
+[+] AFL test case: id:000044,src:000001,time:587,op:havoc,rep:8 (44 / 280), cycle: 0
+[+] AFL test case: id:000045,src:000001,time:607,op:havoc,rep:2 (45 / 280), cycle: 0
+[+] AFL test case: id:000046,src:000001,time:781,op:havoc,rep:64 (46 / 280), cycle: 0
+[+] AFL test case: id:000047,src:000001,time:848,op:havoc,rep:16 (47 / 280), cycle: 0
+[+] AFL test case: id:000048,src:000001,time:882,op:havoc,rep:8 (48 / 280), cycle: 0
+[+] AFL test case: id:000049,src:000001,time:900,op:havoc,rep:4,+cov (49 / 280), cycle: 0
+[+] AFL test case: id:000050,src:000001,time:1010,op:havoc,rep:32 (50 / 280), cycle: 0
+[+] AFL test case: id:000051,src:000001,time:1085,op:havoc,rep:2 (51 / 280), cycle: 0
+[+] AFL test case: id:000052,src:000001,time:1319,op:havoc,rep:8,+cov (52 / 280), cycle: 0
+[+] AFL test case: id:000053,src:000001,time:1439+000017,op:splice,rep:128,+cov (53 / 280), cycle: 0
+[+] AFL test case: id:000054,src:000001,time:1447+000017,op:splice,rep:128 (54 / 280), cycle: 0
+[+] AFL test case: id:000055,src:000001,time:1476+000002,op:splice,rep:4 (55 / 280), cycle: 0
+[+] AFL test case: id:000056,src:000001,time:1495+000002,op:splice,rep:32 (56 / 280), cycle: 0
+[+] AFL test case: id:000057,src:000001,time:1543+000002,op:splice,rep:64 (57 / 280), cycle: 0
+[+] AFL test case: id:000058,src:000001,time:1560+000002,op:splice,rep:128 (58 / 280), cycle: 0
+[+] AFL test case: id:000059,src:000001,time:1568+000002,op:splice,rep:128,+cov (59 / 280), cycle: 0
+[+] AFL test case: id:000060,src:000001,time:1600+000002,op:splice,rep:128 (60 / 280), cycle: 0
+[+] AFL test case: id:000061,src:000001,time:1634+000002,op:splice,rep:128 (61 / 280), cycle: 0
+[+] AFL test case: id:000062,src:000001,time:1650+000002,op:splice,rep:32 (62 / 280), cycle: 0
+[+] AFL test case: id:000063,src:000001,time:1670+000002,op:splice,rep:128 (63 / 280), cycle: 0
+[+] AFL test case: id:000064,src:000001,time:1683+000002,op:splice,rep:64 (64 / 280), cycle: 0
+[+] AFL test case: id:000065,src:000001,time:1706+000002,op:splice,rep:128 (65 / 280), cycle: 0
+[+] AFL test case: id:000066,src:000001,time:1718+000002,op:splice,rep:64 (66 / 280), cycle: 0
+[+] AFL test case: id:000067,src:000001,time:1746+000002,op:splice,rep:8 (67 / 280), cycle: 0
+[+] AFL test case: id:000068,src:000001,time:1814+000002,op:splice,rep:128 (68 / 280), cycle: 0
+[+] AFL test case: id:000069,src:000001,time:1855+000002,op:splice,rep:32 (69 / 280), cycle: 0
+[+] AFL test case: id:000070,src:000001,time:1938+000002,op:splice,rep:8 (70 / 280), cycle: 0
+[+] AFL test case: id:000071,src:000001,time:1981+000052,op:splice,rep:8 (71 / 280), cycle: 0
+[+] AFL test case: id:000072,src:000001,time:1989+000052,op:splice,rep:16 (72 / 280), cycle: 0
+[+] AFL test case: id:000073,src:000001,time:2005+000052,op:splice,rep:16 (73 / 280), cycle: 0
+[+] AFL test case: id:000074,src:000001,time:2017+000052,op:splice,rep:16 (74 / 280), cycle: 0
+[+] AFL test case: id:000075,src:000001,time:2028+000052,op:splice,rep:4 (75 / 280), cycle: 0
+[+] AFL test case: id:000076,src:000001,time:2072+000052,op:splice,rep:32 (76 / 280), cycle: 0
+[+] AFL test case: id:000077,src:000001,time:2111+000052,op:splice,rep:8 (77 / 280), cycle: 0
+[+] AFL test case: id:000078,src:000001,time:2154+000052,op:splice,rep:2 (78 / 280), cycle: 0
+[+] AFL test case: id:000079,src:000003,time:2292+000021,op:splice,rep:64,+cov (79 / 280), cycle: 0
+[+] AFL test case: id:000080,src:000003,time:2338+000026,op:splice,rep:16 (80 / 280), cycle: 0
+[+] AFL test case: id:000081,src:000003,time:2343+000026,op:splice,rep:4,+cov (81 / 280), cycle: 0
+[+] AFL test case: id:000082,src:000003,time:2355+000064,op:splice,rep:32 (82 / 280), cycle: 0
+[+] AFL test case: id:000083,src:000003,time:2412+000060,op:splice,rep:128 (83 / 280), cycle: 0
+[+] AFL test case: id:000084,src:000029,time:2811+000083,op:splice,rep:32,+cov (84 / 280), cycle: 0
+[+] AFL test case: id:000085,src:000029,time:2884+000084,op:splice,rep:32 (85 / 280), cycle: 0
+[+] AFL test case: id:000086,src:000029,time:2972+000005,op:splice,rep:128 (86 / 280), cycle: 0
+[+] AFL test case: id:000087,src:000029,time:2987+000005,op:splice,rep:128 (87 / 280), cycle: 0
+[+] AFL test case: id:000088,src:000029,time:3011+000005,op:splice,rep:128 (88 / 280), cycle: 0
+[+] AFL test case: id:000089,src:000029,time:3034+000005,op:splice,rep:128,+cov (89 / 280), cycle: 0
+[+] AFL test case: id:000090,src:000029,time:3100+000005,op:splice,rep:128,+cov (90 / 280), cycle: 0
+[+] AFL test case: id:000091,src:000029,time:3153+000005,op:splice,rep:64 (91 / 280), cycle: 0
+[+] AFL test case: id:000092,src:000029,time:3262+000005,op:splice,rep:128 (92 / 280), cycle: 0
+[+] AFL test case: id:000093,src:000042,time:3602+000068,op:splice,rep:128 (93 / 280), cycle: 0
+[+] AFL test case: id:000094,src:000042,time:3659+000059,op:splice,rep:128 (94 / 280), cycle: 0
+[+] AFL test case: id:000095,src:000042,time:3687+000059,op:splice,rep:128 (95 / 280), cycle: 0
+[+] AFL test case: id:000096,src:000046,time:3843+000090,op:splice,rep:128 (96 / 280), cycle: 0
+[+] AFL test case: id:000097,src:000049,time:4310+000005,op:splice,rep:64,+cov (97 / 280), cycle: 0
+[+] AFL test case: id:000098,src:000059,time:4861,op:havoc,rep:128,+cov (98 / 280), cycle: 0
+[+] AFL test case: id:000099,src:000059,time:4920,op:havoc,rep:2 (99 / 280), cycle: 0
+[+] AFL test case: id:000100,src:000059,time:4939,op:havoc,rep:8 (100 / 280), cycle: 0
+[+] AFL test case: id:000101,src:000059,time:4953,op:havoc,rep:32 (101 / 280), cycle: 0
+[+] AFL test case: id:000102,src:000059,time:4966,op:havoc,rep:32 (102 / 280), cycle: 0
+[+] AFL test case: id:000103,src:000059,time:5015,op:havoc,rep:64 (103 / 280), cycle: 0
+[+] AFL test case: id:000104,src:000059,time:5089,op:havoc,rep:64 (104 / 280), cycle: 0
+[+] AFL test case: id:000105,src:000059,time:5178,op:havoc,rep:64,+cov (105 / 280), cycle: 0
+[+] AFL test case: id:000106,src:000059,time:5585,op:havoc,rep:128 (106 / 280), cycle: 0
+[+] AFL test case: id:000107,src:000059,time:5712,op:havoc,rep:64 (107 / 280), cycle: 0
+[+] AFL test case: id:000108,src:000059,time:5948,op:havoc,rep:128 (108 / 280), cycle: 0
+[+] AFL test case: id:000109,src:000059,time:6219,op:havoc,rep:8,+cov (109 / 280), cycle: 0
+[+] AFL test case: id:000110,src:000059,time:6763,op:havoc,rep:128 (110 / 280), cycle: 0
+[+] AFL test case: id:000111,src:000059,time:6956,op:havoc,rep:64 (111 / 280), cycle: 0
+[+] AFL test case: id:000112,src:000059,time:7030,op:havoc,rep:8,+cov (112 / 280), cycle: 0
+[+] AFL test case: id:000113,src:000059,time:7142,op:havoc,rep:8 (113 / 280), cycle: 0
+[+] AFL test case: id:000114,src:000059,time:7266+000011,op:splice,rep:64 (114 / 280), cycle: 0
+[+] AFL test case: id:000115,src:000071,time:7570+000091,op:splice,rep:64 (115 / 280), cycle: 0
+[+] AFL test case: id:000116,src:000071,time:7584+000091,op:splice,rep:64,+cov (116 / 280), cycle: 0
+[+] AFL test case: id:000117,src:000071,time:7725+000106,op:splice,rep:64,+cov (117 / 280), cycle: 0
+[+] AFL test case: id:000118,src:000080,time:8231+000095,op:splice,rep:32 (118 / 280), cycle: 0
+[+] AFL test case: id:000119,src:000080,time:8322+000023,op:splice,rep:128,+cov (119 / 280), cycle: 0
+[+] AFL test case: id:000120,src:000089,time:8882,op:havoc,rep:128 (120 / 280), cycle: 0
+[+] AFL test case: id:000121,src:000089,time:8886,op:havoc,rep:128,+cov (121 / 280), cycle: 0
+[+] AFL test case: id:000122,src:000089,time:8945,op:havoc,rep:32 (122 / 280), cycle: 0
+[+] AFL test case: id:000123,src:000089,time:9118,op:havoc,rep:2 (123 / 280), cycle: 0
+[+] AFL test case: id:000124,src:000089,time:9498,op:havoc,rep:128,+cov (124 / 280), cycle: 0
+[+] AFL test case: id:000125,src:000089,time:9977,op:havoc,rep:128 (125 / 280), cycle: 0
+[+] AFL test case: id:000126,src:000098,time:10979+000011,op:splice,rep:32 (126 / 280), cycle: 0
+[+] AFL test case: id:000127,src:000109,time:12328,op:havoc,rep:8 (127 / 280), cycle: 0
+[+] AFL test case: id:000128,src:000109,time:12558+000091,op:splice,rep:128 (128 / 280), cycle: 0
+[+] AFL test case: id:000129,src:000109,time:12605+000092,op:splice,rep:8 (129 / 280), cycle: 0
+[+] AFL test case: id:000130,src:000112,time:13004+000116,op:splice,rep:32 (130 / 280), cycle: 0
+[+] AFL test case: id:000131,src:000117,time:13595+000079,op:splice,rep:32,+cov (131 / 280), cycle: 0
+[+] AFL test case: id:000132,src:000117,time:13726+000062,op:splice,rep:64,+cov (132 / 280), cycle: 0
+[+] AFL test case: id:000133,src:000117,time:13749+000129,op:splice,rep:128,+cov (133 / 280), cycle: 0
+[+] AFL test case: id:000134,src:000124,time:14884+000063,op:splice,rep:64 (134 / 280), cycle: 0
+[+] AFL test case: id:000135,src:000124,time:15055+000002,op:splice,rep:128 (135 / 280), cycle: 0
+[+] AFL test case: id:000136,src:000127,time:15349,op:havoc,rep:64 (136 / 280), cycle: 0
+[+] AFL test case: id:000137,src:000127,time:15375,op:havoc,rep:16 (137 / 280), cycle: 0
+[+] AFL test case: id:000138,src:000127,time:15529,op:havoc,rep:4 (138 / 280), cycle: 0
+[+] AFL test case: id:000139,src:000127,time:16323,op:havoc,rep:4 (139 / 280), cycle: 0
+[+] AFL test case: id:000140,src:000127,time:16381,op:havoc,rep:2 (140 / 280), cycle: 0
+[+] AFL test case: id:000141,src:000127,time:17253,op:havoc,rep:2 (141 / 280), cycle: 0
+[+] AFL test case: id:000142,src:000127,time:17646,op:havoc,rep:8 (142 / 280), cycle: 0
+[+] AFL test case: id:000143,src:000127,time:17854,op:havoc,rep:8 (143 / 280), cycle: 0
+[+] AFL test case: id:000144,src:000133,time:19411+000120,op:splice,rep:32 (144 / 280), cycle: 0
+[+] AFL test case: id:000145,src:000133,time:19575+000142,op:splice,rep:128 (145 / 280), cycle: 0
+[+] AFL test case: id:000146,src:000133,time:19587+000142,op:splice,rep:128 (146 / 280), cycle: 0
+[+] AFL test case: id:000147,src:000133,time:19622+000142,op:splice,rep:32,+cov (147 / 280), cycle: 0
+[+] AFL test case: id:000148,src:000133,time:19750+000142,op:splice,rep:64 (148 / 280), cycle: 0
+[+] AFL test case: id:000149,src:000142,time:20288,op:havoc,rep:128 (149 / 280), cycle: 0
+[+] AFL test case: id:000150,src:000142,time:20658+000132,op:splice,rep:128 (150 / 280), cycle: 0
+[+] AFL test case: id:000151,src:000142,time:20807+000002,op:splice,rep:64 (151 / 280), cycle: 0
+[+] AFL test case: id:000152,src:000086,time:29328,op:havoc,rep:128 (152 / 280), cycle: 0
+[+] AFL test case: id:000153,src:000098,time:30364,op:havoc,rep:128 (153 / 280), cycle: 0
+[+] AFL test case: id:000154,src:000127,time:34007,op:havoc,rep:8,+cov (154 / 280), cycle: 0
+[+] AFL test case: id:000155,src:000154,time:34886,op:havoc,rep:8 (155 / 280), cycle: 0
+[+] AFL test case: id:000156,src:000113,time:42644+000012,op:splice,rep:128 (156 / 280), cycle: 0
+[+] AFL test case: id:000157,src:000131,time:45261,op:havoc,rep:2,+cov (157 / 280), cycle: 0
+[+] AFL test case: id:000158,src:000131,time:45461+000070,op:splice,rep:128 (158 / 280), cycle: 0
+[+] AFL test case: id:000159,src:000007,time:46825+000095,op:splice,rep:128,+cov (159 / 280), cycle: 0
+[+] AFL test case: id:000160,src:000071,time:50572+000158,op:splice,rep:2 (160 / 280), cycle: 0
+[+] AFL test case: id:000161,src:000071,time:50579+000158,op:splice,rep:2 (161 / 280), cycle: 0
+[+] AFL test case: id:000162,src:000090,time:50830+000135,op:splice,rep:128 (162 / 280), cycle: 0
+[+] AFL test case: id:000163,src:000161,time:50906,op:havoc,rep:8 (163 / 280), cycle: 0
+[+] AFL test case: id:000164,src:000161,time:50921,op:havoc,rep:2 (164 / 280), cycle: 0
+[+] AFL test case: id:000165,src:000161,time:50957,op:havoc,rep:16 (165 / 280), cycle: 0
+[+] AFL test case: id:000166,src:000161,time:51009,op:havoc,rep:2,+cov (166 / 280), cycle: 0
+[+] AFL test case: id:000167,src:000161,time:51108,op:havoc,rep:16 (167 / 280), cycle: 0
+[+] AFL test case: id:000168,src:000161,time:51116,op:havoc,rep:8 (168 / 280), cycle: 0
+[+] AFL test case: id:000169,src:000161,time:51337,op:havoc,rep:2 (169 / 280), cycle: 0
+[+] AFL test case: id:000170,src:000161,time:51377,op:havoc,rep:16 (170 / 280), cycle: 0
+[+] AFL test case: id:000171,src:000161,time:51419,op:havoc,rep:4 (171 / 280), cycle: 0
+[+] AFL test case: id:000172,src:000161,time:51664,op:havoc,rep:2 (172 / 280), cycle: 0
+[+] AFL test case: id:000173,src:000161,time:51734,op:havoc,rep:8 (173 / 280), cycle: 0
+[+] AFL test case: id:000174,src:000161,time:51828,op:havoc,rep:2 (174 / 280), cycle: 0
+[+] AFL test case: id:000175,src:000163,time:53013+000064,op:splice,rep:64 (175 / 280), cycle: 0
+[+] AFL test case: id:000176,src:000166,time:53936,op:havoc,rep:4 (176 / 280), cycle: 0
+[+] AFL test case: id:000177,src:000166,time:53957,op:havoc,rep:2 (177 / 280), cycle: 0
+[+] AFL test case: id:000178,src:000166,time:53983,op:havoc,rep:8 (178 / 280), cycle: 0
+[+] AFL test case: id:000179,src:000166,time:53999,op:havoc,rep:2 (179 / 280), cycle: 0
+[+] AFL test case: id:000180,src:000166,time:54024,op:havoc,rep:4 (180 / 280), cycle: 0
+[+] AFL test case: id:000181,src:000166,time:54085,op:havoc,rep:16 (181 / 280), cycle: 0
+[+] AFL test case: id:000182,src:000166,time:54242,op:havoc,rep:16 (182 / 280), cycle: 0
+[+] AFL test case: id:000183,src:000166,time:54276,op:havoc,rep:4 (183 / 280), cycle: 0
+[+] AFL test case: id:000184,src:000166,time:54388,op:havoc,rep:2 (184 / 280), cycle: 0
+[+] AFL test case: id:000185,src:000166,time:54666,op:havoc,rep:16 (185 / 280), cycle: 0
+[+] AFL test case: id:000186,src:000166,time:55055+000157,op:splice,rep:128 (186 / 280), cycle: 0
+[+] AFL test case: id:000187,src:000173,time:56604+000102,op:splice,rep:64 (187 / 280), cycle: 0
+[+] AFL test case: id:000188,src:000173,time:57486+000159,op:splice,rep:16 (188 / 280), cycle: 0
+[+] AFL test case: id:000189,src:000174,time:58076,op:havoc,rep:16 (189 / 280), cycle: 0
+[+] AFL test case: id:000190,src:000174,time:58275,op:havoc,rep:32 (190 / 280), cycle: 0
+[+] AFL test case: id:000191,src:000183,time:61256,op:havoc,rep:2 (191 / 280), cycle: 0
+[+] AFL test case: id:000192,src:000183,time:62435+000021,op:splice,rep:2 (192 / 280), cycle: 0
+[+] AFL test case: id:000193,src:000183,time:62479+000021,op:splice,rep:64 (193 / 280), cycle: 0
+[+] AFL test case: id:000194,src:000183,time:62489+000021,op:splice,rep:64 (194 / 280), cycle: 0
+[+] AFL test case: id:000195,src:000183,time:62518+000021,op:splice,rep:64 (195 / 280), cycle: 0
+[+] AFL test case: id:000196,src:000183,time:62589+000021,op:splice,rep:16 (196 / 280), cycle: 0
+[+] AFL test case: id:000197,src:000190,time:62984,op:havoc,rep:4 (197 / 280), cycle: 0
+[+] AFL test case: id:000198,src:000101,time:65045+000163,op:splice,rep:16 (198 / 280), cycle: 0
+[+] AFL test case: id:000199,src:000162,time:67331+000123,op:splice,rep:32 (199 / 280), cycle: 0
+[+] AFL test case: id:000200,src:000168,time:70548+000194,op:splice,rep:8 (200 / 280), cycle: 0
+[+] AFL test case: id:000201,src:000186,time:76950+000058,op:splice,rep:32 (201 / 280), cycle: 0
+[+] AFL test case: id:000202,src:000197,time:80063+000173,op:splice,rep:2,+cov (202 / 280), cycle: 0
+[+] AFL test case: id:000203,src:000202,time:80350+000187,op:splice,rep:16 (203 / 280), cycle: 0
+[+] AFL test case: id:000204,src:000126,time:92517,op:havoc,rep:4 (204 / 280), cycle: 0
+[+] AFL test case: id:000205,src:000138,time:95488,op:havoc,rep:8 (205 / 280), cycle: 0
+[+] AFL test case: id:000206,src:000184,time:108252+000193,op:splice,rep:2 (206 / 280), cycle: 0
+[+] AFL test case: id:000207,src:000194,time:110381,op:havoc,rep:16 (207 / 280), cycle: 0
+[+] AFL test case: id:000208,src:000081,time:123605+000091,op:splice,rep:4 (208 / 280), cycle: 0
+[+] AFL test case: id:000209,src:000152,time:132081+000054,op:splice,rep:64,+cov (209 / 280), cycle: 0
+[+] AFL test case: id:000210,src:000197,time:157121,op:havoc,rep:4 (210 / 280), cycle: 0
+[+] AFL test case: id:000211,src:000210,time:157424,op:havoc,rep:2 (211 / 280), cycle: 0
+[+] AFL test case: id:000212,src:000211,time:158840,op:havoc,rep:4 (212 / 280), cycle: 0
+[+] AFL test case: id:000213,src:000165,time:212307+000195,op:splice,rep:128 (213 / 280), cycle: 0
+[+] AFL test case: id:000214,src:000078,time:240375+000183,op:splice,rep:128,+cov (214 / 280), cycle: 0
+[+] AFL test case: id:000215,src:000214,time:240435,op:havoc,rep:8,+cov (215 / 280), cycle: 0
+[+] AFL test case: id:000216,src:000198,time:256503,op:havoc,rep:2 (216 / 280), cycle: 0
+[+] AFL test case: id:000217,src:000206,time:259583,op:havoc,rep:4 (217 / 280), cycle: 0
+[+] AFL test case: id:000218,src:000206,time:259634,op:havoc,rep:8 (218 / 280), cycle: 0
+[+] AFL test case: id:000219,src:000206,time:260516,op:havoc,rep:16 (219 / 280), cycle: 0
+[+] AFL test case: id:000220,src:000217,time:296373,op:havoc,rep:2 (220 / 280), cycle: 0
+[+] AFL test case: id:000221,src:000135,time:307890+000128,op:splice,rep:128 (221 / 280), cycle: 0
+[+] AFL test case: id:000222,src:000216,time:316800+000011,op:splice,rep:16 (222 / 280), cycle: 0
+[+] AFL test case: id:000223,src:000222,time:350775,op:havoc,rep:2 (223 / 280), cycle: 0
+[+] AFL test case: id:000224,src:000222,time:350787,op:havoc,rep:4 (224 / 280), cycle: 0
+[+] AFL test case: id:000225,src:000222,time:350826,op:havoc,rep:64 (225 / 280), cycle: 0
+[+] AFL test case: id:000226,src:000204,time:372810,op:havoc,rep:32 (226 / 280), cycle: 0
+[+] AFL test case: id:000227,src:000161,time:385645+000194,op:splice,rep:2 (227 / 280), cycle: 0
+[+] AFL test case: id:000228,src:000216,time:409082+000157,op:splice,rep:128,+cov (228 / 280), cycle: 0
+[+] AFL test case: id:000229,src:000228,time:409678,op:havoc,rep:4 (229 / 280), cycle: 0
+[+] AFL test case: id:000230,src:000228,time:409698,op:havoc,rep:8,+cov (230 / 280), cycle: 0
+[+] AFL test case: id:000231,src:000228,time:409778,op:havoc,rep:32 (231 / 280), cycle: 0
+[+] AFL test case: id:000232,src:000228,time:409796,op:havoc,rep:4 (232 / 280), cycle: 0
+[+] AFL test case: id:000233,src:000228,time:409910,op:havoc,rep:32 (233 / 280), cycle: 0
+[+] AFL test case: id:000234,src:000228,time:409991,op:havoc,rep:8 (234 / 280), cycle: 0
+[+] AFL test case: id:000235,src:000228,time:411089,op:havoc,rep:32 (235 / 280), cycle: 0
+[+] AFL test case: id:000236,src:000228,time:412888+000195,op:splice,rep:2 (236 / 280), cycle: 0
+[+] AFL test case: id:000237,src:000232,time:413801+000002,op:splice,rep:8 (237 / 280), cycle: 0
+[+] AFL test case: id:000238,src:000232,time:413863+000002,op:splice,rep:4 (238 / 280), cycle: 0
+[+] AFL test case: id:000239,src:000237,time:417626,op:havoc,rep:8 (239 / 280), cycle: 0
+[+] AFL test case: id:000240,src:000237,time:420598+000074,op:splice,rep:16 (240 / 280), cycle: 0
+[+] AFL test case: id:000241,src:000240,time:420822,op:havoc,rep:2 (241 / 280), cycle: 0
+[+] AFL test case: id:000242,src:000240,time:421237,op:havoc,rep:4 (242 / 280), cycle: 0
+[+] AFL test case: id:000243,src:000242,time:422752,op:havoc,rep:4 (243 / 280), cycle: 0
+[+] AFL test case: id:000244,src:000242,time:422956,op:havoc,rep:8 (244 / 280), cycle: 0
+[+] AFL test case: id:000245,src:000242,time:424125+000006,op:splice,rep:32 (245 / 280), cycle: 0
+[+] AFL test case: id:000246,src:000221,time:442286+000128,op:splice,rep:8 (246 / 280), cycle: 0
+[+] AFL test case: id:000247,src:000239,time:507797,op:havoc,rep:4 (247 / 280), cycle: 0
+[+] AFL test case: id:000248,src:000176,time:526035+000139,op:splice,rep:16 (248 / 280), cycle: 0
+[+] AFL test case: id:000249,src:000233,time:601248,op:havoc,rep:8 (249 / 280), cycle: 0
+[+] AFL test case: id:000250,src:000233,time:602066+000137,op:splice,rep:32 (250 / 280), cycle: 0
+[+] AFL test case: id:000251,src:000233,time:602132+000127,op:splice,rep:128 (251 / 280), cycle: 0
+[+] AFL test case: id:000252,src:000238,time:603347,op:havoc,rep:32 (252 / 280), cycle: 0
+[+] AFL test case: id:000253,src:000238,time:605723+000151,op:splice,rep:128 (253 / 280), cycle: 0
+[+] AFL test case: id:000254,src:000238,time:606370+000067,op:splice,rep:128 (254 / 280), cycle: 0
+[+] AFL test case: id:000255,src:000242,time:607358+000232,op:splice,rep:4 (255 / 280), cycle: 0
+[+] AFL test case: id:000256,src:000249,time:609607,op:havoc,rep:16 (256 / 280), cycle: 0
+[+] AFL test case: id:000257,src:000255,time:618110+000143,op:splice,rep:16 (257 / 280), cycle: 0
+[+] AFL test case: id:000258,src:000152,time:628992+000132,op:splice,rep:128 (258 / 280), cycle: 0
+[+] AFL test case: id:000259,src:000232,time:636925,op:havoc,rep:4 (259 / 280), cycle: 0
+[+] AFL test case: id:000260,src:000149,time:683585+000259,op:splice,rep:128 (260 / 280), cycle: 0
+[+] AFL test case: id:000261,src:000247,time:721874,op:havoc,rep:4 (261 / 280), cycle: 0
+[+] AFL test case: id:000262,src:000248,time:756067+000221,op:splice,rep:8 (262 / 280), cycle: 0
+[+] AFL test case: id:000263,src:000195,time:820939,op:havoc,rep:32 (263 / 280), cycle: 0
+[+] AFL test case: id:000264,src:000221,time:861392+000143,op:splice,rep:32 (264 / 280), cycle: 0
+[+] AFL test case: id:000265,src:000255,time:1007448,op:havoc,rep:2 (265 / 280), cycle: 0
+[+] AFL test case: id:000266,src:000251,time:1110665,op:havoc,rep:16,+cov (266 / 280), cycle: 0
+[+] AFL test case: id:000267,src:000265,time:1149685,op:havoc,rep:2 (267 / 280), cycle: 0
+[+] AFL test case: id:000268,src:000265,time:1150115,op:havoc,rep:2 (268 / 280), cycle: 0
+[+] AFL test case: id:000269,src:000230,time:1195856,op:havoc,rep:2 (269 / 280), cycle: 0
+[+] AFL test case: id:000270,src:000269,time:1301077,op:havoc,rep:2 (270 / 280), cycle: 0
+[+] AFL test case: id:000271,src:000267,time:1383803+000199,op:splice,rep:64 (271 / 280), cycle: 0
+[+] AFL test case: id:000272,src:000198,time:1514392+000226,op:splice,rep:32 (272 / 280), cycle: 0
+[+] AFL test case: id:000273,src:000108,time:1741517,op:havoc,rep:64 (273 / 280), cycle: 0
+[+] AFL test case: id:000274,src:000267,time:2598704,op:havoc,rep:4 (274 / 280), cycle: 0
+[+] AFL test case: id:000275,src:000274,time:2601860,op:havoc,rep:2 (275 / 280), cycle: 0
+[+] AFL test case: id:000276,src:000209,time:2767540,op:havoc,rep:8 (276 / 280), cycle: 0
+[+] AFL test case: id:000277,src:000215,time:3793394+000104,op:splice,rep:16,+cov (277 / 280), cycle: 0
+[+] AFL test case: id:000278,src:000188,time:39357033+000145,op:splice,rep:128,+cov (278 / 280), cycle: 0
+[+] AFL test case: id:000279,src:000271,time:78054749,op:havoc,rep:8 (279 / 280), cycle: 0
+    lines......: 23.7% (2276 of 9621 lines)
+    functions..: 30.4% (190 of 624 functions)
+
+    Coverage diff id:0... id:279...
+diff id:0... -> id:279...
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-io.c
+  New 'function' coverage: _gdk_pixbuf_generic_image_load()
+  New 'function' coverage: _gdk_pixbuf_get_module()
+  New 'function' coverage: _gdk_pixbuf_get_module_for_file()
+  New 'function' coverage: _gdk_pixbuf_get_named_module()
+  New 'function' coverage: _gdk_pixbuf_load_module()
+  New 'function' coverage: format_check.isra.0()
+  New 'function' coverage: gdk_pixbuf_get_module_file()
+  New 'function' coverage: gdk_pixbuf_io_init()
+  New 'function' coverage: gdk_pixbuf_load_module_unlocked()
+  New 'function' coverage: gdk_pixbuf_new_from_file()
+  New 'function' coverage: generic_load_incrementally()
+  New 'function' coverage: get_file_formats()
+  New 'function' coverage: prepared_notify()
+  New 'line' coverage: 1000
+  New 'line' coverage: 1001
+  New 'line' coverage: 1002
+  New 'line' coverage: 1004
+  New 'line' coverage: 1009
+  New 'line' coverage: 1010
+  New 'line' coverage: 1017
+  New 'line' coverage: 1021
+  New 'line' coverage: 1023
+  New 'line' coverage: 1025
+  New 'line' coverage: 1026
+  New 'line' coverage: 1027
+  New 'line' coverage: 1028
+  New 'line' coverage: 1041
+  New 'line' coverage: 1059
+  New 'line' coverage: 1066
+  New 'line' coverage: 1067
+  New 'line' coverage: 1069
+  New 'line' coverage: 1070
+  New 'line' coverage: 1084
+  New 'line' coverage: 1085
+  New 'line' coverage: 1086
+  New 'line' coverage: 1087
+  New 'line' coverage: 1090
+  New 'line' coverage: 1095
+  New 'line' coverage: 1096
+  New 'line' coverage: 1097
+  New 'line' coverage: 1099
+  New 'line' coverage: 1108
+  New 'line' coverage: 1109
+  New 'line' coverage: 1110
+  New 'line' coverage: 1115
+  New 'line' coverage: 1116
+  New 'line' coverage: 1118
+  New 'line' coverage: 1122
+  New 'line' coverage: 1123
+  New 'line' coverage: 1124
+  New 'line' coverage: 1127
+  New 'line' coverage: 1128
+  New 'line' coverage: 124
+  New 'line' coverage: 133
+  New 'line' coverage: 134
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 146
+  New 'line' coverage: 147
+  New 'line' coverage: 148
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 168
+  New 'line' coverage: 182
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+  New 'line' coverage: 186
+  New 'line' coverage: 187
+  New 'line' coverage: 189
+  New 'line' coverage: 351
+  New 'line' coverage: 353
+  New 'line' coverage: 355
+  New 'line' coverage: 356
+  New 'line' coverage: 358
+  New 'line' coverage: 369
+  New 'line' coverage: 375
+  New 'line' coverage: 376
+  New 'line' coverage: 377
+  New 'line' coverage: 378
+  New 'line' coverage: 380
+  New 'line' coverage: 382
+  New 'line' coverage: 389
+  New 'line' coverage: 400
+  New 'line' coverage: 403
+  New 'line' coverage: 406
+  New 'line' coverage: 409
+  New 'line' coverage: 412
+  New 'line' coverage: 415
+  New 'line' coverage: 418
+  New 'line' coverage: 421
+  New 'line' coverage: 424
+  New 'line' coverage: 427
+  New 'line' coverage: 430
+  New 'line' coverage: 433
+  New 'line' coverage: 436
+  New 'line' coverage: 439
+  New 'line' coverage: 442
+  New 'line' coverage: 445
+  New 'line' coverage: 451
+  New 'line' coverage: 473
+  New 'line' coverage: 474
+  New 'line' coverage: 476
+  New 'line' coverage: 483
+  New 'line' coverage: 484
+  New 'line' coverage: 485
+  New 'line' coverage: 667
+  New 'line' coverage: 670
+  New 'line' coverage: 671
+  New 'line' coverage: 673
+  New 'line' coverage: 683
+  New 'line' coverage: 686
+  New 'line' coverage: 689
+  New 'line' coverage: 692
+  New 'line' coverage: 695
+  New 'line' coverage: 698
+  New 'line' coverage: 701
+  New 'line' coverage: 704
+  New 'line' coverage: 707
+  New 'line' coverage: 710
+  New 'line' coverage: 713
+  New 'line' coverage: 716
+  New 'line' coverage: 719
+  New 'line' coverage: 722
+  New 'line' coverage: 725
+  New 'line' coverage: 728
+  New 'line' coverage: 734
+  New 'line' coverage: 751
+  New 'line' coverage: 752
+  New 'line' coverage: 753
+  New 'line' coverage: 754
+  New 'line' coverage: 755
+  New 'line' coverage: 756
+  New 'line' coverage: 806
+  New 'line' coverage: 810
+  New 'line' coverage: 815
+  New 'line' coverage: 816
+  New 'line' coverage: 817
+  New 'line' coverage: 820
+  New 'line' coverage: 822
+  New 'line' coverage: 823
+  New 'line' coverage: 825
+  New 'line' coverage: 831
+  New 'line' coverage: 836
+  New 'line' coverage: 837
+  New 'line' coverage: 839
+  New 'line' coverage: 842
+  New 'line' coverage: 856
+  New 'line' coverage: 862
+  New 'line' coverage: 863
+  New 'line' coverage: 871
+  New 'line' coverage: 872
+  New 'line' coverage: 873
+  New 'line' coverage: 874
+  New 'line' coverage: 877
+  New 'line' coverage: 878
+  New 'line' coverage: 879
+  New 'line' coverage: 881
+  New 'line' coverage: 884
+  New 'line' coverage: 885
+  New 'line' coverage: 886
+  New 'line' coverage: 887
+  New 'line' coverage: 888
+  New 'line' coverage: 889
+  New 'line' coverage: 890
+  New 'line' coverage: 892
+  New 'line' coverage: 895
+  New 'line' coverage: 899
+  New 'line' coverage: 900
+  New 'line' coverage: 905
+  New 'line' coverage: 925
+  New 'line' coverage: 928
+  New 'line' coverage: 930
+  New 'line' coverage: 931
+  New 'line' coverage: 936
+  New 'line' coverage: 950
+  New 'line' coverage: 955
+  New 'line' coverage: 956
+  New 'line' coverage: 968
+  New 'line' coverage: 972
+  New 'line' coverage: 976
+  New 'line' coverage: 977
+  New 'line' coverage: 978
+  New 'line' coverage: 979
+  New 'line' coverage: 982
+  New 'line' coverage: 984
+  New 'line' coverage: 987
+  New 'line' coverage: 989
+  New 'line' coverage: 992
+  New 'line' coverage: 996
+  New 'line' coverage: 997
+  New 'line' coverage: 998
+  New 'line' coverage: 999
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-data.c
+  New 'function' coverage: gdk_pixbuf_new_from_data()
+  New 'line' coverage: 56
+  New 'line' coverage: 64
+  New 'line' coverage: 65
+  New 'line' coverage: 66
+  New 'line' coverage: 67
+  New 'line' coverage: 68
+  New 'line' coverage: 70
+  New 'line' coverage: 81
+  New 'line' coverage: 82
+  New 'line' coverage: 84
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-enum-types.c
+  New 'function' coverage: gdk_colorspace_get_type()
+  New 'line' coverage: 24
+  New 'line' coverage: 28
+  New 'line' coverage: 33
+  New 'line' coverage: 35
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixdata.c
+  New 'function' coverage: gdk_pixbuf_from_pixdata()
+  New 'function' coverage: gdk_pixdata_deserialize()
+  New 'function' coverage: gdk_pixdata_from_pixbuf()
+  New 'function' coverage: gdk_pixdata_serialize()
+  New 'function' coverage: pixdata_get_length()
+  New 'line' coverage: 107
+  New 'line' coverage: 115
+  New 'line' coverage: 116
+  New 'line' coverage: 118
+  New 'line' coverage: 119
+  New 'line' coverage: 120
+  New 'line' coverage: 121
+  New 'line' coverage: 122
+  New 'line' coverage: 124
+  New 'line' coverage: 125
+  New 'line' coverage: 127
+  New 'line' coverage: 129
+  New 'line' coverage: 132
+  New 'line' coverage: 134
+  New 'line' coverage: 135
+  New 'line' coverage: 138
+  New 'line' coverage: 139
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 142
+  New 'line' coverage: 143
+  New 'line' coverage: 146
+  New 'line' coverage: 147
+  New 'line' coverage: 148
+  New 'line' coverage: 150
+  New 'line' coverage: 151
+  New 'line' coverage: 175
+  New 'line' coverage: 176
+  New 'line' coverage: 199
+  New 'line' coverage: 206
+  New 'line' coverage: 207
+  New 'line' coverage: 209
+  New 'line' coverage: 213
+  New 'line' coverage: 214
+  New 'line' coverage: 215
+  New 'line' coverage: 217
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 224
+  New 'line' coverage: 225
+  New 'line' coverage: 226
+  New 'line' coverage: 227
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 230
+  New 'line' coverage: 231
+  New 'line' coverage: 235
+  New 'line' coverage: 236
+  New 'line' coverage: 237
+  New 'line' coverage: 239
+  New 'line' coverage: 327
+  New 'line' coverage: 331
+  New 'line' coverage: 335
+  New 'line' coverage: 336
+  New 'line' coverage: 337
+  New 'line' coverage: 338
+  New 'line' coverage: 340
+  New 'line' coverage: 342
+  New 'line' coverage: 343
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 347
+  New 'line' coverage: 384
+  New 'line' coverage: 385
+  New 'line' coverage: 388
+  New 'line' coverage: 389
+  New 'line' coverage: 390
+  New 'line' coverage: 391
+  New 'line' coverage: 392
+  New 'line' coverage: 393
+  New 'line' coverage: 394
+  New 'line' coverage: 395
+  New 'line' coverage: 396
+  New 'line' coverage: 398
+  New 'line' coverage: 40
+  New 'line' coverage: 415
+  New 'line' coverage: 420
+  New 'line' coverage: 422
+  New 'line' coverage: 423
+  New 'line' coverage: 424
+  New 'line' coverage: 425
+  New 'line' coverage: 426
+  New 'line' coverage: 428
+  New 'line' coverage: 429
+  New 'line' coverage: 431
+  New 'line' coverage: 433
+  New 'line' coverage: 434
+  New 'line' coverage: 435
+  New 'line' coverage: 436
+  New 'line' coverage: 437
+  New 'line' coverage: 439
+  New 'line' coverage: 44
+  New 'line' coverage: 440
+  New 'line' coverage: 452
+  New 'line' coverage: 454
+  New 'line' coverage: 455
+  New 'line' coverage: 456
+  New 'line' coverage: 457
+  New 'line' coverage: 459
+  New 'line' coverage: 46
+  New 'line' coverage: 461
+  New 'line' coverage: 463
+  New 'line' coverage: 465
+  New 'line' coverage: 466
+  New 'line' coverage: 467
+  New 'line' coverage: 469
+  New 'line' coverage: 479
+  New 'line' coverage: 480
+  New 'line' coverage: 482
+  New 'line' coverage: 483
+  New 'line' coverage: 487
+  New 'line' coverage: 488
+  New 'line' coverage: 489
+  New 'line' coverage: 491
+  New 'line' coverage: 492
+  New 'line' coverage: 493
+  New 'line' coverage: 496
+  New 'line' coverage: 50
+  New 'line' coverage: 510
+  New 'line' coverage: 511
+  New 'line' coverage: 512
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-xpm.c
+  New 'function' coverage: _gdk_pixbuf__xpm_fill_info()
+  New 'function' coverage: _gdk_pixbuf__xpm_fill_vtable()
+  New 'line' coverage: 789
+  New 'line' coverage: 791
+  New 'line' coverage: 792
+  New 'line' coverage: 793
+  New 'line' coverage: 794
+  New 'line' coverage: 795
+  New 'line' coverage: 796
+  New 'line' coverage: 798
+  New 'line' coverage: 813
+  New 'line' coverage: 814
+  New 'line' coverage: 815
+  New 'line' coverage: 816
+  New 'line' coverage: 817
+  New 'line' coverage: 818
+  New 'line' coverage: 819
+  New 'line' coverage: 820
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-gif.c
+  New 'function' coverage: _gdk_pixbuf__gif_fill_info()
+  New 'function' coverage: _gdk_pixbuf__gif_fill_vtable()
+  New 'function' coverage: gdk_pixbuf__gif_image_begin_load()
+  New 'function' coverage: gdk_pixbuf__gif_image_load()
+  New 'function' coverage: gdk_pixbuf__gif_image_load_increment()
+  New 'function' coverage: gdk_pixbuf__gif_image_stop_load()
+  New 'function' coverage: get_data_block()
+  New 'function' coverage: gif_fill_in_lines()
+  New 'function' coverage: gif_fill_in_pixels()
+  New 'function' coverage: gif_get_colormap()
+  New 'function' coverage: gif_get_colormap2()
+  New 'function' coverage: gif_get_extension()
+  New 'function' coverage: gif_get_frame_info()
+  New 'function' coverage: gif_get_lzw()
+  New 'function' coverage: gif_get_next_step()
+  New 'function' coverage: gif_init()
+  New 'function' coverage: gif_lzw_clear_code()
+  New 'function' coverage: gif_lzw_fill_buffer()
+  New 'function' coverage: gif_main_loop()
+  New 'function' coverage: gif_prepare_lzw()
+  New 'function' coverage: gif_read()
+  New 'function' coverage: lzw_read_byte()
+  New 'function' coverage: maybe_update()
+  New 'function' coverage: new_context()
+  New 'line' coverage: 1000
+  New 'line' coverage: 1002
+  New 'line' coverage: 1003
+  New 'line' coverage: 1005
+  New 'line' coverage: 1007
+  New 'line' coverage: 1008
+  New 'line' coverage: 1009
+  New 'line' coverage: 1010
+  New 'line' coverage: 1013
+  New 'line' coverage: 1014
+  New 'line' coverage: 1016
+  New 'line' coverage: 1017
+  New 'line' coverage: 1019
+  New 'line' coverage: 1020
+  New 'line' coverage: 1023
+  New 'line' coverage: 1024
+  New 'line' coverage: 1025
+  New 'line' coverage: 1027
+  New 'line' coverage: 1028
+  New 'line' coverage: 1030
+  New 'line' coverage: 1031
+  New 'line' coverage: 1033
+  New 'line' coverage: 1034
+  New 'line' coverage: 1040
+  New 'line' coverage: 1042
+  New 'line' coverage: 1043
+  New 'line' coverage: 1044
+  New 'line' coverage: 1045
+  New 'line' coverage: 1050
+  New 'line' coverage: 1052
+  New 'line' coverage: 1058
+  New 'line' coverage: 1060
+  New 'line' coverage: 1064
+  New 'line' coverage: 1065
+  New 'line' coverage: 1067
+  New 'line' coverage: 1068
+  New 'line' coverage: 1075
+  New 'line' coverage: 1076
+  New 'line' coverage: 1078
+  New 'line' coverage: 1079
+  New 'line' coverage: 1080
+  New 'line' coverage: 1096
+  New 'line' coverage: 1100
+  New 'line' coverage: 1101
+  New 'line' coverage: 1103
+  New 'line' coverage: 1104
+  New 'line' coverage: 1113
+  New 'line' coverage: 1114
+  New 'line' coverage: 1117
+  New 'line' coverage: 1121
+  New 'line' coverage: 1126
+  New 'line' coverage: 1127
+  New 'line' coverage: 1131
+  New 'line' coverage: 1134
+  New 'line' coverage: 1135
+  New 'line' coverage: 1136
+  New 'line' coverage: 1137
+  New 'line' coverage: 1138
+  New 'line' coverage: 1139
+  New 'line' coverage: 1140
+  New 'line' coverage: 1141
+  New 'line' coverage: 1142
+  New 'line' coverage: 1143
+  New 'line' coverage: 1145
+  New 'line' coverage: 1148
+  New 'line' coverage: 1149
+  New 'line' coverage: 1150
+  New 'line' coverage: 1152
+  New 'line' coverage: 1153
+  New 'line' coverage: 1155
+  New 'line' coverage: 1156
+  New 'line' coverage: 1158
+  New 'line' coverage: 1163
+  New 'line' coverage: 1168
+  New 'line' coverage: 1175
+  New 'line' coverage: 1184
+  New 'line' coverage: 1185
+  New 'line' coverage: 1187
+  New 'line' coverage: 1189
+  New 'line' coverage: 1194
+  New 'line' coverage: 1198
+  New 'line' coverage: 1203
+  New 'line' coverage: 1204
+  New 'line' coverage: 1211
+  New 'line' coverage: 1212
+  New 'line' coverage: 1213
+  New 'line' coverage: 1214
+  New 'line' coverage: 1215
+  New 'line' coverage: 1220
+  New 'line' coverage: 1221
+  New 'line' coverage: 1222
+  New 'line' coverage: 1224
+  New 'line' coverage: 1225
+  New 'line' coverage: 1227
+  New 'line' coverage: 1230
+  New 'line' coverage: 1231
+  New 'line' coverage: 1233
+  New 'line' coverage: 1235
+  New 'line' coverage: 1244
+  New 'line' coverage: 1245
+  New 'line' coverage: 1247
+  New 'line' coverage: 1261
+  New 'line' coverage: 1265
+  New 'line' coverage: 1269
+  New 'line' coverage: 1274
+  New 'line' coverage: 1275
+  New 'line' coverage: 1276
+  New 'line' coverage: 1277
+  New 'line' coverage: 1279
+  New 'line' coverage: 1280
+  New 'line' coverage: 1284
+  New 'line' coverage: 1287
+  New 'line' coverage: 1295
+  New 'line' coverage: 1306
+  New 'line' coverage: 1307
+  New 'line' coverage: 1308
+  New 'line' coverage: 1309
+  New 'line' coverage: 1312
+  New 'line' coverage: 1313
+  New 'line' coverage: 1315
+  New 'line' coverage: 1320
+  New 'line' coverage: 1323
+  New 'line' coverage: 1324
+  New 'line' coverage: 1329
+  New 'line' coverage: 1333
+  New 'line' coverage: 1336
+  New 'line' coverage: 1340
+  New 'line' coverage: 1341
+  New 'line' coverage: 1344
+  New 'line' coverage: 1346
+  New 'line' coverage: 1347
+  New 'line' coverage: 1351
+  New 'line' coverage: 1353
+  New 'line' coverage: 1356
+  New 'line' coverage: 1357
+  New 'line' coverage: 1358
+  New 'line' coverage: 1365
+  New 'line' coverage: 1367
+  New 'line' coverage: 1370
+  New 'line' coverage: 1373
+  New 'line' coverage: 1374
+  New 'line' coverage: 1378
+  New 'line' coverage: 1379
+  New 'line' coverage: 1380
+  New 'line' coverage: 1385
+  New 'line' coverage: 1386
+  New 'line' coverage: 1390
+  New 'line' coverage: 1391
+  New 'line' coverage: 1395
+  New 'line' coverage: 1396
+  New 'line' coverage: 1397
+  New 'line' coverage: 1402
+  New 'line' coverage: 1403
+  New 'line' coverage: 1404
+  New 'line' coverage: 1409
+  New 'line' coverage: 1410
+  New 'line' coverage: 1414
+  New 'line' coverage: 1415
+  New 'line' coverage: 1419
+  New 'line' coverage: 1420
+  New 'line' coverage: 1424
+  New 'line' coverage: 1425
+  New 'line' coverage: 1434
+  New 'line' coverage: 1436
+  New 'line' coverage: 1440
+  New 'line' coverage: 1444
+  New 'line' coverage: 1445
+  New 'line' coverage: 1448
+  New 'line' coverage: 1450
+  New 'line' coverage: 1451
+  New 'line' coverage: 1452
+  New 'line' coverage: 1453
+  New 'line' coverage: 1454
+  New 'line' coverage: 1455
+  New 'line' coverage: 1456
+  New 'line' coverage: 1457
+  New 'line' coverage: 1458
+  New 'line' coverage: 1459
+  New 'line' coverage: 1460
+  New 'line' coverage: 1461
+  New 'line' coverage: 1462
+  New 'line' coverage: 1463
+  New 'line' coverage: 1464
+  New 'line' coverage: 1465
+  New 'line' coverage: 1466
+  New 'line' coverage: 1468
+  New 'line' coverage: 1472
+  New 'line' coverage: 1478
+  New 'line' coverage: 1480
+  New 'line' coverage: 1482
+  New 'line' coverage: 1490
+  New 'line' coverage: 1491
+  New 'line' coverage: 1492
+  New 'line' coverage: 1494
+  New 'line' coverage: 1495
+  New 'line' coverage: 1496
+  New 'line' coverage: 1497
+  New 'line' coverage: 1502
+  New 'line' coverage: 1507
+  New 'line' coverage: 1509
+  New 'line' coverage: 1510
+  New 'line' coverage: 1513
+  New 'line' coverage: 1515
+  New 'line' coverage: 1516
+  New 'line' coverage: 1518
+  New 'line' coverage: 1522
+  New 'line' coverage: 1533
+  New 'line' coverage: 1535
+  New 'line' coverage: 1543
+  New 'line' coverage: 1544
+  New 'line' coverage: 1545
+  New 'line' coverage: 1546
+  New 'line' coverage: 1547
+  New 'line' coverage: 1549
+  New 'line' coverage: 1553
+  New 'line' coverage: 1555
+  New 'line' coverage: 1556
+  New 'line' coverage: 1558
+  New 'line' coverage: 1567
+  New 'line' coverage: 1569
+  New 'line' coverage: 1570
+  New 'line' coverage: 1572
+  New 'line' coverage: 1576
+  New 'line' coverage: 1581
+  New 'line' coverage: 1583
+  New 'line' coverage: 1585
+  New 'line' coverage: 1589
+  New 'line' coverage: 1590
+  New 'line' coverage: 1591
+  New 'line' coverage: 1610
+  New 'line' coverage: 1612
+  New 'line' coverage: 1617
+  New 'line' coverage: 1634
+  New 'line' coverage: 1635
+  New 'line' coverage: 1692
+  New 'line' coverage: 1694
+  New 'line' coverage: 1695
+  New 'line' coverage: 1696
+  New 'line' coverage: 1697
+  New 'line' coverage: 1698
+  New 'line' coverage: 1699
+  New 'line' coverage: 1701
+  New 'line' coverage: 1716
+  New 'line' coverage: 1717
+  New 'line' coverage: 1718
+  New 'line' coverage: 1719
+  New 'line' coverage: 1720
+  New 'line' coverage: 1721
+  New 'line' coverage: 1722
+  New 'line' coverage: 1723
+  New 'line' coverage: 202
+  New 'line' coverage: 208
+  New 'line' coverage: 213
+  New 'line' coverage: 215
+  New 'line' coverage: 237
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 243
+  New 'line' coverage: 252
+  New 'line' coverage: 263
+  New 'line' coverage: 264
+  New 'line' coverage: 270
+  New 'line' coverage: 271
+  New 'line' coverage: 275
+  New 'line' coverage: 279
+  New 'line' coverage: 280
+  New 'line' coverage: 284
+  New 'line' coverage: 285
+  New 'line' coverage: 286
+  New 'line' coverage: 288
+  New 'line' coverage: 289
+  New 'line' coverage: 290
+  New 'line' coverage: 291
+  New 'line' coverage: 294
+  New 'line' coverage: 302
+  New 'line' coverage: 306
+  New 'line' coverage: 307
+  New 'line' coverage: 311
+  New 'line' coverage: 312
+  New 'line' coverage: 313
+  New 'line' coverage: 315
+  New 'line' coverage: 333
+  New 'line' coverage: 338
+  New 'line' coverage: 339
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 347
+  New 'line' coverage: 350
+  New 'line' coverage: 354
+  New 'line' coverage: 360
+  New 'line' coverage: 361
+  New 'line' coverage: 362
+  New 'line' coverage: 363
+  New 'line' coverage: 364
+  New 'line' coverage: 368
+  New 'line' coverage: 371
+  New 'line' coverage: 373
+  New 'line' coverage: 374
+  New 'line' coverage: 377
+  New 'line' coverage: 382
+  New 'line' coverage: 384
+  New 'line' coverage: 385
+  New 'line' coverage: 388
+  New 'line' coverage: 392
+  New 'line' coverage: 393
+  New 'line' coverage: 394
+  New 'line' coverage: 396
+  New 'line' coverage: 397
+  New 'line' coverage: 399
+  New 'line' coverage: 404
+  New 'line' coverage: 405
+  New 'line' coverage: 406
+  New 'line' coverage: 408
+  New 'line' coverage: 409
+  New 'line' coverage: 410
+  New 'line' coverage: 412
+  New 'line' coverage: 414
+  New 'line' coverage: 416
+  New 'line' coverage: 418
+  New 'line' coverage: 420
+  New 'line' coverage: 421
+  New 'line' coverage: 423
+  New 'line' coverage: 424
+  New 'line' coverage: 425
+  New 'line' coverage: 428
+  New 'line' coverage: 430
+  New 'line' coverage: 431
+  New 'line' coverage: 432
+  New 'line' coverage: 433
+  New 'line' coverage: 443
+  New 'line' coverage: 444
+  New 'line' coverage: 446
+  New 'line' coverage: 447
+  New 'line' coverage: 479
+  New 'line' coverage: 480
+  New 'line' coverage: 481
+  New 'line' coverage: 485
+  New 'line' coverage: 489
+  New 'line' coverage: 509
+  New 'line' coverage: 510
+  New 'line' coverage: 512
+  New 'line' coverage: 514
+  New 'line' coverage: 517
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 522
+  New 'line' coverage: 524
+  New 'line' coverage: 525
+  New 'line' coverage: 534
+  New 'line' coverage: 535
+  New 'line' coverage: 540
+  New 'line' coverage: 541
+  New 'line' coverage: 543
+  New 'line' coverage: 552
+  New 'line' coverage: 553
+  New 'line' coverage: 557
+  New 'line' coverage: 561
+  New 'line' coverage: 562
+  New 'line' coverage: 565
+  New 'line' coverage: 566
+  New 'line' coverage: 567
+  New 'line' coverage: 568
+  New 'line' coverage: 583
+  New 'line' coverage: 590
+  New 'line' coverage: 591
+  New 'line' coverage: 592
+  New 'line' coverage: 593
+  New 'line' coverage: 596
+  New 'line' coverage: 597
+  New 'line' coverage: 599
+  New 'line' coverage: 600
+  New 'line' coverage: 609
+  New 'line' coverage: 610
+  New 'line' coverage: 611
+  New 'line' coverage: 614
+  New 'line' coverage: 615
+  New 'line' coverage: 616
+  New 'line' coverage: 617
+  New 'line' coverage: 618
+  New 'line' coverage: 620
+  New 'line' coverage: 621
+  New 'line' coverage: 622
+  New 'line' coverage: 623
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 627
+  New 'line' coverage: 628
+  New 'line' coverage: 629
+  New 'line' coverage: 634
+  New 'line' coverage: 653
+  New 'line' coverage: 655
+  New 'line' coverage: 656
+  New 'line' coverage: 657
+  New 'line' coverage: 658
+  New 'line' coverage: 661
+  New 'line' coverage: 662
+  New 'line' coverage: 663
+  New 'line' coverage: 667
+  New 'line' coverage: 669
+  New 'line' coverage: 670
+  New 'line' coverage: 672
+  New 'line' coverage: 682
+  New 'line' coverage: 683
+  New 'line' coverage: 685
+  New 'line' coverage: 686
+  New 'line' coverage: 687
+  New 'line' coverage: 688
+  New 'line' coverage: 689
+  New 'line' coverage: 691
+  New 'line' coverage: 692
+  New 'line' coverage: 696
+  New 'line' coverage: 698
+  New 'line' coverage: 699
+  New 'line' coverage: 700
+  New 'line' coverage: 709
+  New 'line' coverage: 710
+  New 'line' coverage: 711
+  New 'line' coverage: 712
+  New 'line' coverage: 716
+  New 'line' coverage: 718
+  New 'line' coverage: 721
+  New 'line' coverage: 724
+  New 'line' coverage: 726
+  New 'line' coverage: 727
+  New 'line' coverage: 728
+  New 'line' coverage: 729
+  New 'line' coverage: 730
+  New 'line' coverage: 731
+  New 'line' coverage: 738
+  New 'line' coverage: 743
+  New 'line' coverage: 745
+  New 'line' coverage: 747
+  New 'line' coverage: 748
+  New 'line' coverage: 749
+  New 'line' coverage: 751
+  New 'line' coverage: 752
+  New 'line' coverage: 753
+  New 'line' coverage: 759
+  New 'line' coverage: 760
+  New 'line' coverage: 761
+  New 'line' coverage: 762
+  New 'line' coverage: 765
+  New 'line' coverage: 766
+  New 'line' coverage: 767
+  New 'line' coverage: 768
+  New 'line' coverage: 773
+  New 'line' coverage: 785
+  New 'line' coverage: 786
+  New 'line' coverage: 787
+  New 'line' coverage: 788
+  New 'line' coverage: 789
+  New 'line' coverage: 790
+  New 'line' coverage: 792
+  New 'line' coverage: 797
+  New 'line' coverage: 798
+  New 'line' coverage: 799
+  New 'line' coverage: 800
+  New 'line' coverage: 807
+  New 'line' coverage: 813
+  New 'line' coverage: 817
+  New 'line' coverage: 820
+  New 'line' coverage: 828
+  New 'line' coverage: 829
+  New 'line' coverage: 831
+  New 'line' coverage: 832
+  New 'line' coverage: 834
+  New 'line' coverage: 853
+  New 'line' coverage: 854
+  New 'line' coverage: 859
+  New 'line' coverage: 868
+  New 'line' coverage: 869
+  New 'line' coverage: 870
+  New 'line' coverage: 873
+  New 'line' coverage: 878
+  New 'line' coverage: 879
+  New 'line' coverage: 884
+  New 'line' coverage: 885
+  New 'line' coverage: 887
+  New 'line' coverage: 888
+  New 'line' coverage: 890
+  New 'line' coverage: 893
+  New 'line' coverage: 894
+  New 'line' coverage: 902
+  New 'line' coverage: 903
+  New 'line' coverage: 906
+  New 'line' coverage: 908
+  New 'line' coverage: 909
+  New 'line' coverage: 912
+  New 'line' coverage: 913
+  New 'line' coverage: 915
+  New 'line' coverage: 918
+  New 'line' coverage: 919
+  New 'line' coverage: 920
+  New 'line' coverage: 974
+  New 'line' coverage: 976
+  New 'line' coverage: 977
+  New 'line' coverage: 978
+  New 'line' coverage: 983
+  New 'line' coverage: 984
+  New 'line' coverage: 986
+  New 'line' coverage: 988
+  New 'line' coverage: 989
+  New 'line' coverage: 992
+  New 'line' coverage: 994
+  New 'line' coverage: 996
+  New 'line' coverage: 997
+  New 'line' coverage: 998
+  New 'line' coverage: 999
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-jpeg.c
+  New 'function' coverage: _gdk_pixbuf__jpeg_fill_info()
+  New 'function' coverage: _gdk_pixbuf__jpeg_fill_vtable()
+  New 'line' coverage: 1449
+  New 'line' coverage: 1451
+  New 'line' coverage: 1452
+  New 'line' coverage: 1453
+  New 'line' coverage: 1454
+  New 'line' coverage: 1455
+  New 'line' coverage: 1456
+  New 'line' coverage: 1457
+  New 'line' coverage: 1459
+  New 'line' coverage: 1476
+  New 'line' coverage: 1477
+  New 'line' coverage: 1478
+  New 'line' coverage: 1479
+  New 'line' coverage: 1480
+  New 'line' coverage: 1481
+  New 'line' coverage: 1482
+  New 'line' coverage: 1483
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-ani.c
+  New 'function' coverage: _gdk_pixbuf__ani_fill_info()
+  New 'function' coverage: _gdk_pixbuf__ani_fill_vtable()
+  New 'function' coverage: ani_load_chunk()
+  New 'function' coverage: context_free()
+  New 'function' coverage: gdk_pixbuf__ani_image_begin_load()
+  New 'function' coverage: gdk_pixbuf__ani_image_load_increment()
+  New 'function' coverage: gdk_pixbuf__ani_image_stop_load()
+  New 'function' coverage: prepared_callback()
+  New 'function' coverage: read_int32()
+  New 'function' coverage: read_int8()
+  New 'function' coverage: updated_callback()
+  New 'line' coverage: 100
+  New 'line' coverage: 101
+  New 'line' coverage: 102
+  New 'line' coverage: 106
+  New 'line' coverage: 110
+  New 'line' coverage: 111
+  New 'line' coverage: 115
+  New 'line' coverage: 117
+  New 'line' coverage: 120
+  New 'line' coverage: 122
+  New 'line' coverage: 123
+  New 'line' coverage: 125
+  New 'line' coverage: 126
+  New 'line' coverage: 127
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 131
+  New 'line' coverage: 135
+  New 'line' coverage: 138
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 148
+  New 'line' coverage: 149
+  New 'line' coverage: 151
+  New 'line' coverage: 152
+  New 'line' coverage: 154
+  New 'line' coverage: 157
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 167
+  New 'line' coverage: 181
+  New 'line' coverage: 185
+  New 'line' coverage: 189
+  New 'line' coverage: 191
+  New 'line' coverage: 193
+  New 'line' coverage: 197
+  New 'line' coverage: 200
+  New 'line' coverage: 204
+  New 'line' coverage: 205
+  New 'line' coverage: 207
+  New 'line' coverage: 208
+  New 'line' coverage: 210
+  New 'line' coverage: 215
+  New 'line' coverage: 217
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 224
+  New 'line' coverage: 225
+  New 'line' coverage: 229
+  New 'line' coverage: 231
+  New 'line' coverage: 235
+  New 'line' coverage: 237
+  New 'line' coverage: 249
+  New 'line' coverage: 250
+  New 'line' coverage: 255
+  New 'line' coverage: 257
+  New 'line' coverage: 261
+  New 'line' coverage: 262
+  New 'line' coverage: 263
+  New 'line' coverage: 264
+  New 'line' coverage: 268
+  New 'line' coverage: 269
+  New 'line' coverage: 277
+  New 'line' coverage: 293
+  New 'line' coverage: 296
+  New 'line' coverage: 299
+  New 'line' coverage: 301
+  New 'line' coverage: 302
+  New 'line' coverage: 303
+  New 'line' coverage: 304
+  New 'line' coverage: 305
+  New 'line' coverage: 306
+  New 'line' coverage: 307
+  New 'line' coverage: 308
+  New 'line' coverage: 309
+  New 'line' coverage: 330
+  New 'line' coverage: 331
+  New 'line' coverage: 332
+  New 'line' coverage: 333
+  New 'line' coverage: 334
+  New 'line' coverage: 34
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 354
+  New 'line' coverage: 355
+  New 'line' coverage: 357
+  New 'line' coverage: 358
+  New 'line' coverage: 359
+  New 'line' coverage: 361
+  New 'line' coverage: 362
+  New 'line' coverage: 363
+  New 'line' coverage: 365
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 376
+  New 'line' coverage: 379
+  New 'line' coverage: 380
+  New 'line' coverage: 506
+  New 'line' coverage: 507
+  New 'line' coverage: 511
+  New 'line' coverage: 515
+  New 'line' coverage: 517
+  New 'line' coverage: 540
+  New 'line' coverage: 541
+  New 'line' coverage: 543
+  New 'line' coverage: 547
+  New 'line' coverage: 550
+  New 'line' coverage: 551
+  New 'line' coverage: 552
+  New 'line' coverage: 554
+  New 'line' coverage: 555
+  New 'line' coverage: 566
+  New 'line' coverage: 568
+  New 'line' coverage: 570
+  New 'line' coverage: 571
+  New 'line' coverage: 582
+  New 'line' coverage: 590
+  New 'line' coverage: 592
+  New 'line' coverage: 593
+  New 'line' coverage: 594
+  New 'line' coverage: 596
+  New 'line' coverage: 598
+  New 'line' coverage: 599
+  New 'line' coverage: 600
+  New 'line' coverage: 610
+  New 'line' coverage: 611
+  New 'line' coverage: 613
+  New 'line' coverage: 617
+  New 'line' coverage: 620
+  New 'line' coverage: 623
+  New 'line' coverage: 624
+  New 'line' coverage: 625
+  New 'line' coverage: 629
+  New 'line' coverage: 634
+  New 'line' coverage: 636
+  New 'line' coverage: 645
+  New 'line' coverage: 647
+  New 'line' coverage: 648
+  New 'line' coverage: 649
+  New 'line' coverage: 650
+  New 'line' coverage: 652
+  New 'line' coverage: 667
+  New 'line' coverage: 668
+  New 'line' coverage: 669
+  New 'line' coverage: 670
+  New 'line' coverage: 671
+  New 'line' coverage: 672
+  New 'line' coverage: 673
+  New 'line' coverage: 674
+  New 'line' coverage: 94
+  New 'line' coverage: 98
+  New 'line' coverage: 99
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-icns.c
+  New 'function' coverage: _gdk_pixbuf__icns_fill_info()
+  New 'function' coverage: _gdk_pixbuf__icns_fill_vtable()
+  New 'line' coverage: 375
+  New 'line' coverage: 377
+  New 'line' coverage: 378
+  New 'line' coverage: 380
+  New 'line' coverage: 395
+  New 'line' coverage: 396
+  New 'line' coverage: 397
+  New 'line' coverage: 398
+  New 'line' coverage: 399
+  New 'line' coverage: 400
+  New 'line' coverage: 401
+  New 'line' coverage: 402
+  New 'line' coverage: 403
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-ani-animation.c
+  New 'function' coverage: gdk_pixbuf_ani_anim_class_init()
+  New 'function' coverage: gdk_pixbuf_ani_anim_class_intern_init()
+  New 'function' coverage: gdk_pixbuf_ani_anim_finalize()
+  New 'function' coverage: gdk_pixbuf_ani_anim_get_type()
+  New 'function' coverage: gdk_pixbuf_ani_anim_init()
+  New 'line' coverage: 40
+  New 'line' coverage: 43
+  New 'line' coverage: 45
+  New 'line' coverage: 48
+  New 'line' coverage: 50
+  New 'line' coverage: 51
+  New 'line' coverage: 53
+  New 'line' coverage: 55
+  New 'line' coverage: 56
+  New 'line' coverage: 57
+  New 'line' coverage: 58
+  New 'line' coverage: 59
+  New 'line' coverage: 62
+  New 'line' coverage: 64
+  New 'line' coverage: 67
+  New 'line' coverage: 68
+  New 'line' coverage: 69
+  New 'line' coverage: 71
+  New 'line' coverage: 72
+  New 'line' coverage: 73
+  New 'line' coverage: 75
+  New 'line' coverage: 76
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-marshal.c
+  New 'function' coverage: _gdk_pixbuf_marshal_VOID__INT_INT_INT_INT()
+  New 'line' coverage: 107
+  New 'line' coverage: 110
+  New 'line' coverage: 112
+  New 'line' coverage: 119
+  New 'line' coverage: 120
+  New 'line' coverage: 122
+  New 'line' coverage: 124
+  New 'line' coverage: 93
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-wbmp.c
+  New 'function' coverage: _gdk_pixbuf__wbmp_fill_info()
+  New 'function' coverage: _gdk_pixbuf__wbmp_fill_vtable()
+  New 'line' coverage: 345
+  New 'line' coverage: 347
+  New 'line' coverage: 348
+  New 'line' coverage: 349
+  New 'line' coverage: 350
+  New 'line' coverage: 352
+  New 'line' coverage: 370
+  New 'line' coverage: 371
+  New 'line' coverage: 372
+  New 'line' coverage: 373
+  New 'line' coverage: 374
+  New 'line' coverage: 375
+  New 'line' coverage: 376
+  New 'line' coverage: 377
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-bmp.c
+  New 'function' coverage: _gdk_pixbuf__bmp_fill_info()
+  New 'function' coverage: _gdk_pixbuf__bmp_fill_vtable()
+  New 'line' coverage: 1392
+  New 'line' coverage: 1394
+  New 'line' coverage: 1395
+  New 'line' coverage: 1396
+  New 'line' coverage: 1397
+  New 'line' coverage: 1398
+  New 'line' coverage: 1399
+  New 'line' coverage: 1401
+  New 'line' coverage: 1418
+  New 'line' coverage: 1419
+  New 'line' coverage: 1420
+  New 'line' coverage: 1421
+  New 'line' coverage: 1422
+  New 'line' coverage: 1423
+  New 'line' coverage: 1424
+  New 'line' coverage: 1425
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-loader.c
+  New 'function' coverage: gdk_pixbuf_loader_class_init()
+  New 'function' coverage: gdk_pixbuf_loader_class_intern_init()
+  New 'function' coverage: gdk_pixbuf_loader_close()
+  New 'function' coverage: gdk_pixbuf_loader_eat_header_write()
+  New 'function' coverage: gdk_pixbuf_loader_finalize()
+  New 'function' coverage: gdk_pixbuf_loader_get_pixbuf()
+  New 'function' coverage: gdk_pixbuf_loader_get_type()
+  New 'function' coverage: gdk_pixbuf_loader_init()
+  New 'function' coverage: gdk_pixbuf_loader_load_module()
+  New 'function' coverage: gdk_pixbuf_loader_new()
+  New 'function' coverage: gdk_pixbuf_loader_new_with_type()
+  New 'function' coverage: gdk_pixbuf_loader_prepare()
+  New 'function' coverage: gdk_pixbuf_loader_size_func()
+  New 'function' coverage: gdk_pixbuf_loader_update()
+  New 'function' coverage: gdk_pixbuf_loader_write()
+  New 'line' coverage: 116
+  New 'line' coverage: 120
+  New 'line' coverage: 124
+  New 'line' coverage: 126
+  New 'line' coverage: 140
+  New 'line' coverage: 141
+  New 'line' coverage: 160
+  New 'line' coverage: 161
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 205
+  New 'line' coverage: 206
+  New 'line' coverage: 213
+  New 'line' coverage: 216
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 224
+  New 'line' coverage: 225
+  New 'line' coverage: 228
+  New 'line' coverage: 231
+  New 'line' coverage: 233
+  New 'line' coverage: 234
+  New 'line' coverage: 236
+  New 'line' coverage: 239
+  New 'line' coverage: 240
+  New 'line' coverage: 242
+  New 'line' coverage: 244
+  New 'line' coverage: 246
+  New 'line' coverage: 247
+  New 'line' coverage: 285
+  New 'line' coverage: 287
+  New 'line' coverage: 290
+  New 'line' coverage: 292
+  New 'line' coverage: 293
+  New 'line' coverage: 296
+  New 'line' coverage: 297
+  New 'line' coverage: 299
+  New 'line' coverage: 300
+  New 'line' coverage: 301
+  New 'line' coverage: 304
+  New 'line' coverage: 308
+  New 'line' coverage: 310
+  New 'line' coverage: 312
+  New 'line' coverage: 314
+  New 'line' coverage: 317
+  New 'line' coverage: 325
+  New 'line' coverage: 326
+  New 'line' coverage: 327
+  New 'line' coverage: 330
+  New 'line' coverage: 331
+  New 'line' coverage: 333
+  New 'line' coverage: 335
+  New 'line' coverage: 343
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 350
+  New 'line' coverage: 357
+  New 'line' coverage: 359
+  New 'line' coverage: 360
+  New 'line' coverage: 365
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 391
+  New 'line' coverage: 395
+  New 'line' coverage: 397
+  New 'line' coverage: 399
+  New 'line' coverage: 404
+  New 'line' coverage: 405
+  New 'line' coverage: 406
+  New 'line' coverage: 410
+  New 'line' coverage: 413
+  New 'line' coverage: 416
+  New 'line' coverage: 419
+  New 'line' coverage: 420
+  New 'line' coverage: 421
+  New 'line' coverage: 432
+  New 'line' coverage: 438
+  New 'line' coverage: 444
+  New 'line' coverage: 445
+  New 'line' coverage: 446
+  New 'line' coverage: 452
+  New 'line' coverage: 458
+  New 'line' coverage: 460
+  New 'line' coverage: 461
+  New 'line' coverage: 463
+  New 'line' coverage: 465
+  New 'line' coverage: 492
+  New 'line' coverage: 499
+  New 'line' coverage: 501
+  New 'line' coverage: 502
+  New 'line' coverage: 504
+  New 'line' coverage: 507
+  New 'line' coverage: 509
+  New 'line' coverage: 513
+  New 'line' coverage: 514
+  New 'line' coverage: 517
+  New 'line' coverage: 518
+  New 'line' coverage: 521
+  New 'line' coverage: 523
+  New 'line' coverage: 581
+  New 'line' coverage: 583
+  New 'line' coverage: 607
+  New 'line' coverage: 612
+  New 'line' coverage: 614
+  New 'line' coverage: 616
+  New 'line' coverage: 617
+  New 'line' coverage: 618
+  New 'line' coverage: 729
+  New 'line' coverage: 733
+  New 'line' coverage: 735
+  New 'line' coverage: 737
+  New 'line' coverage: 738
+  New 'line' coverage: 790
+  New 'line' coverage: 794
+  New 'line' coverage: 796
+  New 'line' coverage: 797
+  New 'line' coverage: 799
+  New 'line' coverage: 801
+  New 'line' coverage: 807
+  New 'line' coverage: 809
+  New 'line' coverage: 810
+  New 'line' coverage: 811
+  New 'line' coverage: 818
+  New 'line' coverage: 820
+  New 'line' coverage: 821
+  New 'line' coverage: 837
+  New 'line' coverage: 839
+  New 'line' coverage: 848
+  New 'line' coverage: 850
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-tiff.c
+  New 'function' coverage: _gdk_pixbuf__tiff_fill_info()
+  New 'function' coverage: _gdk_pixbuf__tiff_fill_vtable()
+  New 'function' coverage: free_buffer()
+  New 'function' coverage: gdk_pixbuf__tiff_image_load()
+  New 'function' coverage: tiff_image_parse()
+  New 'line' coverage: 106
+  New 'line' coverage: 114
+  New 'line' coverage: 122
+  New 'line' coverage: 131
+  New 'line' coverage: 132
+  New 'line' coverage: 140
+  New 'line' coverage: 154
+  New 'line' coverage: 156
+  New 'line' coverage: 164
+  New 'line' coverage: 167
+  New 'line' coverage: 190
+  New 'line' coverage: 192
+  New 'line' coverage: 202
+  New 'line' coverage: 203
+  New 'line' coverage: 206
+  New 'line' coverage: 212
+  New 'line' coverage: 213
+  New 'line' coverage: 215
+  New 'line' coverage: 216
+  New 'line' coverage: 220
+  New 'line' coverage: 221
+  New 'line' coverage: 227
+  New 'line' coverage: 230
+  New 'line' coverage: 256
+  New 'line' coverage: 267
+  New 'line' coverage: 273
+  New 'line' coverage: 277
+  New 'line' coverage: 284
+  New 'line' coverage: 285
+  New 'line' coverage: 287
+  New 'line' coverage: 295
+  New 'line' coverage: 297
+  New 'line' coverage: 299
+  New 'line' coverage: 71
+  New 'line' coverage: 72
+  New 'line' coverage: 756
+  New 'line' coverage: 758
+  New 'line' coverage: 759
+  New 'line' coverage: 760
+  New 'line' coverage: 761
+  New 'line' coverage: 762
+  New 'line' coverage: 763
+  New 'line' coverage: 764
+  New 'line' coverage: 766
+  New 'line' coverage: 77
+  New 'line' coverage: 784
+  New 'line' coverage: 785
+  New 'line' coverage: 786
+  New 'line' coverage: 787
+  New 'line' coverage: 788
+  New 'line' coverage: 789
+  New 'line' coverage: 79
+  New 'line' coverage: 790
+  New 'line' coverage: 791
+  New 'line' coverage: 80
+  New 'line' coverage: 83
+  New 'line' coverage: 85
+  New 'line' coverage: 88
+  New 'line' coverage: 89
+  New 'line' coverage: 98
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-pcx.c
+  New 'function' coverage: _gdk_pixbuf__pcx_fill_info()
+  New 'function' coverage: _gdk_pixbuf__pcx_fill_vtable()
+  New 'line' coverage: 725
+  New 'line' coverage: 727
+  New 'line' coverage: 728
+  New 'line' coverage: 729
+  New 'line' coverage: 730
+  New 'line' coverage: 732
+  New 'line' coverage: 751
+  New 'line' coverage: 752
+  New 'line' coverage: 753
+  New 'line' coverage: 754
+  New 'line' coverage: 755
+  New 'line' coverage: 756
+  New 'line' coverage: 757
+  New 'line' coverage: 758
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf.c
+  New 'function' coverage: free_buffer()
+  New 'function' coverage: gdk_pixbuf_class_init()
+  New 'function' coverage: gdk_pixbuf_class_intern_init()
+  New 'function' coverage: gdk_pixbuf_error_quark()
+  New 'function' coverage: gdk_pixbuf_finalize()
+  New 'function' coverage: gdk_pixbuf_get_has_alpha()
+  New 'function' coverage: gdk_pixbuf_get_height()
+  New 'function' coverage: gdk_pixbuf_get_pixels()
+  New 'function' coverage: gdk_pixbuf_get_pixels_with_length()
+  New 'function' coverage: gdk_pixbuf_get_rowstride()
+  New 'function' coverage: gdk_pixbuf_get_type()
+  New 'function' coverage: gdk_pixbuf_get_width()
+  New 'function' coverage: gdk_pixbuf_icon_iface_init()
+  New 'function' coverage: gdk_pixbuf_init()
+  New 'function' coverage: gdk_pixbuf_loadable_icon_iface_init()
+  New 'function' coverage: gdk_pixbuf_new()
+  New 'function' coverage: gdk_pixbuf_set_option()
+  New 'function' coverage: gdk_pixbuf_set_property()
+  New 'line' coverage: 1000
+  New 'line' coverage: 1001
+  New 'line' coverage: 1003
+  New 'line' coverage: 1004
+  New 'line' coverage: 1006
+  New 'line' coverage: 1007
+  New 'line' coverage: 1009
+  New 'line' coverage: 1010
+  New 'line' coverage: 1012
+  New 'line' coverage: 1013
+  New 'line' coverage: 1015
+  New 'line' coverage: 1016
+  New 'line' coverage: 1021
+  New 'line' coverage: 130
+  New 'line' coverage: 135
+  New 'line' coverage: 137
+  New 'line' coverage: 140
+  New 'line' coverage: 142
+  New 'line' coverage: 144
+  New 'line' coverage: 145
+  New 'line' coverage: 146
+  New 'line' coverage: 156
+  New 'line' coverage: 166
+  New 'line' coverage: 175
+  New 'line' coverage: 189
+  New 'line' coverage: 199
+  New 'line' coverage: 209
+  New 'line' coverage: 226
+  New 'line' coverage: 236
+  New 'line' coverage: 251
+  New 'line' coverage: 258
+  New 'line' coverage: 261
+  New 'line' coverage: 263
+  New 'line' coverage: 265
+  New 'line' coverage: 266
+  New 'line' coverage: 268
+  New 'line' coverage: 270
+  New 'line' coverage: 271
+  New 'line' coverage: 389
+  New 'line' coverage: 391
+  New 'line' coverage: 398
+  New 'line' coverage: 399
+  New 'line' coverage: 400
+  New 'line' coverage: 403
+  New 'line' coverage: 405
+  New 'line' coverage: 406
+  New 'line' coverage: 407
+  New 'line' coverage: 408
+  New 'line' coverage: 412
+  New 'line' coverage: 414
+  New 'line' coverage: 415
+  New 'line' coverage: 433
+  New 'line' coverage: 443
+  New 'line' coverage: 444
+  New 'line' coverage: 445
+  New 'line' coverage: 446
+  New 'line' coverage: 448
+  New 'line' coverage: 449
+  New 'line' coverage: 450
+  New 'line' coverage: 454
+  New 'line' coverage: 456
+  New 'line' coverage: 457
+  New 'line' coverage: 460
+  New 'line' coverage: 607
+  New 'line' coverage: 609
+  New 'line' coverage: 611
+  New 'line' coverage: 644
+  New 'line' coverage: 646
+  New 'line' coverage: 668
+  New 'line' coverage: 671
+  New 'line' coverage: 673
+  New 'line' coverage: 680
+  New 'line' coverage: 683
+  New 'line' coverage: 744
+  New 'line' coverage: 746
+  New 'line' coverage: 748
+  New 'line' coverage: 760
+  New 'line' coverage: 762
+  New 'line' coverage: 764
+  New 'line' coverage: 777
+  New 'line' coverage: 779
+  New 'line' coverage: 781
+  New 'line' coverage: 814
+  New 'line' coverage: 816
+  New 'line' coverage: 942
+  New 'line' coverage: 948
+  New 'line' coverage: 950
+  New 'line' coverage: 951
+  New 'line' coverage: 952
+  New 'line' coverage: 954
+  New 'line' coverage: 956
+  New 'line' coverage: 958
+  New 'line' coverage: 959
+  New 'line' coverage: 960
+  New 'line' coverage: 964
+  New 'line' coverage: 965
+  New 'line' coverage: 967
+  New 'line' coverage: 970
+  New 'line' coverage: 971
+  New 'line' coverage: 972
+  New 'line' coverage: 974
+  New 'line' coverage: 977
+  New 'line' coverage: 981
+  New 'line' coverage: 986
+  New 'line' coverage: 988
+  New 'line' coverage: 991
+  New 'line' coverage: 992
+  New 'line' coverage: 994
+  New 'line' coverage: 995
+  New 'line' coverage: 997
+  New 'line' coverage: 998
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-pnm.c
+  New 'function' coverage: _gdk_pixbuf__pnm_fill_info()
+  New 'function' coverage: _gdk_pixbuf__pnm_fill_vtable()
+  New 'function' coverage: gdk_pixbuf__pnm_image_load()
+  New 'function' coverage: pnm_read_ascii_mono_scanline()
+  New 'function' coverage: pnm_read_header()
+  New 'function' coverage: pnm_read_next_value()
+  New 'function' coverage: pnm_read_scanline()
+  New 'function' coverage: pnm_skip_whitespace.isra.0()
+  New 'line' coverage: 1041
+  New 'line' coverage: 1043
+  New 'line' coverage: 1044
+  New 'line' coverage: 1045
+  New 'line' coverage: 1046
+  New 'line' coverage: 1047
+  New 'line' coverage: 1049
+  New 'line' coverage: 1075
+  New 'line' coverage: 1076
+  New 'line' coverage: 1077
+  New 'line' coverage: 1078
+  New 'line' coverage: 1079
+  New 'line' coverage: 1080
+  New 'line' coverage: 1081
+  New 'line' coverage: 1082
+  New 'line' coverage: 172
+  New 'line' coverage: 177
+  New 'line' coverage: 178
+  New 'line' coverage: 180
+  New 'line' coverage: 181
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 186
+  New 'line' coverage: 189
+  New 'line' coverage: 194
+  New 'line' coverage: 195
+  New 'line' coverage: 196
+  New 'line' coverage: 209
+  New 'line' coverage: 217
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 221
+  New 'line' coverage: 222
+  New 'line' coverage: 225
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 232
+  New 'line' coverage: 233
+  New 'line' coverage: 234
+  New 'line' coverage: 237
+  New 'line' coverage: 241
+  New 'line' coverage: 242
+  New 'line' coverage: 249
+  New 'line' coverage: 251
+  New 'line' coverage: 252
+  New 'line' coverage: 254
+  New 'line' coverage: 259
+  New 'line' coverage: 264
+  New 'line' coverage: 266
+  New 'line' coverage: 268
+  New 'line' coverage: 271
+  New 'line' coverage: 274
+  New 'line' coverage: 282
+  New 'line' coverage: 283
+  New 'line' coverage: 285
+  New 'line' coverage: 287
+  New 'line' coverage: 288
+  New 'line' coverage: 290
+  New 'line' coverage: 291
+  New 'line' coverage: 312
+  New 'line' coverage: 315
+  New 'line' coverage: 316
+  New 'line' coverage: 319
+  New 'line' coverage: 321
+  New 'line' coverage: 323
+  New 'line' coverage: 326
+  New 'line' coverage: 329
+  New 'line' coverage: 337
+  New 'line' coverage: 340
+  New 'line' coverage: 342
+  New 'line' coverage: 344
+  New 'line' coverage: 347
+  New 'line' coverage: 350
+  New 'line' coverage: 358
+  New 'line' coverage: 361
+  New 'line' coverage: 366
+  New 'line' coverage: 367
+  New 'line' coverage: 370
+  New 'line' coverage: 373
+  New 'line' coverage: 381
+  New 'line' coverage: 524
+  New 'line' coverage: 532
+  New 'line' coverage: 537
+  New 'line' coverage: 539
+  New 'line' coverage: 541
+  New 'line' coverage: 544
+  New 'line' coverage: 545
+  New 'line' coverage: 548
+  New 'line' coverage: 549
+  New 'line' coverage: 559
+  New 'line' coverage: 560
+  New 'line' coverage: 561
+  New 'line' coverage: 563
+  New 'line' coverage: 565
+  New 'line' coverage: 566
+  New 'line' coverage: 567
+  New 'line' coverage: 572
+  New 'line' coverage: 619
+  New 'line' coverage: 623
+  New 'line' coverage: 627
+  New 'line' coverage: 637
+  New 'line' coverage: 638
+  New 'line' coverage: 660
+  New 'line' coverage: 668
+  New 'line' coverage: 669
+  New 'line' coverage: 670
+  New 'line' coverage: 671
+  New 'line' coverage: 672
+  New 'line' coverage: 673
+  New 'line' coverage: 674
+  New 'line' coverage: 675
+  New 'line' coverage: 676
+  New 'line' coverage: 677
+  New 'line' coverage: 678
+  New 'line' coverage: 679
+  New 'line' coverage: 680
+  New 'line' coverage: 681
+  New 'line' coverage: 682
+  New 'line' coverage: 684
+  New 'line' coverage: 690
+  New 'line' coverage: 692
+  New 'line' coverage: 695
+  New 'line' coverage: 698
+  New 'line' coverage: 709
+  New 'line' coverage: 710
+  New 'line' coverage: 713
+  New 'line' coverage: 714
+  New 'line' coverage: 715
+  New 'line' coverage: 717
+  New 'line' coverage: 720
+  New 'line' coverage: 724
+  New 'line' coverage: 725
+  New 'line' coverage: 744
+  New 'line' coverage: 746
+  New 'line' coverage: 748
+  New 'line' coverage: 752
+  New 'line' coverage: 753
+  New 'line' coverage: 754
+  New 'line' coverage: 756
+  New 'line' coverage: 757
+  New 'line' coverage: 759
+  New 'line' coverage: 761
+  New 'line' coverage: 765
+  New 'line' coverage: 768
+  New 'line' coverage: 769
+  New 'line' coverage: 773
+  New 'line' coverage: 774
+  New 'line' coverage: 776
+  New 'line' coverage: 778
+  New 'line' coverage: 786
+  New 'line' coverage: 792
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-tga.c
+  New 'function' coverage: _gdk_pixbuf__tga_fill_info()
+  New 'function' coverage: _gdk_pixbuf__tga_fill_vtable()
+  New 'function' coverage: fill_in_context()
+  New 'function' coverage: free_buffer()
+  New 'function' coverage: gdk_pixbuf__tga_begin_load()
+  New 'function' coverage: gdk_pixbuf__tga_load_increment()
+  New 'function' coverage: gdk_pixbuf__tga_stop_load()
+  New 'function' coverage: get_contiguous_pixbuf()
+  New 'function' coverage: io_buffer_append()
+  New 'function' coverage: io_buffer_free()
+  New 'function' coverage: io_buffer_free_segment()
+  New 'function' coverage: io_buffer_new()
+  New 'function' coverage: parse_data_for_row()
+  New 'function' coverage: parse_data_for_row_truecolor()
+  New 'function' coverage: try_preload()
+  New 'line' coverage: 1000
+  New 'line' coverage: 1001
+  New 'line' coverage: 1002
+  New 'line' coverage: 1003
+  New 'line' coverage: 1004
+  New 'line' coverage: 1005
+  New 'line' coverage: 144
+  New 'line' coverage: 147
+  New 'line' coverage: 148
+  New 'line' coverage: 154
+  New 'line' coverage: 155
+  New 'line' coverage: 156
+  New 'line' coverage: 159
+  New 'line' coverage: 163
+  New 'line' coverage: 165
+  New 'line' coverage: 166
+  New 'line' coverage: 167
+  New 'line' coverage: 174
+  New 'line' coverage: 175
+  New 'line' coverage: 192
+  New 'line' coverage: 196
+  New 'line' coverage: 197
+  New 'line' coverage: 198
+  New 'line' coverage: 199
+  New 'line' coverage: 200
+  New 'line' coverage: 201
+  New 'line' coverage: 206
+  New 'line' coverage: 207
+  New 'line' coverage: 208
+  New 'line' coverage: 217
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 220
+  New 'line' coverage: 225
+  New 'line' coverage: 227
+  New 'line' coverage: 228
+  New 'line' coverage: 229
+  New 'line' coverage: 232
+  New 'line' coverage: 234
+  New 'line' coverage: 235
+  New 'line' coverage: 237
+  New 'line' coverage: 244
+  New 'line' coverage: 247
+  New 'line' coverage: 249
+  New 'line' coverage: 251
+  New 'line' coverage: 254
+  New 'line' coverage: 256
+  New 'line' coverage: 259
+  New 'line' coverage: 302
+  New 'line' coverage: 307
+  New 'line' coverage: 309
+  New 'line' coverage: 310
+  New 'line' coverage: 312
+  New 'line' coverage: 314
+  New 'line' coverage: 318
+  New 'line' coverage: 319
+  New 'line' coverage: 320
+  New 'line' coverage: 322
+  New 'line' coverage: 323
+  New 'line' coverage: 325
+  New 'line' coverage: 335
+  New 'line' coverage: 337
+  New 'line' coverage: 343
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 349
+  New 'line' coverage: 351
+  New 'line' coverage: 353
+  New 'line' coverage: 354
+  New 'line' coverage: 356
+  New 'line' coverage: 357
+  New 'line' coverage: 379
+  New 'line' coverage: 380
+  New 'line' coverage: 381
+  New 'line' coverage: 382
+  New 'line' coverage: 383
+  New 'line' coverage: 384
+  New 'line' coverage: 388
+  New 'line' coverage: 390
+  New 'line' coverage: 391
+  New 'line' coverage: 392
+  New 'line' coverage: 408
+  New 'line' coverage: 412
+  New 'line' coverage: 414
+  New 'line' coverage: 415
+  New 'line' coverage: 419
+  New 'line' coverage: 421
+  New 'line' coverage: 422
+  New 'line' coverage: 425
+  New 'line' coverage: 426
+  New 'line' coverage: 427
+  New 'line' coverage: 429
+  New 'line' coverage: 430
+  New 'line' coverage: 432
+  New 'line' coverage: 433
+  New 'line' coverage: 724
+  New 'line' coverage: 726
+  New 'line' coverage: 727
+  New 'line' coverage: 728
+  New 'line' coverage: 729
+  New 'line' coverage: 735
+  New 'line' coverage: 736
+  New 'line' coverage: 759
+  New 'line' coverage: 761
+  New 'line' coverage: 762
+  New 'line' coverage: 768
+  New 'line' coverage: 774
+  New 'line' coverage: 786
+  New 'line' coverage: 810
+  New 'line' coverage: 816
+  New 'line' coverage: 817
+  New 'line' coverage: 818
+  New 'line' coverage: 819
+  New 'line' coverage: 821
+  New 'line' coverage: 826
+  New 'line' coverage: 834
+  New 'line' coverage: 835
+  New 'line' coverage: 836
+  New 'line' coverage: 837
+  New 'line' coverage: 843
+  New 'line' coverage: 850
+  New 'line' coverage: 851
+  New 'line' coverage: 858
+  New 'line' coverage: 859
+  New 'line' coverage: 860
+  New 'line' coverage: 862
+  New 'line' coverage: 863
+  New 'line' coverage: 865
+  New 'line' coverage: 866
+  New 'line' coverage: 867
+  New 'line' coverage: 868
+  New 'line' coverage: 870
+  New 'line' coverage: 871
+  New 'line' coverage: 876
+  New 'line' coverage: 877
+  New 'line' coverage: 878
+  New 'line' coverage: 880
+  New 'line' coverage: 881
+  New 'line' coverage: 882
+  New 'line' coverage: 883
+  New 'line' coverage: 885
+  New 'line' coverage: 888
+  New 'line' coverage: 893
+  New 'line' coverage: 894
+  New 'line' coverage: 896
+  New 'line' coverage: 899
+  New 'line' coverage: 900
+  New 'line' coverage: 901
+  New 'line' coverage: 903
+  New 'line' coverage: 904
+  New 'line' coverage: 906
+  New 'line' coverage: 908
+  New 'line' coverage: 912
+  New 'line' coverage: 916
+  New 'line' coverage: 917
+  New 'line' coverage: 918
+  New 'line' coverage: 920
+  New 'line' coverage: 922
+  New 'line' coverage: 924
+  New 'line' coverage: 931
+  New 'line' coverage: 933
+  New 'line' coverage: 934
+  New 'line' coverage: 936
+  New 'line' coverage: 937
+  New 'line' coverage: 946
+  New 'line' coverage: 947
+  New 'line' coverage: 951
+  New 'line' coverage: 952
+  New 'line' coverage: 953
+  New 'line' coverage: 954
+  New 'line' coverage: 955
+  New 'line' coverage: 959
+  New 'line' coverage: 960
+  New 'line' coverage: 961
+  New 'line' coverage: 970
+  New 'line' coverage: 972
+  New 'line' coverage: 973
+  New 'line' coverage: 974
+  New 'line' coverage: 975
+  New 'line' coverage: 977
+  New 'line' coverage: 998
+  New 'line' coverage: 999
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-ico.c
+  New 'function' coverage: DecodeHeader()
+  New 'function' coverage: OneLine()
+  New 'function' coverage: OneLine32()
+  New 'function' coverage: OneLineTransp()
+  New 'function' coverage: _gdk_pixbuf__ico_fill_info()
+  New 'function' coverage: _gdk_pixbuf__ico_fill_vtable()
+  New 'function' coverage: compare_direntry_scores()
+  New 'function' coverage: context_free()
+  New 'function' coverage: gdk_pixbuf__ico_image_begin_load()
+  New 'function' coverage: gdk_pixbuf__ico_image_load_increment()
+  New 'function' coverage: gdk_pixbuf__ico_image_stop_load()
+  New 'line' coverage: 1240
+  New 'line' coverage: 1242
+  New 'line' coverage: 1243
+  New 'line' coverage: 1244
+  New 'line' coverage: 1245
+  New 'line' coverage: 1246
+  New 'line' coverage: 1248
+  New 'line' coverage: 1267
+  New 'line' coverage: 1268
+  New 'line' coverage: 1269
+  New 'line' coverage: 1270
+  New 'line' coverage: 1271
+  New 'line' coverage: 1272
+  New 'line' coverage: 1273
+  New 'line' coverage: 1274
+  New 'line' coverage: 180
+  New 'line' coverage: 182
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+  New 'line' coverage: 186
+  New 'line' coverage: 187
+  New 'line' coverage: 189
+  New 'line' coverage: 190
+  New 'line' coverage: 193
+  New 'line' coverage: 196
+  New 'line' coverage: 197
+  New 'line' coverage: 200
+  New 'line' coverage: 203
+  New 'line' coverage: 212
+  New 'line' coverage: 222
+  New 'line' coverage: 231
+  New 'line' coverage: 233
+  New 'line' coverage: 236
+  New 'line' coverage: 245
+  New 'line' coverage: 247
+  New 'line' coverage: 249
+  New 'line' coverage: 261
+  New 'line' coverage: 266
+  New 'line' coverage: 267
+  New 'line' coverage: 268
+  New 'line' coverage: 269
+  New 'line' coverage: 270
+  New 'line' coverage: 271
+  New 'line' coverage: 272
+  New 'line' coverage: 273
+  New 'line' coverage: 274
+  New 'line' coverage: 275
+  New 'line' coverage: 276
+  New 'line' coverage: 277
+  New 'line' coverage: 281
+  New 'line' coverage: 282
+  New 'line' coverage: 283
+  New 'line' coverage: 285
+  New 'line' coverage: 294
+  New 'line' coverage: 296
+  New 'line' coverage: 304
+  New 'line' coverage: 305
+  New 'line' coverage: 306
+  New 'line' coverage: 313
+  New 'line' coverage: 314
+  New 'line' coverage: 316
+  New 'line' coverage: 319
+  New 'line' coverage: 322
+  New 'line' coverage: 323
+  New 'line' coverage: 332
+  New 'line' coverage: 341
+  New 'line' coverage: 342
+  New 'line' coverage: 343
+  New 'line' coverage: 350
+  New 'line' coverage: 351
+  New 'line' coverage: 352
+  New 'line' coverage: 359
+  New 'line' coverage: 360
+  New 'line' coverage: 362
+  New 'line' coverage: 369
+  New 'line' coverage: 371
+  New 'line' coverage: 372
+  New 'line' coverage: 378
+  New 'line' coverage: 379
+  New 'line' coverage: 380
+  New 'line' coverage: 382
+  New 'line' coverage: 384
+  New 'line' coverage: 387
+  New 'line' coverage: 389
+  New 'line' coverage: 397
+  New 'line' coverage: 409
+  New 'line' coverage: 413
+  New 'line' coverage: 417
+  New 'line' coverage: 420
+  New 'line' coverage: 421
+  New 'line' coverage: 423
+  New 'line' coverage: 424
+  New 'line' coverage: 446
+  New 'line' coverage: 450
+  New 'line' coverage: 451
+  New 'line' coverage: 452
+  New 'line' coverage: 461
+  New 'line' coverage: 464
+  New 'line' coverage: 466
+  New 'line' coverage: 467
+  New 'line' coverage: 468
+  New 'line' coverage: 470
+  New 'line' coverage: 471
+  New 'line' coverage: 478
+  New 'line' coverage: 479
+  New 'line' coverage: 482
+  New 'line' coverage: 489
+  New 'line' coverage: 491
+  New 'line' coverage: 492
+  New 'line' coverage: 493
+  New 'line' coverage: 494
+  New 'line' coverage: 497
+  New 'line' coverage: 499
+  New 'line' coverage: 514
+  New 'line' coverage: 522
+  New 'line' coverage: 523
+  New 'line' coverage: 524
+  New 'line' coverage: 525
+  New 'line' coverage: 526
+  New 'line' coverage: 528
+  New 'line' coverage: 529
+  New 'line' coverage: 530
+  New 'line' coverage: 539
+  New 'line' coverage: 540
+  New 'line' coverage: 542
+  New 'line' coverage: 543
+  New 'line' coverage: 544
+  New 'line' coverage: 545
+  New 'line' coverage: 547
+  New 'line' coverage: 549
+  New 'line' coverage: 552
+  New 'line' coverage: 555
+  New 'line' coverage: 564
+  New 'line' coverage: 567
+  New 'line' coverage: 574
+  New 'line' coverage: 576
+  New 'line' coverage: 577
+  New 'line' coverage: 581
+  New 'line' coverage: 586
+  New 'line' coverage: 587
+  New 'line' coverage: 588
+  New 'line' coverage: 589
+  New 'line' coverage: 590
+  New 'line' coverage: 595
+  New 'line' coverage: 596
+  New 'line' coverage: 597
+  New 'line' coverage: 598
+  New 'line' coverage: 599
+  New 'line' coverage: 600
+  New 'line' coverage: 602
+  New 'line' coverage: 758
+  New 'line' coverage: 764
+  New 'line' coverage: 797
+  New 'line' coverage: 799
+  New 'line' coverage: 801
+  New 'line' coverage: 805
+  New 'line' coverage: 806
+  New 'line' coverage: 807
+  New 'line' coverage: 821
+  New 'line' coverage: 823
+  New 'line' coverage: 824
+  New 'line' coverage: 825
+  New 'line' coverage: 826
+  New 'line' coverage: 827
+  New 'line' coverage: 830
+  New 'line' coverage: 836
+  New 'line' coverage: 837
+  New 'line' coverage: 855
+  New 'line' coverage: 860
+  New 'line' coverage: 865
+  New 'line' coverage: 866
+  New 'line' coverage: 867
+  New 'line' coverage: 869
+  New 'line' coverage: 871
+  New 'line' coverage: 872
+  New 'line' coverage: 874
+  New 'line' coverage: 877
+  New 'line' coverage: 878
+  New 'line' coverage: 879
+  New 'line' coverage: 882
+  New 'line' coverage: 883
+  New 'line' coverage: 884
+  New 'line' coverage: 885
+  New 'line' coverage: 887
+  New 'line' coverage: 888
+  New 'line' coverage: 892
+  New 'line' coverage: 893
+  New 'line' coverage: 894
+  New 'line' coverage: 896
+  New 'line' coverage: 898
+  New 'line' coverage: 903
+  New 'line' coverage: 904
+  New 'line' coverage: 905
+  New 'line' coverage: 907
+  New 'line' coverage: 910
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-pixdata.c
+  New 'function' coverage: _gdk_pixbuf__pixdata_fill_info()
+  New 'function' coverage: _gdk_pixbuf__pixdata_fill_vtable()
+  New 'function' coverage: pixdata_image_begin_load()
+  New 'function' coverage: pixdata_image_load_increment()
+  New 'function' coverage: pixdata_image_stop_load()
+  New 'function' coverage: try_load()
+  New 'line' coverage: 101
+  New 'line' coverage: 103
+  New 'line' coverage: 106
+  New 'line' coverage: 108
+  New 'line' coverage: 110
+  New 'line' coverage: 112
+  New 'line' coverage: 116
+  New 'line' coverage: 118
+  New 'line' coverage: 120
+  New 'line' coverage: 122
+  New 'line' coverage: 127
+  New 'line' coverage: 129
+  New 'line' coverage: 133
+  New 'line' coverage: 135
+  New 'line' coverage: 152
+  New 'line' coverage: 154
+  New 'line' coverage: 160
+  New 'line' coverage: 162
+  New 'line' coverage: 163
+  New 'line' coverage: 164
+  New 'line' coverage: 165
+  New 'line' coverage: 167
+  New 'line' coverage: 182
+  New 'line' coverage: 183
+  New 'line' coverage: 184
+  New 'line' coverage: 185
+  New 'line' coverage: 186
+  New 'line' coverage: 187
+  New 'line' coverage: 188
+  New 'line' coverage: 189
+  New 'line' coverage: 190
+  New 'line' coverage: 42
+  New 'line' coverage: 45
+  New 'line' coverage: 49
+  New 'line' coverage: 56
+  New 'line' coverage: 57
+  New 'line' coverage: 60
+  New 'line' coverage: 61
+  New 'line' coverage: 62
+  New 'line' coverage: 63
+  New 'line' coverage: 65
+  New 'line' coverage: 67
+  New 'line' coverage: 70
+  New 'line' coverage: 74
+  New 'line' coverage: 77
+  New 'line' coverage: 78
+  New 'line' coverage: 79
+  New 'line' coverage: 83
+  New 'line' coverage: 85
+  New 'line' coverage: 88
+  New 'line' coverage: 90
+  New 'line' coverage: 91
+  New 'line' coverage: 94
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-qtif.c
+  New 'function' coverage: _gdk_pixbuf__qtif_fill_info()
+  New 'function' coverage: _gdk_pixbuf__qtif_fill_vtable()
+  New 'function' coverage: gdk_pixbuf__qtif_image_load()
+  New 'line' coverage: 118
+  New 'line' coverage: 122
+  New 'line' coverage: 130
+  New 'line' coverage: 136
+  New 'line' coverage: 137
+  New 'line' coverage: 145
+  New 'line' coverage: 146
+  New 'line' coverage: 157
+  New 'line' coverage: 164
+  New 'line' coverage: 165
+  New 'line' coverage: 168
+  New 'line' coverage: 169
+  New 'line' coverage: 182
+  New 'line' coverage: 183
+  New 'line' coverage: 195
+  New 'line' coverage: 197
+  New 'line' coverage: 205
+  New 'line' coverage: 210
+  New 'line' coverage: 215
+  New 'line' coverage: 217
+  New 'line' coverage: 218
+  New 'line' coverage: 219
+  New 'line' coverage: 221
+  New 'line' coverage: 223
+  New 'line' coverage: 225
+  New 'line' coverage: 227
+  New 'line' coverage: 585
+  New 'line' coverage: 587
+  New 'line' coverage: 588
+  New 'line' coverage: 589
+  New 'line' coverage: 590
+  New 'line' coverage: 591
+  New 'line' coverage: 593
+  New 'line' coverage: 611
+  New 'line' coverage: 612
+  New 'line' coverage: 613
+  New 'line' coverage: 614
+  New 'line' coverage: 615
+  New 'line' coverage: 616
+  New 'line' coverage: 617
+  New 'line' coverage: 618
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-pixdata.c
+  New 'function' coverage: main()
+  New 'function' coverage: parse_args.isra.0()
+  New 'line' coverage: 100
+  New 'line' coverage: 101
+  New 'line' coverage: 103
+  New 'line' coverage: 107
+  New 'line' coverage: 110
+  New 'line' coverage: 111
+  New 'line' coverage: 114
+  New 'line' coverage: 116
+  New 'line' coverage: 121
+  New 'line' coverage: 122
+  New 'line' coverage: 128
+  New 'line' coverage: 129
+  New 'line' coverage: 135
+  New 'line' coverage: 148
+  New 'line' coverage: 150
+  New 'line' coverage: 158
+  New 'line' coverage: 161
+  New 'line' coverage: 163
+  New 'line' coverage: 44
+  New 'line' coverage: 48
+  New 'line' coverage: 57
+  New 'line' coverage: 59
+  New 'line' coverage: 68
+  New 'line' coverage: 74
+  New 'line' coverage: 77
+  New 'line' coverage: 78
+  New 'line' coverage: 80
+  New 'line' coverage: 82
+  New 'line' coverage: 83
+  New 'line' coverage: 84
+  New 'line' coverage: 87
+  New 'line' coverage: 88
+  New 'line' coverage: 90
+  New 'line' coverage: 92
+  New 'line' coverage: 94
+  New 'line' coverage: 95
+  New 'line' coverage: 96
+  New 'line' coverage: 99
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-ras.c
+  New 'function' coverage: _gdk_pixbuf__ras_fill_info()
+  New 'function' coverage: _gdk_pixbuf__ras_fill_vtable()
+  New 'line' coverage: 517
+  New 'line' coverage: 519
+  New 'line' coverage: 520
+  New 'line' coverage: 521
+  New 'line' coverage: 522
+  New 'line' coverage: 524
+  New 'line' coverage: 540
+  New 'line' coverage: 541
+  New 'line' coverage: 542
+  New 'line' coverage: 543
+  New 'line' coverage: 544
+  New 'line' coverage: 545
+  New 'line' coverage: 546
+  New 'line' coverage: 547
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-png.c
+  New 'function' coverage: _gdk_pixbuf__png_fill_info()
+  New 'function' coverage: _gdk_pixbuf__png_fill_vtable()
+  New 'function' coverage: gdk_pixbuf__png_image_load()
+  New 'function' coverage: png_free_callback()
+  New 'function' coverage: png_malloc_callback()
+  New 'function' coverage: png_simple_error_callback()
+  New 'function' coverage: png_text_to_pixbuf_option.isra.0()
+  New 'function' coverage: setup_png_transformations()
+  New 'line' coverage: 103
+  New 'line' coverage: 109
+  New 'line' coverage: 1090
+  New 'line' coverage: 1092
+  New 'line' coverage: 1093
+  New 'line' coverage: 1094
+  New 'line' coverage: 1095
+  New 'line' coverage: 1096
+  New 'line' coverage: 1097
+  New 'line' coverage: 1098
+  New 'line' coverage: 1100
+  New 'line' coverage: 1115
+  New 'line' coverage: 1116
+  New 'line' coverage: 1117
+  New 'line' coverage: 1118
+  New 'line' coverage: 1119
+  New 'line' coverage: 1120
+  New 'line' coverage: 1121
+  New 'line' coverage: 1122
+  New 'line' coverage: 114
+  New 'line' coverage: 116
+  New 'line' coverage: 124
+  New 'line' coverage: 125
+  New 'line' coverage: 126
+  New 'line' coverage: 130
+  New 'line' coverage: 138
+  New 'line' coverage: 146
+  New 'line' coverage: 155
+  New 'line' coverage: 156
+  New 'line' coverage: 167
+  New 'line' coverage: 172
+  New 'line' coverage: 177
+  New 'line' coverage: 178
+  New 'line' coverage: 185
+  New 'line' coverage: 201
+  New 'line' coverage: 205
+  New 'line' coverage: 209
+  New 'line' coverage: 210
+  New 'line' coverage: 215
+  New 'line' coverage: 216
+  New 'line' coverage: 223
+  New 'line' coverage: 224
+  New 'line' coverage: 234
+  New 'line' coverage: 236
+  New 'line' coverage: 240
+  New 'line' coverage: 242
+  New 'line' coverage: 243
+  New 'line' coverage: 247
+  New 'line' coverage: 249
+  New 'line' coverage: 255
+  New 'line' coverage: 267
+  New 'line' coverage: 280
+  New 'line' coverage: 283
+  New 'line' coverage: 284
+  New 'line' coverage: 289
+  New 'line' coverage: 290
+  New 'line' coverage: 292
+  New 'line' coverage: 293
+  New 'line' coverage: 295
+  New 'line' coverage: 299
+  New 'line' coverage: 300
+  New 'line' coverage: 302
+  New 'line' coverage: 307
+  New 'line' coverage: 309
+  New 'line' coverage: 322
+  New 'line' coverage: 324
+  New 'line' coverage: 325
+  New 'line' coverage: 327
+  New 'line' coverage: 328
+  New 'line' coverage: 330
+  New 'line' coverage: 331
+  New 'line' coverage: 332
+  New 'line' coverage: 333
+  New 'line' coverage: 334
+  New 'line' coverage: 335
+  New 'line' coverage: 34
+  New 'line' coverage: 341
+  New 'line' coverage: 344
+  New 'line' coverage: 345
+  New 'line' coverage: 346
+  New 'line' coverage: 347
+  New 'line' coverage: 351
+  New 'line' coverage: 352
+  New 'line' coverage: 354
+  New 'line' coverage: 48
+  New 'line' coverage: 49
+  New 'line' coverage: 56
+  New 'line' coverage: 67
+  New 'line' coverage: 73
+  New 'line' coverage: 79
+  New 'line' coverage: 86
+  New 'line' coverage: 98
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-animation.c
+  New 'function' coverage: gdk_pixbuf_animation_class_intern_init()
+  New 'function' coverage: gdk_pixbuf_animation_get_height()
+  New 'function' coverage: gdk_pixbuf_animation_get_static_image()
+  New 'function' coverage: gdk_pixbuf_animation_get_type()
+  New 'function' coverage: gdk_pixbuf_animation_get_width()
+  New 'function' coverage: gdk_pixbuf_animation_init()
+  New 'function' coverage: gdk_pixbuf_non_anim_class_init()
+  New 'function' coverage: gdk_pixbuf_non_anim_class_intern_init()
+  New 'function' coverage: gdk_pixbuf_non_anim_finalize()
+  New 'function' coverage: gdk_pixbuf_non_anim_get_size()
+  New 'function' coverage: gdk_pixbuf_non_anim_get_static_image()
+  New 'function' coverage: gdk_pixbuf_non_anim_get_type()
+  New 'function' coverage: gdk_pixbuf_non_anim_init()
+  New 'function' coverage: gdk_pixbuf_non_anim_new()
+  New 'line' coverage: 105
+  New 'line' coverage: 107
+  New 'line' coverage: 593
+  New 'line' coverage: 595
+  New 'line' coverage: 597
+  New 'line' coverage: 609
+  New 'line' coverage: 613
+  New 'line' coverage: 615
+  New 'line' coverage: 616
+  New 'line' coverage: 620
+  New 'line' coverage: 632
+  New 'line' coverage: 636
+  New 'line' coverage: 638
+  New 'line' coverage: 639
+  New 'line' coverage: 643
+  New 'line' coverage: 839
+  New 'line' coverage: 842
+  New 'line' coverage: 844
+  New 'line' coverage: 845
+  New 'line' coverage: 847
+  New 'line' coverage: 849
+  New 'line' coverage: 850
+  New 'line' coverage: 851
+  New 'line' coverage: 852
+  New 'line' coverage: 853
+  New 'line' coverage: 856
+  New 'line' coverage: 858
+  New 'line' coverage: 861
+  New 'line' coverage: 863
+  New 'line' coverage: 865
+  New 'line' coverage: 866
+  New 'line' coverage: 868
+  New 'line' coverage: 869
+  New 'line' coverage: 872
+  New 'line' coverage: 876
+  New 'line' coverage: 878
+  New 'line' coverage: 880
+  New 'line' coverage: 881
+  New 'line' coverage: 883
+  New 'line' coverage: 894
+  New 'line' coverage: 898
+  New 'line' coverage: 900
+  New 'line' coverage: 904
+  New 'line' coverage: 910
+  New 'line' coverage: 912
+  New 'line' coverage: 913
+  New 'line' coverage: 915
+  New 'line' coverage: 916
+  New 'line' coverage: 917
+  New 'line' coverage: 97
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-xbm.c
+  New 'function' coverage: _gdk_pixbuf__xbm_fill_info()
+  New 'function' coverage: _gdk_pixbuf__xbm_fill_vtable()
+  New 'line' coverage: 473
+  New 'line' coverage: 475
+  New 'line' coverage: 476
+  New 'line' coverage: 477
+  New 'line' coverage: 478
+  New 'line' coverage: 479
+  New 'line' coverage: 481
+  New 'line' coverage: 497
+  New 'line' coverage: 498
+  New 'line' coverage: 499
+  New 'line' coverage: 500
+  New 'line' coverage: 501
+  New 'line' coverage: 502
+  New 'line' coverage: 503
+  New 'line' coverage: 504
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/gdk-pixbuf-util.c
+  New 'function' coverage: gdk_pixbuf_gettext()
+  New 'line' coverage: 379
+  New 'line' coverage: 383
+  New 'line' coverage: 384
+  New 'line' coverage: 386
+  New 'line' coverage: 388
+  New 'line' coverage: 391
+New src file: /unibench/gdk-pixbuf-2.31.1/gdk-pixbuf/io-gif-animation.c
+  New 'function' coverage: gdk_pixbuf_gif_anim_class_init()
+  New 'function' coverage: gdk_pixbuf_gif_anim_class_intern_init()
+  New 'function' coverage: gdk_pixbuf_gif_anim_finalize()
+  New 'function' coverage: gdk_pixbuf_gif_anim_get_size()
+  New 'function' coverage: gdk_pixbuf_gif_anim_get_static_image()
+  New 'function' coverage: gdk_pixbuf_gif_anim_get_type()
+  New 'function' coverage: gdk_pixbuf_gif_anim_init()
+  New 'line' coverage: 103
+  New 'line' coverage: 105
+  New 'line' coverage: 108
+  New 'line' coverage: 112
+  New 'line' coverage: 118
+  New 'line' coverage: 120
+  New 'line' coverage: 121
+  New 'line' coverage: 123
+  New 'line' coverage: 124
+  New 'line' coverage: 125
+  New 'line' coverage: 43
+  New 'line' coverage: 46
+  New 'line' coverage: 48
+  New 'line' coverage: 51
+  New 'line' coverage: 53
+  New 'line' coverage: 54
+  New 'line' coverage: 56
+  New 'line' coverage: 58
+  New 'line' coverage: 59
+  New 'line' coverage: 60
+  New 'line' coverage: 61
+  New 'line' coverage: 62
+  New 'line' coverage: 65
+  New 'line' coverage: 67
+  New 'line' coverage: 72
+  New 'line' coverage: 73
+  New 'line' coverage: 74
+  New 'line' coverage: 75
+  New 'line' coverage: 77
+  New 'line' coverage: 79
+  New 'line' coverage: 82
+  New 'line' coverage: 84
+  New 'line' coverage: 85
+  New 'line' coverage: 99
+
+[+] Processed 280 / 280 test cases.
+
+[+] Final zero coverage report: ./raw_data/formatfuzzer/group_2/outputs_group1_1/gdk-pixbuf-pixdata/gdk-pixbuf-pixdata_formatfuzz_2/ffgen/cov/zero-cov
+[+] Final positive coverage report: ./raw_data/formatfuzzer/group_2/outputs_group1_1/gdk-pixbuf-pixdata/gdk-pixbuf-pixdata_formatfuzz_2/ffgen/cov/pos-cov
+    lines......: 23.7% (2276 of 9621 lines)
+    functions..: 30.4% (190 of 624 functions)
+[+] Final lcov web report: ./raw_data/formatfuzzer/group_2/outputs_group1_1/gdk-pixbuf-pixdata/gdk-pixbuf-pixdata_formatfuzz_2/ffgen/cov/web/index.html
