@@ -1,0 +1,1 @@
+Color profile: Can include color profiles for accurate color representation across different devices.

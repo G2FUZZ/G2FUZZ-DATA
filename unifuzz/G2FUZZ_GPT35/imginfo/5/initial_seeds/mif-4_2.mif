@@ -1,0 +1,8 @@
+
+<document>
+    <text>
+        <font style="bold" size="12" color="red">Bold Red Text</font>
+        <font style="italic" size="10" color="blue">Italic Blue Text</font>
+        <font size="14" color="green">Large Green Text</font>
+    </text>
+</document>

@@ -1,0 +1,1 @@
+Specifies the encoding method used for storing pixel values, such as raw binary data or a specific encoding scheme.

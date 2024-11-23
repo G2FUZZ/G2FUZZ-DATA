@@ -1,0 +1,14 @@
+
+<MIFFile>
+    <Title>Sample MIF File with Cross-References</Title>
+    
+    <Section id="section1">
+        <Title>Section 1</Title>
+        <Para>This is the content of section 1.</Para>
+    </Section>
+    
+    <Section id="section2">
+        <Title>Section 2</Title>
+        <Para>This is the content of section 2. Refer to <XRef Link="#section1">Section 1</XRef>.</Para>
+    </Section>
+</MIFFile>

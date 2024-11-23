@@ -1,0 +1,9 @@
+; Page Layout Details for File 1
+Page:
+    Size: A4
+    MarginTop: 2cm
+    MarginBottom: 2cm
+    MarginLeft: 2cm
+    MarginRight: 2cm
+    Columns: 2
+    ColumnGutter: 1cm

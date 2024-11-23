@@ -1,0 +1,5 @@
+
+Name: ras
+Features:
+- File Format: Raster
+- Description: A raster graphic file format primarily associated with Sun Microsystems workstations.

@@ -1,0 +1,1 @@
+Embedded resources: Other data or files included within the 'pixdata' file.

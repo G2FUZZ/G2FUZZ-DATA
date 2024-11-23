@@ -1,0 +1,4 @@
+Metadata:
+resolution: 1920x1080
+date_created: 2022-01-15
+author: John Doe

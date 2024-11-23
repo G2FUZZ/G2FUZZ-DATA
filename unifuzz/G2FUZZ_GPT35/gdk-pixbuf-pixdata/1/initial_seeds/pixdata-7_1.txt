@@ -1,0 +1,1 @@
+Transparency information: Details about any transparency or alpha channel data present in the image.

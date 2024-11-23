@@ -1,0 +1,8 @@
+
+<MIFFile>
+    <CrossReferences>
+        <Ref ID="1" Type="internal">Section 1</Ref>
+        <Ref ID="2" Type="internal">Section 2</Ref>
+        <Ref ID="3" Type="external" URL="https://example.com">External Resource</Ref>
+    </CrossReferences>
+</MIFFile>

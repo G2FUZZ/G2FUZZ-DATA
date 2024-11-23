@@ -1,0 +1,1 @@
+17. Interactivity: Features allowing user interaction with the image content, such as hotspots or clickable areas.

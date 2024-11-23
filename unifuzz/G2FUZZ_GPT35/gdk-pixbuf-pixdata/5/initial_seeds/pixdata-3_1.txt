@@ -1,0 +1,3 @@
+dimensions: (1024, 768)
+color_space: RGB
+compression_method: lossless

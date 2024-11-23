@@ -1,0 +1,7 @@
+
+<document>
+    <text>
+        <alignment type="center">Center Aligned Text</alignment>
+        <spacing before="10" after="5">Text with Spacing</spacing>
+    </text>
+</document>

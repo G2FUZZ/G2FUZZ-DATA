@@ -1,0 +1,1 @@
+Software compatibility: Certain 'pixdata' files may be associated with particular software programs for viewing and editing.

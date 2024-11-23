@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<rdf:Description Author="John Doe" Title="Sample Document" Keywords="Python, XMP, Metadata" Copyright="2022, John Doe"/>
+</rdf:RDF>

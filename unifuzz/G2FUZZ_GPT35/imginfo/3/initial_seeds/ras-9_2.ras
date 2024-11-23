@@ -1,0 +1,1 @@
+Multiple image support: Some 'ras' formats may allow storing multiple images within a single file, such as image sequences or layers.

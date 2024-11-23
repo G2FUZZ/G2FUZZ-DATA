@@ -1,0 +1,16 @@
+
+<MIFFile>
+    <Graphics>
+        <Image>
+            <Name>example_image.png</Name>
+            <Placement>
+                <X>100</X>
+                <Y>200</Y>
+            </Placement>
+            <Properties>
+                <Width>300</Width>
+                <Height>150</Height>
+            </Properties>
+        </Image>
+    </Graphics>
+</MIFFile>

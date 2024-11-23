@@ -1,0 +1,13 @@
+
+<MIFFile>
+    <Title>
+        Sample MIF File with Bookmarks
+    </Title>
+    
+    <Content>
+        This is a sample MIF file with bookmarks for easier navigation.
+        <Bookmark name="chapter1" page="5" />
+        <Bookmark name="chapter2" page="10" />
+        <Bookmark name="chapter3" page="15" />
+    </Content>
+</MIFFile>

@@ -1,0 +1,1 @@
+9. Resolution: May contain information about the resolution of the image, including width, height, and DPI.

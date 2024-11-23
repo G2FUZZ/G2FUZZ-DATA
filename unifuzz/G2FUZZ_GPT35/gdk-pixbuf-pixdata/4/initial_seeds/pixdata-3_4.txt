@@ -1,0 +1,1 @@
+Color depth: 8-bit

@@ -1,0 +1,16 @@
+
+<PageLayout>
+    <Margins>
+        <Top>0.5 inch</Top>
+        <Bottom>0.5 inch</Bottom>
+        <Left>0.5 inch</Left>
+        <Right>0.5 inch</Right>
+    </Margins>
+    <Header>
+        <Text>Header Section</Text>
+    </Header>
+    <Footer>
+        <Text>Footer Section</Text>
+    </Footer>
+    <Orientation>Landscape</Orientation>
+</PageLayout>

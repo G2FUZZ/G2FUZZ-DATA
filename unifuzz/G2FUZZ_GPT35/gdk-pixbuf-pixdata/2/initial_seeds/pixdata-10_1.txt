@@ -1,0 +1,1 @@
+Layers: For multi-layer images, the file format may support storing and accessing multiple layers of image data.

@@ -1,0 +1,10 @@
+
+<MIFFile>
+    <Title>Sample MIF File with Cross-References</Title>
+    <Content>
+        <Para>This is a sample paragraph with a cross-reference to <XRef Link="external_source">external source</XRef>.</Para>
+    </Content>
+    <CrossReferences>
+        <XRef ID="external_source" Type="external" Link="https://www.example.com">External Source</XRef>
+    </CrossReferences>
+</MIFFile>

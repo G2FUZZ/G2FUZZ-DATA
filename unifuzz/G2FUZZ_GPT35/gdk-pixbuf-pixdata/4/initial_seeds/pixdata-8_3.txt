@@ -1,0 +1,1 @@
+8. Transparency: Support for alpha channel or transparency information in the image.

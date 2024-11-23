@@ -1,0 +1,5 @@
+
+FLV files support streaming for progressive download and real-time streaming applications.
+Multi-bitrate streaming: FLV files can be encoded with multiple bitrates for adaptive streaming to accommodate varying network conditions.
+Interactive features: FLV files can support interactive features such as clickable areas, menus, and user interactions.
+Closed captions: FLV files may include closed captioning tracks for displaying subtitles or text descriptions.

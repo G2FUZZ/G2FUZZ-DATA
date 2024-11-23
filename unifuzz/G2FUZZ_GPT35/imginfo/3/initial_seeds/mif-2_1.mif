@@ -1,0 +1,7 @@
+
+<text_formatting>
+    <styles>
+        <style name="Heading1" font="Arial" size="16" color="black" bold="True"/>
+        <style name="BodyText" font="Times New Roman" size="12" color="black" bold="False"/>
+    </styles>
+</text_formatting>

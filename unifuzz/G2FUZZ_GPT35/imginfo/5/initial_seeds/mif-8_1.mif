@@ -1,0 +1,7 @@
+<MIFFile>
+    <Feature name="Conditional Text">
+        <Description>
+            Conditional text features allow content variations based on conditions defined within the MIF file.
+        </Description>
+    </Feature>
+</MIFFile>

@@ -1,0 +1,4 @@
+Metadata for image1:
+Creation Date: 2022-01-15
+Author: John Doe
+Camera Settings: ISO 100, f/2.8

@@ -1,0 +1,3 @@
+Animation data:
+Frames: 30
+Timing: 60fps

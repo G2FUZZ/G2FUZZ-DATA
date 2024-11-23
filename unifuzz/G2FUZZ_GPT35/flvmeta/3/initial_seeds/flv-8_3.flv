@@ -1,0 +1,6 @@
+
+FLV File Format
+Features:
+1. Video codecs: H.263, VP6, VP6F, H264
+2. Audio codecs: MP3, AAC, Linear PCM
+3. Scripting Support: FLV files can include ActionScript code for creating interactive applications and games embedded within the video content.

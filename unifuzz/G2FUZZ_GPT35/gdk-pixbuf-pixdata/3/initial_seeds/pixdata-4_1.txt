@@ -1,0 +1,1 @@
+Color palette: Indexed color images may include a palette defining the colors used in the image.

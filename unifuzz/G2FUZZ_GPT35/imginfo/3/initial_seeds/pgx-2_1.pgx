@@ -1,0 +1,9 @@
+
+# Example 'pgx' file
+## Genetic Data
+DNA Sequence: ATCGATCGATCG
+Gene Expressions: [0.5, 0.3, 0.7, 0.9]
+
+## Metadata
+Sample ID: 12345
+Experiment Date: 2022-01-01

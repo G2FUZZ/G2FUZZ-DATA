@@ -1,0 +1,3 @@
+Feature: Palette
+
+Description: For indexed color images, a palette may be included to map pixel values to specific colors.

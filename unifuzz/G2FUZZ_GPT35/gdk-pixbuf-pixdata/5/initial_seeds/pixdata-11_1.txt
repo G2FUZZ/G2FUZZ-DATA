@@ -1,0 +1,1 @@
+11. Alpha channel: Additional channel for transparency information in images.

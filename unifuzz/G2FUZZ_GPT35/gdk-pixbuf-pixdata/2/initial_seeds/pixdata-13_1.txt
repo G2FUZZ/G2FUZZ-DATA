@@ -1,0 +1,1 @@
+13. Annotations: Supports adding annotations or comments to the image data for additional information.

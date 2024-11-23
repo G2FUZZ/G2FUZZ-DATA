@@ -1,0 +1,1 @@
+Text annotations: Support for adding textual information within the image file.

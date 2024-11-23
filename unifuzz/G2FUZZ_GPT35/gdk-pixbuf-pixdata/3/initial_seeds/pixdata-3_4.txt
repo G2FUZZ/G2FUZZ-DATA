@@ -1,0 +1,4 @@
+Metadata:
+dimensions: 1920x1080
+color_depth: 24-bit
+compression: JPEG

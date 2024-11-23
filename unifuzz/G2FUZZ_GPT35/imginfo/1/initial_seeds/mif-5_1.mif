@@ -1,0 +1,15 @@
+
+<MIFFile 5.00>
+<ParaFormat <$parafmt>>
+<CharFormat <$charfmt>>
+<DefaultFont `Times-Roman'>
+<DefaultFontSize `12'>
+<DefaultLeading `15'>
+<DefaultAlignment `Left'>
+<DefaultLPI `18'>
+<DefaultLFT `36'>
+<DefaultRFT `36'>
+<DefaultTFT `36'>
+<DefaultBFT `36'>
+<DefaultLinkURL `<URL "https://example.com">'>
+<DefaultLinkURLName `Example Website'>

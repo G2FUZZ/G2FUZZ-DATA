@@ -1,0 +1,3 @@
+Layer Name: Background
+Layer Type: Image
+Size: 1920x1080

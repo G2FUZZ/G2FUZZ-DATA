@@ -1,0 +1,16 @@
+
+<PageLayout>
+    <Margins>
+        <Top>1 inch</Top>
+        <Bottom>1 inch</Bottom>
+        <Left>1 inch</Left>
+        <Right>1 inch</Right>
+    </Margins>
+    <Header>
+        <Text>This is the header</Text>
+    </Header>
+    <Footer>
+        <Text>This is the footer</Text>
+    </Footer>
+    <Orientation>Portrait</Orientation>
+</PageLayout>

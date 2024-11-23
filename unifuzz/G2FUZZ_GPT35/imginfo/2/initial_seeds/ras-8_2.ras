@@ -1,0 +1,1 @@
+Pixel Ordering: 'ras' files may define different pixel ordering methods, such as row-major or column-major, affecting how image data is stored.

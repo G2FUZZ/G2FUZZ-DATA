@@ -1,0 +1,2246 @@
+=== Get file format: predefined ===
+
+
+
+
+
+***************************
+************ jpg ************
+***************************
+
+
+
+
+
+=============== INIT ================
+++ 1. Get init features
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an expert in file structures, familiar with the characteristics and compositions of various file formats.
+*** user: What features can 'jpg' files have? Output the information in the following format:
+
+1. <feature 1>: <feature description>
+2. <feature 2>: <feature description>
+3. <feature 3>: <feature description>
+......
+N. <feature N>: <feature description>
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.271745443344116
+{
+  "prompt_tokens": 92,
+  "completion_tokens": 248,
+  "total_tokens": 340
+}
+** raw_llm: 1. Lossy compression: JPEG files use lossy compression to reduce file size by discarding some image data.
+2. Color space: JPEG files support various color spaces such as RGB, CMYK, and grayscale.
+3. Metadata: JPEG files can store metadata such as EXIF data (camera settings, date, and time) and ICC profiles.
+4. Progressive encoding: JPEG files can be encoded progressively, allowing a low-resolution version of the image to be displayed while the rest of the image is being downloaded.
+5. Quality settings: JPEG files allow users to adjust the compression level and quality settings to balance file size and image quality.
+6. Chroma subsampling: JPEG files use chroma subsampling to reduce file size by sampling the color information at a lower resolution than the luminance information.
+7. Compatibility: JPEG files are widely supported across different platforms and software applications.
+8. File extension: JPEG files typically have a .jpg or .jpeg file extension.
+9. Editing limitations: JPEG files are lossy, meaning that each time they are edited and re-saved, some image quality is lost.
+10. File size: JPEG files are usually smaller in size compared to other image formats like BMP or TIFF.
+** extracted res: ['1. Lossy compression: JPEG files use lossy compression to reduce file size by discarding some image data.', '2. Color space: JPEG files support various color spaces such as RGB, CMYK, and grayscale.', '3. Metadata: JPEG files can store metadata such as EXIF data (camera settings, date, and time) and ICC profiles.', '4. Progressive encoding: JPEG files can be encoded progressively, allowing a low-resolution version of the image to be displayed while the rest of the image is being downloaded.', '5. Quality settings: JPEG files allow users to adjust the compression level and quality settings to balance file size and image quality.', '6. Chroma subsampling: JPEG files use chroma subsampling to reduce file size by sampling the color information at a lower resolution than the luminance information.', '7. Compatibility: JPEG files are widely supported across different platforms and software applications.', '8. File extension: JPEG files typically have a .jpg or .jpeg file extension.', '9. Editing limitations: JPEG files are lossy, meaning that each time they are edited and re-saved, some image quality is lost.', '10. File size: JPEG files are usually smaller in size compared to other image formats like BMP or TIFF.']
+>> init feature_head_pool: dict_keys(['Lossy compression', 'Color space', 'Metadata', 'Progressive encoding', 'Quality settings', 'Chroma subsampling', 'Compatibility', 'File extension', 'Editing limitations', 'File size'])
+-- 1. Get init features
+++ 2. Analysis loop
+++++ 2.1 CUR EPOCH: 0
+++++++ 2.1.1 feature to generator
+
+>>>>>>>> current feature: 1. Lossy compression: JPEG files use lossy compression to reduce file size by discarding some image data.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Lossy compression
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+1. Lossy compression: JPEG files use lossy compression to reduce file size by discarding some image data.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 1.6112072467803955
+{
+  "prompt_tokens": 126,
+  "completion_tokens": 67,
+  "total_tokens": 193
+}
+** raw_llm: ```python
+from PIL import Image
+
+# Create a new blank image
+img = Image.new('RGB', (100, 100), color='white')
+
+# Save the image with JPEG format and quality set to 95 (default is 75)
+img.save('./tmp/lossy_compression.jpg', quality=95)
+```
+** extracted res: from PIL import Image
+
+# Create a new blank image
+img = Image.new('RGB', (100, 100), color='white')
+
+# Save the image with JPEG format and quality set to 95 (default is 75)
+img.save('./tmp/lossy_compression.jpg', quality=95)
+-------- 2.1.1.1 generate init generator for feature: 1. Lossy compression: JPEG files use lossy compression to reduce file size by discarding some image data.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  from PIL import Image
++  
++  # Create a new blank image
++  img = Image.new('RGB', (100, 100), color='white')
++  
++  # Save the image with JPEG format and quality set to 95 (default is 75)
++  img.save('./tmp/lossy_compression.jpg', quality=95)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/lossy_compression.jpg to output/default/gen_seeds/jpg-1_1.jpg
+
+>>>>>>>> current feature: 2. Color space: JPEG files support various color spaces such as RGB, CMYK, and grayscale.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Color space
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+2. Color space: JPEG files support various color spaces such as RGB, CMYK, and grayscale.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 2.342250347137451
+{
+  "prompt_tokens": 125,
+  "completion_tokens": 122,
+  "total_tokens": 247
+}
+** raw_llm: ```python
+from PIL import Image
+
+# Create a RGB image
+rgb_image = Image.new('RGB', (100, 100), color='red')
+rgb_image.save('./tmp/rgb_image.jpg')
+
+# Create a CMYK image
+cmyk_image = Image.new('CMYK', (100, 100), color='cyan')
+cmyk_image.save('./tmp/cmyk_image.jpg')
+
+# Create a grayscale image
+grayscale_image = Image.new('L', (100, 100), color='gray')
+grayscale_image.save('./tmp/grayscale_image.jpg')
+```
+** extracted res: from PIL import Image
+
+# Create a RGB image
+rgb_image = Image.new('RGB', (100, 100), color='red')
+rgb_image.save('./tmp/rgb_image.jpg')
+
+# Create a CMYK image
+cmyk_image = Image.new('CMYK', (100, 100), color='cyan')
+cmyk_image.save('./tmp/cmyk_image.jpg')
+
+# Create a grayscale image
+grayscale_image = Image.new('L', (100, 100), color='gray')
+grayscale_image.save('./tmp/grayscale_image.jpg')
+-------- 2.1.1.1 generate init generator for feature: 2. Color space: JPEG files support various color spaces such as RGB, CMYK, and grayscale.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  from PIL import Image
++  
++  # Create a RGB image
++  rgb_image = Image.new('RGB', (100, 100), color='red')
++  rgb_image.save('./tmp/rgb_image.jpg')
++  
++  # Create a CMYK image
++  cmyk_image = Image.new('CMYK', (100, 100), color='cyan')
++  cmyk_image.save('./tmp/cmyk_image.jpg')
++  
++  # Create a grayscale image
++  grayscale_image = Image.new('L', (100, 100), color='gray')
++  grayscale_image.save('./tmp/grayscale_image.jpg')
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/grayscale_image.jpg to output/default/gen_seeds/jpg-2_1.jpg
+---- Moved ./tmp/rgb_image.jpg to output/default/gen_seeds/jpg-2_2.jpg
+---- Moved ./tmp/cmyk_image.jpg to output/default/gen_seeds/jpg-2_3.jpg
+
+>>>>>>>> current feature: 3. Metadata: JPEG files can store metadata such as EXIF data (camera settings, date, and time) and ICC profiles.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Metadata
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+3. Metadata: JPEG files can store metadata such as EXIF data (camera settings, date, and time) and ICC profiles.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 3.098677396774292
+{
+  "prompt_tokens": 130,
+  "completion_tokens": 158,
+  "total_tokens": 288
+}
+** raw_llm: ```python
+import os
+from PIL import Image
+
+# Create a sample image
+image = Image.new('RGB', (100, 100), color='red')
+
+# Add metadata to the image
+metadata = {
+    'exif': {
+        271: 'Camera Model',  # Camera Make
+        272: 'Camera Model',  # Camera Model
+        306: '2021:09:03 10:00:00',  # Date and Time
+    }
+}
+image.info['exif'] = metadata['exif']
+
+# Save the image with metadata
+output_dir = './tmp/'
+os.makedirs(output_dir, exist_ok=True)
+image.save(os.path.join(output_dir, 'sample.jpg'))
+
+print('Image with metadata saved successfully.')
+```
+** extracted res: import os
+from PIL import Image
+
+# Create a sample image
+image = Image.new('RGB', (100, 100), color='red')
+
+# Add metadata to the image
+metadata = {
+    'exif': {
+        271: 'Camera Model',  # Camera Make
+        272: 'Camera Model',  # Camera Model
+        306: '2021:09:03 10:00:00',  # Date and Time
+    }
+}
+image.info['exif'] = metadata['exif']
+
+# Save the image with metadata
+output_dir = './tmp/'
+os.makedirs(output_dir, exist_ok=True)
+image.save(os.path.join(output_dir, 'sample.jpg'))
+
+print('Image with metadata saved successfully.')
+-------- 2.1.1.1 generate init generator for feature: 3. Metadata: JPEG files can store metadata such as EXIF data (camera settings, date, and time) and ICC profiles.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  from PIL import Image
++  
++  # Create a sample image
++  image = Image.new('RGB', (100, 100), color='red')
++  
++  # Add metadata to the image
++  metadata = {
++      'exif': {
++          271: 'Camera Model',  # Camera Make
++          272: 'Camera Model',  # Camera Model
++          306: '2021:09:03 10:00:00',  # Date and Time
++      }
++  }
++  image.info['exif'] = metadata['exif']
++  
++  # Save the image with metadata
++  output_dir = './tmp/'
++  os.makedirs(output_dir, exist_ok=True)
++  image.save(os.path.join(output_dir, 'sample.jpg'))
++  
++  print('Image with metadata saved successfully.')
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/sample.jpg to output/default/gen_seeds/jpg-3_1.jpg
+
+>>>>>>>> current feature: 4. Progressive encoding: JPEG files can be encoded progressively, allowing a low-resolution version of the image to be displayed while the rest of the image is being downloaded.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Progressive encoding
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+4. Progressive encoding: JPEG files can be encoded progressively, allowing a low-resolution version of the image to be displayed while the rest of the image is being downloaded.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 1.946894884109497
+{
+  "prompt_tokens": 136,
+  "completion_tokens": 73,
+  "total_tokens": 209
+}
+** raw_llm: ```python
+from PIL import Image
+
+# Create a new image with a resolution of 800x600 pixels
+img = Image.new('RGB', (800, 600), color='white')
+
+# Save the image in progressive mode
+img.save('./tmp/progressive_encoding.jpg', format='JPEG', quality=95, optimize=True, progressive=True)
+```
+** extracted res: from PIL import Image
+
+# Create a new image with a resolution of 800x600 pixels
+img = Image.new('RGB', (800, 600), color='white')
+
+# Save the image in progressive mode
+img.save('./tmp/progressive_encoding.jpg', format='JPEG', quality=95, optimize=True, progressive=True)
+-------- 2.1.1.1 generate init generator for feature: 4. Progressive encoding: JPEG files can be encoded progressively, allowing a low-resolution version of the image to be displayed while the rest of the image is being downloaded.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  from PIL import Image
++  
++  # Create a new image with a resolution of 800x600 pixels
++  img = Image.new('RGB', (800, 600), color='white')
++  
++  # Save the image in progressive mode
++  img.save('./tmp/progressive_encoding.jpg', format='JPEG', quality=95, optimize=True, progressive=True)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/progressive_encoding.jpg to output/default/gen_seeds/jpg-4_1.jpg
+
+>>>>>>>> current feature: 5. Quality settings: JPEG files allow users to adjust the compression level and quality settings to balance file size and image quality.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Quality settings
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+5. Quality settings: JPEG files allow users to adjust the compression level and quality settings to balance file size and image quality.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 1.8706443309783936
+{
+  "prompt_tokens": 128,
+  "completion_tokens": 89,
+  "total_tokens": 217
+}
+** raw_llm: ```python
+import numpy as np
+from PIL import Image
+
+# Create a random image
+image_data = np.random.randint(0, 256, (100, 100, 3), dtype=np.uint8)
+image = Image.fromarray(image_data)
+
+# Save the image with custom quality settings
+quality_settings = 80  # Adjust the quality settings here
+image.save("./tmp/custom_quality.jpg", quality=quality_settings)
+```
+** extracted res: import numpy as np
+from PIL import Image
+
+# Create a random image
+image_data = np.random.randint(0, 256, (100, 100, 3), dtype=np.uint8)
+image = Image.fromarray(image_data)
+
+# Save the image with custom quality settings
+quality_settings = 80  # Adjust the quality settings here
+image.save("./tmp/custom_quality.jpg", quality=quality_settings)
+-------- 2.1.1.1 generate init generator for feature: 5. Quality settings: JPEG files allow users to adjust the compression level and quality settings to balance file size and image quality.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import numpy as np
++  from PIL import Image
++  
++  # Create a random image
++  image_data = np.random.randint(0, 256, (100, 100, 3), dtype=np.uint8)
++  image = Image.fromarray(image_data)
++  
++  # Save the image with custom quality settings
++  quality_settings = 80  # Adjust the quality settings here
++  image.save("./tmp/custom_quality.jpg", quality=quality_settings)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/custom_quality.jpg to output/default/gen_seeds/jpg-5_1.jpg
+
+>>>>>>>> current feature: 6. Chroma subsampling: JPEG files use chroma subsampling to reduce file size by sampling the color information at a lower resolution than the luminance information.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Chroma subsampling
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+6. Chroma subsampling: JPEG files use chroma subsampling to reduce file size by sampling the color information at a lower resolution than the luminance information.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 1.7060019969940186
+{
+  "prompt_tokens": 136,
+  "completion_tokens": 81,
+  "total_tokens": 217
+}
+** raw_llm: ```python
+from PIL import Image
+
+# Create a solid color image
+width, height = 100, 100
+color = (255, 0, 0)  # Red color
+image = Image.new("RGB", (width, height), color)
+
+# Save the image with chroma subsampling
+image.save("./tmp/chroma_subsampling.jpg", subsampling=0)
+```
+** extracted res: from PIL import Image
+
+# Create a solid color image
+width, height = 100, 100
+color = (255, 0, 0)  # Red color
+image = Image.new("RGB", (width, height), color)
+
+# Save the image with chroma subsampling
+image.save("./tmp/chroma_subsampling.jpg", subsampling=0)
+-------- 2.1.1.1 generate init generator for feature: 6. Chroma subsampling: JPEG files use chroma subsampling to reduce file size by sampling the color information at a lower resolution than the luminance information.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  from PIL import Image
++  
++  # Create a solid color image
++  width, height = 100, 100
++  color = (255, 0, 0)  # Red color
++  image = Image.new("RGB", (width, height), color)
++  
++  # Save the image with chroma subsampling
++  image.save("./tmp/chroma_subsampling.jpg", subsampling=0)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/chroma_subsampling.jpg to output/default/gen_seeds/jpg-6_1.jpg
+
+>>>>>>>> current feature: 7. Compatibility: JPEG files are widely supported across different platforms and software applications.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Compatibility
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+7. Compatibility: JPEG files are widely supported across different platforms and software applications.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 3.076228141784668
+{
+  "prompt_tokens": 119,
+  "completion_tokens": 145,
+  "total_tokens": 264
+}
+** raw_llm: ```python
+from PIL import Image
+
+# Create a new image with RGB mode and size 100x100
+image = Image.new('RGB', (100, 100))
+
+# Set a white background color
+image.paste((255, 255, 255))
+
+# Add text to the image
+from PIL import ImageDraw, ImageFont
+draw = ImageDraw.Draw(image)
+font = ImageFont.load_default()
+text = "Compatibility: JPEG files are widely supported across different platforms and software applications."
+draw.text((10, 40), text, fill=(0, 0, 0), font=font)
+
+# Save the image as a jpg file
+image.save('./tmp/compatibility.jpg')
+```
+** extracted res: from PIL import Image
+
+# Create a new image with RGB mode and size 100x100
+image = Image.new('RGB', (100, 100))
+
+# Set a white background color
+image.paste((255, 255, 255))
+
+# Add text to the image
+from PIL import ImageDraw, ImageFont
+draw = ImageDraw.Draw(image)
+font = ImageFont.load_default()
+text = "Compatibility: JPEG files are widely supported across different platforms and software applications."
+draw.text((10, 40), text, fill=(0, 0, 0), font=font)
+
+# Save the image as a jpg file
+image.save('./tmp/compatibility.jpg')
+-------- 2.1.1.1 generate init generator for feature: 7. Compatibility: JPEG files are widely supported across different platforms and software applications.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  from PIL import Image
++  
++  # Create a new image with RGB mode and size 100x100
++  image = Image.new('RGB', (100, 100))
++  
++  # Set a white background color
++  image.paste((255, 255, 255))
++  
++  # Add text to the image
++  from PIL import ImageDraw, ImageFont
++  draw = ImageDraw.Draw(image)
++  font = ImageFont.load_default()
++  text = "Compatibility: JPEG files are widely supported across different platforms and software applications."
++  draw.text((10, 40), text, fill=(0, 0, 0), font=font)
++  
++  # Save the image as a jpg file
++  image.save('./tmp/compatibility.jpg')
+---------- code end ----------
+
+=== PIP Start ===
+=== PIP End ===
+
+** final msg: Error Function: image.paste((255, 255, 255))
+Error Information: ValueError: cannot determine region size; use 4-item box
+
+* try_cnt: 1
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can evaluate, execute, and debug code. Please use Markdown syntax to represent code blocks.
+*** user: Fix the bug in the following code, described as 'Error Function: image.paste((255, 255, 255))
+Error Information: ValueError: cannot determine region size; use 4-item box'.
+```python
+from PIL import Image
+
+# Create a new image with RGB mode and size 100x100
+image = Image.new('RGB', (100, 100))
+
+# Set a white background color
+image.paste((255, 255, 255))
+
+# Add text to the image
+from PIL import ImageDraw, ImageFont
+draw = ImageDraw.Draw(image)
+font = ImageFont.load_default()
+text = "Compatibility: JPEG files are widely supported across different platforms and software applications."
+draw.text((10, 40), text, fill=(0, 0, 0), font=font)
+
+# Save the image as a jpg file
+image.save('./tmp/compatibility.jpg')
+```
+
+Please use Markdown syntax to represent code blocks.
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.750368118286133
+{
+  "prompt_tokens": 234,
+  "completion_tokens": 260,
+  "total_tokens": 494
+}
+** repaired code:
+++++++++++ code start ++++++++++
++  from PIL import Image
++  
++  # Create a new image with RGB mode and size 100x100
++  image = Image.new('RGB', (100, 100))
++  
++  # Set a white background color
++  image.paste((255, 255, 255), box=(0, 0, 100, 100))
++  
++  # Add text to the image
++  from PIL import ImageDraw, ImageFont
++  draw = ImageDraw.Draw(image)
++  font = ImageFont.load_default()
++  text = "Compatibility: JPEG files are widely supported across different platforms and software applications."
++  draw.text((10, 40), text, fill=(0, 0, 0), font=font)
++  
++  # Save the image as a jpg file
++  image.save('./tmp/compatibility.jpg')
+---------- code end ----------
+* SUCCESS
+** You have repaired the program successfully!!!
+---- Moved ./tmp/compatibility.jpg to output/default/gen_seeds/jpg-7_1.jpg
+
+>>>>>>>> current feature: 8. File extension: JPEG files typically have a .jpg or .jpeg file extension.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: File extension
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+8. File extension: JPEG files typically have a .jpg or .jpeg file extension.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 1.5300343036651611
+{
+  "prompt_tokens": 121,
+  "completion_tokens": 68,
+  "total_tokens": 189
+}
+** raw_llm: ```python
+import numpy as np
+from PIL import Image
+
+# Create a sample image
+image_data = np.random.randint(0, 255, (100, 100, 3), dtype=np.uint8)
+image = Image.fromarray(image_data)
+
+# Save the image as jpg
+image.save("./tmp/sample.jpg")
+```
+** extracted res: import numpy as np
+from PIL import Image
+
+# Create a sample image
+image_data = np.random.randint(0, 255, (100, 100, 3), dtype=np.uint8)
+image = Image.fromarray(image_data)
+
+# Save the image as jpg
+image.save("./tmp/sample.jpg")
+-------- 2.1.1.1 generate init generator for feature: 8. File extension: JPEG files typically have a .jpg or .jpeg file extension.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import numpy as np
++  from PIL import Image
++  
++  # Create a sample image
++  image_data = np.random.randint(0, 255, (100, 100, 3), dtype=np.uint8)
++  image = Image.fromarray(image_data)
++  
++  # Save the image as jpg
++  image.save("./tmp/sample.jpg")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/sample.jpg to output/default/gen_seeds/jpg-8_1.jpg
+
+>>>>>>>> current feature: 9. Editing limitations: JPEG files are lossy, meaning that each time they are edited and re-saved, some image quality is lost.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Editing limitations
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+9. Editing limitations: JPEG files are lossy, meaning that each time they are edited and re-saved, some image quality is lost.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 2.072364091873169
+{
+  "prompt_tokens": 132,
+  "completion_tokens": 86,
+  "total_tokens": 218
+}
+** raw_llm: ```python
+import numpy as np
+from PIL import Image
+
+# Create a random image
+width, height = 400, 300
+data = np.random.randint(0, 255, (height, width, 3), dtype=np.uint8)
+image = Image.fromarray(data)
+
+# Save the image as jpg with quality set to 95
+image.save("./tmp/random_image.jpg", quality=95)
+```
+** extracted res: import numpy as np
+from PIL import Image
+
+# Create a random image
+width, height = 400, 300
+data = np.random.randint(0, 255, (height, width, 3), dtype=np.uint8)
+image = Image.fromarray(data)
+
+# Save the image as jpg with quality set to 95
+image.save("./tmp/random_image.jpg", quality=95)
+-------- 2.1.1.1 generate init generator for feature: 9. Editing limitations: JPEG files are lossy, meaning that each time they are edited and re-saved, some image quality is lost.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import numpy as np
++  from PIL import Image
++  
++  # Create a random image
++  width, height = 400, 300
++  data = np.random.randint(0, 255, (height, width, 3), dtype=np.uint8)
++  image = Image.fromarray(data)
++  
++  # Save the image as jpg with quality set to 95
++  image.save("./tmp/random_image.jpg", quality=95)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/random_image.jpg to output/default/gen_seeds/jpg-9_1.jpg
+
+>>>>>>>> current feature: 10. File size: JPEG files are usually smaller in size compared to other image formats like BMP or TIFF.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: File size
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'jpg' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+10. File size: JPEG files are usually smaller in size compared to other image formats like BMP or TIFF.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 1.6857390403747559
+{
+  "prompt_tokens": 125,
+  "completion_tokens": 64,
+  "total_tokens": 189
+}
+** raw_llm: ```python
+import numpy as np
+from PIL import Image
+
+# Create a white image
+img = Image.fromarray(np.ones((100, 100, 3), dtype=np.uint8) * 255)
+
+# Save the image as a jpg file
+img.save("./tmp/small_jpg_file.jpg")
+```
+** extracted res: import numpy as np
+from PIL import Image
+
+# Create a white image
+img = Image.fromarray(np.ones((100, 100, 3), dtype=np.uint8) * 255)
+
+# Save the image as a jpg file
+img.save("./tmp/small_jpg_file.jpg")
+-------- 2.1.1.1 generate init generator for feature: 10. File size: JPEG files are usually smaller in size compared to other image formats like BMP or TIFF.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import numpy as np
++  from PIL import Image
++  
++  # Create a white image
++  img = Image.fromarray(np.ones((100, 100, 3), dtype=np.uint8) * 255)
++  
++  # Save the image as a jpg file
++  img.save("./tmp/small_jpg_file.jpg")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/small_jpg_file.jpg to output/default/gen_seeds/jpg-10_1.jpg
+------ 2.1.1 feature to generator
+>>  Lossy compression : 1. Lossy compression: JPEG files use lossy compression to reduce file size by discarding some image data.
+>>  Color space : 2. Color space: JPEG files support various color spaces such as RGB, CMYK, and grayscale.
+>>  Metadata : 3. Metadata: JPEG files can store metadata such as EXIF data (camera settings, date, and time) and ICC profiles.
+>>  Progressive encoding : 4. Progressive encoding: JPEG files can be encoded progressively, allowing a low-resolution version of the image to be displayed while the rest of the image is being downloaded.
+>>  Quality settings : 5. Quality settings: JPEG files allow users to adjust the compression level and quality settings to balance file size and image quality.
+>>  Chroma subsampling : 6. Chroma subsampling: JPEG files use chroma subsampling to reduce file size by sampling the color information at a lower resolution than the luminance information.
+>>  Compatibility : 7. Compatibility: JPEG files are widely supported across different platforms and software applications.
+>>  File extension : 8. File extension: JPEG files typically have a .jpg or .jpeg file extension.
+>>  Editing limitations : 9. Editing limitations: JPEG files are lossy, meaning that each time they are edited and re-saved, some image quality is lost.
+>>  File size : 10. File size: JPEG files are usually smaller in size compared to other image formats like BMP or TIFF.
+-- 2. Analysis loop
+
+
+
+
+
+***************************
+************ xmp ************
+***************************
+
+
+
+
+
+=============== INIT ================
+++ 1. Get init features
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an expert in file structures, familiar with the characteristics and compositions of various file formats.
+*** user: What features can 'xmp' files have? Output the information in the following format:
+
+1. <feature 1>: <feature description>
+2. <feature 2>: <feature description>
+3. <feature 3>: <feature description>
+......
+N. <feature N>: <feature description>
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.097399473190308
+{
+  "prompt_tokens": 93,
+  "completion_tokens": 278,
+  "total_tokens": 371
+}
+** raw_llm: 1. Metadata: XMP files can store metadata information such as keywords, descriptions, copyright details, and other properties related to the file.
+2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+3. Embeddable: XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.
+4. Standardized: XMP files follow the Adobe XMP specification, providing a standardized format for managing metadata across different types of media files.
+5. Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes.
+6. Hierarchical Structure: XMP metadata can be organized in a hierarchical structure, allowing for the representation of complex relationships and dependencies among metadata properties.
+7. Versioning: XMP files may include versioning information to track changes and updates to metadata over time.
+8. Rights Management: XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.
+9. Linked Data: XMP metadata can include links to external resources or related content, enabling richer context and connections for the file.
+10. Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.
+** extracted res: ['1. Metadata: XMP files can store metadata information such as keywords, descriptions, copyright details, and other properties related to the file.', '2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.', '3. Embeddable: XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.', '4. Standardized: XMP files follow the Adobe XMP specification, providing a standardized format for managing metadata across different types of media files.', '5. Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes.', '6. Hierarchical Structure: XMP metadata can be organized in a hierarchical structure, allowing for the representation of complex relationships and dependencies among metadata properties.', '7. Versioning: XMP files may include versioning information to track changes and updates to metadata over time.', '8. Rights Management: XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.', '9. Linked Data: XMP metadata can include links to external resources or related content, enabling richer context and connections for the file.', '10. Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.']
+>> init feature_head_pool: dict_keys(['Metadata', 'Extensibility', 'Embeddable', 'Standardized', 'Language Support', 'Hierarchical Structure', 'Versioning', 'Rights Management', 'Linked Data', 'Accessibility'])
+-- 1. Get init features
+++ 2. Analysis loop
+++++ 2.1 CUR EPOCH: 0
+++++++ 2.1.1 feature to generator
+
+>>>>>>>> current feature: 1. Metadata: XMP files can store metadata information such as keywords, descriptions, copyright details, and other properties related to the file.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Metadata
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+1. Metadata: XMP files can store metadata information such as keywords, descriptions, copyright details, and other properties related to the file.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 3.0451812744140625
+{
+  "prompt_tokens": 132,
+  "completion_tokens": 219,
+  "total_tokens": 351
+}
+** raw_llm: ```python
+import os
+from lxml import etree
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Create a sample XMP file
+xmp_content = """
+<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+ <x:xmpmeta xmlns:x="adobe:ns:meta/">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     <rdf:Description rdf:about=""
+           xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
+       <xmpRights:Marked>True</xmpRights:Marked>
+     </rdf:Description>
+   </rdf:RDF>
+ </x:xmpmeta>
+<?xpacket end="w"?>
+"""
+
+# Save the XMP file
+with open('./tmp/sample.xmp', 'w') as file:
+    file.write(xmp_content)
+```
+** extracted res: import os
+from lxml import etree
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Create a sample XMP file
+xmp_content = """
+<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+ <x:xmpmeta xmlns:x="adobe:ns:meta/">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+     <rdf:Description rdf:about=""
+           xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
+       <xmpRights:Marked>True</xmpRights:Marked>
+     </rdf:Description>
+   </rdf:RDF>
+ </x:xmpmeta>
+<?xpacket end="w"?>
+"""
+
+# Save the XMP file
+with open('./tmp/sample.xmp', 'w') as file:
+    file.write(xmp_content)
+-------- 2.1.1.1 generate init generator for feature: 1. Metadata: XMP files can store metadata information such as keywords, descriptions, copyright details, and other properties related to the file.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  from lxml import etree
++  
++  # Create a directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Create a sample XMP file
++  xmp_content = """
++  <?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
++   <x:xmpmeta xmlns:x="adobe:ns:meta/">
++     <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++       <rdf:Description rdf:about=""
++             xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
++         <xmpRights:Marked>True</xmpRights:Marked>
++       </rdf:Description>
++     </rdf:RDF>
++   </x:xmpmeta>
++  <?xpacket end="w"?>
++  """
++  
++  # Save the XMP file
++  with open('./tmp/sample.xmp', 'w') as file:
++      file.write(xmp_content)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/sample.xmp to output/default/gen_seeds/xmp-1_1.xmp
+
+>>>>>>>> current feature: 2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Extensibility
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+Collecting iptcinfo3
+  Downloading IPTCInfo3-2.1.4-py3-none-any.whl (12 kB)
+Installing collected packages: iptcinfo3
+Successfully installed iptcinfo3-2.1.4
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.52336049079895
+{
+  "prompt_tokens": 132,
+  "completion_tokens": 249,
+  "total_tokens": 381
+}
+** raw_llm: ```python
+import os
+from iptcinfo3 import IPTCInfo
+
+# Create a directory to store the generated xmp files
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Create a sample XMP file with custom metadata fields
+xmp_data = {
+    'CustomSchema:CustomField1': 'Value1',
+    'CustomSchema:CustomField2': 'Value2'
+}
+
+# Function to generate XMP files
+def generate_xmp_file(filename, metadata):
+    info = IPTCInfo()
+    for key, value in metadata.items():
+        info[key] = value
+    info.save_as(filename)
+
+# Generate XMP files with custom metadata fields
+for i in range(3):
+    filename = os.path.join(directory, f'file_{i}.xmp')
+    generate_xmp_file(filename, xmp_data)
+
+print("XMP files generated successfully.")
+```
+This Python code generates 3 XMP files with custom metadata fields in the `./tmp/` directory. The custom metadata fields are defined in the `xmp_data` dictionary, and the `generate_xmp_file` function is used to create each XMP file with the specified metadata.
+** extracted res: import os
+from iptcinfo3 import IPTCInfo
+
+# Create a directory to store the generated xmp files
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Create a sample XMP file with custom metadata fields
+xmp_data = {
+    'CustomSchema:CustomField1': 'Value1',
+    'CustomSchema:CustomField2': 'Value2'
+}
+
+# Function to generate XMP files
+def generate_xmp_file(filename, metadata):
+    info = IPTCInfo()
+    for key, value in metadata.items():
+        info[key] = value
+    info.save_as(filename)
+
+# Generate XMP files with custom metadata fields
+for i in range(3):
+    filename = os.path.join(directory, f'file_{i}.xmp')
+    generate_xmp_file(filename, xmp_data)
+
+print("XMP files generated successfully.")
+-------- 2.1.1.1 generate init generator for feature: 2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  from iptcinfo3 import IPTCInfo
++  
++  # Create a directory to store the generated xmp files
++  directory = './tmp/'
++  if not os.path.exists(directory):
++      os.makedirs(directory)
++  
++  # Create a sample XMP file with custom metadata fields
++  xmp_data = {
++      'CustomSchema:CustomField1': 'Value1',
++      'CustomSchema:CustomField2': 'Value2'
++  }
++  
++  # Function to generate XMP files
++  def generate_xmp_file(filename, metadata):
++      info = IPTCInfo()
++      for key, value in metadata.items():
++          info[key] = value
++      info.save_as(filename)
++  
++  # Generate XMP files with custom metadata fields
++  for i in range(3):
++      filename = os.path.join(directory, f'file_{i}.xmp')
++      generate_xmp_file(filename, xmp_data)
++  
++  print("XMP files generated successfully.")
+---------- code end ----------
+
+=== PIP Start ===
+key: **********************
+---- request time cost: 0.6750595569610596
+{
+  "prompt_tokens": 111,
+  "completion_tokens": 11,
+  "total_tokens": 122
+}
+You should install: pip install iptcinfo3
+'['pip', 'install', 'iptcinfo3']' successfully.
+=== PIP End ===
+
+** final msg: Error Function: info = IPTCInfo()
+Error Information: TypeError: __init__() missing 1 required positional argument: 'fobj'
+
+* try_cnt: 1
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can evaluate, execute, and debug code. Please use Markdown syntax to represent code blocks.
+*** user: Fix the bug in the following code, described as 'Error Function: info = IPTCInfo()
+Error Information: TypeError: __init__() missing 1 required positional argument: 'fobj''.
+```python
+import os
+from iptcinfo3 import IPTCInfo
+
+# Create a directory to store the generated xmp files
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Create a sample XMP file with custom metadata fields
+xmp_data = {
+    'CustomSchema:CustomField1': 'Value1',
+    'CustomSchema:CustomField2': 'Value2'
+}
+
+# Function to generate XMP files
+def generate_xmp_file(filename, metadata):
+    info = IPTCInfo()
+    for key, value in metadata.items():
+        info[key] = value
+    info.save_as(filename)
+
+# Generate XMP files with custom metadata fields
+for i in range(3):
+    filename = os.path.join(directory, f'file_{i}.xmp')
+    generate_xmp_file(filename, xmp_data)
+
+print("XMP files generated successfully.")
+```
+
+Please use Markdown syntax to represent code blocks.
+** dialog ** [end]
+key: **********************
+---- request time cost: 7.156201601028442
+{
+  "prompt_tokens": 276,
+  "completion_tokens": 352,
+  "total_tokens": 628
+}
+** repaired code:
+++++++++++ code start ++++++++++
++  import os
++  from iptcinfo3 import IPTCInfo
++  
++  # Create a directory to store the generated xmp files
++  directory = './tmp/'
++  if not os.path.exists(directory):
++      os.makedirs(directory)
++  
++  # Create a sample XMP file with custom metadata fields
++  xmp_data = {
++      'CustomSchema:CustomField1': 'Value1',
++      'CustomSchema:CustomField2': 'Value2'
++  }
++  
++  # Function to generate XMP files
++  def generate_xmp_file(filename, metadata):
++      with open(filename, 'wb') as fobj:
++          info = IPTCInfo(fobj)
++          for key, value in metadata.items():
++              info[key] = value
++          info.save()
++  
++  # Generate XMP files with custom metadata fields
++  for i in range(3):
++      filename = os.path.join(directory, f'file_{i}.xmp')
++      generate_xmp_file(filename, xmp_data)
++  
++  print("XMP files generated successfully.")
+---------- code end ----------
+
+=== PIP Start ===
+=== PIP End ===
+
+** final msg: Error Function: info = IPTCInfo(fobj)
+
+
+* try_cnt: 2
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can evaluate, execute, and debug code. Please use Markdown syntax to represent code blocks.
+*** user: Fix the bug in the following code, described as 'Error Function: info = IPTCInfo()
+Error Information: TypeError: __init__() missing 1 required positional argument: 'fobj''.
+```python
+import os
+from iptcinfo3 import IPTCInfo
+
+# Create a directory to store the generated xmp files
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Create a sample XMP file with custom metadata fields
+xmp_data = {
+    'CustomSchema:CustomField1': 'Value1',
+    'CustomSchema:CustomField2': 'Value2'
+}
+
+# Function to generate XMP files
+def generate_xmp_file(filename, metadata):
+    info = IPTCInfo()
+    for key, value in metadata.items():
+        info[key] = value
+    info.save_as(filename)
+
+# Generate XMP files with custom metadata fields
+for i in range(3):
+    filename = os.path.join(directory, f'file_{i}.xmp')
+    generate_xmp_file(filename, xmp_data)
+
+print("XMP files generated successfully.")
+```
+
+Please use Markdown syntax to represent code blocks.
+*** assistant: The error in the code is due to missing the file object (`fobj`) argument when initializing the `IPTCInfo` object. To fix this issue, you need to pass the file object when creating the `IPTCInfo` object.
+
+Here is the corrected code:
+
+```python
+import os
+from iptcinfo3 import IPTCInfo
+
+# Create a directory to store the generated xmp files
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Create a sample XMP file with custom metadata fields
+xmp_data = {
+    'CustomSchema:CustomField1': 'Value1',
+    'CustomSchema:CustomField2': 'Value2'
+}
+
+# Function to generate XMP files
+def generate_xmp_file(filename, metadata):
+    with open(filename, 'wb') as fobj:
+        info = IPTCInfo(fobj)
+        for key, value in metadata.items():
+            info[key] = value
+        info.save()
+
+# Generate XMP files with custom metadata fields
+for i in range(3):
+    filename = os.path.join(directory, f'file_{i}.xmp')
+    generate_xmp_file(filename, xmp_data)
+
+print("XMP files generated successfully.")
+```
+
+In the corrected code:
+- I added `with open(filename, 'wb') as fobj:` to open the file in binary write mode before initializing `IPTCInfo` with `fobj`.
+- I passed the `fobj` as an argument to the `IPTCInfo` constructor.
+- I replaced `info.save_as(filename)` with `info.save()` to save the metadata to the file.
+
+Now the code should work without any errors.
+*** user: The repaired code still has the following errors:'Error Function: info = IPTCInfo(fobj)
+' Please generate again.
+** dialog ** [end]
+key: **********************
+---- request time cost: 5.8528242111206055
+{
+  "prompt_tokens": 661,
+  "completion_tokens": 359,
+  "total_tokens": 1020
+}
+** repaired code:
+++++++++++ code start ++++++++++
++  import os
++  from iptcinfo3 import IPTCInfo
++  
++  # Create a directory to store the generated xmp files
++  directory = './tmp/'
++  if not os.path.exists(directory):
++      os.makedirs(directory)
++  
++  # Create a sample XMP file with custom metadata fields
++  xmp_data = {
++      'CustomSchema:CustomField1': 'Value1',
++      'CustomSchema:CustomField2': 'Value2'
++  }
++  
++  # Function to generate XMP files
++  def generate_xmp_file(filename, metadata):
++      with open(filename, 'wb') as fobj:
++          info = IPTCInfo(fobj)
++          for key, value in metadata.items():
++              info[key] = value
++          info.save()
++  
++  # Generate XMP files with custom metadata fields
++  for i in range(3):
++      filename = os.path.join(directory, f'file_{i}.xmp')
++      generate_xmp_file(filename, xmp_data)
++  
++  print("XMP files generated successfully.")
+---------- code end ----------
+
+=== PIP Start ===
+=== PIP End ===
+
+** final msg: Error Function: info = IPTCInfo(fobj)
+
+* Can not finish this task.
+-------- 2.1.1.2 debug for generator
+>>>>>>>> feature_try_cnt: 1
+++++++++ 2.1.1.1 generate init generator for feature: Extensibility
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.660999774932861
+{
+  "prompt_tokens": 132,
+  "completion_tokens": 274,
+  "total_tokens": 406
+}
+** raw_llm: ```python
+import os
+
+# Define the content of the XMP file
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:custom="http://example.com/custom/">
+            <custom:customField1>Custom Value 1</custom:customField1>
+            <custom:customField2>Custom Value 2</custom:customField2>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>"""
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Save the XMP file
+with open('./tmp/custom_metadata.xmp', 'w') as file:
+    file.write(xmp_content)
+
+print("XMP file with custom metadata generated and saved successfully.")
+```
+** extracted res: import os
+
+# Define the content of the XMP file
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:custom="http://example.com/custom/">
+            <custom:customField1>Custom Value 1</custom:customField1>
+            <custom:customField2>Custom Value 2</custom:customField2>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>"""
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Save the XMP file
+with open('./tmp/custom_metadata.xmp', 'w') as file:
+    file.write(xmp_content)
+
+print("XMP file with custom metadata generated and saved successfully.")
+-------- 2.1.1.1 generate init generator for feature: 2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Define the content of the XMP file
++  xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
++  <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.4-c005 78.147326, 2012/08/23-13:03:03">
++      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++          <rdf:Description rdf:about="" xmlns:custom="http://example.com/custom/">
++              <custom:customField1>Custom Value 1</custom:customField1>
++              <custom:customField2>Custom Value 2</custom:customField2>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end="w"?>"""
++  
++  # Create a directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Save the XMP file
++  with open('./tmp/custom_metadata.xmp', 'w') as file:
++      file.write(xmp_content)
++  
++  print("XMP file with custom metadata generated and saved successfully.")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/file_0.xmp to output/default/gen_seeds/xmp-2_1.xmp
+---- Moved ./tmp/custom_metadata.xmp to output/default/gen_seeds/xmp-2_2.xmp
+
+>>>>>>>> current feature: 3. Embeddable: XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Embeddable
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+3. Embeddable: XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 5.4492034912109375
+{
+  "prompt_tokens": 140,
+  "completion_tokens": 318,
+  "total_tokens": 458
+}
+** raw_llm: ```python
+import os
+
+# Define the XMP content
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dc:title>
+                <rdf:Alt>
+                    <rdf:li xml:lang="x-default">Embeddable XMP File</rdf:li>
+                </rdf:Alt>
+            </dc:title>
+            <dc:description>
+                <rdf:Alt>
+                    <rdf:li xml:lang="x-default">XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.</rdf:li>
+                </rdf:Alt>
+            </dc:description>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>"""
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Save the XMP file
+with open('./tmp/embeddable.xmp', 'w') as f:
+    f.write(xmp_content)
+
+print("XMP file generated successfully in './tmp/' directory.")
+```
+** extracted res: import os
+
+# Define the XMP content
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dc:title>
+                <rdf:Alt>
+                    <rdf:li xml:lang="x-default">Embeddable XMP File</rdf:li>
+                </rdf:Alt>
+            </dc:title>
+            <dc:description>
+                <rdf:Alt>
+                    <rdf:li xml:lang="x-default">XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.</rdf:li>
+                </rdf:Alt>
+            </dc:description>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>"""
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Save the XMP file
+with open('./tmp/embeddable.xmp', 'w') as f:
+    f.write(xmp_content)
+
+print("XMP file generated successfully in './tmp/' directory.")
+-------- 2.1.1.1 generate init generator for feature: 3. Embeddable: XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Define the XMP content
++  xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
++  <x:xmpmeta xmlns:x="adobe:ns:meta/">
++      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++          <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">
++              <dc:title>
++                  <rdf:Alt>
++                      <rdf:li xml:lang="x-default">Embeddable XMP File</rdf:li>
++                  </rdf:Alt>
++              </dc:title>
++              <dc:description>
++                  <rdf:Alt>
++                      <rdf:li xml:lang="x-default">XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.</rdf:li>
++                  </rdf:Alt>
++              </dc:description>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end="w"?>"""
++  
++  # Create a directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Save the XMP file
++  with open('./tmp/embeddable.xmp', 'w') as f:
++      f.write(xmp_content)
++  
++  print("XMP file generated successfully in './tmp/' directory.")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/embeddable.xmp to output/default/gen_seeds/xmp-3_1.xmp
+
+>>>>>>>> current feature: 4. Standardized: XMP files follow the Adobe XMP specification, providing a standardized format for managing metadata across different types of media files.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Standardized
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+4. Standardized: XMP files follow the Adobe XMP specification, providing a standardized format for managing metadata across different types of media files.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 6.175339460372925
+{
+  "prompt_tokens": 133,
+  "completion_tokens": 370,
+  "total_tokens": 503
+}
+** raw_llm: ```python
+import os
+
+# Create a directory to save xmp files
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate xmp files
+metadata = """
+<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        ">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+            <xmp:CreateDate>2022-09-25T10:30:00</xmp:CreateDate>
+            <xmp:CreatorTool>Python</xmp:CreatorTool>
+            <xmp:MetadataDate>2022-09-25T10:30:00</xmp:MetadataDate>
+            <xmp:ModifyDate>2022-09-25T10:30:00</xmp:ModifyDate>
+            <xmp:Nickname>Generated</xmp:Nickname>
+            <xmp:Standardized>True</xmp:Standardized>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+"""
+
+file_names = ['file1.xmp', 'file2.xmp', 'file3.xmp']
+
+for file_name in file_names:
+    with open(f'./tmp/{file_name}', 'w') as f:
+        f.write(metadata)
+```
+** extracted res: import os
+
+# Create a directory to save xmp files
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate xmp files
+metadata = """
+<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        ">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+            <xmp:CreateDate>2022-09-25T10:30:00</xmp:CreateDate>
+            <xmp:CreatorTool>Python</xmp:CreatorTool>
+            <xmp:MetadataDate>2022-09-25T10:30:00</xmp:MetadataDate>
+            <xmp:ModifyDate>2022-09-25T10:30:00</xmp:ModifyDate>
+            <xmp:Nickname>Generated</xmp:Nickname>
+            <xmp:Standardized>True</xmp:Standardized>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+"""
+
+file_names = ['file1.xmp', 'file2.xmp', 'file3.xmp']
+
+for file_name in file_names:
+    with open(f'./tmp/{file_name}', 'w') as f:
+        f.write(metadata)
+-------- 2.1.1.1 generate init generator for feature: 4. Standardized: XMP files follow the Adobe XMP specification, providing a standardized format for managing metadata across different types of media files.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Create a directory to save xmp files
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Generate xmp files
++  metadata = """
++  <?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
++  <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        ">
++      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++          <rdf:Description rdf:about=""
++              xmlns:xmp="http://ns.adobe.com/xap/1.0/">
++              <xmp:CreateDate>2022-09-25T10:30:00</xmp:CreateDate>
++              <xmp:CreatorTool>Python</xmp:CreatorTool>
++              <xmp:MetadataDate>2022-09-25T10:30:00</xmp:MetadataDate>
++              <xmp:ModifyDate>2022-09-25T10:30:00</xmp:ModifyDate>
++              <xmp:Nickname>Generated</xmp:Nickname>
++              <xmp:Standardized>True</xmp:Standardized>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end="w"?>
++  """
++  
++  file_names = ['file1.xmp', 'file2.xmp', 'file3.xmp']
++  
++  for file_name in file_names:
++      with open(f'./tmp/{file_name}', 'w') as f:
++          f.write(metadata)
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/file1.xmp to output/default/gen_seeds/xmp-4_1.xmp
+---- Moved ./tmp/file3.xmp to output/default/gen_seeds/xmp-4_2.xmp
+---- Moved ./tmp/file2.xmp to output/default/gen_seeds/xmp-4_3.xmp
+
+>>>>>>>> current feature: 5. Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Language Support
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+5. Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 2.5215134620666504
+{
+  "prompt_tokens": 128,
+  "completion_tokens": 140,
+  "total_tokens": 268
+}
+** raw_llm: ```python
+import os
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate xmp files with the given feature
+num_files = 5
+feature = "Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes."
+
+for i in range(1, num_files+1):
+    filename = f"./tmp/file_{i}.xmp"
+    with open(filename, 'w') as file:
+        file.write(f"<x:xmpmeta>{feature}</x:xmpmeta>")
+
+print(f"{num_files} xmp files generated and saved in './tmp/' directory.")
+```
+** extracted res: import os
+
+# Create a directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate xmp files with the given feature
+num_files = 5
+feature = "Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes."
+
+for i in range(1, num_files+1):
+    filename = f"./tmp/file_{i}.xmp"
+    with open(filename, 'w') as file:
+        file.write(f"<x:xmpmeta>{feature}</x:xmpmeta>")
+
+print(f"{num_files} xmp files generated and saved in './tmp/' directory.")
+-------- 2.1.1.1 generate init generator for feature: 5. Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Create a directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Generate xmp files with the given feature
++  num_files = 5
++  feature = "Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes."
++  
++  for i in range(1, num_files+1):
++      filename = f"./tmp/file_{i}.xmp"
++      with open(filename, 'w') as file:
++          file.write(f"<x:xmpmeta>{feature}</x:xmpmeta>")
++  
++  print(f"{num_files} xmp files generated and saved in './tmp/' directory.")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/file_1.xmp to output/default/gen_seeds/xmp-5_1.xmp
+---- Moved ./tmp/file_2.xmp to output/default/gen_seeds/xmp-5_2.xmp
+---- Moved ./tmp/file_3.xmp to output/default/gen_seeds/xmp-5_3.xmp
+---- Moved ./tmp/file_4.xmp to output/default/gen_seeds/xmp-5_4.xmp
+---- Moved ./tmp/file_5.xmp to output/default/gen_seeds/xmp-5_5.xmp
+
+>>>>>>>> current feature: 6. Hierarchical Structure: XMP metadata can be organized in a hierarchical structure, allowing for the representation of complex relationships and dependencies among metadata properties.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Hierarchical Structure
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+6. Hierarchical Structure: XMP metadata can be organized in a hierarchical structure, allowing for the representation of complex relationships and dependencies among metadata properties.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 7.327248811721802
+{
+  "prompt_tokens": 134,
+  "completion_tokens": 461,
+  "total_tokens": 595
+}
+** raw_llm: ```python
+import os
+
+# Create the directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate XMP file content
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c132 79.159924, 2018/04/12-03:15:15        ">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about=""
+            xmlns:xmpNote="http://ns.adobe.com/xmp/note/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+            <dc:title>
+                <rdf:Alt>
+                    <rdf:li xml:lang="x-default">Hierarchical Structure</rdf:li>
+                </rdf:Alt>
+            </dc:title>
+            <xmp:CreatorTool>Adobe XMP Core 5.6-c132 79.159924, 2018/04/12-03:15:15</xmp:CreatorTool>
+            <xmp:MetadataDate>2022-01-05T14:25:00Z</xmp:MetadataDate>
+            <xmp:ModifyDate>2022-01-05T14:25:00Z</xmp:ModifyDate>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+"""
+
+# Save XMP file
+file_path = './tmp/hierarchical_structure.xmp'
+with open(file_path, 'w') as file:
+    file.write(xmp_content)
+
+print(f'XMP file saved at: {file_path}')
+```
+** extracted res: import os
+
+# Create the directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate XMP file content
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c132 79.159924, 2018/04/12-03:15:15        ">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about=""
+            xmlns:xmpNote="http://ns.adobe.com/xmp/note/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+            <dc:title>
+                <rdf:Alt>
+                    <rdf:li xml:lang="x-default">Hierarchical Structure</rdf:li>
+                </rdf:Alt>
+            </dc:title>
+            <xmp:CreatorTool>Adobe XMP Core 5.6-c132 79.159924, 2018/04/12-03:15:15</xmp:CreatorTool>
+            <xmp:MetadataDate>2022-01-05T14:25:00Z</xmp:MetadataDate>
+            <xmp:ModifyDate>2022-01-05T14:25:00Z</xmp:ModifyDate>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>
+"""
+
+# Save XMP file
+file_path = './tmp/hierarchical_structure.xmp'
+with open(file_path, 'w') as file:
+    file.write(xmp_content)
+
+print(f'XMP file saved at: {file_path}')
+-------- 2.1.1.1 generate init generator for feature: 6. Hierarchical Structure: XMP metadata can be organized in a hierarchical structure, allowing for the representation of complex relationships and dependencies among metadata properties.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Create the directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Generate XMP file content
++  xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
++  <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c132 79.159924, 2018/04/12-03:15:15        ">
++      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++          <rdf:Description rdf:about=""
++              xmlns:xmpNote="http://ns.adobe.com/xmp/note/"
++              xmlns:dc="http://purl.org/dc/elements/1.1/"
++              xmlns:xmp="http://ns.adobe.com/xap/1.0/"
++              xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
++              xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
++              <dc:title>
++                  <rdf:Alt>
++                      <rdf:li xml:lang="x-default">Hierarchical Structure</rdf:li>
++                  </rdf:Alt>
++              </dc:title>
++              <xmp:CreatorTool>Adobe XMP Core 5.6-c132 79.159924, 2018/04/12-03:15:15</xmp:CreatorTool>
++              <xmp:MetadataDate>2022-01-05T14:25:00Z</xmp:MetadataDate>
++              <xmp:ModifyDate>2022-01-05T14:25:00Z</xmp:ModifyDate>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end="w"?>
++  """
++  
++  # Save XMP file
++  file_path = './tmp/hierarchical_structure.xmp'
++  with open(file_path, 'w') as file:
++      file.write(xmp_content)
++  
++  print(f'XMP file saved at: {file_path}')
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/hierarchical_structure.xmp to output/default/gen_seeds/xmp-6_1.xmp
+
+>>>>>>>> current feature: 7. Versioning: XMP files may include versioning information to track changes and updates to metadata over time.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Versioning
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+7. Versioning: XMP files may include versioning information to track changes and updates to metadata over time.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 5.321903705596924
+{
+  "prompt_tokens": 127,
+  "completion_tokens": 321,
+  "total_tokens": 448
+}
+** raw_llm: ```python
+import os
+
+# Create a directory if it does not exist
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Generate XMP file with versioning information
+xmp_content = """
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/'>
+    <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <rdf:Description rdf:about=''
+            xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
+            <xmp:ModifyDate>2022-01-01T12:00:00</xmp:ModifyDate>
+            <xmp:MetadataDate>2022-01-01T12:00:00</xmp:MetadataDate>
+            <xmp:CreatorTool>Python XMP Generator</xmp:CreatorTool>
+            <xmp:Version>1.0</xmp:Version>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end='w'?>
+"""
+
+# Save the XMP file
+file_path = os.path.join(directory, 'metadata.xmp')
+with open(file_path, 'w') as file:
+    file.write(xmp_content)
+
+print(f"XMP file with versioning information saved at: {file_path}")
+```
+** extracted res: import os
+
+# Create a directory if it does not exist
+directory = './tmp/'
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
+# Generate XMP file with versioning information
+xmp_content = """
+<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/'>
+    <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <rdf:Description rdf:about=''
+            xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
+            <xmp:ModifyDate>2022-01-01T12:00:00</xmp:ModifyDate>
+            <xmp:MetadataDate>2022-01-01T12:00:00</xmp:MetadataDate>
+            <xmp:CreatorTool>Python XMP Generator</xmp:CreatorTool>
+            <xmp:Version>1.0</xmp:Version>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end='w'?>
+"""
+
+# Save the XMP file
+file_path = os.path.join(directory, 'metadata.xmp')
+with open(file_path, 'w') as file:
+    file.write(xmp_content)
+
+print(f"XMP file with versioning information saved at: {file_path}")
+-------- 2.1.1.1 generate init generator for feature: 7. Versioning: XMP files may include versioning information to track changes and updates to metadata over time.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Create a directory if it does not exist
++  directory = './tmp/'
++  if not os.path.exists(directory):
++      os.makedirs(directory)
++  
++  # Generate XMP file with versioning information
++  xmp_content = """
++  <?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
++  <x:xmpmeta xmlns:x='adobe:ns:meta/'>
++      <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
++          <rdf:Description rdf:about=''
++              xmlns:xmp='http://ns.adobe.com/xap/1.0/'>
++              <xmp:ModifyDate>2022-01-01T12:00:00</xmp:ModifyDate>
++              <xmp:MetadataDate>2022-01-01T12:00:00</xmp:MetadataDate>
++              <xmp:CreatorTool>Python XMP Generator</xmp:CreatorTool>
++              <xmp:Version>1.0</xmp:Version>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end='w'?>
++  """
++  
++  # Save the XMP file
++  file_path = os.path.join(directory, 'metadata.xmp')
++  with open(file_path, 'w') as file:
++      file.write(xmp_content)
++  
++  print(f"XMP file with versioning information saved at: {file_path}")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/metadata.xmp to output/default/gen_seeds/xmp-7_1.xmp
+
+>>>>>>>> current feature: 8. Rights Management: XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Rights Management
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+8. Rights Management: XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.952368259429932
+{
+  "prompt_tokens": 133,
+  "completion_tokens": 247,
+  "total_tokens": 380
+}
+** raw_llm: ```python
+import os
+
+# Create a directory if it does not exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Define the content of the XMP file
+xmp_content = """<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/'>
+    <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+            <dc:rights>XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.</dc:rights>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end='w'?>
+"""
+
+# Save the XMP file
+with open('./tmp/rights_management.xmp', 'w') as file:
+    file.write(xmp_content)
+
+print("XMP file with rights management information has been generated and saved.")
+```
+** extracted res: import os
+
+# Create a directory if it does not exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Define the content of the XMP file
+xmp_content = """<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x='adobe:ns:meta/'>
+    <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+        <rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/elements/1.1/'>
+            <dc:rights>XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.</dc:rights>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end='w'?>
+"""
+
+# Save the XMP file
+with open('./tmp/rights_management.xmp', 'w') as file:
+    file.write(xmp_content)
+
+print("XMP file with rights management information has been generated and saved.")
+-------- 2.1.1.1 generate init generator for feature: 8. Rights Management: XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Create a directory if it does not exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Define the content of the XMP file
++  xmp_content = """<?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
++  <x:xmpmeta xmlns:x='adobe:ns:meta/'>
++      <rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
++          <rdf:Description rdf:about='' xmlns:dc='http://purl.org/dc/elements/1.1/'>
++              <dc:rights>XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.</dc:rights>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end='w'?>
++  """
++  
++  # Save the XMP file
++  with open('./tmp/rights_management.xmp', 'w') as file:
++      file.write(xmp_content)
++  
++  print("XMP file with rights management information has been generated and saved.")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/rights_management.xmp to output/default/gen_seeds/xmp-8_1.xmp
+
+>>>>>>>> current feature: 9. Linked Data: XMP metadata can include links to external resources or related content, enabling richer context and connections for the file.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Linked Data
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+9. Linked Data: XMP metadata can include links to external resources or related content, enabling richer context and connections for the file.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 5.467388153076172
+{
+  "prompt_tokens": 131,
+  "completion_tokens": 235,
+  "total_tokens": 366
+}
+** raw_llm: ```python
+import os
+
+# Create directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate xmp file content
+xmp_content = '''<?xpacket begin="�" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+            <xmp:LinkedData>https://example.com/linked_data</xmp:LinkedData>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>'''
+
+# Save xmp file
+file_path = './tmp/linked_data.xmp'
+with open(file_path, 'w') as file:
+    file.write(xmp_content)
+
+print(f'XMP file generated and saved at: {file_path}')
+```
+** extracted res: import os
+
+# Create directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Generate xmp file content
+xmp_content = '''<?xpacket begin="�" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+            <xmp:LinkedData>https://example.com/linked_data</xmp:LinkedData>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>'''
+
+# Save xmp file
+file_path = './tmp/linked_data.xmp'
+with open(file_path, 'w') as file:
+    file.write(xmp_content)
+
+print(f'XMP file generated and saved at: {file_path}')
+-------- 2.1.1.1 generate init generator for feature: 9. Linked Data: XMP metadata can include links to external resources or related content, enabling richer context and connections for the file.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Create directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Generate xmp file content
++  xmp_content = '''<?xpacket begin="�" id="W5M0MpCehiHzreSzNTczkc9d"?>
++  <x:xmpmeta xmlns:x="adobe:ns:meta/">
++      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++          <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
++              <xmp:LinkedData>https://example.com/linked_data</xmp:LinkedData>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end="w"?>'''
++  
++  # Save xmp file
++  file_path = './tmp/linked_data.xmp'
++  with open(file_path, 'w') as file:
++      file.write(xmp_content)
++  
++  print(f'XMP file generated and saved at: {file_path}')
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/linked_data.xmp to output/default/gen_seeds/xmp-9_1.xmp
+
+>>>>>>>> current feature: 10. Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.
+>>>>>>>> feature_try_cnt: 0
+++++++++ 2.1.1.1 generate init generator for feature: Accessibility
+
+* try_cnt: 0
+** dialog ** [start]
+*** system: You are an advanced Language Model assistant that can generate, execute, and evaluate code. Please use Markdown syntax to represent code blocks.
+*** user: Generate 'xmp' files containing the following features using Python without any input files, and save the generated files into `./tmp/`.: 
+```
+10. Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.
+```
+Please use Markdown syntax to represent code blocks. Please ensure that there is only one code block. You don't need to tell me which libraries need to be installed.
+
+** dialog ** [end]
+key: **********************
+---- request time cost: 4.451120615005493
+{
+  "prompt_tokens": 128,
+  "completion_tokens": 275,
+  "total_tokens": 403
+}
+** raw_llm: ```python
+import os
+
+# Define the content for the XMP file
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dc:description>Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.</dc:description>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>"""
+
+# Create the tmp directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Write the content to the XMP file
+with open('./tmp/accessibility_info.xmp', 'w') as file:
+    file.write(xmp_content)
+
+print("XMP file with accessibility information created at ./tmp/accessibility_info.xmp")
+```
+This Python code will generate an XMP file with the specified accessibility information and save it in the `./tmp/` directory.
+** extracted res: import os
+
+# Define the content for the XMP file
+xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dc:description>Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.</dc:description>
+        </rdf:Description>
+    </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="w"?>"""
+
+# Create the tmp directory if it doesn't exist
+os.makedirs('./tmp/', exist_ok=True)
+
+# Write the content to the XMP file
+with open('./tmp/accessibility_info.xmp', 'w') as file:
+    file.write(xmp_content)
+
+print("XMP file with accessibility information created at ./tmp/accessibility_info.xmp")
+-------- 2.1.1.1 generate init generator for feature: 10. Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.
+++++++++ 2.1.1.2 debug for generator
+* original code:
+++++++++++ code start ++++++++++
++  import os
++  
++  # Define the content for the XMP file
++  xmp_content = """<?xpacket begin="" id="W5M0MpCehiHzreSzNTczkc9d"?>
++  <x:xmpmeta xmlns:x="adobe:ns:meta/">
++      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
++          <rdf:Description rdf:about=""
++              xmlns:dc="http://purl.org/dc/elements/1.1/">
++              <dc:description>Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.</dc:description>
++          </rdf:Description>
++      </rdf:RDF>
++  </x:xmpmeta>
++  <?xpacket end="w"?>"""
++  
++  # Create the tmp directory if it doesn't exist
++  os.makedirs('./tmp/', exist_ok=True)
++  
++  # Write the content to the XMP file
++  with open('./tmp/accessibility_info.xmp', 'w') as file:
++      file.write(xmp_content)
++  
++  print("XMP file with accessibility information created at ./tmp/accessibility_info.xmp")
+---------- code end ----------
+* SUCCESS
+---- Moved ./tmp/accessibility_info.xmp to output/default/gen_seeds/xmp-10_1.xmp
+------ 2.1.1 feature to generator
+>>  Metadata : 1. Metadata: XMP files can store metadata information such as keywords, descriptions, copyright details, and other properties related to the file.
+>>  Extensibility : 2. Extensibility: XMP files support extensibility, allowing users to define custom schemas and fields to meet specific metadata requirements.
+>>  Embeddable : 3. Embeddable: XMP metadata can be embedded within various file formats such as JPEG, TIFF, PDF, and more, enabling interoperability and consistency across different applications.
+>>  Standardized : 4. Standardized: XMP files follow the Adobe XMP specification, providing a standardized format for managing metadata across different types of media files.
+>>  Language Support : 5. Language Support: XMP supports multiple languages for metadata values, making it suitable for internationalization and localization purposes.
+>>  Hierarchical Structure : 6. Hierarchical Structure: XMP metadata can be organized in a hierarchical structure, allowing for the representation of complex relationships and dependencies among metadata properties.
+>>  Versioning : 7. Versioning: XMP files may include versioning information to track changes and updates to metadata over time.
+>>  Rights Management : 8. Rights Management: XMP supports the embedding of rights management information, including usage rights, licensing details, and restrictions related to the file.
+>>  Linked Data : 9. Linked Data: XMP metadata can include links to external resources or related content, enabling richer context and connections for the file.
+>>  Accessibility : 10. Accessibility: XMP files can store accessibility information to improve the usability and availability of content for users with disabilities.
+-- 2. Analysis loop
+You need install the following library to improve the fuzzing performance
+ModuleNotFoundError: No module named 'iptcinfo3'
+run_time:  105.03632259368896
+successful debug: 1
+failed debug: 1
+generated seeds num: 29

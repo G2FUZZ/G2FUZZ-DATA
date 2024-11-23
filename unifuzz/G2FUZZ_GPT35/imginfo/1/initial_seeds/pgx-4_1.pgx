@@ -1,0 +1,5 @@
+Feature: Color space
+Supported color spaces:
+- RGB
+- CMYK
+- grayscale

@@ -1,0 +1,8 @@
+P3
+# Simple Structure: PNM files have a simple structure with a header containing format information followed by pixel data.
+2 2
+255
+255 0 0
+0 255 0
+0 0 255
+255 255 0

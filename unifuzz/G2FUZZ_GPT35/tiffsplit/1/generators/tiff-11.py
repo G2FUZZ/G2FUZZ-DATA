@@ -1,0 +1,14 @@
+import numpy as np
+from PIL import Image
+
+# Create a random image data with 8-bit depth
+data = np.random.randint(0, 256, (256, 256), dtype=np.uint8)
+image = Image.fromarray(data)
+
+# Add transparency to the image by creating an alpha channel with random values
+alpha = np.random.randint(0, 256, (256, 256), dtype=np.uint8)
+data_with_transparency = np.dstack((data, alpha))
+image_with_transparency = Image.fromarray(data_with_transparency)
+
+# Save the image as a TIFF file with transparency
+image_with_transparency.save("./tmp/8bit_depth_with_transparency.tiff")

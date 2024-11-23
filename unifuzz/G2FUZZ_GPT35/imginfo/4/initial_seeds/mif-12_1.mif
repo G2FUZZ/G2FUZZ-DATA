@@ -1,0 +1,11 @@
+
+<Styles>
+    <StyleName = "Heading1">
+        <Font Family = "Arial" Size = "14" Weight = "Bold" Color = "Black"/>
+        <Paragraph Align = "Center"/>
+    </StyleName>
+    <StyleName = "BodyText">
+        <Font Family = "Times New Roman" Size = "12" Color = "Black"/>
+        <Paragraph Indent = "0.5"/>
+    </StyleName>
+</Styles>

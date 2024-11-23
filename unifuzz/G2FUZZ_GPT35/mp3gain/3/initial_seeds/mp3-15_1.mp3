@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:123,Artist Name - Track Title
+#EXTREPLAYGAIN: -7.5 dB
+path_to_audio_file.mp3

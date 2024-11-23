@@ -1,0 +1,11 @@
+
+[Animation]
+Name=Sample Animation
+FrameRate=30
+FrameCount=60
+Width=640
+Height=480
+
+[Palette]
+Count=256
+PaletteData=0xff0000, 0x00ff00, 0x0000ff, ...

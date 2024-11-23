@@ -1,0 +1,2 @@
+Feature 1: Custom classes
+Feature 2: Files may contain custom classes to represent complex data structures.

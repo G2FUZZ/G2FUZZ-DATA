@@ -1,0 +1,4 @@
+Layer Name: Text Overlay
+Layer Type: Text
+Font: Arial
+Size: 400x100

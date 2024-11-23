@@ -1,0 +1,1 @@
+High dynamic range (HDR) support: ability to store HDR video content

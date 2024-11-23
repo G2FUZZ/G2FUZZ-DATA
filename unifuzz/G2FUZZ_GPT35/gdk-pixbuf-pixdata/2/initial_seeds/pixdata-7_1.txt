@@ -1,0 +1,8 @@
+Features:
+1. Resolution: 1920x1080
+2. Color depth: 24-bit
+3. Compression: Lossless
+4. Format: PNG
+5. Size: 2MB
+6. Dimensions: 16:9
+7. Alpha channel: Included

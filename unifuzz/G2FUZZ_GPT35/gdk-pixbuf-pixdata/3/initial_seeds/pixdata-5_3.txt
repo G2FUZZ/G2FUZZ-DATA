@@ -1,0 +1,1 @@
+Compression: Some 'pixdata' files may employ compression techniques to reduce file size.

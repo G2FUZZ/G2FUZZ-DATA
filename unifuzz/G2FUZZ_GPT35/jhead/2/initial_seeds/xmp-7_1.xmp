@@ -1,0 +1,10 @@
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+    <xmp:Title>Title of the Document</xmp:Title>
+    <xmp:Creator>John Doe</xmp:Creator>
+    <xmp:CreateDate>2022-01-01</xmp:CreateDate>
+    <xmp:Description>This is a sample XMP file for demonstration purposes.</xmp:Description>
+    <xmp:Language>en-US</xmp:Language>
+  </rdf:Description>
+</rdf:RDF>

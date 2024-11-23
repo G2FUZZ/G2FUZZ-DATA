@@ -1,0 +1,1 @@
+Software-specific data: Additional features specific to the software that created the pixdata file.

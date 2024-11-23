@@ -1,0 +1,1 @@
+File structure: How data is organized within the file, including any headers, sections, or markers.

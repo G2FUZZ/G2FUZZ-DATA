@@ -1,0 +1,1 @@
+TIFF files can store geospatial metadata for mapping and GIS applications.

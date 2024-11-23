@@ -1,0 +1,1 @@
+Timed text: support for timed text tracks for closed captioning or subtitles

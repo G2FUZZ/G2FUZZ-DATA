@@ -1,0 +1,3 @@
+Layer information for image1:
+Layer 1: Background (Opacity: 1.0)
+Layer 2: Foreground (Opacity: 0.8)

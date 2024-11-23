@@ -1,0 +1,19 @@
+
+<ConditionalText>
+<ConditionSet Name="condition_set">
+<Condition Name="condition_1" Expression="1 == 1"/>
+<Condition Name="condition_2" Expression="2 == 1"/>
+</ConditionSet>
+<ConditionalTextBlock>
+<ConditionRef Condition="condition_1"/>
+This is displayed when condition_1 is true.
+</ConditionalTextBlock>
+<ConditionalTextBlock>
+<ConditionRef Condition="condition_2"/>
+This is displayed when condition_2 is true.
+</ConditionalTextBlock>
+<ConditionalTextBlock>
+<Default/>
+This is displayed when no conditions are met.
+</ConditionalTextBlock>
+</ConditionalText>

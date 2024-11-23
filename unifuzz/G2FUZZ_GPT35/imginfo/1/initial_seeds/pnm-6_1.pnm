@@ -1,0 +1,6 @@
+P3
+# Platform Independence: PNM files are platform-independent and can be easily read and written by different image processing applications.
+2 2
+255
+255 0 0 0 255 255
+0 255 0 255 0 255

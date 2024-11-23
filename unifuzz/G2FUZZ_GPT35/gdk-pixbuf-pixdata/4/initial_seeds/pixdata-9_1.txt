@@ -1,0 +1,1 @@
+9. Layers: Ability to store and manipulate multiple layers of image data.

@@ -1,0 +1,4 @@
+Layer information for image2:
+Layer 1: Layer1 (Opacity: 0.5)
+Layer 2: Layer2 (Opacity: 0.7)
+Layer 3: Layer3 (Opacity: 0.9)

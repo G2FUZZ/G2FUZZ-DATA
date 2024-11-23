@@ -1,0 +1,3 @@
+
+MP3 files use lossy compression to reduce file size while maintaining audio quality.
+ReplayGain: MP3 files can incorporate ReplayGain information for normalizing playback volume levels across multiple tracks.

@@ -1,0 +1,1 @@
+File header: Contains information about the file format and version.

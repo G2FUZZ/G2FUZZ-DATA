@@ -1,0 +1,8 @@
+P3
+# Human Readable: The ASCII format of PNM files is human-readable, allowing users to inspect and modify the image data directly.
+2 2
+255
+255 0 0
+0 255 0
+0 0 255
+255 255 0

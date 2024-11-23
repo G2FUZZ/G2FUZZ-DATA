@@ -1,0 +1,2 @@
+
+Color profiles: Information about color spaces and color management embedded in the file.
