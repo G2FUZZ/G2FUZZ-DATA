@@ -1,0 +1,1 @@
+7. **Direct Archive Modification**: Certain ZIP utilities enable the direct modification of files within a ZIP archive (such as editing a text file), without the need to extract the file, edit it, and then re-archive it.

@@ -1,0 +1,1 @@
+7. Open-source development: The main implementation of the 7z format is provided by the 7-Zip software, which is open-source, allowing for community contributions and ensuring transparency in the development process.

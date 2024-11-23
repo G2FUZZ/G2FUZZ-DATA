@@ -1,0 +1,1 @@
+7. Archive updating: 7z supports updating files within an archive, allowing users to modify or replace files without needing to create a new archive.

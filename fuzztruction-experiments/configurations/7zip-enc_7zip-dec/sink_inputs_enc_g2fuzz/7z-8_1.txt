@@ -1,0 +1,1 @@
+This is a dummy file to include in the self-extracting archive.

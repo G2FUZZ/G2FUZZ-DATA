@@ -1,0 +1,2 @@
+0‚÷0ó	íDirect Hardware Support: Some hardware devices, such as smart cards and hardware security modules (HSMs), may directly work with DER-encoded data, leveraging the format's efficiency and compactness for storage and processing constraints.0ş
+øTime-stamping Information: DER-encoded files can include time-stamping information, which is critical for verifying when a document was signed or a certificate was issued, enhancing the security and verification process in cryptographic operations.

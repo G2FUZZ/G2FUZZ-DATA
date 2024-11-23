@@ -1,0 +1,1 @@
+Plugin support: Some versions of 7z and software that can handle 7z files support plugins, which can extend the functionality of the software, including support for additional file formats or compression methods.

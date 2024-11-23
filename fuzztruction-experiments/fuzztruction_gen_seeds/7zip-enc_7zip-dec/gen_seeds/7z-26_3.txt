@@ -1,0 +1,1 @@
+12. Open architecture: The 7z format is open-source, allowing developers to integrate its support into their applications without licensing fees.

@@ -1,0 +1,80 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots [<</Type /Annot /Subtype /Link /Rect [31.19 812.45 123.85 800.45] /Border [0 0 0] /A <</S /URI /URI (https://www.example.com)>>>><</Type /Annot /Subtype /Link /Rect [123.85 812.45 255.87 800.45] /Border [0 0 0] /A <</S /URI /URI (path/to/your/file.txt)>>>>]
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Filter /FlateDecode /Length 164>>
+stream
+xœuA‚@„ïşŠ9Ö¡×¾7½FzèKĞQjES#û÷mV’P—7Ì›o$Ö `›·Ô˜'–$t†X¿,9².îoå^ë\Ògâ¡ĞGLv¶±-â.-ªÜĞ¡,¦Ğg×1$™T€H’R˜	R®È Ãö×’ÿX–şøÅİ—×:±¹YÙ¦ÊÓû&-µ]û¡=}G‘cş©@¨
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+/MediaBox [0 0 595.28 841.89]
+>>
+endobj
+5 0 obj
+<</Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+6 0 obj
+<</Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+7 0 obj
+<<
+/Producer (PyFPDF 1.7.2 http://pyfpdf.googlecode.com/)
+/CreationDate (D:20241120024612)
+>>
+endobj
+8 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000587 00000 n 
+0000000868 00000 n 
+0000000009 00000 n 
+0000000353 00000 n 
+0000000674 00000 n 
+0000000770 00000 n 
+0000000982 00000 n 
+0000001091 00000 n 
+trailer
+<<
+/Size 9
+/Root 8 0 R
+/Info 7 0 R
+>>
+startxref
+1194
+%%EOF

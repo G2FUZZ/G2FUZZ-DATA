@@ -1,4 +1,25 @@
-# Description
-We have made most of the key data from our experiments available. The unifuzz directory contains data from running G2FUZZ and four configurations of AFL++. The line_coverage directory includes the analysis logs of line coverage for G2FUZZ and other structure-aware fuzzers.
+# README.md
 
-If you encounter any issues with the settings, please contact me so I can address them.
+## Overview
+
+This repository contains most of the experimental data in the paper. 
+
+## Folder Structure
+
+### 1. **unifuzz**
+
+The `unifuzz` directory contains essential information for the **UNIFUZZ benchmark**. 
+
+#### Contents:
+- **G2FUZZ_GPT35 & G2FUZZ_GPT4**: Generators specifically designed for fuzzing using GPT-3.5 and GPT-4, respectively.
+- **cmplog/fast/mopt/rare**: different modes of AFL++:
+
+### 2. **line_coverage**
+
+The `line_coverage` folder provides the results of fuzzing and coverage measurement logs for G2FUZZ/FormatFuzzer/WEIZZ. 
+
+
+### 3. **fuzztruction-experiments**
+
+The `fuzztruction-experiments` directory contains all setting files needed to reproduce experiments conducted with Fuzztruction.
+You can reproduce the experiments using the pre-built Docker image provided by Fuzztruction.

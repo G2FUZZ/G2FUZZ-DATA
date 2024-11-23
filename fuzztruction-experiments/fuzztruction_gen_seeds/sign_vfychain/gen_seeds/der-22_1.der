@@ -1,0 +1,2 @@
+0‚
+‚**Compression Support**: While DER itself does not inherently compress data, the binary nature of DER-encoded files means they can be efficiently compressed with external tools or algorithms, potentially reducing storage and transmission costs in data-intensive applications.

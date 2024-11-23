@@ -1,0 +1,10 @@
+
+    VERS_1 {
+        global: original_puts;
+        local: *;
+    };
+
+    VERS_2 {
+        global: new_puts;
+    } VERS_1;
+    

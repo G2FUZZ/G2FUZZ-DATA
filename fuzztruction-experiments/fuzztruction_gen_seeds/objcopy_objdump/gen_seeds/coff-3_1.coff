@@ -1,0 +1,5 @@
+Symbol Table
+=============
+Name: main, Type: function, Address: 0x1000
+Name: helper, Type: function, Address: 0x1050
+Name: data, Type: variable, Address: 0x2000

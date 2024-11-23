@@ -1,0 +1,1 @@
+8. File filtering: When creating or extracting archives, users can specify patterns to include or exclude specific files or directories, providing greater control over the archive's contents.
