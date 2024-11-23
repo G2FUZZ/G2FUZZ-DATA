@@ -1,0 +1,1 @@
+5. **Simplicity and Ease of Use**: Due to its straightforward, uncompressed nature, the PGX format is relatively simple and can be easily used in applications that require direct access to image data without the overhead of decoding complex compression algorithms.

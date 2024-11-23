@@ -1,0 +1,7 @@
+
+PGX file format example
+Width: 100
+Height: 100
+Depth: 8
+Data:
+...binary or textual data...

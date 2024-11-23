@@ -1,0 +1,1202 @@
+[
+    {
+        "frame": 0,
+        "color_intensity": 0,
+        "color": {
+            "R": 0,
+            "G": 0,
+            "B": 0
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 1,
+        "color_intensity": 2,
+        "color": {
+            "R": 2,
+            "G": 4,
+            "B": 6
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 2,
+        "color_intensity": 4,
+        "color": {
+            "R": 4,
+            "G": 8,
+            "B": 12
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 3,
+        "color_intensity": 6,
+        "color": {
+            "R": 6,
+            "G": 12,
+            "B": 18
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 4,
+        "color_intensity": 8,
+        "color": {
+            "R": 8,
+            "G": 16,
+            "B": 24
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 5,
+        "color_intensity": 10,
+        "color": {
+            "R": 10,
+            "G": 20,
+            "B": 30
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 6,
+        "color_intensity": 12,
+        "color": {
+            "R": 12,
+            "G": 24,
+            "B": 36
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 7,
+        "color_intensity": 14,
+        "color": {
+            "R": 14,
+            "G": 28,
+            "B": 42
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 8,
+        "color_intensity": 17,
+        "color": {
+            "R": 17,
+            "G": 34,
+            "B": 51
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 9,
+        "color_intensity": 19,
+        "color": {
+            "R": 19,
+            "G": 38,
+            "B": 57
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 10,
+        "color_intensity": 21,
+        "color": {
+            "R": 21,
+            "G": 42,
+            "B": 63
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 11,
+        "color_intensity": 23,
+        "color": {
+            "R": 23,
+            "G": 46,
+            "B": 69
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 12,
+        "color_intensity": 25,
+        "color": {
+            "R": 25,
+            "G": 50,
+            "B": 75
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 13,
+        "color_intensity": 27,
+        "color": {
+            "R": 27,
+            "G": 54,
+            "B": 81
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 14,
+        "color_intensity": 29,
+        "color": {
+            "R": 29,
+            "G": 58,
+            "B": 87
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 15,
+        "color_intensity": 31,
+        "color": {
+            "R": 31,
+            "G": 62,
+            "B": 93
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 16,
+        "color_intensity": 34,
+        "color": {
+            "R": 34,
+            "G": 68,
+            "B": 102
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 17,
+        "color_intensity": 36,
+        "color": {
+            "R": 36,
+            "G": 72,
+            "B": 108
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 18,
+        "color_intensity": 38,
+        "color": {
+            "R": 38,
+            "G": 76,
+            "B": 114
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 19,
+        "color_intensity": 40,
+        "color": {
+            "R": 40,
+            "G": 80,
+            "B": 120
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 20,
+        "color_intensity": 42,
+        "color": {
+            "R": 42,
+            "G": 84,
+            "B": 126
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 21,
+        "color_intensity": 44,
+        "color": {
+            "R": 44,
+            "G": 88,
+            "B": 132
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 22,
+        "color_intensity": 46,
+        "color": {
+            "R": 46,
+            "G": 92,
+            "B": 138
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 23,
+        "color_intensity": 48,
+        "color": {
+            "R": 48,
+            "G": 96,
+            "B": 144
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 24,
+        "color_intensity": 51,
+        "color": {
+            "R": 51,
+            "G": 102,
+            "B": 153
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 25,
+        "color_intensity": 53,
+        "color": {
+            "R": 53,
+            "G": 106,
+            "B": 159
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 26,
+        "color_intensity": 55,
+        "color": {
+            "R": 55,
+            "G": 110,
+            "B": 165
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 27,
+        "color_intensity": 57,
+        "color": {
+            "R": 57,
+            "G": 114,
+            "B": 171
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 28,
+        "color_intensity": 59,
+        "color": {
+            "R": 59,
+            "G": 118,
+            "B": 177
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 29,
+        "color_intensity": 61,
+        "color": {
+            "R": 61,
+            "G": 122,
+            "B": 183
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 30,
+        "color_intensity": 63,
+        "color": {
+            "R": 63,
+            "G": 126,
+            "B": 189
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 31,
+        "color_intensity": 65,
+        "color": {
+            "R": 65,
+            "G": 130,
+            "B": 195
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 32,
+        "color_intensity": 68,
+        "color": {
+            "R": 68,
+            "G": 136,
+            "B": 204
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 33,
+        "color_intensity": 70,
+        "color": {
+            "R": 70,
+            "G": 140,
+            "B": 210
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 34,
+        "color_intensity": 72,
+        "color": {
+            "R": 72,
+            "G": 144,
+            "B": 216
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 35,
+        "color_intensity": 74,
+        "color": {
+            "R": 74,
+            "G": 148,
+            "B": 222
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 36,
+        "color_intensity": 76,
+        "color": {
+            "R": 76,
+            "G": 152,
+            "B": 228
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 37,
+        "color_intensity": 78,
+        "color": {
+            "R": 78,
+            "G": 156,
+            "B": 234
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 38,
+        "color_intensity": 80,
+        "color": {
+            "R": 80,
+            "G": 160,
+            "B": 240
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 39,
+        "color_intensity": 82,
+        "color": {
+            "R": 82,
+            "G": 164,
+            "B": 246
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 40,
+        "color_intensity": 85,
+        "color": {
+            "R": 85,
+            "G": 170,
+            "B": 0
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 41,
+        "color_intensity": 87,
+        "color": {
+            "R": 87,
+            "G": 174,
+            "B": 6
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 42,
+        "color_intensity": 89,
+        "color": {
+            "R": 89,
+            "G": 178,
+            "B": 12
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 43,
+        "color_intensity": 91,
+        "color": {
+            "R": 91,
+            "G": 182,
+            "B": 18
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 44,
+        "color_intensity": 93,
+        "color": {
+            "R": 93,
+            "G": 186,
+            "B": 24
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 45,
+        "color_intensity": 95,
+        "color": {
+            "R": 95,
+            "G": 190,
+            "B": 30
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 46,
+        "color_intensity": 97,
+        "color": {
+            "R": 97,
+            "G": 194,
+            "B": 36
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 47,
+        "color_intensity": 99,
+        "color": {
+            "R": 99,
+            "G": 198,
+            "B": 42
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 48,
+        "color_intensity": 102,
+        "color": {
+            "R": 102,
+            "G": 204,
+            "B": 51
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 49,
+        "color_intensity": 104,
+        "color": {
+            "R": 104,
+            "G": 208,
+            "B": 57
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 50,
+        "color_intensity": 106,
+        "color": {
+            "R": 106,
+            "G": 212,
+            "B": 63
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 51,
+        "color_intensity": 108,
+        "color": {
+            "R": 108,
+            "G": 216,
+            "B": 69
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 52,
+        "color_intensity": 110,
+        "color": {
+            "R": 110,
+            "G": 220,
+            "B": 75
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 53,
+        "color_intensity": 112,
+        "color": {
+            "R": 112,
+            "G": 224,
+            "B": 81
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 54,
+        "color_intensity": 114,
+        "color": {
+            "R": 114,
+            "G": 228,
+            "B": 87
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 55,
+        "color_intensity": 116,
+        "color": {
+            "R": 116,
+            "G": 232,
+            "B": 93
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 56,
+        "color_intensity": 119,
+        "color": {
+            "R": 119,
+            "G": 238,
+            "B": 102
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 57,
+        "color_intensity": 121,
+        "color": {
+            "R": 121,
+            "G": 242,
+            "B": 108
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 58,
+        "color_intensity": 123,
+        "color": {
+            "R": 123,
+            "G": 246,
+            "B": 114
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 59,
+        "color_intensity": 125,
+        "color": {
+            "R": 125,
+            "G": 250,
+            "B": 120
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 60,
+        "color_intensity": 127,
+        "color": {
+            "R": 127,
+            "G": 254,
+            "B": 126
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 61,
+        "color_intensity": 129,
+        "color": {
+            "R": 129,
+            "G": 3,
+            "B": 132
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 62,
+        "color_intensity": 131,
+        "color": {
+            "R": 131,
+            "G": 7,
+            "B": 138
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 63,
+        "color_intensity": 133,
+        "color": {
+            "R": 133,
+            "G": 11,
+            "B": 144
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 64,
+        "color_intensity": 136,
+        "color": {
+            "R": 136,
+            "G": 17,
+            "B": 153
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 65,
+        "color_intensity": 138,
+        "color": {
+            "R": 138,
+            "G": 21,
+            "B": 159
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 66,
+        "color_intensity": 140,
+        "color": {
+            "R": 140,
+            "G": 25,
+            "B": 165
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 67,
+        "color_intensity": 142,
+        "color": {
+            "R": 142,
+            "G": 29,
+            "B": 171
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 68,
+        "color_intensity": 144,
+        "color": {
+            "R": 144,
+            "G": 33,
+            "B": 177
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 69,
+        "color_intensity": 146,
+        "color": {
+            "R": 146,
+            "G": 37,
+            "B": 183
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 70,
+        "color_intensity": 148,
+        "color": {
+            "R": 148,
+            "G": 41,
+            "B": 189
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 71,
+        "color_intensity": 150,
+        "color": {
+            "R": 150,
+            "G": 45,
+            "B": 195
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 72,
+        "color_intensity": 153,
+        "color": {
+            "R": 153,
+            "G": 51,
+            "B": 204
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 73,
+        "color_intensity": 155,
+        "color": {
+            "R": 155,
+            "G": 55,
+            "B": 210
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 74,
+        "color_intensity": 157,
+        "color": {
+            "R": 157,
+            "G": 59,
+            "B": 216
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 75,
+        "color_intensity": 159,
+        "color": {
+            "R": 159,
+            "G": 63,
+            "B": 222
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 76,
+        "color_intensity": 161,
+        "color": {
+            "R": 161,
+            "G": 67,
+            "B": 228
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 77,
+        "color_intensity": 163,
+        "color": {
+            "R": 163,
+            "G": 71,
+            "B": 234
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 78,
+        "color_intensity": 165,
+        "color": {
+            "R": 165,
+            "G": 75,
+            "B": 240
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 79,
+        "color_intensity": 167,
+        "color": {
+            "R": 167,
+            "G": 79,
+            "B": 246
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 80,
+        "color_intensity": 170,
+        "color": {
+            "R": 170,
+            "G": 85,
+            "B": 0
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 81,
+        "color_intensity": 172,
+        "color": {
+            "R": 172,
+            "G": 89,
+            "B": 6
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 82,
+        "color_intensity": 174,
+        "color": {
+            "R": 174,
+            "G": 93,
+            "B": 12
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 83,
+        "color_intensity": 176,
+        "color": {
+            "R": 176,
+            "G": 97,
+            "B": 18
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 84,
+        "color_intensity": 178,
+        "color": {
+            "R": 178,
+            "G": 101,
+            "B": 24
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 85,
+        "color_intensity": 180,
+        "color": {
+            "R": 180,
+            "G": 105,
+            "B": 30
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 86,
+        "color_intensity": 182,
+        "color": {
+            "R": 182,
+            "G": 109,
+            "B": 36
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 87,
+        "color_intensity": 184,
+        "color": {
+            "R": 184,
+            "G": 113,
+            "B": 42
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 88,
+        "color_intensity": 187,
+        "color": {
+            "R": 187,
+            "G": 119,
+            "B": 51
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 89,
+        "color_intensity": 189,
+        "color": {
+            "R": 189,
+            "G": 123,
+            "B": 57
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 90,
+        "color_intensity": 191,
+        "color": {
+            "R": 191,
+            "G": 127,
+            "B": 63
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 91,
+        "color_intensity": 193,
+        "color": {
+            "R": 193,
+            "G": 131,
+            "B": 69
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 92,
+        "color_intensity": 195,
+        "color": {
+            "R": 195,
+            "G": 135,
+            "B": 75
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 93,
+        "color_intensity": 197,
+        "color": {
+            "R": 197,
+            "G": 139,
+            "B": 81
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 94,
+        "color_intensity": 199,
+        "color": {
+            "R": 199,
+            "G": 143,
+            "B": 87
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 95,
+        "color_intensity": 201,
+        "color": {
+            "R": 201,
+            "G": 147,
+            "B": 93
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 96,
+        "color_intensity": 204,
+        "color": {
+            "R": 204,
+            "G": 153,
+            "B": 102
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 97,
+        "color_intensity": 206,
+        "color": {
+            "R": 206,
+            "G": 157,
+            "B": 108
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 98,
+        "color_intensity": 208,
+        "color": {
+            "R": 208,
+            "G": 161,
+            "B": 114
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 99,
+        "color_intensity": 210,
+        "color": {
+            "R": 210,
+            "G": 165,
+            "B": 120
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 100,
+        "color_intensity": 212,
+        "color": {
+            "R": 212,
+            "G": 169,
+            "B": 126
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 101,
+        "color_intensity": 214,
+        "color": {
+            "R": 214,
+            "G": 173,
+            "B": 132
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 102,
+        "color_intensity": 216,
+        "color": {
+            "R": 216,
+            "G": 177,
+            "B": 138
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 103,
+        "color_intensity": 218,
+        "color": {
+            "R": 218,
+            "G": 181,
+            "B": 144
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 104,
+        "color_intensity": 221,
+        "color": {
+            "R": 221,
+            "G": 187,
+            "B": 153
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 105,
+        "color_intensity": 223,
+        "color": {
+            "R": 223,
+            "G": 191,
+            "B": 159
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 106,
+        "color_intensity": 225,
+        "color": {
+            "R": 225,
+            "G": 195,
+            "B": 165
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 107,
+        "color_intensity": 227,
+        "color": {
+            "R": 227,
+            "G": 199,
+            "B": 171
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 108,
+        "color_intensity": 229,
+        "color": {
+            "R": 229,
+            "G": 203,
+            "B": 177
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 109,
+        "color_intensity": 231,
+        "color": {
+            "R": 231,
+            "G": 207,
+            "B": 183
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 110,
+        "color_intensity": 233,
+        "color": {
+            "R": 233,
+            "G": 211,
+            "B": 189
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 111,
+        "color_intensity": 235,
+        "color": {
+            "R": 235,
+            "G": 215,
+            "B": 195
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 112,
+        "color_intensity": 238,
+        "color": {
+            "R": 238,
+            "G": 221,
+            "B": 204
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 113,
+        "color_intensity": 240,
+        "color": {
+            "R": 240,
+            "G": 225,
+            "B": 210
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 114,
+        "color_intensity": 242,
+        "color": {
+            "R": 242,
+            "G": 229,
+            "B": 216
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 115,
+        "color_intensity": 244,
+        "color": {
+            "R": 244,
+            "G": 233,
+            "B": 222
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 116,
+        "color_intensity": 246,
+        "color": {
+            "R": 246,
+            "G": 237,
+            "B": 228
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 117,
+        "color_intensity": 248,
+        "color": {
+            "R": 248,
+            "G": 241,
+            "B": 234
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 118,
+        "color_intensity": 250,
+        "color": {
+            "R": 250,
+            "G": 245,
+            "B": 240
+        },
+        "MPEG-H_Support": "Enabled"
+    },
+    {
+        "frame": 119,
+        "color_intensity": 252,
+        "color": {
+            "R": 252,
+            "G": 249,
+            "B": 246
+        },
+        "MPEG-H_Support": "Enabled"
+    }
+]

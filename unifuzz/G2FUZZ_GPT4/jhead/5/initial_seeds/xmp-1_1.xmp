@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+   <dc:description>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Standardization Across File Formats: XMP provides a standard framework for embedding metadata into digital files, including images, videos, PDFs, and more. This ensures that metadata is consistent and interoperable across different software and platforms.</rdf:li>
+    </rdf:Alt>
+   </dc:description>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

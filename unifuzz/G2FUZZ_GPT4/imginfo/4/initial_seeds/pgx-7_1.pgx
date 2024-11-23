@@ -1,0 +1,4 @@
+
+Compatibility with JPEG 2000 Features: PGX files inherently support many of the advanced features of JPEG 2000,
+such as superior image quality and the potential for progressive decoding, by virtue of their relationship with the JPEG 2000 standard,
+even if these features are not directly utilized in the PGX format itself.

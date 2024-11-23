@@ -1,0 +1,20 @@
+<MIFFile 9.00> # Start of the MIF file
+<Bookmark 
+    <Title `Chapter 1`>
+    <Unique 122345>
+    <PageNum 1>
+> # End of Bookmark
+<Bookmark 
+    <Title `Chapter 1.1`>
+    <Unique 122346>
+    <PageNum 2>
+> # End of Bookmark
+# A simple tag example for a paragraph
+<P 
+    <PgfTag `BodyText`>
+    <PgfNumString `1`>
+    <ParaLine 
+        <String `This is an example paragraph with a BodyText tag.`>
+    > # End of ParaLine
+> # End of Paragraph
+</MIFFile> # End of the MIF file

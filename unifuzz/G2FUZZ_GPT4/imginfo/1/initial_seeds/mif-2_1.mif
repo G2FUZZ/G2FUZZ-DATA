@@ -1,0 +1,11 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+  Text 50 50 "Label 1"
+  Text 100 100 "Label 2"
+  Text 150 150 "Description here"

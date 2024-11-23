@@ -1,0 +1,29 @@
+# MIFFile 9.0
+
+<Frame
+    <ID 1>
+    <PgfTag `Equation`>
+    <GroupID 1>
+    <Unique 1001>
+    <Pen 15>
+    <Fill 7>
+    <PenWidth  0.5>
+    <ObTir 0>
+    <DashedPattern>
+        <DashedStyle Solid>
+    </DashedPattern>
+    <Overprint No>
+    <RunaroundType None>
+    <RunaroundGap 0.0>
+    <Angle 0.0>
+    <Separation 0>
+    <Spread None>
+    <BRect 1.0 inch 1.0 inch 6.0 inch 4.0 inch>
+    <Group
+        <Math
+            <MathFullForm `y = mx + b`>
+            <MathSize 100>
+            <MathFont `Times New Roman`>
+        >
+    >
+>

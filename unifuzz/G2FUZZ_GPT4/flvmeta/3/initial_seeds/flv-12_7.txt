@@ -1,0 +1,12 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/2
+START=1
+end=2
+title=First Cue Point
+
+[CHAPTER]
+TIMEBASE=1/2
+START=3
+end=4
+title=Second Cue Point

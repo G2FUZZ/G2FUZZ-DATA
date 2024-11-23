@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<x:xmpmeta xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:x="adobe:ns:meta/">
+   <rdf:RDF>
+      <rdf:Description rdf:about="">
+         <dc:description>3. **Extensibility**: XMP is built on XML, making it highly extensible. Users can define custom metadata schemas according to their needs, in addition to using predefined schemas such as Dublin Core, Exif, or IPTC.</dc:description>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>

@@ -1,0 +1,7 @@
+P3
+# This is an example of a PPM file representing simple RGB stripes
+3 3
+255
+255 0 0   0 255 0   0 0 255
+255 255 0 255 0 255 0 255 255
+255 255 255 255 255 255 255 255 255

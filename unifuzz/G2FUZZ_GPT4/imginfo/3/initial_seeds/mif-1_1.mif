@@ -1,0 +1,20 @@
+
+<MIFFile 9.00> # MIF version
+<Units Uinches> # Unit of measurement
+<TypesettingSpecifications>
+ # Typesetting specifications
+</TypesettingSpecifications>
+<TextFlow
+ <Para
+  <PgfTag `Heading1`>
+  <String `Sample Heading`>
+ >
+ <Para
+  <PgfTag `Body`>
+  <String `This is a sample paragraph to demonstrate how text can be included in a MIF file. MIF files can contain various types of text content, including paragraphs, headings, lists, and more, allowing for the representation of the structured textual information of a document.`>
+ >
+ <Para
+  <PgfTag `Body`>
+  <String `Another paragraph follows, showcasing the versatility of the MIF format in handling textual data across documents.`>
+ >
+> # End of TextFlow

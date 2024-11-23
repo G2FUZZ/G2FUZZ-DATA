@@ -1,0 +1,18 @@
+{
+    "format": "mp4",
+    "video": {
+        "resolution": "640x480",
+        "color": "red",
+        "fps": 24
+    },
+    "audio": {
+        "tracks": 0,
+        "format": "none"
+    },
+    "features": {
+        "Encryption and ISO Base Media File Format Compliance": {
+            "encryption": "Enabled",
+            "ISO_compliance": "ISO/IEC 14496-12"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 2
+  ID Integer
+  Name Char(50)
+Data
+
+Line 25.276987 55.296249 25.197139 55.274111
+    1, "Sample Line"

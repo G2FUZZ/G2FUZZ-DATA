@@ -1,0 +1,16 @@
+VERSION 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+# Define a line with custom style
+Pline
+  Pen (1,2,0) # Width, Pattern, Color
+  Line 10 10 20 20
+
+# Define a point with a custom marker
+Point 15 15
+  Symbol (35,0,12) # Shape, Color, Size

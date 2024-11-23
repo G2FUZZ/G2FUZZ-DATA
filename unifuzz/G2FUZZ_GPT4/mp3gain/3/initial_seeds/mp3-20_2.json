@@ -1,0 +1,12 @@
+{
+    "DRM_Protected": true,
+    "Permission": {
+        "Copy": "Not Allowed",
+        "Distribution": "Not Allowed"
+    },
+    "Owner": "Example Owner",
+    "Usage_Rights": {
+        "Personal_Use": true,
+        "Commercial_Use": false
+    }
+}

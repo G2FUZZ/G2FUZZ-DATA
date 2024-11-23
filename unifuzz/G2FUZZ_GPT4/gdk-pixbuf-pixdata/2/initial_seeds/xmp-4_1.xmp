@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/">
+  <rdf:Description>
+    <dc:creator>John Doe</dc:creator>
+    <dc:rights>© 2023 John Doe, All rights reserved.</dc:rights>
+    <dc:description>A sample image with rich metadata</dc:description>
+    <xmpRights:UsageTerms>This work is licensed under a Creative Commons Attribution 4.0 International License.</xmpRights:UsageTerms>
+    <Iptc4xmpExt:LocationShown>Earth, Solar System</Iptc4xmpExt:LocationShown>
+    <photoshop:Headline>A Journey Through Space</photoshop:Headline>
+    <photoshop:Source>NASA Imagery</photoshop:Source>
+    <dc:subjectBag>
+      <rdf:li>Space</rdf:li>
+      <rdf:li>Earth</rdf:li>
+      <rdf:li>NASA</rdf:li>
+    </dc:subjectBag>
+  </rdf:Description>
+</rdf:RDF>

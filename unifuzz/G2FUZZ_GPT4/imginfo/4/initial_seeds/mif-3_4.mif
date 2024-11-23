@@ -1,0 +1,12 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+MultiPoint 3
+100.0 100.0
+150.0 150.0
+200.0 200.0

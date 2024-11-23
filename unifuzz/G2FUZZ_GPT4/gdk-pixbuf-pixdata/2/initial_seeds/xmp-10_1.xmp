@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+   <dc:format>application/pdf</dc:format>
+   <xmp:ModifyDate>2024-06-26T14:44:22.468066</xmp:ModifyDate>
+   <xmp:CreatorTool>Python Script</xmp:CreatorTool>
+   <xmp:MetadataDate>2024-06-26T14:44:22.468066</xmp:MetadataDate>
+   <xmp:VersionControl>
+    <rdf:Seq>
+     <rdf:li>Initial version</rdf:li>
+     <rdf:li>Revised version - added section 2</rdf:li>
+     <rdf:li>Final version - proofread and corrected</rdf:li>
+    </rdf:Seq>
+   </xmp:VersionControl>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

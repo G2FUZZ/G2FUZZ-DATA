@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+        <xmp:CreatorTool>Python Script</xmp:CreatorTool>
+        <xmp:CreateDate>2023-01-01T12:00:00</xmp:CreateDate>
+        <xmp:ModifyDate>2023-01-01T12:00:00</xmp:ModifyDate>
+        <xmp:MetadataDate>2023-01-01T12:00:00</xmp:MetadataDate>
+        <xmp:standardization>
+            Based on a framework developed by Adobe Systems, XMP standardizes the creation, processing, and interchange of standardized and custom metadata for digital documents and data sets. This ensures broad compatibility and understandability across different platforms and applications.
+        </xmp:standardization>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>

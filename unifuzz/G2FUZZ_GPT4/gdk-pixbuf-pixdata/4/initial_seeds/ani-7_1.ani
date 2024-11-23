@@ -1,0 +1,8 @@
+
+[Info]
+Name=CompatibilityDemo
+Author=YourName
+Compatibility=Windows
+
+This is a basic .ani file created to demonstrate generating an .ani file with Python.
+It's intended to reflect the feature of compatibility with Windows platforms.

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MPEG7 xmlns="urn:mpeg:mpeg7:schema:2001" xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Description>
+    <MultimediaContent type="Video">
+      <Video>
+        <TextAnnotation>
+          <FreeTextAnnotation>A simple generated video with a gradient background and frame numbers.</FreeTextAnnotation>
+        </TextAnnotation>
+      </Video>
+    </MultimediaContent>
+  </Description>
+</MPEG7>

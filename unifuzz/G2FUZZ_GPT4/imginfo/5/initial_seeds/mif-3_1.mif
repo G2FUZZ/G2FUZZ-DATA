@@ -1,0 +1,17 @@
+<MIFFile 9.00> # MIF version
+<Units Uinch> # Unit of measurement
+
+# Define a page layout
+<Page
+    <PageType Start>
+    <PageSize 8.5" x 11"> # Letter size
+    <PageOrientation Portrait>
+    <TextRect
+        <ID 1>
+        <TR_PageNum 1>
+        <TR_CoordRect 0.5" 0.5" 7.5" 10"> # Margins: top, left, width, height
+        <TR_Fill 15> # Fill color
+        <TR_Columns 2> # Number of columns
+        <TR_ColGap 0.25"> # Gap between columns
+    >
+>

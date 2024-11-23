@@ -1,0 +1,82 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+/Title (Accessible\040PDF\040Example\040with\040Object\040Streams)
+/Author (Accessibility\040Team)
+/Subject (Accessibility\040Features\040with\040Object\040Streams)
+/Keywords (Accessibility\054\040PDF\054\040Text\055to\055Speech\054\040Tagged\040PDF\054\040Object\040Streams)
+/Creator (Accessibility\040Feature\040Generator)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 200
+>>
+stream
+GarWr^C%hC$jQ4WVt``(W4c(?h#,bq:bXPA]r!W_GD0?kI!\N@_*J\hI"Yj9OH*nLkr`o/lj<iYJSLQ7a[%jjBf5$b=l!_#V]_&nd5d4ab)Z#%'KGhQ3@NaY%IRfN:@ZhbXcJ5HW!.&<=QsX!,B6U,\F*@:6trDUGZJ$O[BQ>k5GN3f;>11Znq2%YTB,/D<aYP)5.(~>
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000074 00000 n 
+0000000439 00000 n 
+0000000488 00000 n 
+0000000677 00000 n 
+0000000968 00000 n 
+0000000999 00000 n 
+trailer
+<<
+/Size 8
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+1106
+%%EOF

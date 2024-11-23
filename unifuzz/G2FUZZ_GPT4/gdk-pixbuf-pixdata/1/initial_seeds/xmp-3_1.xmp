@@ -1,0 +1,8 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP toolkit">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <dc:description>3. **Embeddable**: XMP data can be embedded into a wide range of digital file formats without altering the original content. This includes popular formats like JPEG, TIFF, PDF, and many raw image formats. Embedding metadata directly into files ensures that the information travels with the file, enhancing portability and accessibility.</dc:description>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

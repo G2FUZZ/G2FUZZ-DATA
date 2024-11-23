@@ -1,0 +1,34 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+Region 1
+  5
+    -100.0, 100.0
+    100.0, 100.0
+    100.0, -100.0
+    -100.0, -100.0
+    -100.0, 100.0
+
+
+MultiRegion 2
+
+  Region 1
+    5
+      -50.0, 50.0
+      -30.0, 50.0
+      -30.0, 30.0
+      -50.0, 30.0
+      -50.0, 50.0
+
+  Region 1
+    5
+      30.0, -30.0
+      50.0, -30.0
+      50.0, -50.0
+      30.0, -50.0
+      30.0, -30.0

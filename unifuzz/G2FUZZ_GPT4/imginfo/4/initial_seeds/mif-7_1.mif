@@ -1,0 +1,17 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 2
+  Feature_Name Char(50)
+  Description Char(254)
+Data
+
+  Point 1 2
+    Symbol (35,0,12)
+  Point 2 3
+    Symbol (35,0,12)
+
+/* Feature: Compatibility with Multiple GIS Software */
+/* MIF files are widely supported across various Geographic Information System (GIS) software packages, not just MapInfo. */
+/* This makes them a versatile format for interchange and use in different GIS applications. */

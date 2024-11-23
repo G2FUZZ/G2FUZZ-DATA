@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<didl:Didl xmlns:didl="urn:mpeg:mpeg21:2002:02-DIDL-NS">
+  <didl:Item>
+    <didl:Component>
+      <didl:Resource ref="./tmp/example_streaming.mp4">
+        <didl:Descriptor>
+          <didl:Statement>This is an example of MPEG-21 DIDL for a streaming video.</didl:Statement>
+        </didl:Descriptor>
+      </didl:Resource>
+    </didl:Component>
+  </didl:Item>
+</didl:Didl>

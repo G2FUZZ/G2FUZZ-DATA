@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Mpeg7 xmlns:mpeg7="http://www.mpeg7.org">
+  <Description type="ContentEntityType">
+    <Text>Example content description for an MP4 file generated with Python.</Text>
+  </Description>
+</Mpeg7>

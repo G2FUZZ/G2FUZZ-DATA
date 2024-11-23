@@ -1,0 +1,2 @@
+Hotspot X: 32
+Hotspot Y: 32

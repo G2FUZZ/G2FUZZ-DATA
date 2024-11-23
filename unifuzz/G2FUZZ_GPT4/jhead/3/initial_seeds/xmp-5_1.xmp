@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description>
+    <copyright>Copyright 2023, Example Company</copyright>
+    <keywords>example</keywords>
+    <keywords>metadata</keywords>
+    <keywords>xmp</keywords>
+    <description>An example of XMP file with rich metadata.</description>
+    <rating>5</rating>
+  </rdf:Description>
+</rdf:RDF>

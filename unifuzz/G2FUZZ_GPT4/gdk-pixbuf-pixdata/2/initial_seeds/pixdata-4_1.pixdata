@@ -1,0 +1,20 @@
+{
+    "image_data": {
+        "width": 1920,
+        "height": 1080,
+        "color_mode": "RGB"
+    },
+    "metadata": {
+        "creation_date": "2024-06-26 14:57:18",
+        "copyright": "Copyright 2023",
+        "camera_settings": {
+            "iso": 100,
+            "shutter_speed": "1/125",
+            "aperture": "f/2.8"
+        },
+        "gps_coordinates": {
+            "latitude": "51.5074 N",
+            "longitude": "0.1278 W"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 2
+  ID Integer
+  Name Char(50)
+Data
+
+Point 34.0522 -118.2437
+    1, "Los Angeles"

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+        <xmp:Interoperability>
+            Through its standardization and RDF base, XMP supports interoperability among different software applications and systems. This means metadata created in one application can be read and understood by another, facilitating easier exchange and processing of digital files.
+        </xmp:Interoperability>
+    </rdf:Description>
+</rdf:RDF>

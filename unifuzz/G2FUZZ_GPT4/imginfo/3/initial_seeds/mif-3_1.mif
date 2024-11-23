@@ -1,0 +1,16 @@
+<MIFFile 9.00> # MIF version
+<Frame
+    <Pen 15> # Set pen color
+    <Fill 7> # Set fill color
+    <PenWidth 0.5> # Set pen width
+    <Rect
+        <BRect 1.0 inch 1.0 inch 3.0 inch 2.0 inch> # Specify rectangle dimensions
+        <Angle 0> # Rotation angle
+    >
+    <GroupID 1> # Assign to group
+> # End Frame
+<ImportObject
+    <Tag `Image`>
+    <ImportObFile `./image.jpg`> # Path to the image file to be included
+    <ImportObRect 4.0 inch 1.0 inch 6.0 inch 3.0 inch> # Position and size
+> # End ImportObject

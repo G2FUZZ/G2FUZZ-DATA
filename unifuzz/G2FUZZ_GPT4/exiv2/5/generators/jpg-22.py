@@ -1,0 +1,41 @@
+from PIL import Image, ImageDraw, ImageFont
+import os
+
+# Ensure the ./tmp/ directory exists
+output_dir = './tmp/'
+os.makedirs(output_dir, exist_ok=True)
+
+# Create a new blank image
+image = Image.new('RGB', (800, 600), color = (255, 255, 255))
+
+# Initialize ImageDraw
+draw = ImageDraw.Draw(image)
+
+# Define the text to be drawn, including the new Arithmetic Coding Option feature and the new Smoothing Filters feature
+text = """
+6. Wide Compatibility: JPG is one of the most widely supported image formats, compatible with virtually all image viewing and editing software, as well as web browsers.
+
+1. ICC Profile Support: JPG files can include ICC profiles to manage color across different devices, ensuring consistent color representation from the camera to the display screen.
+
+2. Smoothing Filters: Some JPEG compression algorithms apply smoothing filters to reduce the appearance of compression artifacts, which can make the image appear slightly softer but with fewer noticeable distortions.
+
+4. Grayscale Support: JPG files can store images in grayscale, reducing the file size significantly while still maintaining the quality of monochromatic images.
+
+5. Arithmetic Coding Option: In addition to the standard Huffman coding, JPG files can also use arithmetic coding for compression, which can be more efficient but is less commonly used due to patent issues in the past.
+"""
+
+# Load a font
+font_path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"  # This path is an example; it might differ
+try:
+    font = ImageFont.truetype(font_path, 20)
+except IOError:
+    font = ImageFont.load_default()
+
+# Drawing text on the image
+draw.multiline_text((10, 10), text, fill=(0, 0, 0), font=font)
+
+# Save the image
+file_path = os.path.join(output_dir, 'features_including_smoothing_filters.jpg')
+image.save(file_path)
+
+print(f"Image saved to {file_path}")

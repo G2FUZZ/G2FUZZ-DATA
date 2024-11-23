@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="">
+    <dc:description rdf:parseType="Literal">XMP metadata can be embedded directly into the file it describes (for supported formats) or stored in an external sidecar file (typically with an .xmp extension) that accompanies the digital asset. This flexibility allows for metadata management without altering the original file for formats that do not natively support XMP embedding.</dc:description>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,23 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+# A point representing a location (e.g., a landmark)
+Point 34.0522 -118.2437
+  ID 1
+
+# A line representing a road
+Line 34.0522 -118.2437 34.0522 -118.0437
+  ID 2
+
+# A polygon representing a boundary (e.g., a park or property)
+Pline 3
+  34.0522 -118.2437
+  34.0622 -118.2537
+  34.0722 -118.2437
+  34.0522 -118.2437
+  ID 3

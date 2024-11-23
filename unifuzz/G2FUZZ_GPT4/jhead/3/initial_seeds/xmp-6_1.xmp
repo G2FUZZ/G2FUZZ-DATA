@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description>
+    <dc:title>
+      <rdf:Alt>
+        <rdf:li rdf:lang="en-US">Example Title in English</rdf:li>
+        <rdf:li rdf:lang="fr-FR">Exemple de titre en français</rdf:li>
+        <rdf:li rdf:lang="es-ES">Ejemplo de título en español</rdf:li>
+      </rdf:Alt>
+    </dc:title>
+  </rdf:Description>
+</rdf:RDF>

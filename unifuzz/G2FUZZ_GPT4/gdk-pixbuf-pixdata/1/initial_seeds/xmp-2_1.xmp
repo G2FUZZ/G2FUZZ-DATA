@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+      <dc:description><![CDATA[
+2. **Extensibility**: The XMP framework supports adding custom metadata fields on top of the existing standard ones. 
+This makes it highly adaptable to different domains and user needs, allowing for the storage of specialized information.
+]]></dc:description>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>

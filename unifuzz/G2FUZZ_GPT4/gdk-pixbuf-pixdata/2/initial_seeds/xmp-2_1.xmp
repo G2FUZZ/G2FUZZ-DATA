@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+      <dc:format>application/xmp</dc:format>
+      <dc:description>
+2. **Interoperability**: Designed to work across different media types, XMP supports a wide range of file formats including PDF, JPEG, GIF, PNG, TIFF, MP3, and many types of RAW image files. This interoperability ensures that metadata is preserved and accessible regardless of the software or platform used.
+</dc:description>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>

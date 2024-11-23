@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+    <xmp:Extensibility>
+        XMP is based on XML, making it flexible and capable of supporting existing and future metadata standards. 
+        Users can define their own properties and structures, extending the metadata to meet their specific needs.
+    </xmp:Extensibility>
+  </rdf:Description>
+</rdf:RDF>

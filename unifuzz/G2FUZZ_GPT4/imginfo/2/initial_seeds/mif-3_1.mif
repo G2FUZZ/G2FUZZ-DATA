@@ -1,0 +1,11 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 2
+  Name Char(50)
+  Category Integer
+Data
+
+Point 100 200
+  Name "Sample Point", Category 1

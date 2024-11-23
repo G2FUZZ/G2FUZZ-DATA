@@ -1,0 +1,13 @@
+
+PG ML
+Width = 256
+Height = 256
+Depth = 8
+MaxVal = 255
+Creator = PythonScript
+
+Metadata:
+    Creation Date: 2024-06-25 14:34:51
+    Author: Example Author
+    Copyright: Copyright 2023 by Example Author
+    Camera Settings: ISO 100, f/1.8, 1/1000s

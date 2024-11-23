@@ -1,0 +1,24 @@
+<MIFFile 9.00> # MIF version
+# FrameMaker document containing cross-references and hyperlinks
+
+<Para
+    <PgfTag `Body`>
+    <ParaLine
+        <String `This document demonstrates the use of `>
+        <XRef
+            <XRefName `Hyperlinks`>
+            <XRefSrcText `cross-references and hyperlinks`>
+            <XRefSrcFile `external_source.mif`>
+            <XRefFmt `PageNum`>>
+        <String `. For more information, visit `>
+        <Hypertext
+            <HypertextCommand `openurl https://www.example.com`>
+            <String `our website`>>>
+        <String `. `>>
+    <ParaLine
+        <String `Use these features to create interactive documents.`>>>
+</Para>
+
+# End of the MIF document
+<Trailer>
+<EOF>

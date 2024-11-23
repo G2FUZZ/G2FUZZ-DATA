@@ -1,0 +1,33 @@
+<MIFFile 9.00> # MIF version
+<FontCatalog
+ <Font
+  <FTag `BodyText`>
+  <FFamily `Times New Roman`>
+  <FVar `Regular`>
+  <FWeight `Medium`>
+  <FAngle `Regular`>
+  <FSize 12.0>
+  <FColor `Black`>>
+ <Font
+  <FTag `Heading1`>
+  <FFamily `Arial`>
+  <FVar `Regular`>
+  <FWeight `Bold`>
+  <FAngle `Regular`>
+  <FSize 24.0>
+  <FColor `Blue`>>
+> # End of FontCatalog
+<ColorCatalog
+ <Color
+  <ColorTag `Black`>
+  <ColorCyan 0>
+  <ColorMagenta 0>
+  <ColorYellow 0>
+  <ColorBlack 100>>
+ <Color
+  <ColorTag `Blue`>
+  <ColorCyan 100>
+  <ColorMagenta 50>
+  <ColorYellow 0>
+  <ColorBlack 0>>
+> # End of ColorCatalog

@@ -1,0 +1,9 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+Line 100.0 100.0 200.0 200.0

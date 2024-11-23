@@ -1,0 +1,57 @@
+<MIFFile 9.00> # MIF file version
+<Units Ucm> # Units in centimeters
+
+# Define a simple table
+<Table
+ <Tbls 1> # Start Table definition
+ <TblID 1>
+ <TblFormat
+  <TblTag `TableWithFormatting`>
+  <TblTitleContent
+   <Para
+    <PgfTag `TableTitle`>
+    <ParaLine
+     <String `Complex Table Example`>>>>
+  <TblH # Table Header
+   <Row
+    <Cell <CellContent
+     <Para
+      <PgfTag `Heading1`>
+      <ParaLine
+       <String `Column 1`>>>>>
+    <Cell <CellContent
+     <Para
+      <PgfTag `Heading2`>
+      <ParaLine
+       <String `Column 2`>>>>>>
+  <TblBody # Table Body
+   <Row
+    <Cell <CellContent
+     <Para
+      <PgfTag `Body`>
+      <ParaLine
+       <String `Data 1`>>>>>
+    <Cell <CellContent
+     <Para
+      <PgfTag `Body`>
+      <ParaLine
+       <String `Data 2`>>>>>>
+   <Row
+    <Cell <CellContent
+     <Para
+      <PgfTag `Body`>
+      <ParaLine
+       <String `Data 3`>>>>>
+    <Cell <CellContent
+     <Para
+      <PgfTag `Body`>
+      <ParaLine
+       <String `Data 4`>>>>>>
+  <TblF # Table Footer
+   <Row
+    <Cell <CellContent
+     <Para
+      <PgfTag `Footer`>
+      <ParaLine
+       <String `End of Table`>>>>>>
+ >

@@ -1,0 +1,10 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 0
+Columns 2
+  ID Integer
+  Name Char(50)
+Begin
+  Bounds (5000, -5000) (10000, 5000)
+End

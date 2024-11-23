@@ -1,0 +1,12 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 2
+  ID Integer
+  Name Char(50)
+Data
+
+POINT 40.7128 -74.0060
+LINE 40.7128 -74.0060 40.7138 -74.0070
+POLYGON((40.7128 -74.0060, 40.7128 -74.0070, 40.7138 -74.0070, 40.7138 -74.0060, 40.7128 -74.0060))

@@ -1,0 +1,15 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 1
+  ID Integer
+Data
+
+Pline Multiple 5
+    Pen (1,2,0)
+    Line 10 10 20 20
+    Pen (2,2,16711680)
+    Line 20 20 30 30
+    Pen (3,2,65280)
+    Line 30 30 40 40

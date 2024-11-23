@@ -1,0 +1,12 @@
+{
+    "format": "mp4",
+    "video": {
+        "resolution": "640x480",
+        "color": "red",
+        "fps": 24
+    },
+    "audio": {
+        "tracks": 0,
+        "format": "none"
+    }
+}

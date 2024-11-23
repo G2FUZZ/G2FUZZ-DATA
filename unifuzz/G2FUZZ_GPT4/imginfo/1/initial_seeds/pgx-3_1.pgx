@@ -1,0 +1,2 @@
+Lossless and Lossy Compression:
+JPEG 2000 supports both lossless and lossy compression methods. Lossless compression ensures that the original image data can be perfectly reconstructed from the compressed data, whereas lossy compression allows for smaller file sizes at the cost of some loss of quality.

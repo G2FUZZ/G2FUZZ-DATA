@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<rdf:RDF>
+  <rdf:Description rdf:about="">
+    <xmp:Standardization>XMP is based on XML, making it both readable and writable by humans and machines. This adherence to a standard ensures broad compatibility and ease of processing.</xmp:Standardization>
+  </rdf:Description>
+</rdf:RDF>

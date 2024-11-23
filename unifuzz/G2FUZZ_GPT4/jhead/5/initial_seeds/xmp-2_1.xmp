@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:x="adobe:ns:meta/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <rdf:Description rdf:about="" dc:title="Sample Title" dc:description="This is a sample description of the XMP file." dc:creator="Sample Creator" dc:rights="© 2023 Sample Creator" dc:subject="sample, xmp, metadata"/>
+</rdf:RDF>

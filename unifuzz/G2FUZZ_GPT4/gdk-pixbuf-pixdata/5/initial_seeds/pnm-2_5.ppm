@@ -1,0 +1,6 @@
+P3
+# This is an example of a PPM file in ASCII format
+2 2
+255
+255 0 0 0 255 0
+0 0 255 255 255 255

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="http://ns.adobe.com/xap/1.0/">
+  <rdf:Description rdf:about="">
+    <dc:description>A detailed description of the content, enhancing accessibility by providing context that can be read by screen readers.</dc:description>
+    <dc:subject>
+      <rdf:Bag>
+        <rdf:li>Accessibility</rdf:li>
+        <rdf:li>Screen Reader</rdf:li>
+        <rdf:li>Detailed Description</rdf:li>
+      </rdf:Bag>
+    </dc:subject>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+# MIF example with Object Anchoring
+< MIFFile 9 > # Indicates MIF format version
+< Units Uinch > # Unit of measurement
+< TextFlow
+  < TFAutoConnect 0 >
+  < TFRectID 1 >
+  < TFGutter 12 pt >
+  < TFColumnCount 1 >
+  < TFColumnGutter 12 pt >
+  < Para
+    < PgfTag `BodyText` >
+    < PgfPlacement Anywhere >
+    < PgfSpBefore 12 pt >
+    < PgfWithPrev 0 >
+    < TextRectID 2 >
+    < Unique 10000 >
+    < ParaLine
+      < String `This demonstrates object anchoring in MIF files.` >
+    > # ParaLine ends
+  > # Para ends
+  < AnchoredFrame
+    < ID 2 >
+    < AFrameRect 1.0 in 1.0 in 3.0 in 2.0 in > # Position and size
+    < AFrameAnchored 1 > # Anchor type to the text
+    < AFrameAlignment Center > # Alignment
+    < AFrameAngle 0 > # Rotation angle
+    > # AnchoredFrame ends
+> # TextFlow ends

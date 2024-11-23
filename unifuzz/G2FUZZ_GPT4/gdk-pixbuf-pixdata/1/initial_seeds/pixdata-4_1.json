@@ -1,0 +1,9 @@
+{
+    "Compression": {
+        "Description": "Details whether the pixel data is stored in a compressed format to save space.",
+        "Type": [
+            "Lossy",
+            "Lossless"
+        ]
+    }
+}

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"><rdf:Description rdf:about="" dc:title="Example Title" dc:description="This is an example description." dc:creator="John Doe" dc:subject="example,metadata,xmp" xmpRights:UsageTerms="Copyright © John Doe. All rights reserved." xmpMM:DocumentID="doc-123" xmpMM:InstanceID="instance-456" /></rdf:RDF>

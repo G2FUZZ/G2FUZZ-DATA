@@ -1,0 +1,2644 @@
+{
+    "frames": [
+        {
+            "frame_index": 0,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    0,
+                    0,
+                    0
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 1,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    2,
+                    4,
+                    6
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 2,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    4,
+                    8,
+                    12
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 3,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    6,
+                    12,
+                    18
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 4,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    8,
+                    16,
+                    24
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 5,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    10,
+                    20,
+                    30
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 6,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    12,
+                    24,
+                    36
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 7,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    14,
+                    28,
+                    42
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 8,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    17,
+                    34,
+                    51
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 9,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    19,
+                    38,
+                    57
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 10,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    21,
+                    42,
+                    63
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 11,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    23,
+                    46,
+                    69
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 12,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    25,
+                    50,
+                    75
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 13,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    27,
+                    54,
+                    81
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 14,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    29,
+                    58,
+                    87
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 15,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    31,
+                    62,
+                    93
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 16,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    34,
+                    68,
+                    102
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 17,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    36,
+                    72,
+                    108
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 18,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    38,
+                    76,
+                    114
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 19,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    40,
+                    80,
+                    120
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 20,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    42,
+                    84,
+                    126
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 21,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    44,
+                    88,
+                    132
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 22,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    46,
+                    92,
+                    138
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 23,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    48,
+                    96,
+                    144
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 24,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    51,
+                    102,
+                    153
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 25,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    53,
+                    106,
+                    159
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 26,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    55,
+                    110,
+                    165
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 27,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    57,
+                    114,
+                    171
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 28,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    59,
+                    118,
+                    177
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 29,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    61,
+                    122,
+                    183
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 30,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    63,
+                    126,
+                    189
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 31,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    65,
+                    130,
+                    195
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 32,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    68,
+                    136,
+                    204
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 33,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    70,
+                    140,
+                    210
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 34,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    72,
+                    144,
+                    216
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 35,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    74,
+                    148,
+                    222
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 36,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    76,
+                    152,
+                    228
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 37,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    78,
+                    156,
+                    234
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 38,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    80,
+                    160,
+                    240
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 39,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    82,
+                    164,
+                    246
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 40,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    85,
+                    170,
+                    0
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 41,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    87,
+                    174,
+                    6
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 42,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    89,
+                    178,
+                    12
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 43,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    91,
+                    182,
+                    18
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 44,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    93,
+                    186,
+                    24
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 45,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    95,
+                    190,
+                    30
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 46,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    97,
+                    194,
+                    36
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 47,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    99,
+                    198,
+                    42
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 48,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    102,
+                    204,
+                    51
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 49,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    104,
+                    208,
+                    57
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 50,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    106,
+                    212,
+                    63
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 51,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    108,
+                    216,
+                    69
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 52,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    110,
+                    220,
+                    75
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 53,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    112,
+                    224,
+                    81
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 54,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    114,
+                    228,
+                    87
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 55,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    116,
+                    232,
+                    93
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 56,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    119,
+                    238,
+                    102
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 57,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    121,
+                    242,
+                    108
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 58,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    123,
+                    246,
+                    114
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 59,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    125,
+                    250,
+                    120
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 60,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    127,
+                    254,
+                    126
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 61,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    129,
+                    3,
+                    132
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 62,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    131,
+                    7,
+                    138
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 63,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    133,
+                    11,
+                    144
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 64,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    136,
+                    17,
+                    153
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 65,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    138,
+                    21,
+                    159
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 66,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    140,
+                    25,
+                    165
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 67,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    142,
+                    29,
+                    171
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 68,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    144,
+                    33,
+                    177
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 69,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    146,
+                    37,
+                    183
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 70,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    148,
+                    41,
+                    189
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 71,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    150,
+                    45,
+                    195
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 72,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    153,
+                    51,
+                    204
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 73,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    155,
+                    55,
+                    210
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 74,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    157,
+                    59,
+                    216
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 75,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    159,
+                    63,
+                    222
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 76,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    161,
+                    67,
+                    228
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 77,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    163,
+                    71,
+                    234
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 78,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    165,
+                    75,
+                    240
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 79,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    167,
+                    79,
+                    246
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 80,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    170,
+                    85,
+                    0
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 81,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    172,
+                    89,
+                    6
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 82,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    174,
+                    93,
+                    12
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 83,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    176,
+                    97,
+                    18
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 84,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    178,
+                    101,
+                    24
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 85,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    180,
+                    105,
+                    30
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 86,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    182,
+                    109,
+                    36
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 87,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    184,
+                    113,
+                    42
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 88,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    187,
+                    119,
+                    51
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 89,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    189,
+                    123,
+                    57
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 90,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    191,
+                    127,
+                    63
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 91,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    193,
+                    131,
+                    69
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 92,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    195,
+                    135,
+                    75
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 93,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    197,
+                    139,
+                    81
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 94,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    199,
+                    143,
+                    87
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 95,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    201,
+                    147,
+                    93
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 96,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    204,
+                    153,
+                    102
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 97,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    206,
+                    157,
+                    108
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 98,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    208,
+                    161,
+                    114
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 99,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    210,
+                    165,
+                    120
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 100,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    212,
+                    169,
+                    126
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 101,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    214,
+                    173,
+                    132
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 102,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    216,
+                    177,
+                    138
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 103,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    218,
+                    181,
+                    144
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 104,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    221,
+                    187,
+                    153
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 105,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    223,
+                    191,
+                    159
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 106,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    225,
+                    195,
+                    165
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 107,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    227,
+                    199,
+                    171
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 108,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    229,
+                    203,
+                    177
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 109,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    231,
+                    207,
+                    183
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 110,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    233,
+                    211,
+                    189
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 111,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    235,
+                    215,
+                    195
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 112,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    238,
+                    221,
+                    204
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 113,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    240,
+                    225,
+                    210
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 114,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    242,
+                    229,
+                    216
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 115,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    244,
+                    233,
+                    222
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 116,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    246,
+                    237,
+                    228
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 117,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    248,
+                    241,
+                    234
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 118,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    250,
+                    245,
+                    240
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        },
+        {
+            "frame_index": 119,
+            "object": {
+                "type": "rectangle",
+                "color": [
+                    252,
+                    249,
+                    246
+                ],
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 640,
+                    "height": 480
+                }
+            },
+            "scene": {
+                "description": "A frame with a solid color changing over time"
+            }
+        }
+    ]
+}

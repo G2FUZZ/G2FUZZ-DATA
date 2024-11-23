@@ -1,0 +1,27 @@
+<MIFFile 9.00> # MIF file version
+# Beginning of the document
+<Units Ucm>
+<Page
+    <PageType StartOfDocument> 
+    <PageTag `First Page`>
+>
+# Example marker for an index entry
+<Marker
+    <MarkerType 1> # 1 signifies an index marker
+    <MarkerText `Index Entry Example`>
+>
+# Example marker for a technical note
+<Marker
+    <MarkerType 2> # Custom type; can be defined as needed
+    <MarkerText `Technical Note Example`>
+>
+# Example marker for document navigation
+<Marker
+    <MarkerType 3> # Custom type; can be defined as needed
+    <MarkerText `Navigation Marker Example`>
+>
+# End of the document
+<Page
+    <PageType EndOfDocument>
+    <PageTag `Last Page`>
+>

@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:custom="http://my.namespace.com/custom/1.0/">
+  <rdf:Description rdf:about="" custom:Feature="Extensibility" custom:Description="XMP supports adding custom namespaces and properties, which allows for the inclusion of any type of metadata. This means that as new types of metadata are needed, they can be added without affecting existing data."/>
+</rdf:RDF>

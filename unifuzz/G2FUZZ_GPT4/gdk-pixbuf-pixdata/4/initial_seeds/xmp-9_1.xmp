@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:x="adobe:ns:meta/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
+  <rdf:Description rdf:about="">
+    <xmpRights:UsageTerms>
+      <rdf:Alt>
+        <rdf:li xml:lang="x-default">This work is licensed under the Creative Commons Attribution 4.0 International License.</rdf:li>
+      </rdf:Alt>
+    </xmpRights:UsageTerms>
+    <xmpRights:Marked>True</xmpRights:Marked>
+  </rdf:Description>
+</rdf:RDF>

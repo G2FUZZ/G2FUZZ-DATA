@@ -1,0 +1,18 @@
+# MIF example with Hyperlink
+<MIFFile 9.00> # MIF version
+<Units Ucm>    # Unit of measurement
+
+<TextFlow <ID 1> <TFTag `Body'> # Define a text flow
+    <Para <PgfTag `BodyText'>   # Paragraph tag
+        <String `For more information, visit our '>
+        # Hyperlink
+        <Hypertext
+            <AType `GoToURL'>
+            <URL `http://www.example.com'>
+            <NewWin No> >
+        <String `website.'> >
+    > # End Paragraph
+> # End TextFlow
+<Page
+    # Page attributes here
+> # End Page

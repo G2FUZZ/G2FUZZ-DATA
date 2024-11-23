@@ -1,0 +1,6 @@
+{
+    "Compression": {
+        "Type": "Lossless",
+        "Description": "Reduces file size without losing any data"
+    }
+}

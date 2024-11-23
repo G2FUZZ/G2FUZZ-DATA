@@ -1,0 +1,19 @@
+<MIFFile 9.00>
+# The condition for showing text
+<Condition
+    <CondTag `Condition1`>
+    <CondState Show>
+>
+# The conditional text
+<Conditional
+    <CondText
+        <Para
+            <PgfTag `Body`>
+            <CondTag `Condition1`>
+            <String `This is conditional text visible only if the condition "Condition1" is met.`>
+        >
+    >
+>
+# Closing the condition tag
+<ConditionEnd>
+</MIFFile>

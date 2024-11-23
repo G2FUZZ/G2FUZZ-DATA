@@ -1,0 +1,94 @@
+%PDF-1.3
+%‚„œ”
+1 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+2 0 obj
+<<
+/Producer (PyPDF2)
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/Names <<
+/EmbeddedFiles <<
+/Names [ (example\056txt) <<
+/Type /Filespec
+/F (example\056txt)
+/EF <<
+/F <<
+/Type /EmbeddedFile
+/Length 50
+>>
+stream
+This is an example file to be embedded into a PDF.
+endstream
+>>
+>> ]
+>>
+>>
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 1 0 R
+>>
+endobj
+5 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 229
+>>
+stream
+Gas3.4V#=_$jGR[;nN^(J>=cH*Dreh`5%HBKZ$,Pj$9)SINi0-5ff7H-i9)Y+]?G61`k9tb\@HP6(K-VB`YW^<XhqZ5H@Zf/E[)WA#M#_6Y_TJ<Pns"g9KZo1kY^gX<idgCM5b\\jDC+=o$h+76!2"D^fu*U"Q5G'E"u/Y&f.+a^!KSHg:TEnuYp.oU\%Z[%q2p!ggtr<_UG@P-*/NAY,7[op:?J'Dp`YC]~>
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000074 00000 n 
+0000000114 00000 n 
+0000000385 00000 n 
+0000000584 00000 n 
+0000000904 00000 n 
+0000000935 00000 n 
+trailer
+<<
+/Size 8
+/Root 3 0 R
+/Info 2 0 R
+>>
+startxref
+1042
+%%EOF

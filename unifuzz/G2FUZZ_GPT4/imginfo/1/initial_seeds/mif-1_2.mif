@@ -1,0 +1,15 @@
+Version 300
+Charset "WindowsLatin1"
+Delimiter ","
+CoordSys Earth Projection 1, 104
+Columns 2
+  ID Integer
+  Name Char(50)
+Data
+
+Pline 4
+  48.8566 2.3522
+  48.8570 2.3527
+  48.8570 2.3520
+  48.8566 2.3522
+    1, "Sample Polygon"

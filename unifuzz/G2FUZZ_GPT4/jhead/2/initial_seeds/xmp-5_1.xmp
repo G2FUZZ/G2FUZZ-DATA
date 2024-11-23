@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/">
+  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:Iptc4xmpExt="http://iptc.org/std/Iptc4xmpExt/2008-02-29/">
+    <rdf:Description>
+      <dc:title>
+        <rdf:Alt>
+          <rdf:li lang="en">Sample Title in English</rdf:li>
+          <rdf:li lang="fr">Titre d'exemple en français</rdf:li>
+        </rdf:Alt>
+      </dc:title>
+    </rdf:Description>
+  </rdf:RDF>
+</x:xmpmeta>
