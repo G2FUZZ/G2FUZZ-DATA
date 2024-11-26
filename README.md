@@ -8,11 +8,13 @@ This repository contains most of the experimental data in the paper.
 
 ### 1. **unifuzz**
 
-The `unifuzz` directory contains essential information for the **UNIFUZZ benchmark**. 
+The `unifuzz` directory contains essential information for the **UNIFUZZ benchmark**. We provide the generators obtained from the experiment, the seeds generated during execution, and the fuzzing logs.
 
 #### Contents:
 - **G2FUZZ_GPT35 & G2FUZZ_GPT4**: Generators specifically designed for fuzzing using GPT-3.5 and GPT-4, respectively.
 - **cmplog/fast/mopt/rare**: different modes of AFL++:
+
+
 
 ### 2. **line_coverage**
 
