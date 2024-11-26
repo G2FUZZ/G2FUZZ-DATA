@@ -17,7 +17,7 @@ import sys
 
 # fuzzing run configuration
 # * runtime in seconds
-runtime = 3600
+runtime = 6*3600
 # * number of parallel runs
 NUM_RUNS = 5
 
